@@ -1,0 +1,87 @@
+{
+  "base_sample_sizes": [
+    128,
+    256,
+    512,
+    1024
+  ],
+  "construction": "one 2D Sobol design split column-wise into A and B",
+  "dimension": 5,
+  "evaluation_count_by_base_sample_size": {
+    "1024": 7168,
+    "128": 896,
+    "256": 1792,
+    "512": 3584
+  },
+  "evaluation_workers_actual": 4,
+  "evaluation_workers_requested": 4,
+  "largest_design_sha256_float64_le": "86e4502a30031e78c406e862701a52dbca848cd8af7c0244455d5ef76dc676a1",
+  "parameter_order": [
+    "empirical_location_index",
+    "weather_resample_index",
+    "schedule_interval_months",
+    "tillage_decomposition_multiplier",
+    "fym_phosphorus_content"
+  ],
+  "runtime_reference": {
+    "cumulative_evaluation_runtime_seconds": {
+      "1024": 1447.559,
+      "128": 211.176,
+      "256": 424.182,
+      "512": 854.173
+    },
+    "index_runtime_seconds": {
+      "1024": 0.387,
+      "128": 0.251,
+      "256": 0.268,
+      "512": 0.311
+    },
+    "measurement_context": "Phase 9.7 preliminary full mechanistic run on 2026-07-21; one evaluator worker; wall-clock seconds; excluded from convergence decisions"
+  },
+  "runtime_replay_note": "runtime is measured evidence, not a deterministic scientific result; the frozen single-worker reference is replayed while current wall time is excluded from hashes",
+  "sampler": "scipy.stats.qmc.Sobol",
+  "scipy_version": "1.18.0",
+  "scramble": true,
+  "seed": 970021,
+  "transforms": {
+    "empirical_location_index": {
+      "classification": "established_model",
+      "distribution": "uniform_discrete",
+      "maximum": 55.0,
+      "minimum": 0.0,
+      "source": "Phase 9.6 accepted paired locations"
+    },
+    "fym_phosphorus_content": {
+      "classification": "scenario_assumption",
+      "distribution": "uniform",
+      "maximum": 30.0,
+      "minimum": 0.0,
+      "source": "A026"
+    },
+    "schedule_interval_months": {
+      "classification": "scenario_assumption",
+      "distribution": "uniform_discrete",
+      "maximum": 36.0,
+      "minimum": 12.0,
+      "source": "A065"
+    },
+    "tillage_decomposition_multiplier": {
+      "classification": "scenario_assumption",
+      "distribution": "uniform",
+      "maximum": 2.0,
+      "minimum": 1.0,
+      "source": "A009-A027"
+    },
+    "weather_resample_index": {
+      "classification": "established_model",
+      "distribution": "uniform_discrete",
+      "maximum": 9.0,
+      "minimum": 0.0,
+      "source": "NASA POWER complete-year resampling"
+    }
+  },
+  "uncertainty_separation": {
+    "biological_and_scenario_uncertainty": "declared input distributions, bounds and source classifications",
+    "numerical_estimator_noise": "bootstrap confidence intervals, negative estimates and convergence deltas"
+  }
+}

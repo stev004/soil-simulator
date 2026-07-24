@@ -1,0 +1,192 @@
+{
+  "aggregate_metrics": {
+    "bias_t_c_ha": -8.35962210122443,
+    "mae_t_c_ha": 8.517545288889295,
+    "rmse_t_c_ha": 10.154028534586063
+  },
+  "calibration": "none; 1852 stocks initialise each trajectory only",
+  "claim_boundary": "This is multi-decade total-SOC validation of the RothC-style core, not AMF or protected-fraction validation. The one-step parity test remains separate.",
+  "depth_cm": 23,
+  "experiment": "Hoosfield continuous spring barley SOC, 1852-1998",
+  "local_fixture_sha256": "00c7104d68b5365c9b07e11c9c0b13da3a78ed7917b48b2d9e048f7d072304ec",
+  "run_type": "uncalibrated",
+  "source_sha256": "845d0acfecbcac73bdd1f830ceaa6dbb04047a944782a965c81e1ab075e7e76d",
+  "source_version": "e-RA 01-HBSOC1852 v1.0, updated 2021-04-26",
+  "treatments": {
+    "fym_1852_1871": {
+      "maximum_monthly_mass_balance_residual_t_c_ha": 1.4210854715202004e-14,
+      "metrics": {
+        "bias_t_c_ha": -11.041971907002473,
+        "mae_t_c_ha": 11.041971907002473,
+        "rmse_t_c_ha": 11.274135780873463
+      },
+      "trajectory": [
+        {
+          "data_role": "initialization",
+          "observed_soc_t_c_ha": 30.7,
+          "simulated_soc_t_c_ha": 32.596577201906456,
+          "year": 1852
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 51.4,
+          "simulated_soc_t_c_ha": 39.364587200375055,
+          "year": 1882
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 43.2,
+          "simulated_soc_t_c_ha": 32.28421170467053,
+          "year": 1913
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 38.8,
+          "simulated_soc_t_c_ha": 28.49220921590274,
+          "year": 1946
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 35.4,
+          "simulated_soc_t_c_ha": 27.86880506480015,
+          "year": 1965
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 41.4,
+          "simulated_soc_t_c_ha": 26.81535479280812,
+          "year": 1975
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 35.4,
+          "simulated_soc_t_c_ha": 26.658102217594795,
+          "year": 1982
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 39.3,
+          "simulated_soc_t_c_ha": 26.12292645483129,
+          "year": 1998
+        }
+      ]
+    },
+    "fym_annual": {
+      "maximum_monthly_mass_balance_residual_t_c_ha": 2.842170943040401e-14,
+      "metrics": {
+        "bias_t_c_ha": -12.904135568598763,
+        "mae_t_c_ha": 12.904135568598763,
+        "rmse_t_c_ha": 13.348825461516915
+      },
+      "trajectory": [
+        {
+          "data_role": "initialization",
+          "observed_soc_t_c_ha": 30.7,
+          "simulated_soc_t_c_ha": 32.596577201906456,
+          "year": 1852
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 59.9,
+          "simulated_soc_t_c_ha": 52.16433594239983,
+          "year": 1882
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 75.5,
+          "simulated_soc_t_c_ha": 58.994294626199476,
+          "year": 1913
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 76.3,
+          "simulated_soc_t_c_ha": 67.6406866249496,
+          "year": 1946
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 87.2,
+          "simulated_soc_t_c_ha": 72.40194224312317,
+          "year": 1965
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 86.8,
+          "simulated_soc_t_c_ha": 72.60541665014802,
+          "year": 1975
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 85.4,
+          "simulated_soc_t_c_ha": 73.9493498813728,
+          "year": 1982
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 93.0,
+          "simulated_soc_t_c_ha": 76.01502505161578,
+          "year": 1998
+        }
+      ]
+    },
+    "unfertilized": {
+      "maximum_monthly_mass_balance_residual_t_c_ha": 7.105427357601002e-15,
+      "metrics": {
+        "bias_t_c_ha": -1.132758828072055,
+        "mae_t_c_ha": 1.6065283910666486,
+        "rmse_t_c_ha": 2.0038981101718623
+      },
+      "trajectory": [
+        {
+          "data_role": "initialization",
+          "observed_soc_t_c_ha": 30.7,
+          "simulated_soc_t_c_ha": 30.357771126946762,
+          "year": 1852
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 26.5,
+          "simulated_soc_t_c_ha": 27.715269327679742,
+          "year": 1882
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 26.8,
+          "simulated_soc_t_c_ha": 25.203438157649103,
+          "year": 1913
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 25.3,
+          "simulated_soc_t_c_ha": 23.87332342424243,
+          "year": 1946
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 24.2,
+          "simulated_soc_t_c_ha": 24.21664104207975,
+          "year": 1965
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 26.5,
+          "simulated_soc_t_c_ha": 23.618593606538983,
+          "year": 1975
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 23.3,
+          "simulated_soc_t_c_ha": 23.726283100721584,
+          "year": 1982
+        },
+        {
+          "data_role": "validation",
+          "observed_soc_t_c_ha": 27.4,
+          "simulated_soc_t_c_ha": 23.717139544584022,
+          "year": 1998
+        }
+      ]
+    }
+  },
+  "version": "0.9.5"
+}

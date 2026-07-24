@@ -1,0 +1,184 @@
+{
+  "entries": [
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 21705,
+      "path": "manuscript/supplementary/ASSUMPTIONS_REGISTER.csv",
+      "scientifically_frozen": true,
+      "sha256": "c26e2e258ddb13d4e8d118dc0d3aa8f9ded3f0c25ccf273eef90e40dfe43cc17",
+      "source_or_generating_script": "docs/ASSUMPTIONS_REGISTER.csv"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 11439,
+      "path": "manuscript/supplementary/EFFECT_ONLY_MODEL_CARD.md",
+      "scientifically_frozen": true,
+      "sha256": "e2be1f5b5cc0e2d78a8c0467a49fd03aa6517691fc5919f2e6e3df3c69560add",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/EFFECT_ONLY_MODEL_CARD.md"
+    },
+    {
+      "action": "indexed",
+      "category": "supplementary",
+      "file_size": 2839,
+      "path": "manuscript/supplementary/INDEPENDENT_AUDIT_INDEX.json",
+      "scientifically_frozen": true,
+      "sha256": "7cad607d3105127f5425832ea397d5fd93831bea7888c074180d47c028cbc7d5",
+      "source_or_generating_script": "frozen sources listed inside the index"
+    },
+    {
+      "action": "indexed",
+      "category": "supplementary",
+      "file_size": 2101,
+      "path": "manuscript/supplementary/LARGE_FILE_INDEX.json",
+      "scientifically_frozen": true,
+      "sha256": "78d1a51fcea1780c6cc7c5ce85629a22dfacf8d03dc0ee4a8e859d4818e13b27",
+      "source_or_generating_script": "frozen sources listed inside the index"
+    },
+    {
+      "action": "generated",
+      "category": "supplementary",
+      "file_size": 448,
+      "path": "manuscript/supplementary/README.md",
+      "scientifically_frozen": false,
+      "sha256": "5f2d4081d986fb820e5809d9c43c2e46e05f7756b3ccb67b99eb7a6745cb1126",
+      "source_or_generating_script": "Phase 9.8 documentation"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 467,
+      "path": "manuscript/supplementary/calibration_profile.csv",
+      "scientifically_frozen": true,
+      "sha256": "8e0305d623f87e9441a37497046e91a99a4a000fffea771d2b8b19933387b41a",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/calibration_profile.csv"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 1412,
+      "path": "manuscript/supplementary/leakage_evidence.json",
+      "scientifically_frozen": true,
+      "sha256": "58c184a9a0ff235bf7f0519765b4b215830f10c5cccb6d9444aeab7708add538",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/leakage_check_evidence.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 1618,
+      "path": "manuscript/supplementary/phase96_internal_audit_closure_matrix.csv",
+      "scientifically_frozen": true,
+      "sha256": "bc49f75ace35540ad042b09138ef6b1af69baa9d4fdf7550e38bc19ae831ab94",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/audit_closure_matrix.csv"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 1128,
+      "path": "manuscript/supplementary/phase97_internal_audit_closure_matrix.csv",
+      "scientifically_frozen": true,
+      "sha256": "8eacfc4591769e4266c167ddc2dfa88cc91bc48d66b2350b845448fbffad0eab",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/audit_closure_matrix.csv"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 1189,
+      "path": "manuscript/supplementary/publication_readiness_gates.json",
+      "scientifically_frozen": true,
+      "sha256": "dae5c644228fbaf5c1b73e49b283efab6c3127b7d026a1712f603dc67bd2aecf",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/publication_readiness.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 1946,
+      "path": "manuscript/supplementary/sensitivity_convergence_manifest.json",
+      "scientifically_frozen": true,
+      "sha256": "f1ce182622e36f4f4ace5ab9fe95b1dc01d9402ef1c356947041eca2896c1385",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/sensitivity_convergence_manifest.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 2706,
+      "path": "manuscript/supplementary/source_manifests/phase95_artifact_hashes.json",
+      "scientifically_frozen": true,
+      "sha256": "0fce2e9df3d2bc480bafc068650817c1d6213e5ef879d9e3d024ea8048410044",
+      "source_or_generating_script": "outputs/phase95_v0.9.5/artifact_hashes.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 5716,
+      "path": "manuscript/supplementary/source_manifests/phase96_artifact_hashes.json",
+      "scientifically_frozen": true,
+      "sha256": "0c7aeea56d6c951972f926e609f04c6cc50fb1dc491d7ecd118f7d512de10e53",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/artifact_hashes.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 16946,
+      "path": "manuscript/supplementary/source_manifests/phase96_empirical_source_manifest.json",
+      "scientifically_frozen": true,
+      "sha256": "ba2db4b6fd1dd6b7d280f846e2d3bc846e3f6d44eb87c892e80cd78a9fe1b6e5",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/EMPIRICAL_SOURCE_MANIFEST.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 4217,
+      "path": "manuscript/supplementary/source_manifests/phase97_artifact_hashes.json",
+      "scientifically_frozen": true,
+      "sha256": "81388a4c772daf97bbdd18b712a14d73145659ce5776086e66c454a13427c12e",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/artifact_hashes.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 551,
+      "path": "manuscript/supplementary/source_manifests/phase97_pipeline_manifest.json",
+      "scientifically_frozen": true,
+      "sha256": "a3aaaf9b2419a76dc31e3a71e9b94b4055d7b2d3c49178078df40fdc43bee294",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/pipeline_manifest.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 2710,
+      "path": "manuscript/supplementary/source_manifests/phase97_sobol_sampling_manifest.json",
+      "scientifically_frozen": true,
+      "sha256": "4ea9fd50ebdabe26435085b64db035a0ae6f16726c4fe700255f21f46fd85457",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/sobol_sampling_manifest.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 19563,
+      "path": "manuscript/supplementary/source_manifests/phase97_source_manifest.json",
+      "scientifically_frozen": true,
+      "sha256": "71ef19e60ea52ddf73a0813955de5b0ef3668ddd301f801051699150c0e8fad9",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/source_manifest.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 14123,
+      "path": "manuscript/supplementary/uncertainty_evidence.json",
+      "scientifically_frozen": true,
+      "sha256": "e5fe03db2c56c3393b6ee2763fd9b57665b7dfc964904d7148a28744bd99c8e9",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/uncertainty_coverage_report.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 8471,
+      "path": "manuscript/supplementary/validation_residuals.csv",
+      "scientifically_frozen": true,
+      "sha256": "c3c3928c1c212bb8b26817e02d0338ca123343e3240614a712c778a52b6f5ddb",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/validation_trajectories.csv"
+    }
+  ]
+}

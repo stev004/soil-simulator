@@ -1,0 +1,166 @@
+{
+  "entries": [
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 3394,
+      "path": "manuscript/tables/table_01_model_components.csv",
+      "scientifically_frozen": false,
+      "sha256": "6dca5cd4cb0b84f17cb9c1961bde74a5fe784a724374522cf105b1cd85c87922",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 3745,
+      "path": "manuscript/tables/table_01_model_components.md",
+      "scientifically_frozen": false,
+      "sha256": "cd2a181fef99c3564fdb4e6ec4fa81bc376bb3954d7bde6f7bce3ed47f42416f",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 1462,
+      "path": "manuscript/tables/table_02_data_sources.csv",
+      "scientifically_frozen": false,
+      "sha256": "3cc9374d046e2b7fd6d9026043cc607b5d6c22023ea62ad7473c59b879d9ac2d",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 1721,
+      "path": "manuscript/tables/table_02_data_sources.md",
+      "scientifically_frozen": false,
+      "sha256": "8784449a41058be6dd9509972801554de64b760efd39c1c1c9ac09fd6f9b1da9",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 704,
+      "path": "manuscript/tables/table_03_verification_tests.csv",
+      "scientifically_frozen": false,
+      "sha256": "d006afe9c02d5373979594f2ebcd3d7d6b658c8c926aaaea756ce1c53ab2029f",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 945,
+      "path": "manuscript/tables/table_03_verification_tests.md",
+      "scientifically_frozen": false,
+      "sha256": "ae56d667c0ce406d8b610bc08c0ddd0e11cde53085d5a7a1a9f6426fc8e8bed6",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 2974,
+      "path": "manuscript/tables/table_04_hoosfield_validation.csv",
+      "scientifically_frozen": false,
+      "sha256": "9d301097b1cc4c793038349ad09b8329f0a2663ad067d4b8b638bc8cc1e2b441",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 3441,
+      "path": "manuscript/tables/table_04_hoosfield_validation.md",
+      "scientifically_frozen": false,
+      "sha256": "4670d28ce3ad6b303b6cdf7b58eb0747fcdd07ea7da84f5e5e6308fbd99d32d1",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 1045,
+      "path": "manuscript/tables/table_05_sensitivity_convergence.csv",
+      "scientifically_frozen": false,
+      "sha256": "ef129038cc9dd056800e4be3a3e19e9d40a8fa94b6f4e65334b75840da2c0210",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 1359,
+      "path": "manuscript/tables/table_05_sensitivity_convergence.md",
+      "scientifically_frozen": false,
+      "sha256": "20dcd9cb1587e127151585cd46e14ce7428c32f2af62091614836c6d9d38f908",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 913,
+      "path": "manuscript/tables/table_06_ml_gate_results.csv",
+      "scientifically_frozen": false,
+      "sha256": "a63189c4883973dabd6edb138cb1e1ed7334648d377e16ccf8e22fa34349a7d7",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 1183,
+      "path": "manuscript/tables/table_06_ml_gate_results.md",
+      "scientifically_frozen": false,
+      "sha256": "b0c28242c42ee677857e35ad6be4263871ddcaaea6c19c69218d974a498162b9",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 7804,
+      "path": "manuscript/tables/table_07_audit_finding_closure.csv",
+      "scientifically_frozen": false,
+      "sha256": "49fe40272d79f6b29ca319a0cb67e12d152ee28c22e337591fa0eac81fa7de5a",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 8448,
+      "path": "manuscript/tables/table_07_audit_finding_closure.md",
+      "scientifically_frozen": false,
+      "sha256": "f4fa66e2a025de4f661c8b585b70c1a774d6e3ff2c8e90911bd9e04201e3130b",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 2890,
+      "path": "manuscript/tables/table_08_claim_boundaries.csv",
+      "scientifically_frozen": false,
+      "sha256": "8f39e5eae9b40f5c01fa507f382c3742c66d055733a58425f79150f0eb3f15ca",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 3299,
+      "path": "manuscript/tables/table_08_claim_boundaries.md",
+      "scientifically_frozen": false,
+      "sha256": "707a3e1ae218faed3cfe46fd9958dbf4bb920bdc656085be19af3e4ef7bb5011",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 6159,
+      "path": "manuscript/tables/table_09_assumptions_summary.csv",
+      "scientifically_frozen": false,
+      "sha256": "cf79d698fae5c3f96a47074c6975e09382347bdf12e7db6d56ed92912dc25bb9",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 7191,
+      "path": "manuscript/tables/table_09_assumptions_summary.md",
+      "scientifically_frozen": false,
+      "sha256": "0602c8c06928aa9edf5a51ff0ca594ba03563f6d508a678fe733a47c2f300db5",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    }
+  ]
+}

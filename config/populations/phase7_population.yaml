@@ -1,0 +1,30 @@
+name: phase_7_synthetic_population
+version: 0.7.0
+default_population_size: 1000
+generation_seed: 20260721
+weather_years_per_field: 2
+max_generation_attempt_multiplier: 10
+split_train_fraction: 0.60
+split_validation_fraction: 0.20
+split_test_fraction: 0.20
+classification: scenario_assumption
+provenance: Phase 7 bounded generation settings; provisional and not calibrated to a national population.
+
+texture_logratio_sd: {name: texture_logratio_sd, default: 0.12, min: 0.0, max: 0.35, unit: log_ratio, classification: scenario_assumption, distribution: normal, source_citation: A032 compositional perturbation contract, notes: Shared additive-log-ratio noise around each joint seed., version_introduced: 0.7.0}
+soil_shared_factor_sd: {name: soil_shared_factor_sd, default: 0.10, min: 0.0, max: 0.30, unit: standard_deviation, classification: scenario_assumption, distribution: normal, source_citation: A033 correlated bounded perturbation contract, notes: Shared latent factor couples SOC CEC nitrogen and bulk density., version_introduced: 0.7.0}
+ph_absolute_sd: {name: ph_absolute_sd, default: 0.18, min: 0.0, max: 0.50, unit: pH, classification: scenario_assumption, distribution: truncated_normal, source_citation: A033 bounded perturbation contract, notes: Absolute pH perturbation around a joint seed., version_introduced: 0.7.0}
+phosphorus_log_sd: {name: phosphorus_log_sd, default: 0.18, min: 0.0, max: 0.50, unit: log_ratio, classification: scenario_assumption, distribution: lognormal_bounded, source_citation: A033 bounded perturbation contract, notes: Positive available-P perturbation coupled to management intensity., version_introduced: 0.7.0}
+amf_log_sd: {name: amf_log_sd, default: 0.20, min: 0.0, max: 0.60, unit: log_ratio, classification: scenario_assumption, distribution: lognormal_bounded, source_citation: A034 provisional AMF initial-condition perturbation, notes: AMF stock uncertainty remains epistemic and is not an observation error model., version_introduced: 0.7.0}
+soc_relative_limit: {name: soc_relative_limit, default: 0.25, min: 0.0, max: 0.50, unit: fraction, classification: scenario_assumption, distribution: bounded, source_citation: A033 bounded perturbation contract, notes: Maximum relative displacement from the empirical seed SOC., version_introduced: 0.7.0}
+weather_pet_to_open_pan_divisor: {name: weather_pet_to_open_pan_divisor, default: 0.75, min: 0.75, max: 0.75, unit: fraction, classification: established_model, source_citation: Coleman Milne and Prout 2024 RothC_Py v1.0.0 DOI 10.5281/zenodo.10732265, notes: Converts cached PET-equivalent forcing to the open-pan input expected by RothC., version_introduced: 0.7.0}
+spinup_max_years: {name: spinup_max_years, default: 800, min: 50, max: 2000, unit: year, classification: scenario_assumption, source_citation: A035 periodic RothC spin-up contract, notes: Maximum repeated coherent weather years for convergence., version_introduced: 0.7.0}
+spinup_relative_tolerance: {name: spinup_relative_tolerance, default: 2.0e-5, min: 1.0e-8, max: 1.0e-3, unit: fraction, classification: scenario_assumption, source_citation: A035 periodic RothC spin-up contract, notes: Maximum relative change across a repeated complete-weather sequence., version_introduced: 0.7.0}
+spinup_reference_annual_input_t_c_ha: {name: spinup_reference_annual_input_t_c_ha, default: 3.0, min: 0.5, max: 12.0, unit: t_C_ha^-1_year^-1, classification: scenario_assumption, source_citation: A035 spin-up scale parameter, notes: Reference input is scaled after periodic equilibration to match target SOC., version_introduced: 0.7.0}
+minimum_soc_t_c_ha: {name: minimum_soc_t_c_ha, default: 15.0, min: 1.0, max: 40.0, unit: t_C_ha^-1, classification: scenario_assumption, source_citation: A036 Phase 7 mineral-topsoil QC domain, notes: Conservative generator bound not a calibrated UK distribution limit., version_introduced: 0.7.0}
+maximum_soc_t_c_ha: {name: maximum_soc_t_c_ha, default: 180.0, min: 100.0, max: 300.0, unit: t_C_ha^-1, classification: scenario_assumption, source_citation: A036 Phase 7 mineral-topsoil QC domain, notes: Excludes organic and peat-like starting states., version_introduced: 0.7.0}
+minimum_bulk_density_g_cm3: {name: minimum_bulk_density_g_cm3, default: 0.80, min: 0.50, max: 1.00, unit: g_cm^-3, classification: scenario_assumption, source_citation: A036 Phase 7 mineral-topsoil QC domain, notes: Conservative model-domain bound., version_introduced: 0.7.0}
+maximum_bulk_density_g_cm3: {name: maximum_bulk_density_g_cm3, default: 1.80, min: 1.50, max: 2.00, unit: g_cm^-3, classification: scenario_assumption, source_citation: A036 Phase 7 mineral-topsoil QC domain, notes: Conservative model-domain bound., version_introduced: 0.7.0}
+minimum_ph: {name: minimum_ph, default: 4.0, min: 3.0, max: 5.0, unit: pH, classification: scenario_assumption, source_citation: A036 Phase 7 arable mineral-soil QC domain, notes: Lower numerical domain bound., version_introduced: 0.7.0}
+maximum_ph: {name: maximum_ph, default: 8.5, min: 7.5, max: 10.0, unit: pH, classification: scenario_assumption, source_citation: A036 Phase 7 arable mineral-soil QC domain, notes: Upper numerical domain bound., version_introduced: 0.7.0}
+minimum_available_p_kg_ha: {name: minimum_available_p_kg_ha, default: 1.0, min: 0.0, max: 5.0, unit: kg_P_ha^-1, classification: scenario_assumption, source_citation: A036 Phase 7 available-P QC domain, notes: Positive stock floor for generated fields., version_introduced: 0.7.0}
+maximum_available_p_kg_ha: {name: maximum_available_p_kg_ha, default: 100.0, min: 50.0, max: 200.0, unit: kg_P_ha^-1, classification: scenario_assumption, source_citation: A036 Phase 7 available-P QC domain, notes: Provisional available-pool ceiling not a soil-test conversion., version_introduced: 0.7.0}

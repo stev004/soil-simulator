@@ -1,0 +1,280 @@
+{
+  "audit": "soil_simulator Phase 9.7 focused independent re-audit",
+  "date": "2026-07-22",
+  "repo_version": "0.9.7",
+  "integrity": {
+    "p97_artifact_hashes": "35/35 files match; set digest matches recorded table AND current bytes",
+    "p97_artifact_set_digest": "cf0915f2... verified",
+    "corrected_phase96_manifest": "48/48 files rehash to current bytes; set digest matches; records old->new for each drifted file (README, ARCHITECTURE, ASSUMPTIONS, AUDIT doc, etc.)",
+    "audit_doc_drift_resolution": "corrected manifest records current f2654c04 (on-disk); historical phase96 manifest UNCHANGED (still ed1ff1ae set / c5494d1f AUDIT entry) - history preserved, correction layered separately",
+    "historical_manifest_modified": false,
+    "historical_v090_outputs_modified": false,
+    "population_hash_input": "9bb2f8fec9... (matches Phase 9.6 audit value)",
+    "versions": "pyproject/init/manifest all 0.9.7; scipy 1.18.0 matches installed",
+    "pipeline_manifest_subhashes": "gate_evidence/sampling_manifest/source_manifest all match",
+    "verdict": "Phase 9.7 integrity CLEAN. Manifest-drift defect properly closed via history-preserving correction manifest."
+  },
+  "engineering": {
+    "ruff_format": "pass (114 files)",
+    "ruff_check": "pass",
+    "mypy_strict": "pass (113 source files)",
+    "pytest_full": "pass \u2014 227 passed in 99.0s (reported '227 passed' CONFIRMED; the Phase 9.6 hash-drift failure is now green)",
+    "rothc_parity": "pass (1)",
+    "carbon_phosphorus_balance": "pass (22 balance/mass tests)",
+    "deterministic_replay": "pass (20)",
+    "scenario_direction": "pass (15)",
+    "phase97_tests": "pass (13)",
+    "build_wheel_sdist": "pass (soil_simulator-0.9.7 wheel + sdist)",
+    "fresh_wheel_smoke": "pass (v0.9.7; phase97 submodules import; scipy/numpy deps resolved; CLI OK)"
+  },
+  "determinism": {
+    "phase97_run1_vs_run2": "BYTE-IDENTICAL across all 18 outputs (0 content diffs, same file set) \u2014 deterministic",
+    "phase97_run_vs_committed": "identical scientific content: estimates, convergence, policy_ranking_stability, result_sha256 (96e14659...), and largest Sobol design hash (86e4502a...) ALL match committed. Only difference = evaluation_workers_requested/actual field (scratch=1 vs committed=4), which cascades into source/pipeline/artifact_hashes manifests. Worker count has zero effect on deterministic Sobol science.",
+    "phase96_run1_vs_run2": "BYTE-IDENTICAL across all 19 outputs \u2014 Phase 9.6 still deterministic",
+    "population_hash_input": "9bb2f8fec9... reproduces (matches Phase 9.6 audit)",
+    "design_hash": "86e4502a30031e78c406e862701a52dbca848cd8af7c0244455d5ef76dc676a1 reproduced bit-for-bit by independent scipy Sobol draw (seed 970021, d=10, N=1024)",
+    "result_hash": "96e14659bae1545b80d2838954eade702cd300665b98d43c6fab46cd9f39b174 recomputed from estimates only == stored (runtime excluded from hash, confirmed)",
+    "verdict": "Phase 9.7 pipeline fully deterministic and reproducible; runtime correctly excluded from digests."
+  },
+  "sensitivity_sobol": {
+    "implementation": "genuine scipy.stats.qmc.Sobol(d=10, scramble=True, seed=970021).random_base2 \u2014 one 2D design split into A(cols0-4)/B(cols5-9); A_B(i) hybrids. First-order = Saltelli 2010 covariance mean(B*(AB-A))/var; total = Jansen 1999 mean((A-AB)^2)/(2*var). No clipping of negatives (L228 'retained without clipping'; the abs()/max(0) hits are convergence-change magnitudes and quantile clamps).",
+    "ishigami_validation": "S1 est [0.314,0.4426,0.0002] vs true [0.3139,0.4424,0.0]; ST est [0.5577,0.4426,0.2437] vs true [0.5576,0.4424,0.2437] \u2014 estimator correct to 3-4 dp",
+    "discrete_transforms": "loc 0-55 (56 distinct ints), weather 0-9 (10), schedule 12-36 (25), fym uniform 0-30, tillage uniform 1-2 \u2014 all correct",
+    "bootstrap_determinism": "CI bit-identical across two runs (seeded rng)",
+    "design_hash": "86e4502a... reproduced bit-for-bit",
+    "convergence_recompute": {
+      "to256": {
+        "S1chg": 0.222408,
+        "STchg": 0.188464,
+        "rankS1": 0.912,
+        "rankST": 0.9918,
+        "CIw": 0.2156,
+        "unst": 0.075,
+        "neg": 0.0464,
+        "passed": false
+      },
+      "to512": {
+        "S1chg": 0.141186,
+        "STchg": 0.133827,
+        "rankS1": 0.913,
+        "rankST": 0.9882,
+        "CIw": 0.1565,
+        "unst": 0.025,
+        "neg": 0.0429,
+        "passed": false
+      },
+      "to1024": {
+        "S1chg": 0.121989,
+        "STchg": 0.112311,
+        "rankS1": 0.9351,
+        "rankST": 0.9974,
+        "CIw": 0.1101,
+        "unst": 0.0179,
+        "neg": 0.0179,
+        "passed": false
+      },
+      "convergence_reached": false,
+      "status": "not_converged_results_not_final"
+    },
+    "convergence_verdict": "Repo CORRECTLY concludes NOT converged: deciding 512->1024 pair max S1 change 0.122 and ST 0.112 both exceed the predeclared 0.10 threshold (rank corr and CI width DO pass, but index-change fails). Arithmetic reproduces exactly vs manifest.",
+    "convergence_trajectory": "max S1 change 0.222->0.141->0.122: decaying slowly (~N^-0.3-ish), so reaching <0.10 would need substantially more than 1024 base (likely several thousand); dimension is small (5) so larger N feasible but not run.",
+    "fym_separability": "FYM winner comes from policy_ranking_stability = ranking policies by MEAN A-matrix output effects (first-moment), ENTIRELY INDEPENDENT of the non-converged S1/ST variance decomposition. FYM wins for all 7 target|horizon combos, stable at every base size 128->1024. So the one headline conclusion (FYM top policy) does NOT rely on non-converged indices.",
+    "runtime_excluded": "result_sha256 96e14659... recomputed from estimates only == stored; runtime lives only in sampling_manifest.runtime_reference/replay_note, not in hashed estimates.",
+    "note_parked": "Sub-agent completed all analysis; parked only on user approval to Trash a stray sobol_findings.md it accidentally wrote to repo root (correctly caught its own no-modify violation)."
+  },
+  "gates_calibration": {
+    "recomputed_metrics": {
+      "leakage_group_count": {
+        "reported": "56",
+        "recomputed": "56",
+        "match": true,
+        "note": "unique empirical_location_id in effect_only_dataset.csv"
+      },
+      "leakage_training_group_count": {
+        "reported": "31",
+        "recomputed": "31",
+        "match": true,
+        "note": "locations exclusively in train"
+      },
+      "leakage_excluded_group_count": {
+        "reported": "25",
+        "recomputed": "25",
+        "match": true,
+        "note": "validation+forbidden-eval groups"
+      },
+      "leakage_field_overlaps": {
+        "reported": "0",
+        "recomputed": "0",
+        "match": true,
+        "note": "112 unique fields, none cross splits"
+      },
+      "leakage_exact_and_near_dup_crossgroup": {
+        "reported": "0/0",
+        "recomputed": "0/0",
+        "match": true,
+        "note": "min cross-group standardised euclid distance 0.814 (>1e-6)"
+      },
+      "leakage_gate_passed": {
+        "reported": "true",
+        "recomputed": "true",
+        "match": true,
+        "note": "all 5 checks pass; recomputed from CSV"
+      },
+      "coverage_cells_verified": {
+        "reported": "14 cells all pass",
+        "recomputed": "14 cells, 0 arithmetic mismatches, all pass",
+        "match": true,
+        "note": "Wilson CIs + Binomial(n,.90) central-95% counts reproduced exactly"
+      },
+      "coverage_gate_passed": {
+        "reported": "true",
+        "recomputed": "true",
+        "match": true,
+        "note": "all 7 targets x {test,ood} pass"
+      },
+      "coverage_binom_range_n104": {
+        "reported": "[87,99]",
+        "recomputed": "[87,99]",
+        "match": true,
+        "note": "coverage band [0.836,0.952]"
+      },
+      "coverage_binom_range_n24": {
+        "reported": "[18,24]",
+        "recomputed": "[18,24]",
+        "match": true,
+        "note": "band [0.75,1.00]; upper=24=100% so overcoverage cannot fail at n=24"
+      },
+      "downstream_eligible": {
+        "reported": "false",
+        "recomputed": "false",
+        "match": true,
+        "note": "recomputed conjunction from gate_evidence.json identical"
+      },
+      "downstream_failed_gates": {
+        "reported": "effect_prediction,ood_performance,independent_empirical_effect_validation",
+        "recomputed": "same",
+        "match": true,
+        "note": "leakage+uncertainty pass"
+      },
+      "selection_regret_executed": {
+        "reported": "false",
+        "recomputed": "false",
+        "match": true,
+        "note": "confirmed in gate_evidence/pipeline_manifest/readiness"
+      },
+      "independent_validation_passed": {
+        "reported": "false",
+        "recomputed": "false",
+        "match": true,
+        "note": "no dataset; computable=false; fails closed; CAN pass with valid synthetic evidence"
+      },
+      "calibration_estimate": {
+        "reported": "1.10",
+        "recomputed": "1.10",
+        "match": true,
+        "note": "upper bound of [0.90,1.10]"
+      },
+      "calibration_profile_objectives": {
+        "reported": "4.862/4.400/3.949/3.522/3.129",
+        "recomputed": "4.8624/4.3995/3.9494/3.5220/3.1288",
+        "match": true,
+        "note": "min over plant_residue, reproduced from long_term_diagnosis.json"
+      },
+      "calibration_edge_slope": {
+        "reported": "-7.864653794329348",
+        "recomputed": "-7.864653794329348",
+        "match": true,
+        "note": "(3.1288-3.5220)/(1.10-1.05); negative => improving at bound"
+      },
+      "calibration_heldout_rmse": {
+        "reported": "7.577",
+        "recomputed": "7.577073646",
+        "match": true,
+        "note": "MAE 7.214, bias -7.214 (uniform under-prediction)"
+      },
+      "calibration_fym_identifiability_range": {
+        "reported": "[1.10,1.10]",
+        "recomputed": "[1.10,1.10]",
+        "match": true,
+        "note": "FYM direction not identifiable; collapses to upper bound"
+      },
+      "rothc_constants_unchanged": {
+        "reported": "unchanged",
+        "recomputed": "k_dpm=10.0,k_rpm=0.3,k_bio=0.66,k_hum=0.02,DPM/RPM=1.44",
+        "match": true,
+        "note": "canonical Coleman 2024 values in model_defaults.yaml:17-27"
+      },
+      "fym_bound_unchanged": {
+        "reported": "[0.90,1.10]",
+        "recomputed": "[0.90,1.10]",
+        "match": true,
+        "note": "bound_widened=false, beyond_bound_evaluation_performed=false"
+      }
+    },
+    "findings": [
+      {
+        "topic": "Leakage gate computed-from-data",
+        "judgement": "CONFIRMED remediated",
+        "evidence": "gates.py:38-186 derives all 5 checks from rows; recomputed from effect_only_dataset.csv match leakage_check_evidence.json exactly; Phase 9.6 hardcoded True (effect_ml.py:313) no longer load-bearing",
+        "severity": "resolved"
+      },
+      {
+        "topic": "Leakage injection test",
+        "judgement": "Gate fails closed and names crossover",
+        "evidence": "location-crossover -> overlaps={gb001:[test,train]}; field-dup -> field_overlaps; feature-dup -> exact fingerprint+ids; missing column & empty -> fail_closed computable=false",
+        "severity": "resolved"
+      },
+      {
+        "topic": "Independent effect-validation gate",
+        "judgement": "CONFIRMED evidence-contract driven, fails closed, correctly False now, not forced-false",
+        "evidence": "gates.py:189-282; absent/malformed/partial -> passed=false; fully-valid synthetic -> passed=true (7 pairs); Phase 9.6 hardcoded False (effect_ml.py:305) replaced",
+        "severity": "resolved"
+      },
+      {
+        "topic": "Downstream conjunction",
+        "judgement": "CONFIRMED genuine conjunction, not structurally forced",
+        "evidence": "gates.py:412-437 reads separate computed evidence; recompute matches committed; forcing inputs True -> eligible=True; 3 gates block; stop justified",
+        "severity": "resolved"
+      },
+      {
+        "topic": "Uncertainty coverage arithmetic",
+        "judgement": "CONFIRMED internally consistent",
+        "evidence": "14/14 cells reproduced (Wilson+Binomial), 0 mismatches; per-target x per-regime AND so no target hides another's undercoverage",
+        "severity": "resolved"
+      },
+      {
+        "topic": "Uncertainty coverage statistical strength",
+        "judgement": "Structurally sound & materially better than Phase 9.6, but PERMISSIVE at small n",
+        "evidence": "n=104 band width 0.115; n=24 band [0.75,1.00] width 0.25 (WIDER than old 0.80-1.00) and upper accept=24=100% so ood overcoverage can never fail; ood only guards gross undercoverage",
+        "severity": "minor"
+      },
+      {
+        "topic": "FYM calibration boundary",
+        "judgement": "CONFIRMED boundary-constrained, non-identifiable, not general success",
+        "evidence": "estimate=1.10=upper bound; edge slope -7.865 (improving beyond bound); fym identifiability [1.10,1.10]; held-out RMSE 7.577 material; RothC & bound unchanged",
+        "severity": "disclosed"
+      },
+      {
+        "topic": "Calibration documentation wording",
+        "judgement": "Does NOT overstate; properly hedged",
+        "evidence": "PHASE97_CALIBRATION_BOUNDARY.md states boundary solution 'do not constitute successful general calibration', validates neither AMF nor protected_soc; consistent with machine-readable evidence",
+        "severity": "none"
+      }
+    ],
+    "summary": "Independent re-audit of Phase 9.7 leakage, effect-validation, downstream, uncertainty-coverage and FYM-calibration gates. All five audited defects are properly closed. The leakage gate is computed from effect_only_dataset.csv (all 5 checks recomputed: 56 locations, 31 train / 25 excluded, 0 crossovers, matching the committed evidence) and fails closed under four injected leakage scenarios plus missing-column and empty inputs, naming the crossover each time. The independent effect-validation gate is a genuine evidence contract: it fails closed on absent/malformed metadata, is correctly False now (no dataset), and passes only with valid synthetic evidence covering all 7 target/horizon pairs -- not forced-false. Downstream eligibility is a real 5-way conjunction reading separately-computed evidence (not the legacy hardcoded literals still present in prediction.gates); recomputation matches the committed result, and forcing the inputs True flips eligibility to True. Three gates block (effect_prediction, ood_performance, independent validation); leakage and uncertainty pass; selection/regret correctly not executed. All 14 coverage cells reproduce exactly (0 arithmetic mismatches) and every target passes; the rule is structurally sound and far better than the Phase 9.6 0.80-1.00 band, but it is PERMISSIVE at n=24 (ood band [0.75,1.00], upper acceptance=100% so overcoverage cannot fail) -- a disclosed limitation, not a defect. FYM calibration is boundary-constrained at 1.10 (upper bound), edge slope -7.865 (fit still improving beyond bound), non-identifiable ([1.10,1.10]), held-out cessation RMSE 7.577/MAE 7.214/bias -7.214; RothC constants and the [0.90,1.10] bound are unchanged and the documentation does not overstate success. No discrepancies between reported and independently recomputed values."
+  },
+  "documentation_audit": {
+    "L1_non_converged_sensitivity": "STATED accurately \u2014 'convergence not reached...indices remain diagnostic and must not be labelled final' (SENSITIVITY_CORRECTION); numbers 0.122/0.112/0.935/0.997/0.110/0.0179 match my recompute exactly.",
+    "L2_56_location_pilot_not_representative": "STATED \u2014 '56 real soil-climate locations form an empirical pilot, not a nationally representative population' (PUBLICATION_READINESS).",
+    "L3_synthetic_perturbations_latent_priors": "STATED \u2014 'Generated fields still contain synthetic perturbations and latent AMF/P priors'.",
+    "L4_protected_soc_proxy_not_MAOC": "STATED \u2014 'protected_soc is a model proxy, not measured MAOC' (twice).",
+    "L5_no_independent_effect_validation": "STATED \u2014 'absence of independent empirical effect validation'; gate correctly non-computable.",
+    "L6_failed_prediction_ood_gates": "STATED \u2014 'Failed effect-prediction/OOD gates...block downstream selection'.",
+    "L7_blocked_downstream": "STATED \u2014 'No Phase 9.7 selector, oracle or regret result is authorised'; selection_regret_executed=false confirmed.",
+    "L8_boundary_constrained_calibration": "STATED \u2014 'optional FYM calibration is boundary-constrained'; 'does not constitute successful general calibration'; edge slope negative disclosed.",
+    "L9_unsupported_agricultural_claims": "STATED \u2014 'Phase 9.7 is not a validated agricultural prediction system'; agricultural paper 'Not ready'.",
+    "simulator_vs_empirical_effect": "Explicitly disambiguated \u2014 'These are simulator effects, not empirical causal effects'.",
+    "misleading_wording_flags": "NONE material. Doc is unusually candid \u2014 self-declares negatives rather than softening. Minor: the readiness table marks methodological+software 'Potentially supportable AFTER focused independent re-audit' (i.e. conditional on THIS audit), which is appropriate, not overclaiming.",
+    "verdict": "Phase 9.7 documentation is ACCURATE and appropriately conservative. All 9 required limitations are stated; every quantitative claim I checked matches the machine-readable outputs. No claim overstates evidence."
+  }
+}

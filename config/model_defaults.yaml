@@ -1,0 +1,528 @@
+model:
+  name: soil_simulator
+  version: 0.9.0
+  timestep_months: 1
+  soil_depth_cm: 23.0
+  horizon_years: 20
+  carbon_unit: t_C_ha
+
+rothc:
+  # Established RothC constants from Coleman, Milne & Prout (2024),
+  # RothC_Py v1.0.0, DOI 10.5281/zenodo.10732265.
+  classification: established_model
+  source_citation: Coleman, Milne & Prout (2024), RothC_Py v1.0.0, DOI 10.5281/zenodo.10732265
+  # Official RothC decomposes existing pools before adding monthly plant/FYM inputs.
+  # legacy_pre_decomposition remains supported explicitly for Phase 3 trajectory migration.
+  external_input_timing: post_decomposition
+  k_dpm_year: 10.0
+  k_rpm_year: 0.3
+  k_microbial_year: 0.66
+  k_protected_year: 0.02
+  crop_dpm_rpm_ratio: 1.44
+  retained_to_microbial_fraction: 0.46
+  retained_to_protected_fraction: 0.54
+  manure_dpm_fraction: 0.49
+  manure_rpm_fraction: 0.49
+  manure_protected_fraction: 0.02
+  iom_coefficient: 0.049
+  iom_exponent: 1.139
+  temperature_numerator: 47.91
+  temperature_exponent_numerator: 106.06
+  temperature_offset_c: 18.27
+  temperature_cutoff_c: -5.0
+  evapotranspiration_from_open_pan_fraction: 0.75
+  maximum_tsmd_base_mm: 20.0
+  maximum_tsmd_clay_linear: 1.3
+  maximum_tsmd_clay_quadratic: 0.01
+  reference_soil_depth_cm: 23.0
+  moisture_threshold_fraction: 0.444
+  bare_soil_maximum_tsmd_fraction: 0.556
+  moisture_modifier_minimum: 0.2
+  moisture_modifier_maximum: 1.0
+  covered_soil_modifier: 0.6
+  bare_soil_modifier: 1.0
+  co2_retained_ratio_scale: 1.67
+  co2_retained_ratio_intercept: 1.85
+  co2_retained_ratio_clay_scale: 1.60
+  co2_retained_ratio_clay_exponent: 0.0786
+
+plant:
+  crop: spring_barley
+  # Provisional monthly fraction of annual potential NPP; must sum to 1.
+  monthly_npp_profile: [0.0, 0.0, 0.03, 0.10, 0.20, 0.27, 0.25, 0.12, 0.03, 0.0, 0.0, 0.0]
+  monthly_npp_profile_classification: scenario_assumption
+  monthly_npp_profile_source_citation: Existing Soil Simulator MVP configuration A002; provisional and uncalibrated.
+  annual_potential_npp_t_c_ha:
+    name: annual_potential_npp_t_c_ha
+    default: 6.0
+    min: 2.0
+    max: 10.0
+    unit: t_C_ha^-1_year^-1
+    classification: scenario_assumption
+    notes: Provisional spring-barley annual potential NPP.
+    source_citation: Existing Soil Simulator MVP configuration A002; provisional and uncalibrated.
+    version_introduced: 0.1.0
+  # WOFOST 7.2 EU15 Spring_barley_301 daytime-temperature assimilation response.
+  # Applying it to monthly mean air temperature is a provisional temporal-scale transfer.
+  temperature_response:
+    - {temperature_c: 0.0, modifier: 0.00}
+    - {temperature_c: 10.0, modifier: 1.00}
+    - {temperature_c: 30.0, modifier: 1.00}
+    - {temperature_c: 35.0, modifier: 0.00}
+  temperature_response_classification: scenario_assumption
+  temperature_response_source_citation: WUR WOFOST_crop_parameters v1.0.0, wofost72/barley.yaml, EU15 Spring_barley_301 TMPFTB.
+  root_allocation_fraction:
+    name: root_allocation_fraction
+    default: 0.30
+    min: 0.20
+    max: 0.45
+    unit: fraction
+    classification: scenario_assumption
+    notes: Provisional fraction of plant NPP allocated to roots.
+    source_citation: Existing Soil Simulator MVP configuration A002; provisional and uncalibrated.
+    version_introduced: 0.1.0
+  harvest_index:
+    name: harvest_index
+    default: 0.45
+    min: 0.30
+    max: 0.55
+    unit: fraction
+    classification: scenario_assumption
+    notes: Provisional yield-reporting harvest index.
+    source_citation: Existing Soil Simulator MVP configuration A002; provisional and uncalibrated.
+    version_introduced: 0.1.0
+  carbon_fraction_of_dry_matter:
+    name: carbon_fraction_of_dry_matter
+    default: 0.45
+    min: 0.40
+    max: 0.50
+    unit: fraction
+    classification: literature_informed_prior
+    source_citation: PLOS ONE (2021), DOI 10.1371/journal.pone.0256219, plant biomass carbon fraction assumption.
+    notes: Shared whole-plant conversion; crop-specific calibration remains unresolved.
+    version_introduced: 0.4.0
+  phosphorus_concentration_kg_p_per_kg_dm:
+    name: phosphorus_concentration_kg_p_per_kg_dm
+    default: 0.002
+    min: 0.0004
+    max: 0.006
+    unit: kg_P_kg_DM^-1
+    classification: literature_informed_prior
+    source_citation: WOFOST Control Centre 2.1 manual (2014), Table 11 PMINVE/PMAXVE/PMAXSO cereal example.
+    notes: Provisional whole-plant concentration proxy used to close monthly available-P demand.
+    version_introduced: 0.4.0
+  direct_p_uptake_half_saturation:
+    name: direct_p_uptake_half_saturation
+    default: 10.0
+    min: 2.0
+    max: 40.0
+    unit: kg_P_ha^-1
+    classification: scenario_assumption
+    source_citation: Schnepf et al. (2008), DOI 10.1007/s11104-008-9749-3, equations 2 and 5; numerical range inherited from the existing provisional AMF P half-saturation assumption.
+    notes: Provisional aggregate root-pathway Michaelis-Menten scale needed to distinguish direct and fungal P access without double-counting available P.
+    version_introduced: 0.5.0
+  aboveground_residue_retained_fraction:
+    name: aboveground_residue_retained_fraction
+    default: 1.0
+    min: 0.0
+    max: 1.0
+    unit: fraction
+    classification: scenario_assumption
+    source_citation: Phase 4 baseline endpoint; configurable complete retention versus complete removal.
+    notes: Management boundary value, not an empirical retention estimate.
+    version_introduced: 0.4.0
+  root_residue_fraction:
+    name: root_residue_fraction
+    default: 1.0
+    min: 0.0
+    max: 1.0
+    unit: fraction
+    classification: scenario_assumption
+    source_citation: Phase 4 baseline endpoint; all simulated roots become residues at harvest.
+    notes: Provisional annual root-turnover simplification.
+    version_introduced: 0.4.0
+
+amf:
+  photosynthate_allocation_fraction:
+    name: photosynthate_allocation_fraction
+    default: 0.062
+    min: 0.02
+    max: 0.20
+    unit: fraction
+    distribution: beta_scaled
+    classification: literature_informed_prior
+    notes: Broad context-dependent prior centred near 0.062; not a universal constant.
+    source_citation: Hawkins et al. (2023), DOI 10.1016/j.cub.2023.02.027; model bounds from A003-A004.
+    version_introduced: 0.1.0
+  allocation_p_feedback_minimum:
+    name: allocation_p_feedback_minimum
+    default: 0.0
+    min: 0.0
+    max: 1.0
+    unit: fraction
+    classification: scenario_assumption
+    notes: Provisional lower asymptote in the smooth high-P allocation feedback; zero is the explicit null boundary.
+    source_citation: Soil Simulator MODEL_SPEC section 7.6 and assumption A008; relationship requires calibration.
+    version_introduced: 0.5.0
+  allocation_p_half_saturation:
+    name: allocation_p_half_saturation
+    default: 10.0
+    min: 2.0
+    max: 40.0
+    unit: kg_P_ha^-1
+    classification: scenario_assumption
+    notes: Provisional available-P scale for allocation feedback; deliberately shares the existing uncertain P-response range.
+    source_citation: Soil Simulator MODEL_SPEC section 7.6; bounds inherited from the existing p_uptake_km scenario assumption.
+    version_introduced: 0.5.0
+  carbon_use_efficiency:
+    name: carbon_use_efficiency
+    default: 0.45
+    min: 0.30
+    max: 0.65
+    unit: fraction
+    distribution: triangular
+    classification: scenario_assumption
+    notes: Provisional AMF carbon-use-efficiency prior.
+    source_citation: Soil Simulator MODEL_SPEC section 7.2 and assumption A006; Grimoldi et al. (2006), DOI 10.1111/j.1469-8137.2006.01853.x, supports a CUE formulation but not this universal value.
+    version_introduced: 0.1.0
+  turnover_per_month:
+    name: turnover_per_month
+    default: 1.0
+    min: 0.1
+    max: 6.0
+    unit: month^-1
+    distribution: log_uniform
+    classification: literature_informed_prior
+    notes: Broad prior reflecting substantial published turnover uncertainty.
+    source_citation: Staddon et al. (2003), DOI 10.1126/science.1084269; broad range specified in MODEL_SPEC section 7.3.
+    version_introduced: 0.1.0
+  necromass_decay_year:
+    name: necromass_decay_year
+    default: 1.0
+    min: 0.2
+    max: 4.0
+    unit: year^-1
+    distribution: log_uniform
+    classification: scenario_assumption
+    notes: Provisional AMF necromass decay-rate prior.
+    source_citation: Soil Simulator MODEL_SPEC section 7.4 and assumption A021; no AMF-specific field calibration.
+    version_introduced: 0.1.0
+  necromass_to_dpm_fraction:
+    name: necromass_to_dpm_fraction
+    default: 0.5016393442622951
+    min: 0.0
+    max: 1.0
+    unit: fraction
+    classification: scenario_assumption
+    notes: Provisional fast-pool share; derived by applying the configured RothC 1.44 DPM/RPM ratio to the non-protected 0.85 share, not an observed AMF fraction.
+    source_citation: A021; See et al. (2021), DOI 10.1111/1365-2435.13728, supports fast/slow fungal-necromass fractions but not this routing value.
+    version_introduced: 0.5.0
+  necromass_to_rpm_fraction:
+    name: necromass_to_rpm_fraction
+    default: 0.3483606557377049
+    min: 0.0
+    max: 1.0
+    unit: fraction
+    classification: scenario_assumption
+    notes: Provisional slow-pool share; derived by applying the configured RothC 1.44 DPM/RPM ratio to the non-protected 0.85 share, not an observed AMF fraction.
+    source_citation: A021; See et al. (2021), DOI 10.1111/1365-2435.13728, supports fast/slow fungal-necromass fractions but not this routing value.
+    version_introduced: 0.5.0
+  necromass_stabilisation_fraction:
+    name: necromass_stabilisation_fraction
+    default: 0.15
+    min: 0.02
+    max: 0.50
+    unit: fraction
+    distribution: beta_scaled
+    classification: scenario_assumption
+    notes: Hypothesised transfer fraction to the protected SOC proxy.
+    source_citation: Soil Simulator MODEL_SPEC section 7.4 and assumption A007; provisional proxy routing, not measured MAOC formation.
+    version_introduced: 0.1.0
+  p_uptake_vmax:
+    name: p_uptake_vmax
+    default: 1.0
+    min: 0.2
+    max: 3.0
+    unit: kg_P_t_AMF_C^-1_month^-1
+    classification: scenario_assumption
+    notes: Provisional maximum AMF phosphorus-acquisition parameter.
+    source_citation: Soil Simulator MODEL_SPEC section 7.5; Michaelis-Menten form supported by Schnepf et al. (2008), DOI 10.1007/s11104-008-9749-3; value is uncalibrated.
+    version_introduced: 0.1.0
+  p_uptake_km:
+    name: p_uptake_km
+    default: 10.0
+    min: 2.0
+    max: 40.0
+    unit: kg_P_ha^-1
+    classification: scenario_assumption
+    notes: Provisional half-saturation parameter for available phosphorus.
+    source_citation: Soil Simulator MODEL_SPEC section 7.5; Michaelis-Menten form supported by Schnepf et al. (2008), DOI 10.1007/s11104-008-9749-3; value is uncalibrated.
+    version_introduced: 0.1.0
+  p_transfer_to_plant_fraction:
+    name: p_transfer_to_plant_fraction
+    default: 1.0
+    min: 0.0
+    max: 1.0
+    unit: fraction
+    classification: scenario_assumption
+    notes: Explicit Phase 5 transfer-efficiency endpoint; any untransferred acquired P leaves the available-P boundary as fungal-retained P.
+    source_citation: MODEL_SPEC section 7.5; Landis & Fraser (2008), DOI 10.1111/j.1469-8137.2007.02268.x, represents independent transfer efficiency on [0,1].
+    version_introduced: 0.5.0
+
+management:
+  tillage:
+    conventional:
+      amf_pulse_mortality:
+        name: conventional_amf_pulse_mortality
+        default: 0.25
+        min: 0.0
+        max: 0.60
+        unit: fraction
+        classification: scenario_assumption
+        source_citation: Bowles et al. (2017), DOI 10.1111/1365-2664.12815, supports direction only; numerical range is provisional A009.
+        notes: Uncalibrated one-month live-AMF transfer to necromass.
+        version_introduced: 0.6.0
+      amf_turnover_multiplier:
+        name: conventional_amf_turnover_multiplier
+        default: 1.50
+        min: 1.0
+        max: 3.0
+        unit: multiplier
+        classification: scenario_assumption
+        source_citation: A009; no calibrated universal tillage-to-turnover multiplier.
+        notes: Provisional multiplier applied for the configured disturbance duration.
+        version_introduced: 0.6.0
+      decomposition_multiplier:
+        name: conventional_decomposition_multiplier
+        default: 1.25
+        min: 1.0
+        max: 2.0
+        unit: multiplier
+        classification: scenario_assumption
+        source_citation: A009; numerical pulse is provisional and uncalibrated.
+        notes: Multiplies active RothC annual rates temporarily; it does not alter equations.
+        version_introduced: 0.6.0
+      effect_duration_months:
+        name: conventional_effect_duration_months
+        default: 2
+        min: 0
+        max: 6
+        unit: month
+        classification: scenario_assumption
+        source_citation: A009; provisional monthly disturbance window.
+        notes: Integer duration including the event month.
+        version_introduced: 0.6.0
+      soil_cover_suppression_months:
+        name: conventional_soil_cover_suppression_months
+        default: 1
+        min: 0
+        max: 3
+        unit: month
+        classification: scenario_assumption
+        source_citation: A009; provisional physical-cover effect.
+        notes: Integer duration including the event month.
+        version_introduced: 0.6.0
+      standing_biomass_incorporation_fraction:
+        name: conventional_standing_biomass_incorporation_fraction
+        default: 0.80
+        min: 0.0
+        max: 1.0
+        unit: fraction
+        classification: scenario_assumption
+        source_citation: A009; endpoint-bounded incorporation assumption, not a measured mean.
+        notes: Fraction of current shoot/root carbon routed post-decomposition to DPM/RPM.
+        version_introduced: 0.6.0
+    reduced:
+      amf_pulse_mortality:
+        name: reduced_amf_pulse_mortality
+        default: 0.10
+        min: 0.0
+        max: 0.35
+        unit: fraction
+        classification: scenario_assumption
+        source_citation: Bowles et al. (2017), DOI 10.1111/1365-2664.12815, supports direction only; numerical range is provisional A009.
+        notes: Uncalibrated one-month live-AMF transfer to necromass.
+        version_introduced: 0.6.0
+      amf_turnover_multiplier:
+        name: reduced_amf_turnover_multiplier
+        default: 1.20
+        min: 1.0
+        max: 2.0
+        unit: multiplier
+        classification: scenario_assumption
+        source_citation: A009; no calibrated universal tillage-to-turnover multiplier.
+        notes: Provisional disturbance multiplier.
+        version_introduced: 0.6.0
+      decomposition_multiplier:
+        name: reduced_decomposition_multiplier
+        default: 1.10
+        min: 1.0
+        max: 1.5
+        unit: multiplier
+        classification: scenario_assumption
+        source_citation: A009; numerical pulse is provisional and uncalibrated.
+        notes: Multiplies active RothC annual rates temporarily.
+        version_introduced: 0.6.0
+      effect_duration_months:
+        name: reduced_effect_duration_months
+        default: 1
+        min: 0
+        max: 3
+        unit: month
+        classification: scenario_assumption
+        source_citation: A009; provisional monthly disturbance window.
+        notes: Integer duration including the event month.
+        version_introduced: 0.6.0
+      soil_cover_suppression_months:
+        name: reduced_soil_cover_suppression_months
+        default: 0
+        min: 0
+        max: 2
+        unit: month
+        classification: scenario_assumption
+        source_citation: A009; provisional physical-cover effect.
+        notes: Integer duration including the event month.
+        version_introduced: 0.6.0
+      standing_biomass_incorporation_fraction:
+        name: reduced_standing_biomass_incorporation_fraction
+        default: 0.40
+        min: 0.0
+        max: 1.0
+        unit: fraction
+        classification: scenario_assumption
+        source_citation: A009; endpoint-bounded incorporation assumption, not a measured mean.
+        notes: Fraction of current shoot/root carbon routed post-decomposition to DPM/RPM.
+        version_introduced: 0.6.0
+    no_till:
+      amf_pulse_mortality:
+        name: no_till_amf_pulse_mortality
+        default: 0.0
+        min: 0.0
+        max: 0.10
+        unit: fraction
+        classification: scenario_assumption
+        source_citation: A009; zero is the explicit no-disturbance default.
+        notes: Configurable null boundary, not a claim of universally zero field disturbance.
+        version_introduced: 0.6.0
+      amf_turnover_multiplier:
+        name: no_till_amf_turnover_multiplier
+        default: 1.0
+        min: 1.0
+        max: 1.5
+        unit: multiplier
+        classification: scenario_assumption
+        source_citation: A009; unity is the explicit no-effect default.
+        notes: Configurable null boundary.
+        version_introduced: 0.6.0
+      decomposition_multiplier:
+        name: no_till_decomposition_multiplier
+        default: 1.0
+        min: 1.0
+        max: 1.25
+        unit: multiplier
+        classification: scenario_assumption
+        source_citation: A009; unity is the explicit no-effect default.
+        notes: Configurable null boundary.
+        version_introduced: 0.6.0
+      effect_duration_months:
+        name: no_till_effect_duration_months
+        default: 0
+        min: 0
+        max: 1
+        unit: month
+        classification: scenario_assumption
+        source_citation: A009; zero is the explicit no-effect duration.
+        notes: Integer duration.
+        version_introduced: 0.6.0
+      soil_cover_suppression_months:
+        name: no_till_soil_cover_suppression_months
+        default: 0
+        min: 0
+        max: 1
+        unit: month
+        classification: scenario_assumption
+        source_citation: A009; zero is the explicit no-effect duration.
+        notes: Integer duration.
+        version_introduced: 0.6.0
+      standing_biomass_incorporation_fraction:
+        name: no_till_standing_biomass_incorporation_fraction
+        default: 0.0
+        min: 0.0
+        max: 0.20
+        unit: fraction
+        classification: scenario_assumption
+        source_citation: A009; zero is the explicit no-incorporation default.
+        notes: Configurable null boundary.
+        version_introduced: 0.6.0
+  cover_crop:
+    monthly_potential_npp_t_c_ha:
+      name: cover_crop_monthly_potential_npp_t_c_ha
+      default: 0.15
+      min: 0.0
+      max: 0.50
+      unit: t_C_ha^-1_month^-1
+      classification: scenario_assumption
+      source_citation: Bowles et al. (2017), DOI 10.1111/1365-2664.12815, supports AM-compatible cover-host direction only; magnitude is provisional A010.
+      notes: Generic deterministic cover-crop potential input; not species-specific or calibrated.
+      version_introduced: 0.6.0
+    root_allocation_fraction:
+      name: cover_crop_root_allocation_fraction
+      default: 0.55
+      min: 0.30
+      max: 0.80
+      unit: fraction
+      classification: scenario_assumption
+      source_citation: A010; provisional generic cover-crop partition.
+      notes: Not species-specific or calibrated.
+      version_introduced: 0.6.0
+    residue_return_fraction:
+      name: cover_crop_residue_return_fraction
+      default: 1.0
+      min: 0.0
+      max: 1.0
+      unit: fraction
+      classification: scenario_assumption
+      source_citation: A010; explicit endpoint-bounded scenario assumption.
+      notes: Returned carbon uses the configured RothC crop DPM/RPM ratio.
+      version_introduced: 0.6.0
+    phosphorus_return_fraction:
+      name: cover_crop_phosphorus_return_fraction
+      default: 1.0
+      min: 0.0
+      max: 1.0
+      unit: fraction
+      classification: scenario_assumption
+      source_citation: A010; explicit endpoint-bounded P-recycling assumption.
+      notes: Returned P re-enters available P only at termination; no mineralisation delay is represented.
+      version_introduced: 0.6.0
+    water_use_open_pan_mm:
+      name: cover_crop_water_use_open_pan_mm
+      default: 5.0
+      min: 0.0
+      max: 30.0
+      unit: mm_month^-1
+      classification: scenario_assumption
+      source_citation: A010; provisional monthly water-use proxy, not a crop water balance.
+      notes: Added to open-pan forcing while the cover crop is active, allowing neutral or harmful carry-over.
+      version_introduced: 0.6.0
+  phosphorus:
+    classification: scenario_assumption
+    source_citation: Phase 6 boundary; event amount is added exactly once to available P.
+  farmyard_manure:
+    phosphorus_content_kg_p_per_t_c:
+      name: farmyard_manure_phosphorus_content_kg_p_per_t_c
+      default: 5.0
+      min: 0.0
+      max: 30.0
+      unit: kg_P_t_C^-1
+      classification: scenario_assumption
+      source_citation: A026; provisional conversion pending amendment composition data.
+      notes: Explicit P input paired with FYM carbon; carbon routing remains the established RothC 49/49/2 split.
+      version_introduced: 0.6.0
+
+numerics:
+  absolute_mass_balance_tolerance: 1.0e-10
+  relative_mass_balance_tolerance: 1.0e-9
+  prohibit_negative_pools: true
+  fail_on_non_finite: true
+  default_seed: 20260720

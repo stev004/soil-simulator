@@ -1,0 +1,1145 @@
+{
+  "authoritative_constants_changed": false,
+  "claim_boundary": "This validates total SOC in the RothC-style core only. It does not validate AMF dynamics or protected_soc as measured MAOC.",
+  "component_attribution": [
+    {
+      "bias_change_t_c_ha": 7.832001166949424,
+      "component": "climate_forcing",
+      "conclusion": "dominant identified source of Phase 9.5 negative bias",
+      "phase95_assumption": "authored warmer/lower-evaporation monthly pattern",
+      "phase96_evidence": "official RothC v2.1.1 bundled normal"
+    },
+    {
+      "component": "FYM quantity and carbon conversion",
+      "evidence": "3.0 t C ha-1 schedule matches official February 2024 description",
+      "status": "verified"
+    },
+    {
+      "component": "DPM:RPM and FYM partition",
+      "evidence": "crop 1.44 and FYM 49/49/2 match authoritative specification",
+      "status": "verified"
+    },
+    {
+      "component": "depth, IOM, treatment timing, fallow years and initial pools",
+      "evidence": "23 cm, 2.7 t C ha-1 IOM and official schedules reproduced explicitly",
+      "status": "verified_with_residual_uncertainty"
+    },
+    {
+      "component": "plant residue inputs",
+      "evidence": "official annual totals retained; only bounded factors enter optional calibration",
+      "status": "input_reconstruction_uncertainty"
+    }
+  ],
+  "optional_calibration": {
+    "best_parameters": {
+      "fym_carbon_factor": 1.1,
+      "plant_residue_factor": 0.8500000000000001
+    },
+    "boundary_solution": true,
+    "calibration_data": "unfertilized and annual-FYM observations through 1965",
+    "calibration_metrics": {
+      "bias_t_c_ha": -0.23937357851629493,
+      "mae_t_c_ha": 2.571037266586968,
+      "rmse_t_c_ha": 3.3699330640261955
+    },
+    "candidate_summary": [
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.929047179240693,
+        "fym_carbon_factor": 0.9,
+        "plant_residue_factor": 0.8
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.1604139261154796,
+        "fym_carbon_factor": 0.9500000000000001,
+        "plant_residue_factor": 0.8
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.425769963344007,
+        "fym_carbon_factor": 1.0,
+        "plant_residue_factor": 0.8
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 3.7494451359786125,
+        "fym_carbon_factor": 1.05,
+        "plant_residue_factor": 0.8
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 3.1788314518649217,
+        "fym_carbon_factor": 1.1,
+        "plant_residue_factor": 0.8
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.609438606051626,
+        "fym_carbon_factor": 0.9,
+        "plant_residue_factor": 0.8500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.8637728128372695,
+        "fym_carbon_factor": 0.9500000000000001,
+        "plant_residue_factor": 0.8500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.168732363724446,
+        "fym_carbon_factor": 1.0,
+        "plant_residue_factor": 0.8500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 3.5648214719429587,
+        "fym_carbon_factor": 1.05,
+        "plant_residue_factor": 0.8500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 3.1287613079547087,
+        "fym_carbon_factor": 1.1,
+        "plant_residue_factor": 0.8500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.353408919665942,
+        "fym_carbon_factor": 0.9,
+        "plant_residue_factor": 0.9
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.642061704261051,
+        "fym_carbon_factor": 0.9500000000000001,
+        "plant_residue_factor": 0.9
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.009228218799983,
+        "fym_carbon_factor": 1.0,
+        "plant_residue_factor": 0.9
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 3.5219939976711765,
+        "fym_carbon_factor": 1.05,
+        "plant_residue_factor": 0.9
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 3.288506414289205,
+        "fym_carbon_factor": 1.1,
+        "plant_residue_factor": 0.9
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.139649687985738,
+        "fym_carbon_factor": 0.9,
+        "plant_residue_factor": 0.9500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.481747777689892,
+        "fym_carbon_factor": 0.9500000000000001,
+        "plant_residue_factor": 0.9500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 3.9494235944165865,
+        "fym_carbon_factor": 1.0,
+        "plant_residue_factor": 0.9500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 3.6439783810586706,
+        "fym_carbon_factor": 1.05,
+        "plant_residue_factor": 0.9500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 3.669171652923467,
+        "fym_carbon_factor": 1.1,
+        "plant_residue_factor": 0.9500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.971220974258747,
+        "fym_carbon_factor": 0.9,
+        "plant_residue_factor": 1.0
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.399526521089138,
+        "fym_carbon_factor": 0.9500000000000001,
+        "plant_residue_factor": 1.0
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.027743470087522,
+        "fym_carbon_factor": 1.0,
+        "plant_residue_factor": 1.0
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 3.9705983444019015,
+        "fym_carbon_factor": 1.05,
+        "plant_residue_factor": 1.0
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.251850819496044,
+        "fym_carbon_factor": 1.1,
+        "plant_residue_factor": 1.0
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.866668518038315,
+        "fym_carbon_factor": 0.9,
+        "plant_residue_factor": 1.05
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.434928079034955,
+        "fym_carbon_factor": 0.9500000000000001,
+        "plant_residue_factor": 1.05
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.295630762053426,
+        "fym_carbon_factor": 1.0,
+        "plant_residue_factor": 1.05
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.505709539323533,
+        "fym_carbon_factor": 1.05,
+        "plant_residue_factor": 1.05
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.983419016338798,
+        "fym_carbon_factor": 1.1,
+        "plant_residue_factor": 1.05
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.862390490776205,
+        "fym_carbon_factor": 0.9,
+        "plant_residue_factor": 1.1
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.6433503209497236,
+        "fym_carbon_factor": 0.9500000000000001,
+        "plant_residue_factor": 1.1
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 4.776054613696886,
+        "fym_carbon_factor": 1.0,
+        "plant_residue_factor": 1.1
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.205336306137284,
+        "fym_carbon_factor": 1.05,
+        "plant_residue_factor": 1.1
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.810955006887834,
+        "fym_carbon_factor": 1.1,
+        "plant_residue_factor": 1.1
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.013209200242472,
+        "fym_carbon_factor": 0.9,
+        "plant_residue_factor": 1.1500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.063749540353415,
+        "fym_carbon_factor": 0.9500000000000001,
+        "plant_residue_factor": 1.1500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.437337564554895,
+        "fym_carbon_factor": 1.0,
+        "plant_residue_factor": 1.1500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 6.013831353250357,
+        "fym_carbon_factor": 1.05,
+        "plant_residue_factor": 1.1500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 6.698009458538349,
+        "fym_carbon_factor": 1.1,
+        "plant_residue_factor": 1.1500000000000001
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.370060763205984,
+        "fym_carbon_factor": 0.9,
+        "plant_residue_factor": 1.2000000000000002
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 5.680285795846398,
+        "fym_carbon_factor": 0.9500000000000001,
+        "plant_residue_factor": 1.2000000000000002
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 6.222674627687992,
+        "fym_carbon_factor": 1.0,
+        "plant_residue_factor": 1.2000000000000002
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 6.889790405280802,
+        "fym_carbon_factor": 1.05,
+        "plant_residue_factor": 1.2000000000000002
+      },
+      {
+        "calibration_objective_mean_treatment_rmse_t_c_ha": 7.622547919471352,
+        "fym_carbon_factor": 1.1,
+        "plant_residue_factor": 1.2000000000000002
+      }
+    ],
+    "held_out_data": "post-1965 temporal observations plus entire FYM-cessation treatment",
+    "held_out_temporal_metrics": {
+      "bias_t_c_ha": 0.4975387778078299,
+      "mae_t_c_ha": 1.5157887892167796,
+      "rmse_t_c_ha": 1.8847735853984364
+    },
+    "held_out_treatment_metrics": {
+      "bias_t_c_ha": -7.214238690963898,
+      "mae_t_c_ha": 7.214238690963898,
+      "rmse_t_c_ha": 7.577073646005274
+    },
+    "identifiability": {
+      "fym_carbon_factor_range": [
+        1.1,
+        1.1
+      ],
+      "plant_residue_factor_range": [
+        0.8,
+        0.9
+      ],
+      "within_10_percent_of_minimum_count": 3
+    },
+    "parameter_uncertainty_bands": [
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 30.7,
+        "treatment": "fym_1852_1871",
+        "upper_t_c_ha": 30.7,
+        "year": 1852
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 42.14432657039028,
+        "treatment": "fym_1852_1871",
+        "upper_t_c_ha": 43.584752805818354,
+        "year": 1882
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 34.95760201439306,
+        "treatment": "fym_1852_1871",
+        "upper_t_c_ha": 36.5311950992638,
+        "year": 1913
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 31.464018431325027,
+        "treatment": "fym_1852_1871",
+        "upper_t_c_ha": 33.27924184306471,
+        "year": 1946
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 30.860543162961342,
+        "treatment": "fym_1852_1871",
+        "upper_t_c_ha": 32.8879673218276,
+        "year": 1965
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 29.774512273468908,
+        "treatment": "fym_1852_1871",
+        "upper_t_c_ha": 31.809438581535687,
+        "year": 1975
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 29.603266143967947,
+        "treatment": "fym_1852_1871",
+        "upper_t_c_ha": 31.70160712294194,
+        "year": 1982
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 29.002290531149683,
+        "treatment": "fym_1852_1871",
+        "upper_t_c_ha": 31.199896424396236,
+        "year": 1998
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 30.7,
+        "treatment": "fym_annual",
+        "upper_t_c_ha": 30.7,
+        "year": 1852
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 57.20655971776519,
+        "treatment": "fym_annual",
+        "upper_t_c_ha": 58.92847988560378,
+        "year": 1882
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 66.40069160033974,
+        "treatment": "fym_annual",
+        "upper_t_c_ha": 68.69994392983249,
+        "year": 1913
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 77.71773210853367,
+        "treatment": "fym_annual",
+        "upper_t_c_ha": 80.56590363297953,
+        "year": 1946
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 84.10422128327808,
+        "treatment": "fym_annual",
+        "upper_t_c_ha": 87.37681682235444,
+        "year": 1965
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 84.82072382604878,
+        "treatment": "fym_annual",
+        "upper_t_c_ha": 88.13287936020957,
+        "year": 1975
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 86.73075957955754,
+        "treatment": "fym_annual",
+        "upper_t_c_ha": 90.16954039395243,
+        "year": 1982
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 89.86925948541665,
+        "treatment": "fym_annual",
+        "upper_t_c_ha": 93.51392872977759,
+        "year": 1998
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 30.7,
+        "treatment": "unfertilized",
+        "upper_t_c_ha": 30.7,
+        "year": 1852
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 28.586093891058827,
+        "treatment": "unfertilized",
+        "upper_t_c_ha": 29.570048272680843,
+        "year": 1882
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 26.595178397162236,
+        "treatment": "unfertilized",
+        "upper_t_c_ha": 27.909036871158005,
+        "year": 1913
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 25.4160813849305,
+        "treatment": "unfertilized",
+        "upper_t_c_ha": 27.043607970328072,
+        "year": 1946
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 25.789786190987936,
+        "treatment": "unfertilized",
+        "upper_t_c_ha": 27.65984078474581,
+        "year": 1965
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 25.190420914660514,
+        "treatment": "unfertilized",
+        "upper_t_c_ha": 27.08308121989512,
+        "year": 1975
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 25.307323910206165,
+        "treatment": "unfertilized",
+        "upper_t_c_ha": 27.272341518431706,
+        "year": 1982
+      },
+      {
+        "candidate_count": 3,
+        "definition": "range among candidates within 10% of minimum calibration objective",
+        "lower_t_c_ha": 25.298769127951868,
+        "treatment": "unfertilized",
+        "upper_t_c_ha": 27.381437267586595,
+        "year": 1998
+      }
+    ],
+    "predeclared_parameters": {
+      "fym_carbon_factor": {
+        "bounds": [
+          0.9,
+          1.1
+        ],
+        "classification": "calibrated"
+      },
+      "plant_residue_factor": {
+        "bounds": [
+          0.8,
+          1.2
+        ],
+        "classification": "calibrated"
+      }
+    },
+    "trajectory": {
+      "aggregate_metrics": {
+        "bias_t_c_ha": -2.353782228477651,
+        "mae_t_c_ha": 3.8172715097497005,
+        "rmse_t_c_ha": 4.947583031456795
+      },
+      "inputs": {
+        "forcing": "official_v2.1.1_normal",
+        "fym_carbon_factor": 1.1,
+        "initial_iom_t_c_ha": 2.7,
+        "plant_residue_factor": 0.8500000000000001
+      },
+      "treatments": {
+        "fym_1852_1871": {
+          "maximum_monthly_mass_balance_residual_t_c_ha": 1.4210854715202004e-14,
+          "metrics": {
+            "bias_t_c_ha": -7.214238690963898,
+            "mae_t_c_ha": 7.214238690963898,
+            "rmse_t_c_ha": 7.577073646005274
+          },
+          "trajectory": [
+            {
+              "evaluation_role": "initialization",
+              "observed_soc_t_c_ha": 30.7,
+              "simulated_soc_t_c_ha": 30.7,
+              "treatment": "fym_1852_1871",
+              "year": 1852
+            },
+            {
+              "evaluation_role": "held_out_treatment",
+              "observed_soc_t_c_ha": 51.4,
+              "simulated_soc_t_c_ha": 42.86453968810435,
+              "treatment": "fym_1852_1871",
+              "year": 1882
+            },
+            {
+              "evaluation_role": "held_out_treatment",
+              "observed_soc_t_c_ha": 43.2,
+              "simulated_soc_t_c_ha": 35.744398556828514,
+              "treatment": "fym_1852_1871",
+              "year": 1913
+            },
+            {
+              "evaluation_role": "held_out_treatment",
+              "observed_soc_t_c_ha": 38.8,
+              "simulated_soc_t_c_ha": 32.371630137194956,
+              "treatment": "fym_1852_1871",
+              "year": 1946
+            },
+            {
+              "evaluation_role": "held_out_treatment",
+              "observed_soc_t_c_ha": 35.4,
+              "simulated_soc_t_c_ha": 31.874255242394543,
+              "treatment": "fym_1852_1871",
+              "year": 1965
+            },
+            {
+              "evaluation_role": "held_out_treatment",
+              "observed_soc_t_c_ha": 41.4,
+              "simulated_soc_t_c_ha": 30.79197542750236,
+              "treatment": "fym_1852_1871",
+              "year": 1975
+            },
+            {
+              "evaluation_role": "held_out_treatment",
+              "observed_soc_t_c_ha": 35.4,
+              "simulated_soc_t_c_ha": 30.652436633454997,
+              "treatment": "fym_1852_1871",
+              "year": 1982
+            },
+            {
+              "evaluation_role": "held_out_treatment",
+              "observed_soc_t_c_ha": 39.3,
+              "simulated_soc_t_c_ha": 30.10109347777298,
+              "treatment": "fym_1852_1871",
+              "year": 1998
+            }
+          ]
+        },
+        "fym_annual": {
+          "maximum_monthly_mass_balance_residual_t_c_ha": 2.842170943040401e-14,
+          "metrics": {
+            "bias_t_c_ha": -0.9973256888822074,
+            "mae_t_c_ha": 2.6807450767426286,
+            "rmse_t_c_ha": 3.543227803858391
+          },
+          "trajectory": [
+            {
+              "evaluation_role": "initialization",
+              "observed_soc_t_c_ha": 30.7,
+              "simulated_soc_t_c_ha": 30.7,
+              "treatment": "fym_annual",
+              "year": 1852
+            },
+            {
+              "evaluation_role": "calibration",
+              "observed_soc_t_c_ha": 59.9,
+              "simulated_soc_t_c_ha": 58.06751980168456,
+              "treatment": "fym_annual",
+              "year": 1882
+            },
+            {
+              "evaluation_role": "calibration",
+              "observed_soc_t_c_ha": 75.5,
+              "simulated_soc_t_c_ha": 67.55031776508618,
+              "treatment": "fym_annual",
+              "year": 1913
+            },
+            {
+              "evaluation_role": "calibration",
+              "observed_soc_t_c_ha": 76.3,
+              "simulated_soc_t_c_ha": 79.1418178707566,
+              "treatment": "fym_annual",
+              "year": 1946
+            },
+            {
+              "evaluation_role": "calibration",
+              "observed_soc_t_c_ha": 87.2,
+              "simulated_soc_t_c_ha": 85.74051905281621,
+              "treatment": "fym_annual",
+              "year": 1965
+            },
+            {
+              "evaluation_role": "held_out_temporal",
+              "observed_soc_t_c_ha": 86.8,
+              "simulated_soc_t_c_ha": 86.47680159312905,
+              "treatment": "fym_annual",
+              "year": 1975
+            },
+            {
+              "evaluation_role": "held_out_temporal",
+              "observed_soc_t_c_ha": 85.4,
+              "simulated_soc_t_c_ha": 88.45014998675488,
+              "treatment": "fym_annual",
+              "year": 1982
+            },
+            {
+              "evaluation_role": "held_out_temporal",
+              "observed_soc_t_c_ha": 93.0,
+              "simulated_soc_t_c_ha": 91.69159410759707,
+              "treatment": "fym_annual",
+              "year": 1998
+            }
+          ]
+        },
+        "unfertilized": {
+          "maximum_monthly_mass_balance_residual_t_c_ha": 7.105427357601002e-15,
+          "metrics": {
+            "bias_t_c_ha": 1.150217694413153,
+            "mae_t_c_ha": 1.5568307615425745,
+            "rmse_t_c_ha": 1.862585636274165
+          },
+          "trajectory": [
+            {
+              "evaluation_role": "initialization",
+              "observed_soc_t_c_ha": 30.7,
+              "simulated_soc_t_c_ha": 30.7,
+              "treatment": "unfertilized",
+              "year": 1852
+            },
+            {
+              "evaluation_role": "calibration",
+              "observed_soc_t_c_ha": 26.5,
+              "simulated_soc_t_c_ha": 29.078071081869833,
+              "treatment": "unfertilized",
+              "year": 1882
+            },
+            {
+              "evaluation_role": "calibration",
+              "observed_soc_t_c_ha": 26.8,
+              "simulated_soc_t_c_ha": 27.25210763416013,
+              "treatment": "unfertilized",
+              "year": 1913
+            },
+            {
+              "evaluation_role": "calibration",
+              "observed_soc_t_c_ha": 25.3,
+              "simulated_soc_t_c_ha": 26.2298446776293,
+              "treatment": "unfertilized",
+              "year": 1946
+            },
+            {
+              "evaluation_role": "calibration",
+              "observed_soc_t_c_ha": 24.2,
+              "simulated_soc_t_c_ha": 26.724813487866832,
+              "treatment": "unfertilized",
+              "year": 1965
+            },
+            {
+              "evaluation_role": "held_out_temporal",
+              "observed_soc_t_c_ha": 26.5,
+              "simulated_soc_t_c_ha": 26.136751067277793,
+              "treatment": "unfertilized",
+              "year": 1975
+            },
+            {
+              "evaluation_role": "held_out_temporal",
+              "observed_soc_t_c_ha": 23.3,
+              "simulated_soc_t_c_ha": 26.289832714318955,
+              "treatment": "unfertilized",
+              "year": 1982
+            },
+            {
+              "evaluation_role": "held_out_temporal",
+              "observed_soc_t_c_ha": 27.4,
+              "simulated_soc_t_c_ha": 26.34010319776923,
+              "treatment": "unfertilized",
+              "year": 1998
+            }
+          ]
+        }
+      }
+    }
+  },
+  "uncalibrated_phase95_benchmark": {
+    "aggregate_metrics": {
+      "bias_t_c_ha": -8.35962210122443,
+      "mae_t_c_ha": 8.517545288889295,
+      "rmse_t_c_ha": 10.154028534586063
+    },
+    "inputs": {
+      "forcing": "phase95_authored_pattern",
+      "fym_carbon_factor": 1.0,
+      "initial_iom_t_c_ha": 2.7,
+      "plant_residue_factor": 1.0
+    },
+    "treatments": {
+      "fym_1852_1871": {
+        "maximum_monthly_mass_balance_residual_t_c_ha": 1.4210854715202004e-14,
+        "metrics": {
+          "bias_t_c_ha": -11.041971907002473,
+          "mae_t_c_ha": 11.041971907002473,
+          "rmse_t_c_ha": 11.274135780873463
+        },
+        "trajectory": [
+          {
+            "evaluation_role": "initialization",
+            "observed_soc_t_c_ha": 30.7,
+            "simulated_soc_t_c_ha": 30.7,
+            "treatment": "fym_1852_1871",
+            "year": 1852
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 51.4,
+            "simulated_soc_t_c_ha": 39.364587200375055,
+            "treatment": "fym_1852_1871",
+            "year": 1882
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 43.2,
+            "simulated_soc_t_c_ha": 32.28421170467053,
+            "treatment": "fym_1852_1871",
+            "year": 1913
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 38.8,
+            "simulated_soc_t_c_ha": 28.49220921590274,
+            "treatment": "fym_1852_1871",
+            "year": 1946
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 35.4,
+            "simulated_soc_t_c_ha": 27.86880506480015,
+            "treatment": "fym_1852_1871",
+            "year": 1965
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 41.4,
+            "simulated_soc_t_c_ha": 26.81535479280812,
+            "treatment": "fym_1852_1871",
+            "year": 1975
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 35.4,
+            "simulated_soc_t_c_ha": 26.658102217594795,
+            "treatment": "fym_1852_1871",
+            "year": 1982
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 39.3,
+            "simulated_soc_t_c_ha": 26.12292645483129,
+            "treatment": "fym_1852_1871",
+            "year": 1998
+          }
+        ]
+      },
+      "fym_annual": {
+        "maximum_monthly_mass_balance_residual_t_c_ha": 2.842170943040401e-14,
+        "metrics": {
+          "bias_t_c_ha": -12.904135568598763,
+          "mae_t_c_ha": 12.904135568598763,
+          "rmse_t_c_ha": 13.348825461516915
+        },
+        "trajectory": [
+          {
+            "evaluation_role": "initialization",
+            "observed_soc_t_c_ha": 30.7,
+            "simulated_soc_t_c_ha": 30.7,
+            "treatment": "fym_annual",
+            "year": 1852
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 59.9,
+            "simulated_soc_t_c_ha": 52.16433594239983,
+            "treatment": "fym_annual",
+            "year": 1882
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 75.5,
+            "simulated_soc_t_c_ha": 58.994294626199476,
+            "treatment": "fym_annual",
+            "year": 1913
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 76.3,
+            "simulated_soc_t_c_ha": 67.6406866249496,
+            "treatment": "fym_annual",
+            "year": 1946
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 87.2,
+            "simulated_soc_t_c_ha": 72.40194224312317,
+            "treatment": "fym_annual",
+            "year": 1965
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 86.8,
+            "simulated_soc_t_c_ha": 72.60541665014802,
+            "treatment": "fym_annual",
+            "year": 1975
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 85.4,
+            "simulated_soc_t_c_ha": 73.9493498813728,
+            "treatment": "fym_annual",
+            "year": 1982
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 93.0,
+            "simulated_soc_t_c_ha": 76.01502505161578,
+            "treatment": "fym_annual",
+            "year": 1998
+          }
+        ]
+      },
+      "unfertilized": {
+        "maximum_monthly_mass_balance_residual_t_c_ha": 7.105427357601002e-15,
+        "metrics": {
+          "bias_t_c_ha": -1.132758828072055,
+          "mae_t_c_ha": 1.6065283910666486,
+          "rmse_t_c_ha": 2.0038981101718623
+        },
+        "trajectory": [
+          {
+            "evaluation_role": "initialization",
+            "observed_soc_t_c_ha": 30.7,
+            "simulated_soc_t_c_ha": 30.7,
+            "treatment": "unfertilized",
+            "year": 1852
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 26.5,
+            "simulated_soc_t_c_ha": 27.715269327679742,
+            "treatment": "unfertilized",
+            "year": 1882
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 26.8,
+            "simulated_soc_t_c_ha": 25.203438157649103,
+            "treatment": "unfertilized",
+            "year": 1913
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 25.3,
+            "simulated_soc_t_c_ha": 23.87332342424243,
+            "treatment": "unfertilized",
+            "year": 1946
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 24.2,
+            "simulated_soc_t_c_ha": 24.21664104207975,
+            "treatment": "unfertilized",
+            "year": 1965
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 26.5,
+            "simulated_soc_t_c_ha": 23.618593606538983,
+            "treatment": "unfertilized",
+            "year": 1975
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 23.3,
+            "simulated_soc_t_c_ha": 23.726283100721584,
+            "treatment": "unfertilized",
+            "year": 1982
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 27.4,
+            "simulated_soc_t_c_ha": 23.717139544584022,
+            "treatment": "unfertilized",
+            "year": 1998
+          }
+        ]
+      }
+    }
+  },
+  "uncalibrated_source_corrected_forcing": {
+    "aggregate_metrics": {
+      "bias_t_c_ha": -0.5276209342750058,
+      "mae_t_c_ha": 3.6566603755738436,
+      "rmse_t_c_ha": 4.340498836380508
+    },
+    "inputs": {
+      "forcing": "official_v2.1.1_normal",
+      "fym_carbon_factor": 1.0,
+      "initial_iom_t_c_ha": 2.7,
+      "plant_residue_factor": 1.0
+    },
+    "treatments": {
+      "fym_1852_1871": {
+        "maximum_monthly_mass_balance_residual_t_c_ha": 1.4210854715202004e-14,
+        "metrics": {
+          "bias_t_c_ha": -4.83000614900869,
+          "mae_t_c_ha": 4.83000614900869,
+          "rmse_t_c_ha": 5.426042883044606
+        },
+        "trajectory": [
+          {
+            "evaluation_role": "initialization",
+            "observed_soc_t_c_ha": 30.7,
+            "simulated_soc_t_c_ha": 30.7,
+            "treatment": "fym_1852_1871",
+            "year": 1852
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 51.4,
+            "simulated_soc_t_c_ha": 44.124591964075194,
+            "treatment": "fym_1852_1871",
+            "year": 1882
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 43.2,
+            "simulated_soc_t_c_ha": 37.533465754113394,
+            "treatment": "fym_1852_1871",
+            "year": 1913
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 38.8,
+            "simulated_soc_t_c_ha": 34.68115957883549,
+            "treatment": "fym_1852_1871",
+            "year": 1946
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 35.4,
+            "simulated_soc_t_c_ha": 34.568864166956914,
+            "treatment": "fym_1852_1871",
+            "year": 1965
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 41.4,
+            "simulated_soc_t_c_ha": 33.53109549540683,
+            "treatment": "fym_1852_1871",
+            "year": 1975
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 35.4,
+            "simulated_soc_t_c_ha": 33.50637035029993,
+            "treatment": "fym_1852_1871",
+            "year": 1982
+          },
+          {
+            "evaluation_role": "held_out_treatment",
+            "observed_soc_t_c_ha": 39.3,
+            "simulated_soc_t_c_ha": 33.14440964725141,
+            "treatment": "fym_1852_1871",
+            "year": 1998
+          }
+        ]
+      },
+      "fym_annual": {
+        "maximum_monthly_mass_balance_residual_t_c_ha": 2.842170943040401e-14,
+        "metrics": {
+          "bias_t_c_ha": -0.4178757956298692,
+          "mae_t_c_ha": 2.474955835899299,
+          "rmse_t_c_ha": 3.418963723473976
+        },
+        "trajectory": [
+          {
+            "evaluation_role": "initialization",
+            "observed_soc_t_c_ha": 30.7,
+            "simulated_soc_t_c_ha": 30.7,
+            "treatment": "fym_annual",
+            "year": 1852
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 59.9,
+            "simulated_soc_t_c_ha": 58.58524191371754,
+            "treatment": "fym_annual",
+            "year": 1882
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 75.5,
+            "simulated_soc_t_c_ha": 68.09716331757933,
+            "treatment": "fym_annual",
+            "year": 1913
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 76.3,
+            "simulated_soc_t_c_ha": 79.54712141095092,
+            "treatment": "fym_annual",
+            "year": 1946
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 87.2,
+            "simulated_soc_t_c_ha": 86.36812985872686,
+            "treatment": "fym_annual",
+            "year": 1965
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 86.8,
+            "simulated_soc_t_c_ha": 87.05645843255374,
+            "treatment": "fym_annual",
+            "year": 1975
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 85.4,
+            "simulated_soc_t_c_ha": 89.09620029743834,
+            "treatment": "fym_annual",
+            "year": 1982
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 93.0,
+            "simulated_soc_t_c_ha": 92.42455419962418,
+            "treatment": "fym_annual",
+            "year": 1998
+          }
+        ]
+      },
+      "unfertilized": {
+        "maximum_monthly_mass_balance_residual_t_c_ha": 7.105427357601002e-15,
+        "metrics": {
+          "bias_t_c_ha": 3.665019141813542,
+          "mae_t_c_ha": 3.665019141813542,
+          "rmse_t_c_ha": 3.9228224704658228
+        },
+        "trajectory": [
+          {
+            "evaluation_role": "initialization",
+            "observed_soc_t_c_ha": 30.7,
+            "simulated_soc_t_c_ha": 30.7,
+            "treatment": "unfertilized",
+            "year": 1852
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 26.5,
+            "simulated_soc_t_c_ha": 30.554002654303005,
+            "treatment": "unfertilized",
+            "year": 1882
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 26.8,
+            "simulated_soc_t_c_ha": 29.222895345153827,
+            "treatment": "unfertilized",
+            "year": 1913
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 25.3,
+            "simulated_soc_t_c_ha": 28.67113455572564,
+            "treatment": "unfertilized",
+            "year": 1946
+          },
+          {
+            "evaluation_role": "calibration",
+            "observed_soc_t_c_ha": 24.2,
+            "simulated_soc_t_c_ha": 29.529895378503717,
+            "treatment": "unfertilized",
+            "year": 1965
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 26.5,
+            "simulated_soc_t_c_ha": 28.975741525129802,
+            "treatment": "unfertilized",
+            "year": 1975
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 23.3,
+            "simulated_soc_t_c_ha": 29.237359126657374,
+            "treatment": "unfertilized",
+            "year": 1982
+          },
+          {
+            "evaluation_role": "held_out_temporal",
+            "observed_soc_t_c_ha": 27.4,
+            "simulated_soc_t_c_ha": 29.464105407221428,
+            "treatment": "unfertilized",
+            "year": 1998
+          }
+        ]
+      }
+    }
+  },
+  "version": "0.9.6"
+}

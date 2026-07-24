@@ -1,0 +1,24 @@
+{
+  "baseline": "audited_v0.9.0",
+  "directory": "outputs/phase9_v0.9.0",
+  "files": {
+    "APPLICABILITY_ABSTENTION_REPORT.md": "9268da6d73ec7e4c76e3d772c4efd61a44339fce62b9290f63744986755f8cae",
+    "EVALUATION_REPORT.md": "327e70433bc3bf616b0f33a1351d8b2884631f4a7936222c7cdec9bb055a544d",
+    "POLICY_SELECTOR_MODEL_CARD.md": "7a3f05eae797c37e5de51c53d6d570835f91d5e2bf1785edf0ee44cee8306252",
+    "applicability_abstention_report.json": "87c129fe398d30f64477bb2a7f50b224b350f312c89649ecb4ee03181401cc66",
+    "benchmark_table.txt": "e8610cbd29716343c5eb525aaa5f9bc12013a9686c449b014a0f45b533a73607",
+    "experiment_manifest.json": "d499001a63b3b4aa5cba96f2bbf5a9cf34afad3b36122e09825228d6251d954f",
+    "field_level_policy_predictions.json": "4639b5f1085e88b4868c6bd50e39704b3bb7ec145be45a923fd9ad5df9826f8f",
+    "frozen_final_evaluation_report.json": "b0119f5a598074c703a3a13b80bfdcda235f97b60515852404a43989872f9376",
+    "frozen_protocol.json": "d22b9b733a57b46b1c0e1213a8bc30608888bb13562b94f6cb23433a8ef3dbca",
+    "frozen_utility_constraints.json": "1f4991cf3136b4f9e6f748e797872d8df3fbccea3a1f9ee9aeefec64d360f6bc",
+    "oracle_outcomes.json": "69d7a3e82da41c93284681670f7750baa5ed8651403152d68f4f0dd1aec3eaee",
+    "regret_results.csv": "308d8abf382a8f20fa0e1cfc7f270a15f7e7210a982bfcb77c7524a8b7c809e8",
+    "regret_results.json": "63b1fb83509af626876e34c7dded20e7bae5a885ca6109d2b0627616fddf133b",
+    "repeated_run_summary.json": "1fdd02e11835f5b59b32bfd8904e08edc8993a2f157d6650435f562997475ad9",
+    "selection_dataset_manifest.json": "b2aaba9d24773500a28a4f7ebf41159cd55387b47d838cd89052a8fa9655b0a1",
+    "selection_dataset_v0.9.0.json": "e1380059d106040612d0688556c525fd64b158f4a21d6327cad7c967959f4c0c",
+    "selector_artifacts.json": "fe55ea4778cded50bf61a27cec4f540c13604ff0d76d96479cae5f0ae573fc89",
+    "stress_test_results.json": "ec17ced212af040677391a1c7934fc0ce77d250b8b999c5f3bfc2960098a0172"
+  }
+}

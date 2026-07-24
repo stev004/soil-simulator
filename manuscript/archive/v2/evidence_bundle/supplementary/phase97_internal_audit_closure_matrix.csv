@@ -1,0 +1,9 @@
+finding_id,severity,finding,status,evidence
+P97-INTEGRITY,critical,Phase 9.6 audit-document hash mismatch,addressed,corrected_phase96_artifact_hashes.json
+P97-SOBOL,critical,pseudorandom matrices mislabeled as Sobol,addressed,sobol_sampling_manifest.json; sensitivity_first_total.json
+P97-CONVERGENCE,critical,insufficient nested self-consistency convergence,addressed_not_converged_results_not_final,sensitivity_convergence_manifest.json
+P97-LEAKAGE-GATE,critical,hardcoded empirical-location leakage gate,addressed,leakage_check_evidence.json
+P97-INDEPENDENT-VALIDATION,critical,hardcoded independent empirical effect-validation gate,addressed_computed_gate_failed,gate_evidence.json
+P97-COVERAGE,major,over-broad aggregate uncertainty coverage gate,addressed,uncertainty_coverage_report.json
+P97-CALIBRATION-BOUNDARY,major,FYM upper-bound solution insufficiently disclosed,addressed_boundary_retained,calibration_profile.json; docs/PHASE97_CALIBRATION_BOUNDARY.md
+P97-DOCUMENTATION,major,"overstated empirical, convergence, validation and readiness claims",addressed,docs/PHASE97_PUBLICATION_READINESS.md; README.md

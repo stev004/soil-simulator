@@ -1,0 +1,18 @@
+# Preview: table_04_hoosfield_validation
+
+Generated from the adjacent CSV for human inspection. The CSV is canonical.
+
+| run | treatment | evaluation_role | mae_t_c_ha | rmse_t_c_ha | bias_t_c_ha | units | calibration_boundary | source_path | audit_status |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| phase95_original_forcing | aggregate | all post-initialization observations | 8.517545288889295 | 10.154028534586063 | -8.35962210122443 | t C ha-1 | not applicable | outputs/phase96_v0.9.6/long_term_diagnosis.json | verified source artifact; interpret total SOC only |
+| phase95_original_forcing | fym_1852_1871 | held-out treatment | 11.041971907002473 | 11.274135780873463 | -11.041971907002473 | t C ha-1 | not applicable | outputs/phase96_v0.9.6/long_term_diagnosis.json | cessation weakness retained |
+| phase95_original_forcing | fym_annual | mixed calibration/held-out temporal | 12.904135568598763 | 13.348825461516915 | -12.904135568598763 | t C ha-1 | not applicable | outputs/phase96_v0.9.6/long_term_diagnosis.json | cessation weakness retained |
+| phase95_original_forcing | unfertilized | mixed calibration/held-out temporal | 1.6065283910666486 | 2.0038981101718623 | -1.132758828072055 | t C ha-1 | not applicable | outputs/phase96_v0.9.6/long_term_diagnosis.json | cessation weakness retained |
+| phase96_source_corrected_uncalibrated | aggregate | all post-initialization observations | 3.6566603755738436 | 4.340498836380508 | -0.5276209342750058 | t C ha-1 | not applicable | outputs/phase96_v0.9.6/long_term_diagnosis.json | verified source artifact; interpret total SOC only |
+| phase96_source_corrected_uncalibrated | fym_1852_1871 | held-out treatment | 4.83000614900869 | 5.426042883044606 | -4.83000614900869 | t C ha-1 | not applicable | outputs/phase96_v0.9.6/long_term_diagnosis.json | cessation weakness retained |
+| phase96_source_corrected_uncalibrated | fym_annual | mixed calibration/held-out temporal | 2.474955835899299 | 3.418963723473976 | -0.4178757956298692 | t C ha-1 | not applicable | outputs/phase96_v0.9.6/long_term_diagnosis.json | cessation weakness retained |
+| phase96_source_corrected_uncalibrated | unfertilized | mixed calibration/held-out temporal | 3.665019141813542 | 3.9228224704658228 | 3.665019141813542 | t C ha-1 | not applicable | outputs/phase96_v0.9.6/long_term_diagnosis.json | cessation weakness retained |
+| phase96_optional_bounded_calibration | aggregate | all post-initialization observations | 3.8172715097497005 | 4.947583031456795 | -2.353782228477651 | t C ha-1 | upper bound | outputs/phase96_v0.9.6/long_term_diagnosis.json | verified source artifact; interpret total SOC only |
+| phase96_optional_bounded_calibration | fym_1852_1871 | held-out treatment | 7.214238690963898 | 7.577073646005274 | -7.214238690963898 | t C ha-1 | upper bound | outputs/phase96_v0.9.6/long_term_diagnosis.json | cessation weakness retained |
+| phase96_optional_bounded_calibration | fym_annual | mixed calibration/held-out temporal | 2.6807450767426286 | 3.543227803858391 | -0.9973256888822074 | t C ha-1 | upper bound | outputs/phase96_v0.9.6/long_term_diagnosis.json | cessation weakness retained |
+| phase96_optional_bounded_calibration | unfertilized | mixed calibration/held-out temporal | 1.5568307615425745 | 1.862585636274165 | 1.150217694413153 | t C ha-1 | upper bound | outputs/phase96_v0.9.6/long_term_diagnosis.json | cessation weakness retained |

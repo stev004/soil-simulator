@@ -1,0 +1,20 @@
+{
+  "archived_synthetic_diagnostic_input": {
+    "classification": "archived_non_representative_synthetic_methodology",
+    "field_count": 150,
+    "group_leakage_check": {
+      "group_count": 75,
+      "group_key": "empirical_seed_id",
+      "interpretation": "The archived synthetic groups are isolated. This does not convert them into empirical locations or resolve the Phase 9.5 grounding blocker.",
+      "overlaps": {},
+      "passed": true
+    },
+    "population_hash": "e37a4a542b793bdc7f19d5224ec6d8fccbc61075567159454fb288194935ccee"
+  },
+  "covariance_reestimation": "not_performed_insufficient_real_pilot_data",
+  "downstream_consequence": "No new population, ML training, applicability benchmark, oracle, or regret result is reported as a Phase 9.5 result.",
+  "field_count": 0,
+  "population_hash": null,
+  "status": "not_generated_due_empirical_pilot_blocker",
+  "version": "0.9.5"
+}

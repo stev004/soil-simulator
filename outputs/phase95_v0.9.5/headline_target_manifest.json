@@ -1,0 +1,25 @@
+{
+  "claim_boundary": "Paired effects are synthetic simulator targets, not causal field effects.",
+  "diagnostic_only_targets": {
+    "emissions_proxy_kg_co2e_ha": "deterministic policy-identity lookup; compute from schedules, never score as ML skill",
+    "final_protected_soc_proxy_t_c_ha": "persistence-dominated model-proxy stock target; not measured MAOC and not evidence of intervention-effect learning",
+    "final_total_soc_t_c_ha": "persistence-dominated stock target; not evidence of intervention-effect learning",
+    "intervention_cost_gbp_ha": "deterministic policy-identity lookup; compute from schedules, never score as ML skill"
+  },
+  "excluded_from_ml_training_and_scoring": [
+    "intervention_cost_gbp_ha",
+    "delta_intervention_cost_gbp_ha",
+    "emissions_proxy_kg_co2e_ha",
+    "delta_emissions_proxy_kg_co2e_ha"
+  ],
+  "primary_ml_targets": [
+    "delta_crop_yield_t_dm_ha@24",
+    "delta_final_total_soc_t_c_ha@60",
+    "delta_final_total_soc_t_c_ha@120",
+    "delta_final_protected_soc_proxy_t_c_ha@60",
+    "delta_final_protected_soc_proxy_t_c_ha@120",
+    "delta_cumulative_respiration_t_c_ha@60",
+    "delta_cumulative_respiration_t_c_ha@120"
+  ],
+  "version": "0.9.5"
+}

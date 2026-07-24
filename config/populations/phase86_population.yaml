@@ -1,0 +1,35 @@
+name: phase_8_6_repeated_synthetic_population
+version: 0.8.6
+default_population_size: 75
+generation_seed: 208600
+weather_years_per_field: 10
+max_generation_attempt_multiplier: 10
+split_train_fraction: 0.625
+split_validation_fraction: 0.25
+split_test_fraction: 0.125
+archetype_ood_archetypes: [acidic-low-productivity-phase86-ood]
+weather_ood_regions: [phase86-weather-dry-ood, phase86-weather-hot-ood, phase86-weather-wet-ood, phase86-weather-cool-ood, phase86-weather-hot_dry-ood]
+classification: scenario_assumption
+provenance: Phase 8.6 repeated synthetic populations with independent field, weather and latent-biological seeds and five dedicated weather OOD regimes; non-representative and not field validation.
+
+texture_logratio_sd: {name: texture_logratio_sd, default: 0.16, min: 0.0, max: 0.35, unit: log_ratio, classification: scenario_assumption, distribution: normal, source_citation: A032 compositional perturbation contract, notes: Residual compositional variation around each expanded synthetic seed., version_introduced: 0.8.6}
+soil_shared_factor_sd: {name: soil_shared_factor_sd, default: 0.035, min: 0.0, max: 0.30, unit: standard_deviation, classification: scenario_assumption, distribution: normal, source_citation: A044 revised covariance contract, notes: Weakened shared soil factor; independent residuals dominate SOC and bulk-density perturbation., version_introduced: 0.8.6}
+soc_independent_log_sd: {name: soc_independent_log_sd, default: 0.12, min: 0.0, max: 0.35, unit: log_ratio, classification: scenario_assumption, distribution: normal, source_citation: A044 revised covariance contract, notes: Independent SOC variation., version_introduced: 0.8.6}
+bulk_density_independent_sd: {name: bulk_density_independent_sd, default: 0.075, min: 0.0, max: 0.20, unit: g_cm-3, classification: scenario_assumption, distribution: normal, source_citation: A044 revised covariance contract, notes: Independent density variation., version_introduced: 0.8.6}
+bulk_density_shared_factor_coefficient: {name: bulk_density_shared_factor_coefficient, default: 0.10, min: 0.0, max: 1.0, unit: g_cm-3_per_shared_factor, classification: scenario_assumption, distribution: fixed, source_citation: A044 revised covariance contract, notes: Weak residual SOC-density coupling only., version_introduced: 0.8.6}
+ph_absolute_sd: {name: ph_absolute_sd, default: 0.12, min: 0.0, max: 0.5, unit: pH, classification: scenario_assumption, distribution: normal, source_citation: A033 perturbation assumption, notes: Bounded pH residual., version_introduced: 0.8.6}
+phosphorus_log_sd: {name: phosphorus_log_sd, default: 0.18, min: 0.0, max: 0.5, unit: log_ratio, classification: scenario_assumption, distribution: normal, source_citation: A033 perturbation assumption, notes: Available-P residual., version_introduced: 0.8.6}
+amf_log_sd: {name: amf_log_sd, default: 0.40, min: 0.0, max: 1.0, unit: log_ratio, classification: scenario_assumption, distribution: normal, source_citation: A034 initial AMF uncertainty, notes: Broad AMF variation., version_introduced: 0.8.6}
+soc_relative_limit: {name: soc_relative_limit, default: 0.25, min: 0.0, max: 0.5, unit: fraction, classification: scenario_assumption, distribution: bounded, source_citation: A033 perturbation assumption, notes: Maximum relative perturbation., version_introduced: 0.8.6}
+weather_pet_to_open_pan_divisor: {name: weather_pet_to_open_pan_divisor, default: 0.75, min: 0.1, max: 2.0, unit: ratio, classification: scenario_assumption, distribution: fixed, source_citation: A036 weather conversion assumption, notes: PET conversion used by verified water balance., version_introduced: 0.8.6}
+spinup_max_years: {name: spinup_max_years, default: 3000, min: 1, max: 10000, unit: year, classification: scenario_assumption, distribution: fixed, source_citation: A035 spin-up contract, notes: Maximum spin-up cycles., version_introduced: 0.8.6}
+spinup_relative_tolerance: {name: spinup_relative_tolerance, default: 0.000001, min: 0.000000001, max: 0.01, unit: fraction, classification: scenario_assumption, distribution: fixed, source_citation: A035 spin-up contract, notes: Annual-cycle convergence tolerance., version_introduced: 0.8.6}
+spinup_reference_annual_input_t_c_ha: {name: spinup_reference_annual_input_t_c_ha, default: 2.5, min: 0.01, max: 20.0, unit: t_C_ha-1_year-1, classification: scenario_assumption, distribution: fixed, source_citation: A035 inverse-mode spin-up, notes: Reference annual input scaled to target SOC., version_introduced: 0.8.6}
+minimum_soc_t_c_ha: {name: minimum_soc_t_c_ha, default: 5.0, min: 0.1, max: 50.0, unit: t_C_ha-1, classification: scenario_assumption, distribution: fixed, source_citation: A031 mineral-topsoil QC, notes: QC lower bound., version_introduced: 0.8.6}
+maximum_soc_t_c_ha: {name: maximum_soc_t_c_ha, default: 250.0, min: 50.0, max: 500.0, unit: t_C_ha-1, classification: scenario_assumption, distribution: fixed, source_citation: A031 mineral-topsoil QC, notes: QC upper bound., version_introduced: 0.8.6}
+minimum_bulk_density_g_cm3: {name: minimum_bulk_density_g_cm3, default: 0.7, min: 0.1, max: 1.5, unit: g_cm-3, classification: scenario_assumption, distribution: fixed, source_citation: A031 mineral-topsoil QC, notes: QC lower bound., version_introduced: 0.8.6}
+maximum_bulk_density_g_cm3: {name: maximum_bulk_density_g_cm3, default: 1.8, min: 1.0, max: 3.0, unit: g_cm-3, classification: scenario_assumption, distribution: fixed, source_citation: A031 mineral-topsoil QC, notes: QC upper bound., version_introduced: 0.8.6}
+minimum_ph: {name: minimum_ph, default: 4.0, min: 2.0, max: 7.0, unit: pH, classification: scenario_assumption, distribution: fixed, source_citation: A031 temperate-arable QC, notes: QC lower bound., version_introduced: 0.8.6}
+maximum_ph: {name: maximum_ph, default: 8.5, min: 6.0, max: 12.0, unit: pH, classification: scenario_assumption, distribution: fixed, source_citation: A031 temperate-arable QC, notes: QC upper bound., version_introduced: 0.8.6}
+minimum_available_p_kg_ha: {name: minimum_available_p_kg_ha, default: 0.1, min: 0.0, max: 10.0, unit: kg_P_ha-1, classification: scenario_assumption, distribution: fixed, source_citation: A031 population QC, notes: QC lower bound., version_introduced: 0.8.6}
+maximum_available_p_kg_ha: {name: maximum_available_p_kg_ha, default: 200.0, min: 20.0, max: 500.0, unit: kg_P_ha-1, classification: scenario_assumption, distribution: fixed, source_citation: A031 population QC, notes: QC upper bound., version_introduced: 0.8.6}

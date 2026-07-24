@@ -1,0 +1,49 @@
+{
+  "comparisons": [
+    {
+      "current_base_sample_size": 256,
+      "first_order_rank_correlation": 0.9119779777983956,
+      "maximum_absolute_first_order_change": 0.2224078177811703,
+      "maximum_absolute_total_order_change": 0.18846367764774508,
+      "mean_confidence_interval_width": 0.21563179147961486,
+      "negative_estimate_fraction": 0.04642857142857143,
+      "passed": false,
+      "previous_base_sample_size": 128,
+      "total_order_rank_correlation": 0.9918063248086033,
+      "unstable_estimate_fraction": 0.075
+    },
+    {
+      "current_base_sample_size": 512,
+      "first_order_rank_correlation": 0.912953601733165,
+      "maximum_absolute_first_order_change": 0.1411858940350048,
+      "maximum_absolute_total_order_change": 0.13382703006420793,
+      "mean_confidence_interval_width": 0.15651542835275162,
+      "negative_estimate_fraction": 0.04285714285714286,
+      "passed": false,
+      "previous_base_sample_size": 256,
+      "total_order_rank_correlation": 0.9881837876873083,
+      "unstable_estimate_fraction": 0.025
+    },
+    {
+      "current_base_sample_size": 1024,
+      "first_order_rank_correlation": 0.9350920743816574,
+      "maximum_absolute_first_order_change": 0.12198870701977597,
+      "maximum_absolute_total_order_change": 0.11231133335646482,
+      "mean_confidence_interval_width": 0.11010157797502626,
+      "negative_estimate_fraction": 0.017857142857142856,
+      "passed": false,
+      "previous_base_sample_size": 512,
+      "total_order_rank_correlation": 0.9974228200036107,
+      "unstable_estimate_fraction": 0.017857142857142856
+    }
+  ],
+  "convergence_reached": false,
+  "predeclared_rule": {
+    "decision_basis": "largest two nested base-sample sizes",
+    "maximum_absolute_index_change": 0.1,
+    "maximum_mean_confidence_interval_width": 0.2,
+    "maximum_unstable_fraction": 0.1,
+    "minimum_rank_correlation": 0.9
+  },
+  "status": "not_converged_results_not_final"
+}

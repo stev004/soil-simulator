@@ -1,0 +1,112 @@
+{
+  "entries": [
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 3855,
+      "path": "manuscript/figures/FIGURE_INDEX.md",
+      "scientifically_frozen": false,
+      "sha256": "d0958de0cb5a898b0190c0207b7c909e8986563c61d437cd4c4a88412e03b303",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 3524,
+      "path": "manuscript/figures/figure_01_model_architecture.svg",
+      "scientifically_frozen": false,
+      "sha256": "e5613e9409f43098b26a68b01f0a996bee6ee762bb3288a4feabaad59b7cd783",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 3893,
+      "path": "manuscript/figures/figure_02_carbon_phosphorus_flow.svg",
+      "scientifically_frozen": false,
+      "sha256": "107a489433178f4968647fb09f0df83ec43cdbf39590d6dc96d4c315439a9519",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 6554,
+      "path": "manuscript/figures/figure_03_empirical_location_coverage.svg",
+      "scientifically_frozen": false,
+      "sha256": "853850565e46e759d5bd5fca132307a79ed56c22483402250917d9960245d4a6",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "copied",
+      "category": "figures",
+      "file_size": 5037,
+      "path": "manuscript/figures/figure_04_empirical_generated_distributions.svg",
+      "scientifically_frozen": true,
+      "sha256": "d5e84dda61d65aba4c10c752fa1a0dde99edc9ab4a0925843e0bfb53fe44d580",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/figures/empirical_generated_distributions.svg"
+    },
+    {
+      "action": "copied",
+      "category": "figures",
+      "file_size": 3392,
+      "path": "manuscript/figures/figure_05_hoosfield_trajectories.svg",
+      "scientifically_frozen": true,
+      "sha256": "ac8f35cd8e00b5f01ab3dd794504a537acb7560f650f47c0f8ea4b4f8084b1c1",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/figures/hoosfield_trajectories.svg"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 4389,
+      "path": "manuscript/figures/figure_06_hoosfield_residuals.svg",
+      "scientifically_frozen": false,
+      "sha256": "d4cdd62a14872d1aadfa3985d47245dd043b87a9257b10ea1d07d642406966ce",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 2769,
+      "path": "manuscript/figures/figure_07_fym_calibration_profile.svg",
+      "scientifically_frozen": false,
+      "sha256": "23e4fd8b659befed2b0143dc33ace229e5b2e75b07170492d2bcffd2f6d57492",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 3299,
+      "path": "manuscript/figures/figure_08_sensitivity_convergence.svg",
+      "scientifically_frozen": false,
+      "sha256": "dc56967a7fef743ebe6bbf6e09852d86f128bf7891c9f45b164d5aa973ccf4df",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 2224,
+      "path": "manuscript/figures/figure_09_representative_total_order_sensitivity.svg",
+      "scientifically_frozen": false,
+      "sha256": "bcb4c46985231ae7436213ad8bee825bdec7b84688b8eba0af440fb658fb7768",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 2200,
+      "path": "manuscript/figures/figure_10_ml_gate_summary.svg",
+      "scientifically_frozen": false,
+      "sha256": "e9f02e6ca659fe24b32a46c7c75d1901a7d19fe2f679ea60c8fff1f3003cb682",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 2652,
+      "path": "manuscript/figures/figure_11_audit_remediation_timeline.svg",
+      "scientifically_frozen": false,
+      "sha256": "744e63e573348934be5aa1ca62a41d1a259486d5f9ac192e7ce6a6dc5970ce7b",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    }
+  ]
+}

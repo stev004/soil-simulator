@@ -1,0 +1,5000 @@
+{
+  "complete_for_publication_gate": false,
+  "convergence": {
+    "morris_half_vs_full_rank_agreement_by_output": {
+      "conventional_tillage|npp_t_c_ha|120": 1.0,
+      "conventional_tillage|npp_t_c_ha|60": 0.5,
+      "conventional_tillage|protected_soc_proxy_t_c_ha|120": 0.3333333333333333,
+      "conventional_tillage|protected_soc_proxy_t_c_ha|60": 0.8333333333333334,
+      "conventional_tillage|residue_carbon_t_c_ha|120": 0.75,
+      "conventional_tillage|residue_carbon_t_c_ha|60": 1.0,
+      "conventional_tillage|respiration_t_c_ha|120": 0.75,
+      "conventional_tillage|respiration_t_c_ha|60": 1.0,
+      "conventional_tillage|total_soc_t_c_ha|120": 0.6666666666666666,
+      "conventional_tillage|total_soc_t_c_ha|60": 0.8333333333333334,
+      "conventional_tillage|yield_t_dm_ha|24": 1.0,
+      "cover_crop|npp_t_c_ha|120": 1.0,
+      "cover_crop|npp_t_c_ha|60": 0.8333333333333334,
+      "cover_crop|protected_soc_proxy_t_c_ha|120": 0.8333333333333334,
+      "cover_crop|protected_soc_proxy_t_c_ha|60": 0.75,
+      "cover_crop|residue_carbon_t_c_ha|120": 0.6666666666666666,
+      "cover_crop|residue_carbon_t_c_ha|60": 0.6666666666666666,
+      "cover_crop|respiration_t_c_ha|120": 0.75,
+      "cover_crop|respiration_t_c_ha|60": 0.8333333333333334,
+      "cover_crop|total_soc_t_c_ha|120": 0.75,
+      "cover_crop|total_soc_t_c_ha|60": 0.6666666666666666,
+      "cover_crop|yield_t_dm_ha|24": 1.0,
+      "farmyard_manure|npp_t_c_ha|120": 1.0,
+      "farmyard_manure|npp_t_c_ha|60": 1.0,
+      "farmyard_manure|protected_soc_proxy_t_c_ha|120": 0.6666666666666666,
+      "farmyard_manure|protected_soc_proxy_t_c_ha|60": 0.6666666666666666,
+      "farmyard_manure|residue_carbon_t_c_ha|120": 1.0,
+      "farmyard_manure|residue_carbon_t_c_ha|60": 1.0,
+      "farmyard_manure|respiration_t_c_ha|120": 1.0,
+      "farmyard_manure|respiration_t_c_ha|60": 0.8333333333333334,
+      "farmyard_manure|total_soc_t_c_ha|120": 1.0,
+      "farmyard_manure|total_soc_t_c_ha|60": 1.0,
+      "farmyard_manure|yield_t_dm_ha|24": 1.0,
+      "phosphorus|npp_t_c_ha|120": 1.0,
+      "phosphorus|npp_t_c_ha|60": 0.8333333333333334,
+      "phosphorus|protected_soc_proxy_t_c_ha|120": 0.6666666666666666,
+      "phosphorus|protected_soc_proxy_t_c_ha|60": 0.6666666666666666,
+      "phosphorus|residue_carbon_t_c_ha|120": 1.0,
+      "phosphorus|residue_carbon_t_c_ha|60": 1.0,
+      "phosphorus|respiration_t_c_ha|120": 0.75,
+      "phosphorus|respiration_t_c_ha|60": 0.8333333333333334,
+      "phosphorus|total_soc_t_c_ha|120": 0.8333333333333334,
+      "phosphorus|total_soc_t_c_ha|60": 0.8333333333333334,
+      "phosphorus|yield_t_dm_ha|24": 1.0,
+      "reduced_tillage|npp_t_c_ha|120": 1.0,
+      "reduced_tillage|npp_t_c_ha|60": 1.0,
+      "reduced_tillage|protected_soc_proxy_t_c_ha|120": 1.0,
+      "reduced_tillage|protected_soc_proxy_t_c_ha|60": 1.0,
+      "reduced_tillage|residue_carbon_t_c_ha|120": 0.75,
+      "reduced_tillage|residue_carbon_t_c_ha|60": 0.8333333333333334,
+      "reduced_tillage|respiration_t_c_ha|120": 1.0,
+      "reduced_tillage|respiration_t_c_ha|60": 0.8333333333333334,
+      "reduced_tillage|total_soc_t_c_ha|120": 0.6666666666666666,
+      "reduced_tillage|total_soc_t_c_ha|60": 0.8333333333333334,
+      "reduced_tillage|yield_t_dm_ha|24": 1.0
+    },
+    "morris_mean_rank_agreement": 0.853030303030303,
+    "sobol_half_vs_full_mean_rank_agreement": 0.9818181818181818
+  },
+  "method": "Morris screening followed by Saltelli/Sobol",
+  "morris": {
+    "conventional_tillage|npp_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.0007366449031247224,
+        "mu_star": 0.0007366449031247224,
+        "sigma": 0.0018373956997250862
+      },
+      "amf_cue": {
+        "mu": -5.8407950742911385e-05,
+        "mu_star": 5.8407950742911385e-05,
+        "sigma": 0.00013084235036711305
+      },
+      "amf_turnover": {
+        "mu": 0.006761242101766818,
+        "mu_star": 0.006761242101766818,
+        "sigma": 0.009308335443269667
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0033552233574565826,
+        "mu_star": 0.0033552233574565826,
+        "sigma": 0.004823641506046824
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.004584778752851626,
+        "mu_star": 0.004584778752851626,
+        "sigma": 0.007188281103826298
+      },
+      "schedule_interval_months": {
+        "mu": -0.0026469780347389282,
+        "mu_star": 0.20175266886095958,
+        "sigma": 0.23279863968765077
+      },
+      "tillage_amf_mortality": {
+        "mu": -0.0018828097266221366,
+        "mu_star": 0.0018828097266221366,
+        "sigma": 0.0025556899186025537
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "conventional_tillage|npp_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -0.0008537217655019136,
+        "mu_star": 0.0008537219328280665,
+        "sigma": 0.0021375949609172724
+      },
+      "amf_cue": {
+        "mu": -6.241304373946766e-05,
+        "mu_star": 6.24131212052792e-05,
+        "sigma": 0.00015022118336954632
+      },
+      "amf_turnover": {
+        "mu": 0.01302619035868327,
+        "mu_star": 0.01302619035868327,
+        "sigma": 0.017962567280251234
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.006529886000142954,
+        "mu_star": 0.006529886000142954,
+        "sigma": 0.009278659531380474
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.008652182457255242,
+        "mu_star": 0.008652182457255242,
+        "sigma": 0.014588516442154718
+      },
+      "schedule_interval_months": {
+        "mu": 0.30340606690596583,
+        "mu_star": 0.30340606690596583,
+        "sigma": 0.5246757596018558
+      },
+      "tillage_amf_mortality": {
+        "mu": -0.004113014596945769,
+        "mu_star": 0.004113014596945769,
+        "sigma": 0.005336746947442737
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "conventional_tillage|protected_soc_proxy_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.00011926712315535326,
+        "mu_star": 0.00011926712315535326,
+        "sigma": 0.00012779633267445377
+      },
+      "amf_cue": {
+        "mu": 2.7642355764356807e-05,
+        "mu_star": 2.7642355764356807e-05,
+        "sigma": 1.848480131366658e-05
+      },
+      "amf_turnover": {
+        "mu": 0.0001316887583913129,
+        "mu_star": 0.00020369631392735954,
+        "sigma": 0.00030874291505837513
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -0.0005308669574155545,
+        "mu_star": 0.0005320489475746371,
+        "sigma": 0.0006412061364748641
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0002587858860536585,
+        "mu_star": 0.0002587858860536585,
+        "sigma": 0.00035498696618207787
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0003533882627371199,
+        "mu_star": 0.0003533882627371199,
+        "sigma": 0.000547674361981492
+      },
+      "schedule_interval_months": {
+        "mu": 0.3105635104272908,
+        "mu_star": 0.3303811739566642,
+        "sigma": 0.4983975811286834
+      },
+      "tillage_amf_mortality": {
+        "mu": -0.0001080206915649029,
+        "mu_star": 0.0001080206915649029,
+        "sigma": 0.00013738958172185612
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": -0.40684116721382946,
+        "mu_star": 0.40684116721382946,
+        "sigma": 0.13412481241064705
+      }
+    },
+    "conventional_tillage|protected_soc_proxy_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -1.6366845123627627e-06,
+        "mu_star": 6.2914200400499e-05,
+        "sigma": 0.0001147261543494525
+      },
+      "amf_cue": {
+        "mu": 6.595520112284703e-06,
+        "mu_star": 7.099408660948825e-06,
+        "sigma": 1.1555421807249506e-05
+      },
+      "amf_turnover": {
+        "mu": -0.0010106832902945229,
+        "mu_star": 0.0010106832902945229,
+        "sigma": 0.0008290290348076475
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 6.887953459600027e-05,
+        "mu_star": 0.00022364438542421539,
+        "sigma": 0.00036292635160273685
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.00034782259720422815,
+        "mu_star": 0.00034782259720422815,
+        "sigma": 0.00047823086049416367
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.00045789312633104373,
+        "mu_star": 0.00045789312633104373,
+        "sigma": 0.0007647773507486109
+      },
+      "schedule_interval_months": {
+        "mu": 0.030368311456130392,
+        "mu_star": 0.2929942649189199,
+        "sigma": 0.3566508599024173
+      },
+      "tillage_amf_mortality": {
+        "mu": -2.550204815321422e-05,
+        "mu_star": 0.00010628463336104232,
+        "sigma": 0.0001689194139810724
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": -0.17401685794485644,
+        "mu_star": 0.17401685794485644,
+        "sigma": 0.06169252303089247
+      }
+    },
+    "conventional_tillage|residue_carbon_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 0.002088865911747534,
+        "mu_star": 0.0023792129581669264,
+        "sigma": 0.003564596361642496
+      },
+      "amf_cue": {
+        "mu": -8.967590839209505e-05,
+        "mu_star": 8.967590839209505e-05,
+        "sigma": 0.00020595630380799637
+      },
+      "amf_turnover": {
+        "mu": 0.0047611177347779005,
+        "mu_star": 0.004811722291034118,
+        "sigma": 0.006007375881068021
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0017849026923629635,
+        "mu_star": 0.00196571011187259,
+        "sigma": 0.0030357553662891655
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0023762555879844327,
+        "mu_star": 0.002385854527232195,
+        "sigma": 0.004388423038466338
+      },
+      "schedule_interval_months": {
+        "mu": -0.24037556491774964,
+        "mu_star": 0.48669049556062915,
+        "sigma": 0.6358843407743515
+      },
+      "tillage_amf_mortality": {
+        "mu": -0.0016256041096025797,
+        "mu_star": 0.0016256041096025797,
+        "sigma": 0.002376586055600878
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "conventional_tillage|residue_carbon_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 0.0009851772849466672,
+        "mu_star": 0.0010761224973267897,
+        "sigma": 0.0025896593288166105
+      },
+      "amf_cue": {
+        "mu": -9.589537814547189e-05,
+        "mu_star": 9.589544181606846e-05,
+        "sigma": 0.00022943753254852116
+      },
+      "amf_turnover": {
+        "mu": 0.009389848426336472,
+        "mu_star": 0.009389848426336472,
+        "sigma": 0.011452021837327837
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0039998730748841416,
+        "mu_star": 0.0039998730748841416,
+        "sigma": 0.005732629702466052
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.005446398356303839,
+        "mu_star": 0.005446398356303839,
+        "sigma": 0.008893701644147333
+      },
+      "schedule_interval_months": {
+        "mu": -0.11744545133023664,
+        "mu_star": 0.3622801243422414,
+        "sigma": 0.5697113732235707
+      },
+      "tillage_amf_mortality": {
+        "mu": -0.0028479021413256936,
+        "mu_star": 0.0028479021413256936,
+        "sigma": 0.0037333495510458257
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "conventional_tillage|respiration_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.0013868520477666735,
+        "mu_star": 0.0013868520477666735,
+        "sigma": 0.0015874874527974875
+      },
+      "amf_cue": {
+        "mu": 0.00016541791518887017,
+        "mu_star": 0.00026418174387976556,
+        "sigma": 0.0004929005890688355
+      },
+      "amf_turnover": {
+        "mu": 0.0014988896921641626,
+        "mu_star": 0.002133358268487928,
+        "sigma": 0.003704412892513907
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -0.0009140977498101055,
+        "mu_star": 0.0009140977498101055,
+        "sigma": 0.0009144997740145943
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.002356577535386206,
+        "mu_star": 0.002356577535386206,
+        "sigma": 0.003220383570890919
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.003202980242105191,
+        "mu_star": 0.003202980242105191,
+        "sigma": 0.004958111824740708
+      },
+      "schedule_interval_months": {
+        "mu": -0.5563436385199416,
+        "mu_star": 0.786665488548336,
+        "sigma": 0.9473292315081868
+      },
+      "tillage_amf_mortality": {
+        "mu": -0.0009067628955261586,
+        "mu_star": 0.0009067628955261586,
+        "sigma": 0.0013324274063449535
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.9338407555030392,
+        "mu_star": 0.9338407555030392,
+        "sigma": 0.2864425251288755
+      }
+    },
+    "conventional_tillage|respiration_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -0.0007692899633882089,
+        "mu_star": 0.0007692899633882089,
+        "sigma": 0.0011759002961102504
+      },
+      "amf_cue": {
+        "mu": 0.0001624682078227302,
+        "mu_star": 0.0001624682078227302,
+        "sigma": 0.00036284477282047826
+      },
+      "amf_turnover": {
+        "mu": -0.0011670891649684378,
+        "mu_star": 0.002829940002380127,
+        "sigma": 0.0035070178006982437
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -0.0006745806243191321,
+        "mu_star": 0.0006745806243191321,
+        "sigma": 0.0005935133894428633
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.003097771958642248,
+        "mu_star": 0.003097771958642248,
+        "sigma": 0.0043063662899562195
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.004078906819804384,
+        "mu_star": 0.004078906819804384,
+        "sigma": 0.006870299594556124
+      },
+      "schedule_interval_months": {
+        "mu": 0.22201700937230173,
+        "mu_star": 1.358704919754612,
+        "sigma": 1.6963873281124675
+      },
+      "tillage_amf_mortality": {
+        "mu": -0.0011115682081808131,
+        "mu_star": 0.0011289764591637663,
+        "sigma": 0.0018579417776838085
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.6787740730383152,
+        "mu_star": 0.6787740730383152,
+        "sigma": 0.22807505205190232
+      }
+    },
+    "conventional_tillage|total_soc_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 0.00010445697419925182,
+        "mu_star": 0.0006874315932847708,
+        "sigma": 0.0010020837441091837
+      },
+      "amf_cue": {
+        "mu": -0.00015202136034009328,
+        "mu_star": 0.0001888200136912488,
+        "sigma": 0.00041322618443322807
+      },
+      "amf_turnover": {
+        "mu": 0.0017760479424699938,
+        "mu_star": 0.0017760479424699938,
+        "sigma": 0.0015998997819843947
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0009140977497246183,
+        "mu_star": 0.0009140977497246183,
+        "sigma": 0.0009144997740231118
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.00021713976393389345,
+        "mu_star": 0.00022870415568032598,
+        "sigma": 0.00034427879459405294
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0003492601241994464,
+        "mu_star": 0.0003492601241994464,
+        "sigma": 0.00043364117853889495
+      },
+      "schedule_interval_months": {
+        "mu": 0.6647443270015829,
+        "mu_star": 0.7690798231470675,
+        "sigma": 1.1579064526294982
+      },
+      "tillage_amf_mortality": {
+        "mu": -0.0001333828275384974,
+        "mu_star": 0.0001346469026319852,
+        "sigma": 0.0001280674635239074
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": -0.9338407555029793,
+        "mu_star": 0.9338407555029793,
+        "sigma": 0.2864425251287556
+      }
+    },
+    "conventional_tillage|total_soc_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 0.00033576044132122007,
+        "mu_star": 0.0005636476703108073,
+        "sigma": 0.0010901813496317922
+      },
+      "amf_cue": {
+        "mu": -5.788459750633024e-05,
+        "mu_star": 6.174353866406079e-05,
+        "sigma": 0.00013893509118221832
+      },
+      "amf_turnover": {
+        "mu": 0.0010592849969093265,
+        "mu_star": 0.0014946599035781105,
+        "sigma": 0.002354662474635187
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0006745806242491881,
+        "mu_star": 0.0006745806242491881,
+        "sigma": 0.0005935133894959172
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0015407128400646286,
+        "mu_star": 0.0015407128400646286,
+        "sigma": 0.0022259249015662255
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0019974493553265305,
+        "mu_star": 0.0019974493553265305,
+        "sigma": 0.003457696582679489
+      },
+      "schedule_interval_months": {
+        "mu": 0.13617646043236675,
+        "mu_star": 1.1036030781249906,
+        "sigma": 1.3362356253080139
+      },
+      "tillage_amf_mortality": {
+        "mu": -0.0007922275822069835,
+        "mu_star": 0.0007922275822069835,
+        "sigma": 0.0009452775272767478
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": -0.6787740730382774,
+        "mu_star": 0.6787740730382774,
+        "sigma": 0.22807505205184728
+      }
+    },
+    "conventional_tillage|yield_t_dm_ha|24": {
+      "amf_allocation": {
+        "mu": 0.0011674936151840655,
+        "mu_star": 0.0011674936151840655,
+        "sigma": 0.0020959025469912016
+      },
+      "amf_cue": {
+        "mu": -4.5315446345079585e-05,
+        "mu_star": 4.5315446345079585e-05,
+        "sigma": 0.00010893714396691992
+      },
+      "amf_turnover": {
+        "mu": 0.00913834088372702,
+        "mu_star": 0.00913834088372702,
+        "sigma": 0.010354786581358041
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.004662657091719369,
+        "mu_star": 0.004662657091719369,
+        "sigma": 0.00586953650812058
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.006367012754721936,
+        "mu_star": 0.006367012754721936,
+        "sigma": 0.009788137290348197
+      },
+      "schedule_interval_months": {
+        "mu": -0.08054701665569323,
+        "mu_star": 0.2595036842060342,
+        "sigma": 0.4163846165332378
+      },
+      "tillage_amf_mortality": {
+        "mu": -0.0038223445578515827,
+        "mu_star": 0.0038223445578515827,
+        "sigma": 0.004854322772566566
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "cover_crop|npp_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 0.0038445273927414925,
+        "mu_star": 0.00384452739274177,
+        "sigma": 0.00959260671922511
+      },
+      "amf_cue": {
+        "mu": 0.00046679177773734093,
+        "mu_star": 0.00046725410191628125,
+        "sigma": 0.0011479272900382404
+      },
+      "amf_turnover": {
+        "mu": -0.0045276971832027,
+        "mu_star": 0.0045276971832027,
+        "sigma": 0.009673171261963926
+      },
+      "cover_crop_npp": {
+        "mu": -0.012765104037174707,
+        "mu_star": 0.015907611461990073,
+        "sigma": 0.013837996857372777
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.003380124983280719,
+        "mu_star": 0.003380124983280719,
+        "sigma": 0.008099444034498002
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0038468611049762014,
+        "mu_star": 0.0038468611049762014,
+        "sigma": 0.00944786724544749
+      },
+      "schedule_interval_months": {
+        "mu": -0.020487076919473435,
+        "mu_star": 0.13868704005220805,
+        "sigma": 0.15930830107223787
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "cover_crop|npp_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 0.0038876649851687928,
+        "mu_star": 0.0038876649851687928,
+        "sigma": 0.009704603371734384
+      },
+      "amf_cue": {
+        "mu": 0.0004901970952500556,
+        "mu_star": 0.0004907959110955762,
+        "sigma": 0.001215847761013964
+      },
+      "amf_turnover": {
+        "mu": -0.00435654180416134,
+        "mu_star": 0.00435654180416134,
+        "sigma": 0.010490056709851482
+      },
+      "cover_crop_npp": {
+        "mu": 4.943611059154973e-05,
+        "mu_star": 0.003343140601382022,
+        "sigma": 0.006021623238957908
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.0031474140796457217,
+        "mu_star": 0.0031474140796457217,
+        "sigma": 0.007818857852388504
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.004132506252229884,
+        "mu_star": 0.004132506252229884,
+        "sigma": 0.010539057268668963
+      },
+      "schedule_interval_months": {
+        "mu": 0.01477364945270454,
+        "mu_star": 0.06892400950233885,
+        "sigma": 0.07226731067164804
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "cover_crop|protected_soc_proxy_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 0.001221706741065809,
+        "mu_star": 0.0012429271628766614,
+        "sigma": 0.0021433952036397203
+      },
+      "amf_cue": {
+        "mu": 0.00227207097653892,
+        "mu_star": 0.0022847900102052066,
+        "sigma": 0.004568033850502829
+      },
+      "amf_turnover": {
+        "mu": -0.0012950931465915971,
+        "mu_star": 0.0017084432522374016,
+        "sigma": 0.002554910918359204
+      },
+      "cover_crop_npp": {
+        "mu": 0.10891163557729122,
+        "mu_star": 0.10891163557729122,
+        "sigma": 0.050689367905206936
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0033202779068641775,
+        "mu_star": 0.0033202779068641775,
+        "sigma": 0.0036612375219940525
+      },
+      "phosphorus_half_saturation": {
+        "mu": 1.6906869078070486e-05,
+        "mu_star": 0.0002584026764562708,
+        "sigma": 0.00034289155198618675
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0004437157219028265,
+        "mu_star": 0.00044436123990632126,
+        "sigma": 0.000841993827752262
+      },
+      "schedule_interval_months": {
+        "mu": -0.5065332410908763,
+        "mu_star": 0.6729938483754871,
+        "sigma": 0.9093718051177504
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "cover_crop|protected_soc_proxy_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 0.00029325369638844023,
+        "mu_star": 0.000983886124523714,
+        "sigma": 0.0016976713132158968
+      },
+      "amf_cue": {
+        "mu": 0.001168287765946907,
+        "mu_star": 0.0011758493490043875,
+        "sigma": 0.002257578284265245
+      },
+      "amf_turnover": {
+        "mu": -0.0020446167104237745,
+        "mu_star": 0.0021754993180822524,
+        "sigma": 0.0024756640702813426
+      },
+      "cover_crop_npp": {
+        "mu": 0.06312619510682627,
+        "mu_star": 0.06312619510682627,
+        "sigma": 0.024380788252421067
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0017644276966777284,
+        "mu_star": 0.0017783364037526894,
+        "sigma": 0.0019227663142973202
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.0005610453754423261,
+        "mu_star": 0.000623395312868702,
+        "sigma": 0.0014505170039785823
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0005774360104071619,
+        "mu_star": 0.0006619898937065827,
+        "sigma": 0.0016241413003843165
+      },
+      "schedule_interval_months": {
+        "mu": -0.15407650630093528,
+        "mu_star": 0.3817284009567157,
+        "sigma": 0.5087123225986186
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "cover_crop|residue_carbon_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.0846981425223979,
+        "mu_star": 0.0846981425223979,
+        "sigma": 0.18260521176597172
+      },
+      "amf_cue": {
+        "mu": 0.0011146935809211445,
+        "mu_star": 0.0011149887244912837,
+        "sigma": 0.0024808357064614855
+      },
+      "amf_turnover": {
+        "mu": -0.017444268265203733,
+        "mu_star": 0.01915227732124436,
+        "sigma": 0.0295764050437393
+      },
+      "cover_crop_npp": {
+        "mu": 1.3291667169415025,
+        "mu_star": 1.3291667169415025,
+        "sigma": 0.6458625992607795
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0026904383591194736,
+        "mu_star": 0.0038027357263184514,
+        "sigma": 0.004762951189917184
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.008774391033548323,
+        "mu_star": 0.008794915636301248,
+        "sigma": 0.018709561447385774
+      },
+      "schedule_interval_months": {
+        "mu": -0.9289525547005966,
+        "mu_star": 1.1598392646793858,
+        "sigma": 1.6839057275622853
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "cover_crop|residue_carbon_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -0.04443686449680899,
+        "mu_star": 0.04443686449680899,
+        "sigma": 0.09082657303499692
+      },
+      "amf_cue": {
+        "mu": 0.0012288269565478849,
+        "mu_star": 0.0012292076231937288,
+        "sigma": 0.002886833066333518
+      },
+      "amf_turnover": {
+        "mu": -0.03760349956707702,
+        "mu_star": 0.03874342384750408,
+        "sigma": 0.04615208278014235
+      },
+      "cover_crop_npp": {
+        "mu": 0.8760727162664725,
+        "mu_star": 0.8760727162664725,
+        "sigma": 0.37055127977032126
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.007312109544367479,
+        "mu_star": 0.008096337290144223,
+        "sigma": 0.018921114645369858
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.007234120527418106,
+        "mu_star": 0.0082035652935631,
+        "sigma": 0.020172741912468206
+      },
+      "schedule_interval_months": {
+        "mu": -0.28737368322237383,
+        "mu_star": 0.7955587067217054,
+        "sigma": 1.081955564768581
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "cover_crop|respiration_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 0.012565806414980285,
+        "mu_star": 0.013649404980494717,
+        "sigma": 0.030865893986545698
+      },
+      "amf_cue": {
+        "mu": -0.005268593900714658,
+        "mu_star": 0.005277942474161135,
+        "sigma": 0.011036495894981638
+      },
+      "amf_turnover": {
+        "mu": -0.014877304810893,
+        "mu_star": 0.016064230383022737,
+        "sigma": 0.02207170119774663
+      },
+      "cover_crop_npp": {
+        "mu": 0.9659599537316543,
+        "mu_star": 0.9659599537316543,
+        "sigma": 0.44975786714710525
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -0.001311229079031806,
+        "mu_star": 0.001817895428780636,
+        "sigma": 0.0025819654193589515
+      },
+      "phosphorus_half_saturation": {
+        "mu": 9.114476151483863e-05,
+        "mu_star": 0.002359996637396611,
+        "sigma": 0.003125472037032375
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.00388932104142814,
+        "mu_star": 0.003891754520275459,
+        "sigma": 0.007291469998256134
+      },
+      "schedule_interval_months": {
+        "mu": 0.5719586663904275,
+        "mu_star": 0.8168564493395103,
+        "sigma": 1.4267206094290583
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "cover_crop|respiration_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 0.013328182276879375,
+        "mu_star": 0.01391769972354906,
+        "sigma": 0.03185902430199772
+      },
+      "amf_cue": {
+        "mu": -0.004973965853344309,
+        "mu_star": 0.005031327676318087,
+        "sigma": 0.010669758723443019
+      },
+      "amf_turnover": {
+        "mu": -0.02261328798893958,
+        "mu_star": 0.023301132619364395,
+        "sigma": 0.026814260967927005
+      },
+      "cover_crop_npp": {
+        "mu": 0.5533301471898849,
+        "mu_star": 0.5533301471898849,
+        "sigma": 0.21744548358573737
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -0.0002458000702293406,
+        "mu_star": 0.0008012986016864287,
+        "sigma": 0.0012713351753072027
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.0050162006088194655,
+        "mu_star": 0.005586280670154542,
+        "sigma": 0.01299986457594772
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0051423588681409615,
+        "mu_star": 0.005914286312457273,
+        "sigma": 0.014501397833610754
+      },
+      "schedule_interval_months": {
+        "mu": 0.45390974900095415,
+        "mu_star": 1.0915041977709699,
+        "sigma": 1.5859695938379341
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "cover_crop|total_soc_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.010003036183072744,
+        "mu_star": 0.010750399762033958,
+        "sigma": 0.023279628325146216
+      },
+      "amf_cue": {
+        "mu": 0.00509207567149339,
+        "mu_star": 0.005104984956636471,
+        "sigma": 0.010734411136184176
+      },
+      "amf_turnover": {
+        "mu": -0.0011172835156436633,
+        "mu_star": 0.00657665240563432,
+        "sigma": 0.010804471394852024
+      },
+      "cover_crop_npp": {
+        "mu": 0.4182915273720589,
+        "mu_star": 0.4182915273720589,
+        "sigma": 0.2289161092731441
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0013112290789107917,
+        "mu_star": 0.001817895428826155,
+        "sigma": 0.0025819654193436864
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0017976976548217394,
+        "mu_star": 0.002236227961964765,
+        "sigma": 0.003625529431635311
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.004262170119386788,
+        "mu_star": 0.004430884888964037,
+        "sigma": 0.009851939173550933
+      },
+      "schedule_interval_months": {
+        "mu": -1.5703118085745427,
+        "mu_star": 1.9730687623302323,
+        "sigma": 2.697700887098946
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "cover_crop|total_soc_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -0.009153397441270528,
+        "mu_star": 0.009153397441270528,
+        "sigma": 0.019346661641025383
+      },
+      "amf_cue": {
+        "mu": 0.003515903483375382,
+        "mu_star": 0.003540772642995904,
+        "sigma": 0.007422742212071657
+      },
+      "amf_turnover": {
+        "mu": -0.012348480944055495,
+        "mu_star": 0.012918162034356584,
+        "sigma": 0.01541247323966912
+      },
+      "cover_crop_npp": {
+        "mu": 0.3555369430295485,
+        "mu_star": 0.3555369430295485,
+        "sigma": 0.17144461554124638
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.00024580007016439254,
+        "mu_star": 0.0008012986016225909,
+        "sigma": 0.0012713351752617725
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.003327464484552678,
+        "mu_star": 0.0036633612588232722,
+        "sigma": 0.008435876753951951
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0033315975156167354,
+        "mu_star": 0.0036702837596802595,
+        "sigma": 0.008909630574831988
+      },
+      "schedule_interval_months": {
+        "mu": -0.7735095643774947,
+        "mu_star": 1.8708877724191098,
+        "sigma": 2.4893918755901407
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "cover_crop|yield_t_dm_ha|24": {
+      "amf_allocation": {
+        "mu": 0.0007136216070453144,
+        "mu_star": 0.0007136216070453144,
+        "sigma": 0.0016632135384970113
+      },
+      "amf_cue": {
+        "mu": 0.0002246496191173411,
+        "mu_star": 0.0002246496191173411,
+        "sigma": 0.0005456140838843161
+      },
+      "amf_turnover": {
+        "mu": -0.0007475752116520643,
+        "mu_star": 0.0007475752116520643,
+        "sigma": 0.001594720298581293
+      },
+      "cover_crop_npp": {
+        "mu": 0.0003752182061749626,
+        "mu_star": 0.0003752182061749626,
+        "sigma": 0.0005914271302186397
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.0005675345522176967,
+        "mu_star": 0.0005675345522176967,
+        "sigma": 0.001278153382236354
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0008151947445916505,
+        "mu_star": 0.0008151947445916505,
+        "sigma": 0.001992178534332173
+      },
+      "schedule_interval_months": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "farmyard_manure|npp_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 0.0011101408098895815,
+        "mu_star": 0.001132696362736163,
+        "sigma": 0.0022617844556702895
+      },
+      "amf_cue": {
+        "mu": 0.0003008137098700625,
+        "mu_star": 0.0003094837368403103,
+        "sigma": 0.0006553939567128798
+      },
+      "amf_turnover": {
+        "mu": -0.01889488859631125,
+        "mu_star": 0.01889488859631125,
+        "sigma": 0.024528569106872178
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 4.164722175094315,
+        "mu_star": 4.164722175094315,
+        "sigma": 3.2678979077574435
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.007978171591614264,
+        "mu_star": 0.007978171591614264,
+        "sigma": 0.008507627652760932
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.015792316062314127,
+        "mu_star": 0.015792316062314127,
+        "sigma": 0.020775025906157714
+      },
+      "schedule_interval_months": {
+        "mu": -0.4198551685520799,
+        "mu_star": 0.4198551685520799,
+        "sigma": 0.307002583182516
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "farmyard_manure|npp_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -4.301600694686658e-05,
+        "mu_star": 0.00014722355198823478,
+        "sigma": 0.00023636806080225734
+      },
+      "amf_cue": {
+        "mu": 6.124841026799999e-05,
+        "mu_star": 8.070318479574956e-05,
+        "sigma": 0.000153083157088097
+      },
+      "amf_turnover": {
+        "mu": -0.006430453234087807,
+        "mu_star": 0.006430453234087807,
+        "sigma": 0.008119875859985162
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 1.3799600637946523,
+        "mu_star": 1.3799600637946523,
+        "sigma": 0.8265900829236079
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.0014105245487854023,
+        "mu_star": 0.0014105245487854023,
+        "sigma": 0.0013286610915516403
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.00566656767020321,
+        "mu_star": 0.00566656767020321,
+        "sigma": 0.006923925927620144
+      },
+      "schedule_interval_months": {
+        "mu": -0.07164697250995541,
+        "mu_star": 0.07164697250995541,
+        "sigma": 0.13069638579050183
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "farmyard_manure|protected_soc_proxy_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 0.00041240913721374284,
+        "mu_star": 0.0006825756242889724,
+        "sigma": 0.0011079653669366298
+      },
+      "amf_cue": {
+        "mu": 0.00018241116708672678,
+        "mu_star": 0.0005173803595059923,
+        "sigma": 0.0006792857050143017
+      },
+      "amf_turnover": {
+        "mu": -0.000913377474129895,
+        "mu_star": 0.000913377474129895,
+        "sigma": 0.0011916018260353207
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.2055585444191932,
+        "mu_star": 0.2055585444191932,
+        "sigma": 0.16016407820484965
+      },
+      "necromass_stabilisation": {
+        "mu": 0.00026256661995294195,
+        "mu_star": 0.0007494763863524767,
+        "sigma": 0.0010239252243190338
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.0003844928443585971,
+        "mu_star": 0.0003844928444740603,
+        "sigma": 0.00038992343166996147
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0007960034538800898,
+        "mu_star": 0.0007960034538800898,
+        "sigma": 0.001034489733085749
+      },
+      "schedule_interval_months": {
+        "mu": -0.5102789632420279,
+        "mu_star": 0.5102789632420279,
+        "sigma": 0.48253912441956487
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "farmyard_manure|protected_soc_proxy_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 5.528226364237554e-05,
+        "mu_star": 0.00013731022711294116,
+        "sigma": 0.00020072069428791182
+      },
+      "amf_cue": {
+        "mu": -6.845225497542629e-07,
+        "mu_star": 0.00012366687085485495,
+        "sigma": 0.00017064715197973414
+      },
+      "amf_turnover": {
+        "mu": -0.00030353162199237005,
+        "mu_star": 0.00030353162199237005,
+        "sigma": 0.0003400240106756943
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.062066465484704736,
+        "mu_star": 0.062066465484704736,
+        "sigma": 0.03697580751324962
+      },
+      "necromass_stabilisation": {
+        "mu": 5.368942863626103e-06,
+        "mu_star": 0.00017310616008181512,
+        "sigma": 0.00025209353735456785
+      },
+      "phosphorus_half_saturation": {
+        "mu": -5.3092520024833334e-05,
+        "mu_star": 5.4611720319286405e-05,
+        "sigma": 6.553371444299886e-05
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0002493921576185443,
+        "mu_star": 0.0002493921576185443,
+        "sigma": 0.00029833900852144554
+      },
+      "schedule_interval_months": {
+        "mu": -0.2759768196392498,
+        "mu_star": 0.2759768196392498,
+        "sigma": 0.2858892162244213
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "farmyard_manure|residue_carbon_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 0.0007665744760829152,
+        "mu_star": 0.008283946507434692,
+        "sigma": 0.009435528429430901
+      },
+      "amf_cue": {
+        "mu": 0.00020304851245503408,
+        "mu_star": 0.00020832799698486393,
+        "sigma": 0.0004408310105649097
+      },
+      "amf_turnover": {
+        "mu": -0.012463817706511449,
+        "mu_star": 0.012463817706511449,
+        "sigma": 0.016008282744067674
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 2.8672425122979552,
+        "mu_star": 2.8672425122979552,
+        "sigma": 2.2169098718533458
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.0052094889275416945,
+        "mu_star": 0.0052094889275416945,
+        "sigma": 0.005510628225072041
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.010318677212260152,
+        "mu_star": 0.010318677212260152,
+        "sigma": 0.013245487077978279
+      },
+      "schedule_interval_months": {
+        "mu": -0.2967584714499108,
+        "mu_star": 0.2967584714499108,
+        "sigma": 0.2239323742624293
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "farmyard_manure|residue_carbon_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 0.0021609524721035583,
+        "mu_star": 0.004108554913395748,
+        "sigma": 0.005661077475693332
+      },
+      "amf_cue": {
+        "mu": 4.596877319726356e-05,
+        "mu_star": 5.8609774843121354e-05,
+        "sigma": 0.00011398503934122854
+      },
+      "amf_turnover": {
+        "mu": -0.004450599249463394,
+        "mu_star": 0.004450599249463394,
+        "sigma": 0.005680715986498877
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.9517231936880729,
+        "mu_star": 0.9517231936880729,
+        "sigma": 0.5608752068194613
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.0010024084582124781,
+        "mu_star": 0.0010024084582124781,
+        "sigma": 0.0008724932326056379
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0038180035254468253,
+        "mu_star": 0.0038180035254468253,
+        "sigma": 0.004641015913133769
+      },
+      "schedule_interval_months": {
+        "mu": -0.050811596928092145,
+        "mu_star": 0.050811596928092145,
+        "sigma": 0.09283064042945302
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "farmyard_manure|respiration_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.0004019299290247691,
+        "mu_star": 0.0034030547383434584,
+        "sigma": 0.00415560074505003
+      },
+      "amf_cue": {
+        "mu": -0.0007912131504650421,
+        "mu_star": 0.0019849885961076286,
+        "sigma": 0.002746888516107787
+      },
+      "amf_turnover": {
+        "mu": -0.0083369543056655,
+        "mu_star": 0.008336954305669941,
+        "sigma": 0.010758230580765856
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 1.793871036581347,
+        "mu_star": 1.793871036581347,
+        "sigma": 1.3829692444699122
+      },
+      "necromass_stabilisation": {
+        "mu": -0.0001407345656712078,
+        "mu_star": 0.00045890034392814805,
+        "sigma": 0.0006317412769976365
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.003403162040620522,
+        "mu_star": 0.003403162040629404,
+        "sigma": 0.0035003095667286177
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.007080081968552365,
+        "mu_star": 0.007080081968552365,
+        "sigma": 0.009338236341283005
+      },
+      "schedule_interval_months": {
+        "mu": -3.531984612611667,
+        "mu_star": 3.531984612611667,
+        "sigma": 3.2912465231950634
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "farmyard_manure|respiration_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -0.0010869727447870847,
+        "mu_star": 0.001521217792205265,
+        "sigma": 0.002244342602377419
+      },
+      "amf_cue": {
+        "mu": 2.0289919866467443e-05,
+        "mu_star": 0.000746616943430034,
+        "sigma": 0.0010505164175491236
+      },
+      "amf_turnover": {
+        "mu": -0.0024762360303853814,
+        "mu_star": 0.0024762360303853814,
+        "sigma": 0.0029435974983340308
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.5325672311021501,
+        "mu_star": 0.5325672311021501,
+        "sigma": 0.3166518196186886
+      },
+      "necromass_stabilisation": {
+        "mu": -1.1579938352657138e-06,
+        "mu_star": 8.978579676965914e-05,
+        "sigma": 0.00013134867068115752
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.00043549750616822536,
+        "mu_star": 0.00047415784037774245,
+        "sigma": 0.0005996195323181482
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0021618307566162454,
+        "mu_star": 0.0021618307566162454,
+        "sigma": 0.0026200963604150313
+      },
+      "schedule_interval_months": {
+        "mu": -1.7286023393512984,
+        "mu_star": 1.7286023393512984,
+        "sigma": 1.7354130637629182
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "farmyard_manure|total_soc_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 3.801175625817166e-05,
+        "mu_star": 0.0006492690067450013,
+        "sigma": 0.0007987559782754513
+      },
+      "amf_cue": {
+        "mu": 0.00045931765979556616,
+        "mu_star": 0.0013123943221460266,
+        "sigma": 0.001850869345944738
+      },
+      "amf_turnover": {
+        "mu": -0.004477488534671004,
+        "mu_star": 0.004477488534671004,
+        "sigma": 0.005929188537416717
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 1.0550307533381575,
+        "mu_star": 1.0550307533381575,
+        "sigma": 0.8614059082955545
+      },
+      "necromass_stabilisation": {
+        "mu": 0.00014073456549468233,
+        "mu_star": 0.00045890034393814005,
+        "sigma": 0.0006317412770305994
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.0020892304525554906,
+        "mu_star": 0.0020892304526709538,
+        "sigma": 0.002339808493197559
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0038239413203733363,
+        "mu_star": 0.0038239413203733363,
+        "sigma": 0.00504296377302056
+      },
+      "schedule_interval_months": {
+        "mu": -2.3784736188970657,
+        "mu_star": 3.2097257995500916,
+        "sigma": 3.3382982227224076
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "farmyard_manure|total_soc_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 0.00040733674423698574,
+        "mu_star": 0.0006796163869449146,
+        "sigma": 0.0009721673152989125
+      },
+      "amf_cue": {
+        "mu": -2.1599885755563264e-05,
+        "mu_star": 0.0003863106143597861,
+        "sigma": 0.0005526295665739022
+      },
+      "amf_turnover": {
+        "mu": -0.002048511725822877,
+        "mu_star": 0.002048511725822877,
+        "sigma": 0.0024507252893382894
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.4119063851166871,
+        "mu_star": 0.4119063851166871,
+        "sigma": 0.2504943569011054
+      },
+      "necromass_stabilisation": {
+        "mu": 1.1579937631012172e-06,
+        "mu_star": 8.978579681517829e-05,
+        "sigma": 0.0001313486707045413
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.0005109340628273173,
+        "mu_star": 0.0005109340628983716,
+        "sigma": 0.00039974618425367875
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0017080981256434313,
+        "mu_star": 0.0017080981256434313,
+        "sigma": 0.0020911887170602713
+      },
+      "schedule_interval_months": {
+        "mu": -2.070360519382426,
+        "mu_star": 2.2366914341688293,
+        "sigma": 2.488639150920415
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "farmyard_manure|yield_t_dm_ha|24": {
+      "amf_allocation": {
+        "mu": 0.0012044364387250872,
+        "mu_star": 0.0016244659524847216,
+        "sigma": 0.0029288614728323068
+      },
+      "amf_cue": {
+        "mu": 2.3670196272126964e-06,
+        "mu_star": 6.26104142881917e-06,
+        "sigma": 9.915535637229616e-06
+      },
+      "amf_turnover": {
+        "mu": -0.00044716435377678554,
+        "mu_star": 0.0012397639328660948,
+        "sigma": 0.0016253732164374889
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.2248244623485649,
+        "mu_star": 0.2248244623485649,
+        "sigma": 0.11033926699922544
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0005811701520796672,
+        "mu_star": 0.0009484067666311671,
+        "sigma": 0.001474343432745732
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0004624585880182164,
+        "mu_star": 0.0006221041841531633,
+        "sigma": 0.0006517471376536225
+      },
+      "schedule_interval_months": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "phosphorus|npp_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.0009249282876444553,
+        "mu_star": 0.0012146416814101668,
+        "sigma": 0.0027638534996282608
+      },
+      "amf_cue": {
+        "mu": -1.7593028561191382e-05,
+        "mu_star": 6.321307650825059e-05,
+        "sigma": 0.00010022015417093044
+      },
+      "amf_turnover": {
+        "mu": -0.0162122832092243,
+        "mu_star": 0.0162122832092243,
+        "sigma": 0.009858835619081583
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0006691989800941545,
+        "mu_star": 0.004568759870266226,
+        "sigma": 0.006450706937978921
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.00989052681040603,
+        "mu_star": 0.00989052681040603,
+        "sigma": 0.008085935468967301
+      },
+      "schedule_interval_months": {
+        "mu": -0.5051726278854907,
+        "mu_star": 0.5051726278854907,
+        "sigma": 0.3474670342087212
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "phosphorus|npp_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -0.0014932984283609618,
+        "mu_star": 0.0015111034587241001,
+        "sigma": 0.0036307940308297156
+      },
+      "amf_cue": {
+        "mu": -0.0001220921727621005,
+        "mu_star": 0.00012853580575095114,
+        "sigma": 0.00028151937688473304
+      },
+      "amf_turnover": {
+        "mu": 2.9891730065345623e-05,
+        "mu_star": 0.006870799254891924,
+        "sigma": 0.009395966385723223
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.008915805469826704,
+        "mu_star": 0.009391811122855392,
+        "sigma": 0.013991044327953308
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0008684291757564411,
+        "mu_star": 0.005275344484314964,
+        "sigma": 0.007853137725887948
+      },
+      "schedule_interval_months": {
+        "mu": -0.30207525486386944,
+        "mu_star": 0.30207525486386944,
+        "sigma": 0.27728225004474094
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "phosphorus|protected_soc_proxy_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.0014892797580356998,
+        "mu_star": 0.0014892797580356998,
+        "sigma": 0.0012568539760197575
+      },
+      "amf_cue": {
+        "mu": -0.001179198852221397,
+        "mu_star": 0.001179198852221397,
+        "sigma": 0.0016071924247601653
+      },
+      "amf_turnover": {
+        "mu": -0.0009696081358301356,
+        "mu_star": 0.0009696081358301356,
+        "sigma": 0.0006526143442693178
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -0.0019888603989759446,
+        "mu_star": 0.0019888603989759446,
+        "sigma": 0.0015414589234980498
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0001724168038075291,
+        "mu_star": 0.00032247069397417505,
+        "sigma": 0.0005080844442134731
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.00041322684445788127,
+        "mu_star": 0.00041322684445788127,
+        "sigma": 0.0003007521001113134
+      },
+      "schedule_interval_months": {
+        "mu": -0.025965170191692977,
+        "mu_star": 0.025965170191692977,
+        "sigma": 0.01879451697849984
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "phosphorus|protected_soc_proxy_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -0.0004857018036252825,
+        "mu_star": 0.0004959921931257938,
+        "sigma": 0.00055272211866056
+      },
+      "amf_cue": {
+        "mu": -0.0005416961254312014,
+        "mu_star": 0.0005416961254312014,
+        "sigma": 0.0007012167120740761
+      },
+      "amf_turnover": {
+        "mu": -0.0002517131120916005,
+        "mu_star": 0.00029045787325987504,
+        "sigma": 0.0002695297809897869
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -0.0009905774223772923,
+        "mu_star": 0.0009905774223772923,
+        "sigma": 0.0007524360298390842
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0005099915599560134,
+        "mu_star": 0.0005159214686534241,
+        "sigma": 0.0007555185336428558
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.00010654016830535795,
+        "mu_star": 0.0002960282648345469,
+        "sigma": 0.00047161955149813557
+      },
+      "schedule_interval_months": {
+        "mu": -0.013728611914523015,
+        "mu_star": 0.013728611914523015,
+        "sigma": 0.012820237266445106
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "phosphorus|residue_carbon_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 0.035228459270753715,
+        "mu_star": 0.035228459270753715,
+        "sigma": 0.05094157707113975
+      },
+      "amf_cue": {
+        "mu": 2.2337775211489497e-06,
+        "mu_star": 2.957475882095495e-05,
+        "sigma": 3.7969471391218054e-05
+      },
+      "amf_turnover": {
+        "mu": -0.01150986199626225,
+        "mu_star": 0.01150986199626225,
+        "sigma": 0.007272422665583716
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 9.258514830134956e-05,
+        "mu_star": 0.002837345832291671,
+        "sigma": 0.0037666392207491473
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.007078978995765511,
+        "mu_star": 0.007078978995765511,
+        "sigma": 0.006103455545442869
+      },
+      "schedule_interval_months": {
+        "mu": -0.3614541787510511,
+        "mu_star": 0.3614541787510511,
+        "sigma": 0.254415645751999
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "phosphorus|residue_carbon_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 0.021488420320038074,
+        "mu_star": 0.021488420320038074,
+        "sigma": 0.029649496373224057
+      },
+      "amf_cue": {
+        "mu": -6.780992022586974e-05,
+        "mu_star": 7.24976756776019e-05,
+        "sigma": 0.00015377367109405254
+      },
+      "amf_turnover": {
+        "mu": -0.000880137395894709,
+        "mu_star": 0.004022898311031586,
+        "sigma": 0.004988828841717324
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.005463561368615338,
+        "mu_star": 0.005824882144842558,
+        "sigma": 0.008507010409603218
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 9.394076266384943e-05,
+        "mu_star": 0.002989841205832469,
+        "sigma": 0.003994856743625606
+      },
+      "schedule_interval_months": {
+        "mu": -0.2161783782978663,
+        "mu_star": 0.2161783782978663,
+        "sigma": 0.2008080941948831
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "phosphorus|respiration_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.014407945197745242,
+        "mu_star": 0.014407945197745242,
+        "sigma": 0.021351213586247145
+      },
+      "amf_cue": {
+        "mu": 0.0033718587801045974,
+        "mu_star": 0.0033718587801045974,
+        "sigma": 0.0051283597925410205
+      },
+      "amf_turnover": {
+        "mu": -0.007236680402554763,
+        "mu_star": 0.007236680402554763,
+        "sigma": 0.004309391578227821
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.001374419506585678,
+        "mu_star": 0.001374419506585678,
+        "sigma": 0.0010607875218456731
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0017394913575785598,
+        "mu_star": 0.003020751039440883,
+        "sigma": 0.004730815776043237
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.003514968191402623,
+        "mu_star": 0.003514968191402623,
+        "sigma": 0.0025722775788247273
+      },
+      "schedule_interval_months": {
+        "mu": -0.22881626946745004,
+        "mu_star": 0.22881626946745004,
+        "sigma": 0.1640409146484791
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "phosphorus|respiration_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -0.008375444050224834,
+        "mu_star": 0.008375444050224834,
+        "sigma": 0.011702161447666884
+      },
+      "amf_cue": {
+        "mu": 0.002525598259383033,
+        "mu_star": 0.002525598259383033,
+        "sigma": 0.0037202616759019385
+      },
+      "amf_turnover": {
+        "mu": -0.000263873869671416,
+        "mu_star": 0.00269813671092467,
+        "sigma": 0.003468049123914994
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.000568007308154872,
+        "mu_star": 0.000568007308154872,
+        "sigma": 0.0004324036103339154
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.004596869306470186,
+        "mu_star": 0.004660856766474097,
+        "sigma": 0.00685488188897131
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0011015391507318562,
+        "mu_star": 0.002744375245564701,
+        "sigma": 0.004446284506589013
+      },
+      "schedule_interval_months": {
+        "mu": -0.1167999879607895,
+        "mu_star": 0.1167999879607895,
+        "sigma": 0.10764458199747223
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "phosphorus|total_soc_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 0.00111332861121749,
+        "mu_star": 0.0018612629593883767,
+        "sigma": 0.0025199119553337064
+      },
+      "amf_cue": {
+        "mu": -0.0025276682900043923,
+        "mu_star": 0.0025276682900043923,
+        "sigma": 0.0037681309955478414
+      },
+      "amf_turnover": {
+        "mu": -0.005035276261571298,
+        "mu_star": 0.005035276261571298,
+        "sigma": 0.0038864286207199662
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -0.001374419506849911,
+        "mu_star": 0.001374419506849911,
+        "sigma": 0.001060787521932714
+      },
+      "phosphorus_half_saturation": {
+        "mu": -0.001032488530094966,
+        "mu_star": 0.001032488530094966,
+        "sigma": 0.0006395277327350067
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.0030002725324296264,
+        "mu_star": 0.0030002725324296264,
+        "sigma": 0.00293901407702425
+      },
+      "schedule_interval_months": {
+        "mu": -0.1118290651305065,
+        "mu_star": 0.1118290651305065,
+        "sigma": 0.06854090776970218
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "phosphorus|total_soc_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 0.0028566724777689956,
+        "mu_star": 0.003017643839964279,
+        "sigma": 0.004313003205524905
+      },
+      "amf_cue": {
+        "mu": -0.0014598510766461459,
+        "mu_star": 0.0014598510766461459,
+        "sigma": 0.0021227612148443024
+      },
+      "amf_turnover": {
+        "mu": -0.0014308926841977154,
+        "mu_star": 0.0014308926841977154,
+        "sigma": 0.0011884843143217644
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -0.0005680073083524917,
+        "mu_star": 0.0005680073083524917,
+        "sigma": 0.00043240361039607476
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0017362139727605808,
+        "mu_star": 0.0019804033394610343,
+        "sigma": 0.003081726720156717
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": 0.000261621664625622,
+        "mu_star": 0.0010917507214625033,
+        "sigma": 0.0014794349237949183
+      },
+      "schedule_interval_months": {
+        "mu": -0.08811137185997353,
+        "mu_star": 0.08811137185997353,
+        "sigma": 0.07998268686662753
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "phosphorus|yield_t_dm_ha|24": {
+      "amf_allocation": {
+        "mu": 0.00979775635947415,
+        "mu_star": 0.00979775635947415,
+        "sigma": 0.013126478950144974
+      },
+      "amf_cue": {
+        "mu": -3.131574022156164e-05,
+        "mu_star": 3.131574022156164e-05,
+        "sigma": 6.565242266803665e-05
+      },
+      "amf_turnover": {
+        "mu": 0.003542119458199225,
+        "mu_star": 0.005715358651033134,
+        "sigma": 0.006838462531389076
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.008012811437886902,
+        "mu_star": 0.008012811437886902,
+        "sigma": 0.009727161294813751
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0036183486450302657,
+        "mu_star": 0.004177819566580539,
+        "sigma": 0.0071041790811093445
+      },
+      "schedule_interval_months": {
+        "mu": -0.05980694662002857,
+        "mu_star": 0.05980694662002857,
+        "sigma": 0.10365293998093768
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "reduced_tillage|npp_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.00022144239290644574,
+        "mu_star": 0.00022144239290644574,
+        "sigma": 0.000538363269194063
+      },
+      "amf_cue": {
+        "mu": -1.1285228687513138e-05,
+        "mu_star": 1.1285228687513138e-05,
+        "sigma": 2.5376799094008312e-05
+      },
+      "amf_turnover": {
+        "mu": 0.002516892521979147,
+        "mu_star": 0.002516892521979147,
+        "sigma": 0.0029654472405416035
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0012410002720884827,
+        "mu_star": 0.0012410002720884827,
+        "sigma": 0.001486520900158627
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0015285288733019042,
+        "mu_star": 0.0015285288733019042,
+        "sigma": 0.002165623688589984
+      },
+      "schedule_interval_months": {
+        "mu": 8.445476282689657e-05,
+        "mu_star": 8.445477235233256e-05,
+        "sigma": 0.00015215784787021966
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "reduced_tillage|npp_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -0.00025602688293005493,
+        "mu_star": 0.00025602688293005493,
+        "sigma": 0.0006209802360045737
+      },
+      "amf_cue": {
+        "mu": -1.3531872964656078e-05,
+        "mu_star": 1.3531872964656078e-05,
+        "sigma": 3.0642292093658636e-05
+      },
+      "amf_turnover": {
+        "mu": 0.005041590797679185,
+        "mu_star": 0.005041590797679185,
+        "sigma": 0.005711427221758568
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.002507922461563311,
+        "mu_star": 0.002507922461563311,
+        "sigma": 0.002865548776717784
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0031558068557890895,
+        "mu_star": 0.0031558068557890895,
+        "sigma": 0.0043539788068335875
+      },
+      "schedule_interval_months": {
+        "mu": 0.00017115645049040062,
+        "mu_star": 0.00017115645049040062,
+        "sigma": 0.00031197472128443297
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "reduced_tillage|protected_soc_proxy_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -4.027370223091964e-05,
+        "mu_star": 4.443840150969436e-05,
+        "sigma": 5.958672203683296e-05
+      },
+      "amf_cue": {
+        "mu": 5.2228590341485415e-08,
+        "mu_star": 8.748434998651078e-07,
+        "sigma": 1.2387941418391006e-06
+      },
+      "amf_turnover": {
+        "mu": 5.0241578302134826e-05,
+        "mu_star": 8.19615111158356e-05,
+        "sigma": 0.00010487291869833187
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -4.6819072494486136e-05,
+        "mu_star": 4.6819072494486136e-05,
+        "sigma": 3.126261417166835e-05
+      },
+      "phosphorus_half_saturation": {
+        "mu": 9.908260783841882e-05,
+        "mu_star": 9.908260783841882e-05,
+        "sigma": 0.00010964915209750985
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.00012616527244269093,
+        "mu_star": 0.00012616527244269093,
+        "sigma": 0.00016503555319070836
+      },
+      "schedule_interval_months": {
+        "mu": 0.02521571799701583,
+        "mu_star": 0.02521571799701583,
+        "sigma": 0.016489340748832255
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "reduced_tillage|protected_soc_proxy_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 3.5321200808624553e-06,
+        "mu_star": 2.9026536871867847e-05,
+        "sigma": 5.6540616409343006e-05
+      },
+      "amf_cue": {
+        "mu": 1.2712181840512926e-06,
+        "mu_star": 1.611499054199328e-06,
+        "sigma": 2.058541612678445e-06
+      },
+      "amf_turnover": {
+        "mu": -0.00043826614162689737,
+        "mu_star": 0.00044122929735657124,
+        "sigma": 0.00039509322296412905
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 7.770960420927508e-05,
+        "mu_star": 8.67244274793677e-05,
+        "sigma": 0.00014720188508883105
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0001367048961098405,
+        "mu_star": 0.0001367048961098405,
+        "sigma": 0.00014753905671937147
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.00016945303344062523,
+        "mu_star": 0.00016945303344062523,
+        "sigma": 0.00022906950060343236
+      },
+      "schedule_interval_months": {
+        "mu": 0.019045771153205493,
+        "mu_star": 0.022537458762368345,
+        "sigma": 0.013127813021757943
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "reduced_tillage|residue_carbon_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": 0.0011816876620201339,
+        "mu_star": 0.0012589901588900415,
+        "sigma": 0.0017752100335505267
+      },
+      "amf_cue": {
+        "mu": -3.147689105462148e-05,
+        "mu_star": 3.147689105462148e-05,
+        "sigma": 7.290990802612513e-05
+      },
+      "amf_turnover": {
+        "mu": 0.0019166587377059119,
+        "mu_star": 0.00194774785702026,
+        "sigma": 0.002350363050085824
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0006175941806564611,
+        "mu_star": 0.0007232197884973757,
+        "sigma": 0.0009886402721757765
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0006738048613252196,
+        "mu_star": 0.000850189971188034,
+        "sigma": 0.0014224827257309008
+      },
+      "schedule_interval_months": {
+        "mu": -0.13789949103670304,
+        "mu_star": 0.3075000827340449,
+        "sigma": 0.332248270188301
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "reduced_tillage|residue_carbon_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": 0.0005112516556507463,
+        "mu_star": 0.0005238930635914629,
+        "sigma": 0.0012914481985309815
+      },
+      "amf_cue": {
+        "mu": -3.6626203641990096e-05,
+        "mu_star": 3.6626203641990096e-05,
+        "sigma": 8.635708960970709e-05
+      },
+      "amf_turnover": {
+        "mu": 0.003890856294857248,
+        "mu_star": 0.003890856294857248,
+        "sigma": 0.004169866933857694
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0015314954272217796,
+        "mu_star": 0.0015314954272217796,
+        "sigma": 0.0017885925295277078
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0020057151596564182,
+        "mu_star": 0.0020057151596564182,
+        "sigma": 0.0026554484900619345
+      },
+      "schedule_interval_months": {
+        "mu": -0.1678987463640691,
+        "mu_star": 0.2902620690316679,
+        "sigma": 0.32683035109424835
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "reduced_tillage|respiration_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.00046340689108470556,
+        "mu_star": 0.00046340689108470556,
+        "sigma": 0.0005332606638505713
+      },
+      "amf_cue": {
+        "mu": 2.4826307064573783e-05,
+        "mu_star": 2.4826307064573783e-05,
+        "sigma": 4.488839650439959e-05
+      },
+      "amf_turnover": {
+        "mu": 0.0004990406633020861,
+        "mu_star": 0.0008044159941866802,
+        "sigma": 0.0012035792824956453
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -8.306495432264249e-05,
+        "mu_star": 8.306495432264249e-05,
+        "sigma": 5.9495231956000406e-05
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0009140869523294182,
+        "mu_star": 0.0009140869523294182,
+        "sigma": 0.0010081670682207727
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0011610737429779139,
+        "mu_star": 0.0011610737429779139,
+        "sigma": 0.0015121800901949883
+      },
+      "schedule_interval_months": {
+        "mu": -0.0010546114422183006,
+        "mu_star": 0.10138268198932043,
+        "sigma": 0.10782783353860048
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "reduced_tillage|respiration_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -0.00020458145637669567,
+        "mu_star": 0.00020458145637669567,
+        "sigma": 0.0003612957954466843
+      },
+      "amf_cue": {
+        "mu": 3.135084517658093e-05,
+        "mu_star": 3.135084517658093e-05,
+        "sigma": 6.203958097825572e-05
+      },
+      "amf_turnover": {
+        "mu": -0.0006344734241015004,
+        "mu_star": 0.0011719890091743679,
+        "sigma": 0.0013565239798643315
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": -0.00017754909105494043,
+        "mu_star": 0.00017754909105494043,
+        "sigma": 0.00015766115507526363
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0012177312368488735,
+        "mu_star": 0.0012177312368488735,
+        "sigma": 0.0013384371675240075
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0015126540524235121,
+        "mu_star": 0.0015126540524235121,
+        "sigma": 0.0020735221000585096
+      },
+      "schedule_interval_months": {
+        "mu": -0.00846070082112349,
+        "mu_star": 0.09021189651224781,
+        "sigma": 0.09279860488173176
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "reduced_tillage|total_soc_t_c_ha|120": {
+      "amf_allocation": {
+        "mu": -0.00016631662647093037,
+        "mu_star": 0.00018696043582622224,
+        "sigma": 0.0002472886748304613
+      },
+      "amf_cue": {
+        "mu": -1.0698825270161194e-05,
+        "mu_star": 1.0698825270161194e-05,
+        "sigma": 1.959909920642041e-05
+      },
+      "amf_turnover": {
+        "mu": 0.0006565534668512285,
+        "mu_star": 0.0006565534668512285,
+        "sigma": 0.0005461576807609996
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 8.306495420828952e-05,
+        "mu_star": 8.306495420828952e-05,
+        "sigma": 5.949523195372339e-05
+      },
+      "phosphorus_half_saturation": {
+        "mu": 5.671132650597599e-05,
+        "mu_star": 6.262475165996761e-05,
+        "sigma": 9.374323246600677e-05
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -7.77970926746363e-05,
+        "mu_star": 7.77970926746363e-05,
+        "sigma": 0.00011065033807778031
+      },
+      "schedule_interval_months": {
+        "mu": 0.06457319013105423,
+        "mu_star": 0.06457319013105423,
+        "sigma": 0.05356681960241549
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "reduced_tillage|total_soc_t_c_ha|60": {
+      "amf_allocation": {
+        "mu": -1.9445633010484187e-05,
+        "mu_star": 0.00012535840051786096,
+        "sigma": 0.00023814633132001115
+      },
+      "amf_cue": {
+        "mu": 2.1673978167768837e-08,
+        "mu_star": 2.7821739667643897e-06,
+        "sigma": 2.9926057217502843e-06
+      },
+      "amf_turnover": {
+        "mu": 0.00032992756456184935,
+        "mu_star": 0.000573713042055779,
+        "sigma": 0.0007422920967294271
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0001775490909761146,
+        "mu_star": 0.0001775490909761146,
+        "sigma": 0.0001576611550757205
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.0005665318091541138,
+        "mu_star": 0.0005665318091541138,
+        "sigma": 0.000669848555662989
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0006945787739587317,
+        "mu_star": 0.0006945787739587317,
+        "sigma": 0.0009994623304027997
+      },
+      "schedule_interval_months": {
+        "mu": 0.08586055211648791,
+        "mu_star": 0.10474533966626787,
+        "sigma": 0.06549054125887462
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    },
+    "reduced_tillage|yield_t_dm_ha|24": {
+      "amf_allocation": {
+        "mu": 0.0005233938580817901,
+        "mu_star": 0.0005233938580817901,
+        "sigma": 0.0010271929020267496
+      },
+      "amf_cue": {
+        "mu": -2.1509285797124966e-05,
+        "mu_star": 2.1509285797124966e-05,
+        "sigma": 5.1483158965908675e-05
+      },
+      "amf_turnover": {
+        "mu": 0.0037340114227125618,
+        "mu_star": 0.0037340114227125618,
+        "sigma": 0.0037066937587836575
+      },
+      "cover_crop_npp": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "cover_crop_root_fraction": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "fym_phosphorus_content": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "necromass_stabilisation": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "phosphorus_half_saturation": {
+        "mu": 0.00179612270351414,
+        "mu_star": 0.00179612270351414,
+        "sigma": 0.0016960775117790526
+      },
+      "phosphorus_uptake_vmax": {
+        "mu": -0.0023232513989179457,
+        "mu_star": 0.0023232513989179457,
+        "sigma": 0.0027384302707400996
+      },
+      "schedule_interval_months": {
+        "mu": -0.04023577176947818,
+        "mu_star": 0.1297093961992582,
+        "sigma": 0.20813087732083965
+      },
+      "tillage_amf_mortality": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      },
+      "tillage_decomposition_multiplier": {
+        "mu": 0.0,
+        "mu_star": 0.0,
+        "sigma": 0.0
+      }
+    }
+  },
+  "morris_aggregate_scores": {
+    "amf_allocation": 0.0357649017432317,
+    "amf_cue": 0.008816174672531396,
+    "amf_turnover": 0.06914603791837151,
+    "cover_crop_npp": 0.08835758825804035,
+    "cover_crop_root_fraction": 0.0,
+    "fym_phosphorus_content": 0.12648316997580253,
+    "necromass_stabilisation": 0.003836129841791579,
+    "phosphorus_half_saturation": 0.04142123191753969,
+    "phosphorus_uptake_vmax": 0.051231444914803956,
+    "schedule_interval_months": 0.8451181499378267,
+    "tillage_amf_mortality": 0.0009474772121004537,
+    "tillage_decomposition_multiplier": 0.0856100517208898
+  },
+  "parameters": [
+    {
+      "classification": "literature_informed_prior",
+      "distribution": "beta_scaled_2_8",
+      "maximum": 0.2,
+      "minimum": 0.02,
+      "name": "amf_allocation",
+      "source": "A003-A004"
+    },
+    {
+      "classification": "scenario_assumption",
+      "distribution": "triangular_0.45",
+      "maximum": 0.65,
+      "minimum": 0.3,
+      "name": "amf_cue",
+      "source": "A006"
+    },
+    {
+      "classification": "literature_informed_prior",
+      "distribution": "log_uniform",
+      "maximum": 6.0,
+      "minimum": 0.1,
+      "name": "amf_turnover",
+      "source": "A005"
+    },
+    {
+      "classification": "scenario_assumption",
+      "distribution": "beta_scaled_2_5",
+      "maximum": 0.5,
+      "minimum": 0.02,
+      "name": "necromass_stabilisation",
+      "source": "A007-A021"
+    },
+    {
+      "classification": "scenario_assumption",
+      "distribution": "triangular_1.0",
+      "maximum": 3.0,
+      "minimum": 0.2,
+      "name": "phosphorus_uptake_vmax",
+      "source": "A023"
+    },
+    {
+      "classification": "scenario_assumption",
+      "distribution": "log_uniform",
+      "maximum": 40.0,
+      "minimum": 2.0,
+      "name": "phosphorus_half_saturation",
+      "source": "A023"
+    },
+    {
+      "classification": "scenario_assumption",
+      "distribution": "triangular_0.25",
+      "maximum": 0.6,
+      "minimum": 0.0,
+      "name": "tillage_amf_mortality",
+      "source": "A009-A027"
+    },
+    {
+      "classification": "scenario_assumption",
+      "distribution": "uniform",
+      "maximum": 2.0,
+      "minimum": 1.0,
+      "name": "tillage_decomposition_multiplier",
+      "source": "A009-A027"
+    },
+    {
+      "classification": "scenario_assumption",
+      "distribution": "uniform",
+      "maximum": 0.5,
+      "minimum": 0.0,
+      "name": "cover_crop_npp",
+      "source": "A010-A028"
+    },
+    {
+      "classification": "scenario_assumption",
+      "distribution": "uniform",
+      "maximum": 0.8,
+      "minimum": 0.3,
+      "name": "cover_crop_root_fraction",
+      "source": "A010-A028"
+    },
+    {
+      "classification": "scenario_assumption",
+      "distribution": "uniform",
+      "maximum": 30.0,
+      "minimum": 0.0,
+      "name": "fym_phosphorus_content",
+      "source": "A026"
+    },
+    {
+      "classification": "scenario_assumption",
+      "distribution": "uniform_discrete",
+      "maximum": 36.0,
+      "minimum": 12.0,
+      "name": "schedule_interval_months",
+      "source": "A065"
+    }
+  ],
+  "policy_ranking_uncertainty": {
+    "draws": 24,
+    "seed": 950023,
+    "stable_excluding_phosphorus": true,
+    "stable_with_phosphorus": true,
+    "winner_frequency_excluding_phosphorus": {
+      "farmyard_manure": 1.0
+    },
+    "winner_frequency_with_phosphorus": {
+      "farmyard_manure": 1.0
+    }
+  },
+  "population_covariance_sensitivity": {
+    "reason": "The required empirical pilot was unavailable, so observable covariance parameters could not be re-estimated or defensibly propagated.",
+    "status": "not_run"
+  },
+  "scope": "Global parameter uncertainty on one archived synthetic field across all six Phase 9.5 policies and paired effect targets; not population uncertainty.",
+  "seed_manifest": {
+    "morris_seed": 950021,
+    "ranking_seed": 950023,
+    "sobol_seed": 950022
+  },
+  "sobol": {
+    "evaluation_count": 384,
+    "outputs": {
+      "conventional_tillage|npp_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 1.3001925271901265,
+            "interaction_remainder": -0.09921951008082686,
+            "total_order": 1.2009730171092996
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0028905951162628485
+      },
+      "conventional_tillage|npp_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 1.4137212186328714,
+            "interaction_remainder": -0.17666353729236328,
+            "total_order": 1.237057681340508
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.009056616356144801
+      },
+      "conventional_tillage|protected_soc_proxy_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.4531094126932428,
+            "interaction_remainder": 0.2308219843156487,
+            "total_order": 0.6839313970088915
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.8471442568125421,
+            "interaction_remainder": -0.318152435270712,
+            "total_order": 0.5289918215418301
+          }
+        },
+        "variance": 0.018609503912433836
+      },
+      "conventional_tillage|protected_soc_proxy_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.7568428087722985,
+            "interaction_remainder": 0.013799574268156922,
+            "total_order": 0.7706423830404554
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.6767124944810352,
+            "interaction_remainder": -0.23103000049858974,
+            "total_order": 0.44568249398244547
+          }
+        },
+        "variance": 0.005772885090368635
+      },
+      "conventional_tillage|residue_carbon_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.624454854644595,
+            "interaction_remainder": 0.3817628269090173,
+            "total_order": 1.0062176815536124
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.009034253887044425
+      },
+      "conventional_tillage|residue_carbon_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.7809882815698074,
+            "interaction_remainder": 0.3150084048559253,
+            "total_order": 1.0959966864257327
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.00669420602906023
+      },
+      "conventional_tillage|respiration_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.6497705538971263,
+            "interaction_remainder": 0.19292986477746799,
+            "total_order": 0.8427004186745943
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.6883094178183343,
+            "interaction_remainder": -0.2851886345799667,
+            "total_order": 0.40312078323836764
+          }
+        },
+        "variance": 0.12526829161114394
+      },
+      "conventional_tillage|respiration_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.9953042867742808,
+            "interaction_remainder": -0.060317675403941395,
+            "total_order": 0.9349866113703394
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.49075135465644043,
+            "interaction_remainder": -0.19473899063564887,
+            "total_order": 0.29601236402079156
+          }
+        },
+        "variance": 0.1259636156915668
+      },
+      "conventional_tillage|total_soc_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.4589327698309359,
+            "interaction_remainder": 0.21177258688162248,
+            "total_order": 0.6707053567125584
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.8671691262700562,
+            "interaction_remainder": -0.33587317207862555,
+            "total_order": 0.5312959541914306
+          }
+        },
+        "variance": 0.09504731107179036
+      },
+      "conventional_tillage|total_soc_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.7451613377161791,
+            "interaction_remainder": -0.00018225226007262396,
+            "total_order": 0.7449790854561065
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.7097012005822307,
+            "interaction_remainder": -0.248662925510445,
+            "total_order": 0.46103827507178574
+          }
+        },
+        "variance": 0.08087568793645677
+      },
+      "conventional_tillage|yield_t_dm_ha|24": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.6398477465959485,
+            "interaction_remainder": 0.3897882527686909,
+            "total_order": 1.0296359993646393
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0028593668087786833
+      },
+      "cover_crop|npp_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.08639597517175118,
+            "interaction_remainder": 0.012505183549351054,
+            "total_order": 0.09890115872110224
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.7086808893226718,
+            "interaction_remainder": 0.14818240166307617,
+            "total_order": 0.856863290985748
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0005177925821184529
+      },
+      "cover_crop|npp_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.03796250845142426,
+            "interaction_remainder": 0.010790028274423595,
+            "total_order": 0.04875253672584785
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.7623339057461457,
+            "interaction_remainder": 0.10410686713334005,
+            "total_order": 0.8664407728794857
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0007383469927664018
+      },
+      "cover_crop|protected_soc_proxy_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.1276109975992978,
+            "interaction_remainder": -0.0012229071654851487,
+            "total_order": 0.12638809043381266
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.37327278989710166,
+            "interaction_remainder": 0.42024031979144794,
+            "total_order": 0.7935131096885496
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.008487521036147616
+      },
+      "cover_crop|protected_soc_proxy_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.12862925219305496,
+            "interaction_remainder": 0.011621620444086378,
+            "total_order": 0.14025087263714134
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.5852621665144583,
+            "interaction_remainder": 0.18547269648233589,
+            "total_order": 0.7707348629967942
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.002679706162603241
+      },
+      "cover_crop|residue_carbon_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.8281201870986143,
+            "interaction_remainder": 0.07834835895158354,
+            "total_order": 0.9064685460501979
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.09061524639344112,
+            "interaction_remainder": 0.1999751197045773,
+            "total_order": 0.2905903660980184
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.17848095577777853
+      },
+      "cover_crop|residue_carbon_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.877497257875463,
+            "interaction_remainder": 0.024156202345737787,
+            "total_order": 0.9016534602212007
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -0.030610776991531637,
+            "interaction_remainder": 0.28858445741079586,
+            "total_order": 0.2579736804192642
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.08158722055693808
+      },
+      "cover_crop|respiration_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 1.0706896841176299,
+            "interaction_remainder": 0.10256278614726155,
+            "total_order": 1.1732524702648914
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.01547725032362164,
+            "interaction_remainder": 0.17789332816531658,
+            "total_order": 0.1933705784889382
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0692126054699979
+      },
+      "cover_crop|respiration_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.7860043438862944,
+            "interaction_remainder": -0.023451099632404437,
+            "total_order": 0.7625532442538899
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.5713810885092834,
+            "interaction_remainder": -0.08854120358477158,
+            "total_order": 0.4828398849245118
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.035998337942855875
+      },
+      "cover_crop|total_soc_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.16433890168051962,
+            "interaction_remainder": 0.03397195306584891,
+            "total_order": 0.19831085474636853
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.3594845841810675,
+            "interaction_remainder": 0.3865087214221254,
+            "total_order": 0.7459933056031929
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.07968368035010756
+      },
+      "cover_crop|total_soc_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.1499735974872331,
+            "interaction_remainder": 0.036112165111244654,
+            "total_order": 0.18608576259847776
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.49829765721782965,
+            "interaction_remainder": 0.24655408118485694,
+            "total_order": 0.7448517384026866
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.06612677376656194
+      },
+      "cover_crop|yield_t_dm_ha|24": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 1.4451624253933297,
+            "interaction_remainder": -0.27054005235571243,
+            "total_order": 1.1746223730376173
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 3.0599494069316852e-12
+      },
+      "farmyard_manure|npp_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.40990334127053174,
+            "interaction_remainder": 0.5526337577832461,
+            "total_order": 0.9625370990537778
+          },
+          "schedule_interval_months": {
+            "first_order": 0.01828081391222165,
+            "interaction_remainder": 0.031155364102281407,
+            "total_order": 0.049436178014503056
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.5199369352098987
+      },
+      "farmyard_manure|npp_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.5732386181194111,
+            "interaction_remainder": 0.40756689256507217,
+            "total_order": 0.9808055106844833
+          },
+          "schedule_interval_months": {
+            "first_order": 0.032482200660759686,
+            "interaction_remainder": 0.011511664105983865,
+            "total_order": 0.04399386476674355
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.08349512416589884
+      },
+      "farmyard_manure|protected_soc_proxy_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": -0.21474594044049128,
+            "interaction_remainder": 0.27227542670396154,
+            "total_order": 0.05752948626347028
+          },
+          "schedule_interval_months": {
+            "first_order": 0.11625790887065263,
+            "interaction_remainder": 0.9258757863378029,
+            "total_order": 1.0421336952084554
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.021724373729241214
+      },
+      "farmyard_manure|protected_soc_proxy_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": -0.1753964808787303,
+            "interaction_remainder": 0.21877493586403474,
+            "total_order": 0.04337845498530442
+          },
+          "schedule_interval_months": {
+            "first_order": 0.1919380143855478,
+            "interaction_remainder": 0.8428331514650051,
+            "total_order": 1.034771165850553
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0038267632079503574
+      },
+      "farmyard_manure|residue_carbon_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.41743695944531267,
+            "interaction_remainder": 0.5455317839720549,
+            "total_order": 0.9629687434173676
+          },
+          "schedule_interval_months": {
+            "first_order": 0.01882994098046409,
+            "interaction_remainder": 0.03126377173022109,
+            "total_order": 0.050093712710685176
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.24787112552754878
+      },
+      "farmyard_manure|residue_carbon_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.5776993592666829,
+            "interaction_remainder": 0.40294719315198635,
+            "total_order": 0.9806465524186693
+          },
+          "schedule_interval_months": {
+            "first_order": 0.0326008018544347,
+            "interaction_remainder": 0.011913749213680318,
+            "total_order": 0.04451455106811502
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.03981878260185144
+      },
+      "farmyard_manure|respiration_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": -0.2486327835508156,
+            "interaction_remainder": 0.33737241513955407,
+            "total_order": 0.08873963158873843
+          },
+          "schedule_interval_months": {
+            "first_order": 0.12950392100660127,
+            "interaction_remainder": 0.8793015149142597,
+            "total_order": 1.008805435920861
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 1.0856853842997907
+      },
+      "farmyard_manure|respiration_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": -0.21338860712468466,
+            "interaction_remainder": 0.286314747504863,
+            "total_order": 0.07292614038017835
+          },
+          "schedule_interval_months": {
+            "first_order": 0.17047814354514543,
+            "interaction_remainder": 0.8336087878623759,
+            "total_order": 1.0040869314075214
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.16862035411520004
+      },
+      "farmyard_manure|total_soc_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": -0.2223605083344623,
+            "interaction_remainder": 0.28576225826285884,
+            "total_order": 0.06340174992839652
+          },
+          "schedule_interval_months": {
+            "first_order": -0.15573461282760598,
+            "interaction_remainder": 1.1649824284483867,
+            "total_order": 1.0092478156207807
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.47184614722238677
+      },
+      "farmyard_manure|total_soc_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": -0.13211000308453677,
+            "interaction_remainder": 0.1703180729990635,
+            "total_order": 0.03820806991452674
+          },
+          "schedule_interval_months": {
+            "first_order": 0.35371967398882365,
+            "interaction_remainder": 0.6794736520180936,
+            "total_order": 1.0331933260069173
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.18796251105853973
+      },
+      "farmyard_manure|yield_t_dm_ha|24": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.6499769571376305,
+            "interaction_remainder": 0.34971560934597423,
+            "total_order": 0.9996925664836047
+          },
+          "schedule_interval_months": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.002356008668094696
+      },
+      "phosphorus|npp_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -4.626119073932612,
+            "interaction_remainder": 5.697670121002082,
+            "total_order": 1.0715510470694696
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.016848611583305702
+      },
+      "phosphorus|npp_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -4.269351518143261,
+            "interaction_remainder": 5.3336759521266295,
+            "total_order": 1.0643244339833688
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0038926175865637083
+      },
+      "phosphorus|protected_soc_proxy_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -4.734523381108713,
+            "interaction_remainder": 5.805032628907194,
+            "total_order": 1.0705092477984808
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 4.209315563261424e-05
+      },
+      "phosphorus|protected_soc_proxy_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -4.500662206382816,
+            "interaction_remainder": 5.563521950079734,
+            "total_order": 1.0628597436969176
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 7.645241739204882e-06
+      },
+      "phosphorus|residue_carbon_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -4.524388848489727,
+            "interaction_remainder": 5.596062361379406,
+            "total_order": 1.0716735128896786
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.00825122773695921
+      },
+      "phosphorus|residue_carbon_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -4.192553075627309,
+            "interaction_remainder": 5.256910503467955,
+            "total_order": 1.0643574278406462
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0018994822347687427
+      },
+      "phosphorus|respiration_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -4.65808564979549,
+            "interaction_remainder": 5.72847117237298,
+            "total_order": 1.0703855225774899
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0033374971920407817
+      },
+      "phosphorus|respiration_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -4.478838043251739,
+            "interaction_remainder": 5.5412897874092835,
+            "total_order": 1.0624517441575443
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0005728517358110755
+      },
+      "phosphorus|total_soc_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -4.641124120751625,
+            "interaction_remainder": 5.714758400274476,
+            "total_order": 1.0736342795228502
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0009312170434078776
+      },
+      "phosphorus|total_soc_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -4.034851111740887,
+            "interaction_remainder": 5.101569300448556,
+            "total_order": 1.0667181887076687
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0003462609183793026
+      },
+      "phosphorus|yield_t_dm_ha|24": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.6008178770155794,
+            "interaction_remainder": 0.44817154382811664,
+            "total_order": 1.048989420843696
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 7.401728149982274e-05
+      },
+      "reduced_tillage|npp_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -44.054214024737114,
+            "interaction_remainder": 44.989741415989684,
+            "total_order": 0.9355273912525739
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 1.6188254910536746e-14
+      },
+      "reduced_tillage|npp_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": -17.891166678600612,
+            "interaction_remainder": 18.786808045613576,
+            "total_order": 0.8956413670129639
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 6.637255207587827e-14
+      },
+      "reduced_tillage|protected_soc_proxy_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.7180235557919794,
+            "interaction_remainder": 0.25079213071365036,
+            "total_order": 0.9688156865056298
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 2.0129318354026426e-05
+      },
+      "reduced_tillage|protected_soc_proxy_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.6022167709804861,
+            "interaction_remainder": 0.19415996385724388,
+            "total_order": 0.79637673483773
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 4.507374165499011e-06
+      },
+      "reduced_tillage|residue_carbon_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.9115592415308035,
+            "interaction_remainder": 0.12685459815917655,
+            "total_order": 1.03841383968998
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.00400174796598043
+      },
+      "reduced_tillage|residue_carbon_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.9494745101155276,
+            "interaction_remainder": 0.051217431863881946,
+            "total_order": 1.0006919419794096
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0029476171955669975
+      },
+      "reduced_tillage|respiration_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.8667411410040222,
+            "interaction_remainder": 0.2231590792796987,
+            "total_order": 1.089900220283721
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0008255445464741665
+      },
+      "reduced_tillage|respiration_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 1.0248934000450693,
+            "interaction_remainder": 0.1431052122306602,
+            "total_order": 1.1679986122757295
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.00047210670943498
+      },
+      "reduced_tillage|total_soc_t_c_ha|120": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.8274722208754629,
+            "interaction_remainder": 0.11332864621023009,
+            "total_order": 0.940800867085693
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.00013727917900616219
+      },
+      "reduced_tillage|total_soc_t_c_ha|60": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.6344134986911603,
+            "interaction_remainder": 0.08951817304509802,
+            "total_order": 0.7239316717362583
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 9.985403732740412e-05
+      },
+      "reduced_tillage|yield_t_dm_ha|24": {
+        "indices": {
+          "cover_crop_npp": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "fym_phosphorus_content": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          },
+          "schedule_interval_months": {
+            "first_order": 0.845714920937782,
+            "interaction_remainder": 0.3738251606155948,
+            "total_order": 1.2195400815533768
+          },
+          "tillage_decomposition_multiplier": {
+            "first_order": 0.0,
+            "interaction_remainder": 0.0,
+            "total_order": 0.0
+          }
+        },
+        "variance": 0.0007446214011104443
+      }
+    },
+    "sample_size": 64,
+    "seed": 950022
+  },
+  "sobol_selected_parameters": [
+    "schedule_interval_months",
+    "fym_phosphorus_content",
+    "cover_crop_npp",
+    "tillage_decomposition_multiplier"
+  ],
+  "version": "0.9.5"
+}

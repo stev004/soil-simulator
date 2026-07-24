@@ -1,0 +1,339 @@
+{
+  "package": "soil_simulator_reference_update",
+  "purpose": "Citation verification and literature-context update for the bounded soil_simulator methodological/software manuscript. Does not alter simulator, results, or claim boundaries.",
+  "generated_utc": "2026-07-22T21:47:20.200589+00:00",
+  "generated_date": "2026-07-22",
+  "verification_apis": {
+    "crossref": "https://api.crossref.org",
+    "datacite": "https://api.datacite.org",
+    "official_pages": [
+      "https://www.isric.org/explore/soilgrids",
+      "https://power.larc.nasa.gov/docs/referencing/",
+      "https://www.era.rothamsted.ac.uk/dataset/rhb2/01-HBSOC1852"
+    ]
+  },
+  "counts": {
+    "verified_references": 38,
+    "references_with_doi": 37,
+    "dois_resolved": 37,
+    "context_references": 25,
+    "dataset_licence_sources": 5,
+    "ai_disclosure_sources": 12,
+    "claim_map_rows": 31,
+    "unresolved_items": 5
+  },
+  "bibtex_validation": {
+    "parsed_entries": 38,
+    "duplicate_keys": 0,
+    "duplicate_dois": 0,
+    "placeholder_metadata": 0,
+    "syntax_valid": true
+  },
+  "corrections": [
+    "SoilGrids 2.0 lead author corrected to Poggio, L. (inventory had de Sousa, L. M.).",
+    "RothC v2.1.1 DOI corrected from 10.5281/zenodo.10724802 (wrong record) to 10.5281/zenodo.17454357 (concept 10.5281/zenodo.10707406).",
+    "RothC Python release authors set to DataCite record (Coleman, Kevin; Milne, Alice; Prout, Jonah)."
+  ],
+  "references": [
+    {
+      "key": "saltelli2010variance",
+      "type": "article",
+      "doi": "10.1016/j.cpc.2009.09.018",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "jansen1999analysis",
+      "type": "article",
+      "doi": "10.1016/S0010-4655(98)00154-4",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "ishigami1990importance",
+      "type": "inproceedings",
+      "doi": "10.1109/ISUMA.1990.151285",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "sobol1967distribution",
+      "type": "article",
+      "doi": "10.1016/0041-5553(67)90144-9",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "virtanen2020scipy",
+      "type": "article",
+      "doi": "10.1038/s41592-019-0686-2",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "coleman1996rothc",
+      "type": "incollection",
+      "doi": "10.1007/978-3-642-61094-3_17",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "rothamsted2024rothc",
+      "type": "techreport",
+      "doi": null,
+      "verification_method": "Official page (no DOI)",
+      "doi_resolves": false
+    },
+    {
+      "key": "coleman2024pythonrothc",
+      "type": "misc",
+      "doi": "10.5281/zenodo.10732265",
+      "verification_method": "DataCite",
+      "doi_resolves": true
+    },
+    {
+      "key": "coleman2025rothc211",
+      "type": "misc",
+      "doi": "10.5281/zenodo.17454357",
+      "verification_method": "DataCite",
+      "doi_resolves": true
+    },
+    {
+      "key": "poggio2021soilgrids",
+      "type": "article",
+      "doi": "10.5194/soil-7-217-2021",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "gelaro2017merra2",
+      "type": "article",
+      "doi": "10.1175/JCLI-D-16-0758.1",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "munozsabater2021era5land",
+      "type": "article",
+      "doi": "10.5194/essd-13-4349-2021",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "rothamsted2012hoosfieldsoc",
+      "type": "misc",
+      "doi": "10.23637/KeyRefOAHBsoc",
+      "verification_method": "DataCite",
+      "doi_resolves": true
+    },
+    {
+      "key": "perryman2018era",
+      "type": "article",
+      "doi": "10.1038/sdata.2018.72",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "oreskes1994verification",
+      "type": "article",
+      "doi": "10.1126/science.263.5147.641",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "refsgaard2004modelling",
+      "type": "article",
+      "doi": "10.1016/j.advwatres.2003.08.006",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "refsgaard2007uncertainty",
+      "type": "article",
+      "doi": "10.1016/j.envsoft.2007.02.004",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "smith1997comparison",
+      "type": "article",
+      "doi": "10.1016/S0016-7061(97)00087-6",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "beven2006manifesto",
+      "type": "article",
+      "doi": "10.1016/j.jhydrol.2005.07.007",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "smith2011roles",
+      "type": "article",
+      "doi": "10.1104/pp.111.174581",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "godbold2006mycorrhizal",
+      "type": "article",
+      "doi": "10.1007/s11104-005-3701-6",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "frey2019mycorrhizal",
+      "type": "article",
+      "doi": "10.1146/annurev-ecolsys-110617-062331",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "hawkins2023mycorrhizal",
+      "type": "article",
+      "doi": "10.1016/j.cub.2023.02.027",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "cotrufo2013mems",
+      "type": "article",
+      "doi": "10.1111/gcb.12113",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "cotrufo2015formation",
+      "type": "article",
+      "doi": "10.1038/ngeo2520",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "lavallee2020conceptualizing",
+      "type": "article",
+      "doi": "10.1111/gcb.14859",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "kapoor2023leakage",
+      "type": "article",
+      "doi": "10.1016/j.patter.2023.100804",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "roberts2021common",
+      "type": "article",
+      "doi": "10.1038/s42256-021-00307-0",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "geirhos2020shortcut",
+      "type": "article",
+      "doi": "10.1038/s42256-020-00257-z",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "prosperi2020causal",
+      "type": "article",
+      "doi": "10.1038/s42256-020-0197-y",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "gneiting2007strictly",
+      "type": "article",
+      "doi": "10.1198/016214506000001437",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "cranmer2020frontier",
+      "type": "article",
+      "doi": "10.1073/pnas.1912789117",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "sandve2013ten",
+      "type": "article",
+      "doi": "10.1371/journal.pcbi.1003285",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "peng2011reproducible",
+      "type": "article",
+      "doi": "10.1126/science.1213847",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "wilson2014best",
+      "type": "article",
+      "doi": "10.1371/journal.pbio.1001745",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "wilson2017good",
+      "type": "article",
+      "doi": "10.1371/journal.pcbi.1005510",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "wilkinson2016fair",
+      "type": "article",
+      "doi": "10.1038/sdata.2016.18",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    },
+    {
+      "key": "stodden2016enhancing",
+      "type": "article",
+      "doi": "10.1126/science.aah6168",
+      "verification_method": "Crossref",
+      "doi_resolves": true
+    }
+  ],
+  "file_sha256": {
+    "VERIFIED_REFERENCES.bib": {
+      "sha256": "b06a8fbe620d4bd3f5f4774e17de72e994ad96d7524cc36f2a9815d606dbe439",
+      "bytes": 20942
+    },
+    "VERIFIED_REFERENCES.md": {
+      "sha256": "6b90937f075789f3f003be9b74a33e9cd15e1541629005e40bd95e53cc16749b",
+      "bytes": 18910
+    },
+    "CLAIM_TO_CITATION_MAP.csv": {
+      "sha256": "4b09cbf1c1850378a4647cfd349ed10536bf9cbc79295aea361820b07cfd8a2f",
+      "bytes": 10511
+    },
+    "DATASET_CITATION_AND_LICENCE.md": {
+      "sha256": "69b469b5ee63b3083bb76df77c3f1c1c08df3e43d4e1ae66b1f0df6153569f65",
+      "bytes": 8856
+    },
+    "LITERATURE_REVIEW_NOTES.md": {
+      "sha256": "7dec6ba4fd7199dc6d95effdd96933ce39762a8c70e0546d311f7975fcfe02b0",
+      "bytes": 13003
+    },
+    "AI_DISCLOSURE_SOURCES.md": {
+      "sha256": "76cff94964dd1d1887dd433b8f1941f099ee722a45624fd268b76a69abab3635",
+      "bytes": 7447
+    },
+    "UNRESOLVED_REFERENCES.md": {
+      "sha256": "5e3293eabec6472ca7df0dff85837370914d6bdd77c2c7a117f52bb2c5e27938",
+      "bytes": 5394
+    },
+    "README.md": {
+      "sha256": "5bd5e9f54e7ff091ced429128ebab7a21daa444f050e039abbf79ac0a8181cdc",
+      "bytes": 3427
+    }
+  }
+}

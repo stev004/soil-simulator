@@ -1,0 +1,156 @@
+name: spring_barley_phase_5_amf
+version: 0.5.0
+seed: 20260720
+classification: scenario_assumption
+provenance: Deterministic Phase 5 AMF demonstration forcing; not observed, calibrated, or field-validated.
+
+initial_state:
+  month_index: 0
+  plant_c: 0.0
+  root_c: 0.0
+  amf_live_c: 0.1
+  amf_necromass_c: 0.05
+  dpm_c: 2.0
+  rpm_c: 10.0
+  microbial_c: 1.0
+  protected_soc_c: 35.0
+  iom_c: 7.0
+  available_p_kg_ha: 35.0
+  topsoil_moisture_deficit_mm: 0.0
+  crop_development: 0.0
+  cumulative_yield_t_dm_ha: 0.0
+
+monthly_steps:
+  - calendar_month: 1
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 5 deterministic AMF scenario month.
+    forcing: &january
+      mean_air_temperature_c: 4.0
+      precipitation_mm: 74.0
+      open_pan_evaporation_mm: 8.0
+      is_covered: false
+      clay_percent: 23.4
+      soil_depth_cm: 23.0
+      provenance: Demonstration climate patterned on the RothC example; not observed field data.
+  - calendar_month: 2
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 5 deterministic AMF scenario month.
+    forcing:
+      <<: *january
+      mean_air_temperature_c: 5.0
+      precipitation_mm: 59.0
+      open_pan_evaporation_mm: 10.0
+  - calendar_month: 3
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 5 deterministic AMF scenario month.
+    forcing:
+      <<: *january
+      mean_air_temperature_c: 8.0
+      precipitation_mm: 62.0
+      open_pan_evaporation_mm: 27.0
+      is_covered: true
+  - calendar_month: 4
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 5 deterministic AMF scenario month.
+    forcing:
+      <<: *january
+      mean_air_temperature_c: 11.0
+      precipitation_mm: 51.0
+      open_pan_evaporation_mm: 49.0
+      is_covered: true
+  - calendar_month: 5
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 5 deterministic AMF scenario month.
+    forcing:
+      <<: *january
+      mean_air_temperature_c: 14.0
+      precipitation_mm: 52.0
+      open_pan_evaporation_mm: 83.0
+      is_covered: true
+  - calendar_month: 6
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 5 deterministic AMF scenario month.
+    forcing:
+      <<: *january
+      mean_air_temperature_c: 17.0
+      precipitation_mm: 57.0
+      open_pan_evaporation_mm: 99.0
+      is_covered: true
+  - calendar_month: 7
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 5 deterministic AMF scenario month.
+    forcing:
+      <<: *january
+      mean_air_temperature_c: 19.0
+      precipitation_mm: 34.0
+      open_pan_evaporation_mm: 103.0
+      is_covered: true
+  - calendar_month: 8
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 5 deterministic AMF scenario month.
+    forcing:
+      <<: *january
+      mean_air_temperature_c: 18.0
+      precipitation_mm: 55.0
+      open_pan_evaporation_mm: 91.0
+      is_covered: true
+  - calendar_month: 9
+    external_available_p_kg_ha: 0.0
+    harvest: true
+    classification: scenario_assumption
+    provenance: Configured annual Phase 5 harvest event.
+    forcing:
+      <<: *january
+      mean_air_temperature_c: 15.0
+      precipitation_mm: 58.0
+      open_pan_evaporation_mm: 69.0
+      is_covered: true
+  - calendar_month: 10
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 5 deterministic AMF scenario month.
+    forcing:
+      <<: *january
+      mean_air_temperature_c: 11.0
+      precipitation_mm: 56.0
+      open_pan_evaporation_mm: 34.0
+      is_covered: false
+  - calendar_month: 11
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 5 deterministic AMF scenario month.
+    forcing:
+      <<: *january
+      mean_air_temperature_c: 7.0
+      precipitation_mm: 75.0
+      open_pan_evaporation_mm: 16.0
+      is_covered: false
+  - calendar_month: 12
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 5 deterministic AMF scenario month.
+    forcing:
+      <<: *january
+      mean_air_temperature_c: 5.0
+      precipitation_mm: 75.0
+      open_pan_evaporation_mm: 8.0
+      is_covered: false

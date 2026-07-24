@@ -1,0 +1,8 @@
+dimension,phase96,phase97,phase97_status
+Sobol sampler,ordinary pseudorandom A/B matrices,scipy.stats.qmc.Sobol,corrected
+Sobol base samples,32,"128,256,512,1024",not_converged_results_not_final
+Leakage gate,literal true,True,computed from artifacts
+Uncertainty coverage,aggregate 0.80-1.00 acceptance,True,target/regime-specific binomial rule
+Independent empirical effect validation,literal false,False,no independent empirical intervention-effect dataset was supplied
+Downstream execution,blocked,False,blocked; selection/oracle/regret must not run
+FYM calibration,boundary_solution=True,"estimate=1.1; range=[0.9, 1.1]",boundary explicitly profiled; not general calibration success

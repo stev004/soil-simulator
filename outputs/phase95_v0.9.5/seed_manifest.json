@@ -1,0 +1,17 @@
+{
+  "hoosfield_carbon_core_seed": 9501852,
+  "phosphorus_diagnostic_field_ids": [
+    "phase7-field-000001",
+    "phase7-field-000002",
+    "phase7-field-000003",
+    "phase7-field-000004",
+    "phase7-field-000005"
+  ],
+  "phosphorus_diagnostic_population_hash": "e37a4a542b793bdc7f19d5224ec6d8fccbc61075567159454fb288194935ccee",
+  "sensitivity": {
+    "morris_seed": 950021,
+    "ranking_seed": 950023,
+    "sobol_seed": 950022
+  },
+  "version": "0.9.5"
+}

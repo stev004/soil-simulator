@@ -1,0 +1,76 @@
+version: 0.9.5
+claim_boundary: >-
+  Provisional scheduled-event accounting for synthetic research comparisons only;
+  values are not regional farm budgets or complete lifecycle assessments and do
+  not enter biological carbon or phosphorus balances.
+units:
+  cost: GBP ha-1
+  operational_emissions: kg CO2e ha-1
+  lifecycle_emissions: kg CO2e ha-1
+events:
+  - event_id: conventional-tillage
+    policy_id: conventional_tillage
+    event_type: tillage
+    first_month: 2
+    repeat_every_months: 12
+    cost_gbp_ha: 70.0
+    operational_emissions_kg_co2e_ha: 25.0
+    lifecycle_emissions_kg_co2e_ha: 0.0
+    lifecycle_boundary: unsupported
+    provenance: A065; legacy Phase 6 event metadata, repeated annually; provisional.
+  - event_id: reduced-tillage
+    policy_id: reduced_tillage
+    event_type: tillage
+    first_month: 2
+    repeat_every_months: 12
+    cost_gbp_ha: 45.0
+    operational_emissions_kg_co2e_ha: 15.0
+    lifecycle_emissions_kg_co2e_ha: 0.0
+    lifecycle_boundary: unsupported
+    provenance: A065; legacy Phase 6 event metadata, repeated annually; provisional.
+  - event_id: cover-establishment
+    policy_id: cover_crop
+    event_type: cover_crop_establishment
+    first_month: 8
+    repeat_every_months: 12
+    pair_id: annual-cover-cycle
+    cost_gbp_ha: 60.0
+    operational_emissions_kg_co2e_ha: 12.0
+    lifecycle_emissions_kg_co2e_ha: 0.0
+    lifecycle_boundary: unsupported
+    provenance: A065; legacy Phase 6 event metadata; only complete annual pairs accrue.
+  - event_id: cover-termination
+    policy_id: cover_crop
+    event_type: cover_crop_termination
+    first_month: 13
+    repeat_every_months: 12
+    pair_id: annual-cover-cycle
+    cost_gbp_ha: 35.0
+    operational_emissions_kg_co2e_ha: 10.0
+    lifecycle_emissions_kg_co2e_ha: 0.0
+    lifecycle_boundary: unsupported
+    provenance: A065; legacy Phase 6 event metadata; only complete annual pairs accrue.
+  - event_id: phosphorus-application
+    policy_id: phosphorus
+    event_type: phosphorus_application
+    first_month: 2
+    repeat_every_months: 12
+    cost_gbp_ha: 30.0
+    operational_emissions_kg_co2e_ha: 5.0
+    lifecycle_emissions_kg_co2e_ha: 15.0
+    lifecycle_boundary: partial
+    provenance: >-
+      A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a
+      fertiliser-product or regional lifecycle assessment.
+  - event_id: farmyard-manure
+    policy_id: farmyard_manure
+    event_type: farmyard_manure
+    first_month: 9
+    repeat_every_months: 12
+    cost_gbp_ha: 80.0
+    operational_emissions_kg_co2e_ha: 20.0
+    lifecycle_emissions_kg_co2e_ha: 15.0
+    lifecycle_boundary: partial
+    provenance: >-
+      A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes
+      storage, avoided emissions, substitution and field N2O.

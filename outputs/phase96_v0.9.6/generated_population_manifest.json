@@ -1,0 +1,1432 @@
+{
+  "empirical_location_count": 56,
+  "empirical_record_rejections": [
+    {
+      "location_id": "gb009",
+      "reasons": "missing Q0.5 for bdod 0-5cm"
+    },
+    {
+      "location_id": "gb014",
+      "reasons": "missing Q0.5 for bdod 0-5cm"
+    },
+    {
+      "location_id": "gb017",
+      "reasons": "missing Q0.5 for bdod 0-5cm"
+    },
+    {
+      "location_id": "gb022",
+      "reasons": "missing Q0.5 for bdod 0-5cm"
+    },
+    {
+      "location_id": "gb035",
+      "reasons": "missing Q0.5 for bdod 0-5cm"
+    },
+    {
+      "location_id": "gb046",
+      "reasons": "missing Q0.5 for bdod 0-5cm"
+    },
+    {
+      "location_id": "gb047",
+      "reasons": "missing Q0.5 for bdod 0-5cm"
+    },
+    {
+      "location_id": "gb057",
+      "reasons": "missing Q0.5 for bdod 0-5cm"
+    }
+  ],
+  "field_count": 112,
+  "latent_prior_source": "separate scenario/literature priors",
+  "location_group_leakage": {
+    "group_count": 56,
+    "group_key": "empirical_seed_id",
+    "interpretation": "The archived synthetic groups are isolated. This does not convert them into empirical locations or resolve the Phase 9.5 grounding blocker.",
+    "overlaps": {},
+    "passed": true
+  },
+  "observable_covariance_source": "empirical pilot",
+  "population_hash": "9bb2f8fec93b17296051265745766503d5284bc774b1ff50aa022d76712c4124",
+  "region_counts": {
+    "east": 8,
+    "east_midlands": 12,
+    "north_east": 5,
+    "north_west": 6,
+    "scotland_central": 2,
+    "scotland_east": 9,
+    "scotland_north": 1,
+    "scotland_north_east": 5,
+    "scotland_south": 5,
+    "south": 12,
+    "south_east": 4,
+    "south_west": 12,
+    "wales": 11,
+    "west_midlands": 10,
+    "yorkshire": 10
+  },
+  "rejections": [
+    {
+      "candidate_id": "candidate-000030",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000031",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000032",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000033",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000034",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000035",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000036",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000037",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000038",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000039",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000040",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000041",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000042",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000043",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000044",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000045",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000046",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000047",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000048",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000049",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000050",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000051",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000052",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000053",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000054",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000055",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000056",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000057",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000058",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000059",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000060",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000061",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000062",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000063",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000064",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000065",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000066",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000067",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000068",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000069",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000070",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000071",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000072",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000073",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000074",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000075",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000076",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000077",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000078",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000079",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000080",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000081",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000082",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000085",
+      "empirical_seed_id": "gb037",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000086",
+      "empirical_seed_id": "gb037",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000087",
+      "empirical_seed_id": "gb037",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000088",
+      "empirical_seed_id": "gb037",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000089",
+      "empirical_seed_id": "gb037",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000090",
+      "empirical_seed_id": "gb037",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000091",
+      "empirical_seed_id": "gb037",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000092",
+      "empirical_seed_id": "gb037",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000093",
+      "empirical_seed_id": "gb037",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000095",
+      "empirical_seed_id": "gb038",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000096",
+      "empirical_seed_id": "gb038",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000097",
+      "empirical_seed_id": "gb038",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000098",
+      "empirical_seed_id": "gb038",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000100",
+      "empirical_seed_id": "gb039",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000101",
+      "empirical_seed_id": "gb039",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000102",
+      "empirical_seed_id": "gb039",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000103",
+      "empirical_seed_id": "gb039",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000104",
+      "empirical_seed_id": "gb039",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000116",
+      "empirical_seed_id": "gb052",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000117",
+      "empirical_seed_id": "gb052",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000118",
+      "empirical_seed_id": "gb052",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000119",
+      "empirical_seed_id": "gb052",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000120",
+      "empirical_seed_id": "gb052",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000121",
+      "empirical_seed_id": "gb052",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000123",
+      "empirical_seed_id": "gb053",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000124",
+      "empirical_seed_id": "gb053",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000125",
+      "empirical_seed_id": "gb053",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000126",
+      "empirical_seed_id": "gb053",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000127",
+      "empirical_seed_id": "gb053",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000128",
+      "empirical_seed_id": "gb053",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000129",
+      "empirical_seed_id": "gb053",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000133",
+      "empirical_seed_id": "gb056",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000134",
+      "empirical_seed_id": "gb056",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000135",
+      "empirical_seed_id": "gb056",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000136",
+      "empirical_seed_id": "gb056",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000142",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000143",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000144",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000145",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000146",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000147",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000148",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000149",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000150",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000151",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000152",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000153",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000154",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000155",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000156",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000157",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000158",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000159",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000160",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000161",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000162",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000163",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000198",
+      "empirical_seed_id": "gb034",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density",
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000200",
+      "empirical_seed_id": "gb037",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000201",
+      "empirical_seed_id": "gb038",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000202",
+      "empirical_seed_id": "gb039",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000207",
+      "empirical_seed_id": "gb044",
+      "reasons": [
+        "weather_outside_model_domain"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000214",
+      "empirical_seed_id": "gb053",
+      "reasons": [
+        "impossible_high_soc_very_sandy_combination"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000217",
+      "empirical_seed_id": "gb056",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    },
+    {
+      "candidate_id": "candidate-000222",
+      "empirical_seed_id": "gb062",
+      "reasons": [
+        "inconsistent_soc_stock_and_bulk_density"
+      ]
+    }
+  ],
+  "split_counts": {
+    "test": 26,
+    "train": 59,
+    "validation": 21,
+    "weather_ood": 6
+  },
+  "texture_corrections": [
+    {
+      "absolute_closure_correction_percentage_points": 10.130434782608688,
+      "corrected": true,
+      "location_id": "gb001",
+      "pre_correction_texture_total_percent": 89.86956521739131,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 6.826086956521735,
+      "corrected": true,
+      "location_id": "gb002",
+      "pre_correction_texture_total_percent": 93.17391304347827,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 5.591304347826082,
+      "corrected": true,
+      "location_id": "gb003",
+      "pre_correction_texture_total_percent": 94.40869565217392,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 8.19130434782609,
+      "corrected": true,
+      "location_id": "gb004",
+      "pre_correction_texture_total_percent": 91.80869565217391,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 3.652173913043484,
+      "corrected": true,
+      "location_id": "gb005",
+      "pre_correction_texture_total_percent": 96.34782608695652,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 1.452173913043481,
+      "corrected": true,
+      "location_id": "gb006",
+      "pre_correction_texture_total_percent": 98.54782608695652,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 18.921739130434787,
+      "corrected": true,
+      "location_id": "gb007",
+      "pre_correction_texture_total_percent": 81.07826086956521,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 12.960869565217394,
+      "corrected": true,
+      "location_id": "gb008",
+      "pre_correction_texture_total_percent": 87.0391304347826,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "location_id": "gb009",
+      "reasons": "missing Q0.5 for bdod 0-5cm",
+      "source_record_status": "rejected"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 14.15652173913044,
+      "corrected": true,
+      "location_id": "gb010",
+      "pre_correction_texture_total_percent": 85.84347826086956,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 16.769565217391303,
+      "corrected": true,
+      "location_id": "gb011",
+      "pre_correction_texture_total_percent": 83.2304347826087,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 19.86956521739131,
+      "corrected": true,
+      "location_id": "gb012",
+      "pre_correction_texture_total_percent": 80.13043478260869,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 23.12173913043479,
+      "corrected": true,
+      "location_id": "gb013",
+      "pre_correction_texture_total_percent": 76.87826086956521,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "location_id": "gb014",
+      "reasons": "missing Q0.5 for bdod 0-5cm",
+      "source_record_status": "rejected"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 7.369565217391312,
+      "corrected": true,
+      "location_id": "gb015",
+      "pre_correction_texture_total_percent": 92.63043478260869,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 13.265217391304347,
+      "corrected": true,
+      "location_id": "gb016",
+      "pre_correction_texture_total_percent": 86.73478260869565,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "location_id": "gb017",
+      "reasons": "missing Q0.5 for bdod 0-5cm",
+      "source_record_status": "rejected"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 11.913043478260875,
+      "corrected": true,
+      "location_id": "gb018",
+      "pre_correction_texture_total_percent": 88.08695652173913,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 5.543478260869563,
+      "corrected": true,
+      "location_id": "gb019",
+      "pre_correction_texture_total_percent": 94.45652173913044,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 9.434782608695656,
+      "corrected": true,
+      "location_id": "gb020",
+      "pre_correction_texture_total_percent": 90.56521739130434,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 6.021739130434781,
+      "corrected": true,
+      "location_id": "gb021",
+      "pre_correction_texture_total_percent": 93.97826086956522,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "location_id": "gb022",
+      "reasons": "missing Q0.5 for bdod 0-5cm",
+      "source_record_status": "rejected"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 7.408695652173918,
+      "corrected": true,
+      "location_id": "gb023",
+      "pre_correction_texture_total_percent": 92.59130434782608,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 10.021739130434781,
+      "corrected": true,
+      "location_id": "gb024",
+      "pre_correction_texture_total_percent": 89.97826086956522,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 6.62173913043479,
+      "corrected": true,
+      "location_id": "gb025",
+      "pre_correction_texture_total_percent": 93.37826086956521,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 8.130434782608688,
+      "corrected": true,
+      "location_id": "gb026",
+      "pre_correction_texture_total_percent": 91.86956521739131,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 14.15652173913044,
+      "corrected": true,
+      "location_id": "gb027",
+      "pre_correction_texture_total_percent": 85.84347826086956,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 12.473913043478262,
+      "corrected": true,
+      "location_id": "gb028",
+      "pre_correction_texture_total_percent": 87.52608695652174,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 9.91739130434783,
+      "corrected": true,
+      "location_id": "gb029",
+      "pre_correction_texture_total_percent": 90.08260869565217,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 8.39565217391305,
+      "corrected": true,
+      "location_id": "gb030",
+      "pre_correction_texture_total_percent": 91.60434782608695,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 4.9130434782608745,
+      "corrected": true,
+      "location_id": "gb031",
+      "pre_correction_texture_total_percent": 95.08695652173913,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 28.482608695652175,
+      "corrected": true,
+      "location_id": "gb032",
+      "pre_correction_texture_total_percent": 71.51739130434783,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 5.686956521739134,
+      "corrected": true,
+      "location_id": "gb033",
+      "pre_correction_texture_total_percent": 94.31304347826087,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 5.72173913043477,
+      "corrected": true,
+      "location_id": "gb034",
+      "pre_correction_texture_total_percent": 94.27826086956523,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "location_id": "gb035",
+      "reasons": "missing Q0.5 for bdod 0-5cm",
+      "source_record_status": "rejected"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 5.513043478260869,
+      "corrected": true,
+      "location_id": "gb036",
+      "pre_correction_texture_total_percent": 94.48695652173913,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 15.77391304347826,
+      "corrected": true,
+      "location_id": "gb037",
+      "pre_correction_texture_total_percent": 84.22608695652174,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 7.717391304347828,
+      "corrected": true,
+      "location_id": "gb038",
+      "pre_correction_texture_total_percent": 92.28260869565217,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 6.0695652173913,
+      "corrected": true,
+      "location_id": "gb039",
+      "pre_correction_texture_total_percent": 93.9304347826087,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 7.9304347826087,
+      "corrected": true,
+      "location_id": "gb040",
+      "pre_correction_texture_total_percent": 92.0695652173913,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 14.452173913043481,
+      "corrected": true,
+      "location_id": "gb041",
+      "pre_correction_texture_total_percent": 85.54782608695652,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 10.526086956521738,
+      "corrected": true,
+      "location_id": "gb042",
+      "pre_correction_texture_total_percent": 89.47391304347826,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 14.900000000000006,
+      "corrected": true,
+      "location_id": "gb043",
+      "pre_correction_texture_total_percent": 85.1,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 7.526086956521738,
+      "corrected": true,
+      "location_id": "gb044",
+      "pre_correction_texture_total_percent": 92.47391304347826,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 1.9608695652173935,
+      "corrected": true,
+      "location_id": "gb045",
+      "pre_correction_texture_total_percent": 98.0391304347826,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "location_id": "gb046",
+      "reasons": "missing Q0.5 for bdod 0-5cm",
+      "source_record_status": "rejected"
+    },
+    {
+      "location_id": "gb047",
+      "reasons": "missing Q0.5 for bdod 0-5cm",
+      "source_record_status": "rejected"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 10.23913043478261,
+      "corrected": true,
+      "location_id": "gb048",
+      "pre_correction_texture_total_percent": 89.76086956521739,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 2.8652173913043555,
+      "corrected": true,
+      "location_id": "gb049",
+      "pre_correction_texture_total_percent": 97.13478260869564,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 2.0086956521739125,
+      "corrected": true,
+      "location_id": "gb050",
+      "pre_correction_texture_total_percent": 97.99130434782609,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 2.826086956521749,
+      "corrected": true,
+      "location_id": "gb051",
+      "pre_correction_texture_total_percent": 97.17391304347825,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 5.169565217391309,
+      "corrected": true,
+      "location_id": "gb052",
+      "pre_correction_texture_total_percent": 94.83043478260869,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 2.239130434782595,
+      "corrected": true,
+      "location_id": "gb053",
+      "pre_correction_texture_total_percent": 97.7608695652174,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 4.673913043478251,
+      "corrected": true,
+      "location_id": "gb054",
+      "pre_correction_texture_total_percent": 95.32608695652175,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 4.360869565217399,
+      "corrected": true,
+      "location_id": "gb055",
+      "pre_correction_texture_total_percent": 95.6391304347826,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 1.4739130434782624,
+      "corrected": true,
+      "location_id": "gb056",
+      "pre_correction_texture_total_percent": 98.52608695652174,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "location_id": "gb057",
+      "reasons": "missing Q0.5 for bdod 0-5cm",
+      "source_record_status": "rejected"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 7.747826086956522,
+      "corrected": true,
+      "location_id": "gb058",
+      "pre_correction_texture_total_percent": 92.25217391304348,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 23.473913043478262,
+      "corrected": true,
+      "location_id": "gb059",
+      "pre_correction_texture_total_percent": 76.52608695652174,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 17.873913043478254,
+      "corrected": true,
+      "location_id": "gb060",
+      "pre_correction_texture_total_percent": 82.12608695652175,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 12.252173913043478,
+      "corrected": true,
+      "location_id": "gb061",
+      "pre_correction_texture_total_percent": 87.74782608695652,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 4.008695652173927,
+      "corrected": true,
+      "location_id": "gb062",
+      "pre_correction_texture_total_percent": 95.99130434782607,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 3.330434782608691,
+      "corrected": true,
+      "location_id": "gb063",
+      "pre_correction_texture_total_percent": 96.66956521739131,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    },
+    {
+      "absolute_closure_correction_percentage_points": 4.908695652173904,
+      "corrected": true,
+      "location_id": "gb064",
+      "pre_correction_texture_total_percent": 95.0913043478261,
+      "rule": "renormalise thickness-weighted independently predicted texture fractions",
+      "source_record_status": "accepted"
+    }
+  ],
+  "version": "0.9.6"
+}

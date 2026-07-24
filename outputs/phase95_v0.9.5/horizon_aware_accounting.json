@@ -1,0 +1,1277 @@
+{
+  "claim_boundary": "Provisional scheduled-event accounting for synthetic research comparisons only; values are not regional farm budgets or complete lifecycle assessments and do not enter biological carbon or phosphorus balances.",
+  "horizons": {
+    "120": {
+      "baseline": {
+        "cost_gbp_ha": 0.0,
+        "event_count": 0,
+        "events": [],
+        "horizon_months": 120,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 0.0,
+        "policy_id": "baseline",
+        "total_emissions_kg_co2e_ha": 0.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "conventional_tillage": {
+        "cost_gbp_ha": 700.0,
+        "event_count": 10,
+        "events": [
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m002",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m014",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 14
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m026",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 26
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m038",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 38
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m050",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 50
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m062",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 62
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m074",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 74
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m086",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 86
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m098",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 98
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m110",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 110
+          }
+        ],
+        "horizon_months": 120,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 250.0,
+        "policy_id": "conventional_tillage",
+        "total_emissions_kg_co2e_ha": 250.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "cover_crop": {
+        "cost_gbp_ha": 855.0,
+        "event_count": 18,
+        "events": [
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m008",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 8
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m013",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 13
+          },
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m020",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 20
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m025",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 25
+          },
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m032",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 32
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m037",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 37
+          },
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m044",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 44
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m049",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 49
+          },
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m056",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 56
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m061",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 61
+          },
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m068",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 68
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m073",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 73
+          },
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m080",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 80
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m085",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 85
+          },
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m092",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 92
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m097",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 97
+          },
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m104",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 104
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m109",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 109
+          }
+        ],
+        "horizon_months": 120,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 198.0,
+        "policy_id": "cover_crop",
+        "total_emissions_kg_co2e_ha": 198.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "farmyard_manure": {
+        "cost_gbp_ha": 800.0,
+        "event_count": 10,
+        "events": [
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m009",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 9
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m021",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 21
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m033",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 33
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m045",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 45
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m057",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 57
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m069",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 69
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m081",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 81
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m093",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 93
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m105",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 105
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m117",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 117
+          }
+        ],
+        "horizon_months": 120,
+        "lifecycle_emissions_kg_co2e_ha": 150.0,
+        "operational_emissions_kg_co2e_ha": 200.0,
+        "policy_id": "farmyard_manure",
+        "total_emissions_kg_co2e_ha": 350.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "phosphorus": {
+        "cost_gbp_ha": 300.0,
+        "event_count": 10,
+        "events": [
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m002",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m014",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 14
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m026",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 26
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m038",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 38
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m050",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 50
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m062",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 62
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m074",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 74
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m086",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 86
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m098",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 98
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m110",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 110
+          }
+        ],
+        "horizon_months": 120,
+        "lifecycle_emissions_kg_co2e_ha": 150.0,
+        "operational_emissions_kg_co2e_ha": 50.0,
+        "policy_id": "phosphorus",
+        "total_emissions_kg_co2e_ha": 200.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "reduced_tillage": {
+        "cost_gbp_ha": 450.0,
+        "event_count": 10,
+        "events": [
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m002",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m014",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 14
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m026",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 26
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m038",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 38
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m050",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 50
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m062",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 62
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m074",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 74
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m086",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 86
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m098",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 98
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m110",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 110
+          }
+        ],
+        "horizon_months": 120,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 150.0,
+        "policy_id": "reduced_tillage",
+        "total_emissions_kg_co2e_ha": 150.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      }
+    },
+    "24": {
+      "baseline": {
+        "cost_gbp_ha": 0.0,
+        "event_count": 0,
+        "events": [],
+        "horizon_months": 24,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 0.0,
+        "policy_id": "baseline",
+        "total_emissions_kg_co2e_ha": 0.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "conventional_tillage": {
+        "cost_gbp_ha": 140.0,
+        "event_count": 2,
+        "events": [
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m002",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m014",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 14
+          }
+        ],
+        "horizon_months": 24,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 50.0,
+        "policy_id": "conventional_tillage",
+        "total_emissions_kg_co2e_ha": 50.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "cover_crop": {
+        "cost_gbp_ha": 95.0,
+        "event_count": 2,
+        "events": [
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m008",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 8
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m013",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 13
+          }
+        ],
+        "horizon_months": 24,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 22.0,
+        "policy_id": "cover_crop",
+        "total_emissions_kg_co2e_ha": 22.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "farmyard_manure": {
+        "cost_gbp_ha": 160.0,
+        "event_count": 2,
+        "events": [
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m009",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 9
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m021",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 21
+          }
+        ],
+        "horizon_months": 24,
+        "lifecycle_emissions_kg_co2e_ha": 30.0,
+        "operational_emissions_kg_co2e_ha": 40.0,
+        "policy_id": "farmyard_manure",
+        "total_emissions_kg_co2e_ha": 70.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "phosphorus": {
+        "cost_gbp_ha": 60.0,
+        "event_count": 2,
+        "events": [
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m002",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m014",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 14
+          }
+        ],
+        "horizon_months": 24,
+        "lifecycle_emissions_kg_co2e_ha": 30.0,
+        "operational_emissions_kg_co2e_ha": 10.0,
+        "policy_id": "phosphorus",
+        "total_emissions_kg_co2e_ha": 40.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "reduced_tillage": {
+        "cost_gbp_ha": 90.0,
+        "event_count": 2,
+        "events": [
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m002",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m014",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 14
+          }
+        ],
+        "horizon_months": 24,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 30.0,
+        "policy_id": "reduced_tillage",
+        "total_emissions_kg_co2e_ha": 30.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      }
+    },
+    "60": {
+      "baseline": {
+        "cost_gbp_ha": 0.0,
+        "event_count": 0,
+        "events": [],
+        "horizon_months": 60,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 0.0,
+        "policy_id": "baseline",
+        "total_emissions_kg_co2e_ha": 0.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "conventional_tillage": {
+        "cost_gbp_ha": 350.0,
+        "event_count": 5,
+        "events": [
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m002",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m014",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 14
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m026",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 26
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m038",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 38
+          },
+          {
+            "cost_gbp_ha": 70.0,
+            "event_id": "conventional-tillage-m050",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 25.0,
+            "policy_id": "conventional_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 50
+          }
+        ],
+        "horizon_months": 60,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 125.0,
+        "policy_id": "conventional_tillage",
+        "total_emissions_kg_co2e_ha": 125.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "cover_crop": {
+        "cost_gbp_ha": 380.0,
+        "event_count": 8,
+        "events": [
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m008",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 8
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m013",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 13
+          },
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m020",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 20
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m025",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 25
+          },
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m032",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 32
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m037",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 37
+          },
+          {
+            "cost_gbp_ha": 60.0,
+            "event_id": "cover-establishment-m044",
+            "event_type": "cover_crop_establishment",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 12.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 44
+          },
+          {
+            "cost_gbp_ha": 35.0,
+            "event_id": "cover-termination-m049",
+            "event_type": "cover_crop_termination",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 10.0,
+            "policy_id": "cover_crop",
+            "provenance": "A065; legacy Phase 6 event metadata; only complete annual pairs accrue.",
+            "simulation_month": 49
+          }
+        ],
+        "horizon_months": 60,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 88.0,
+        "policy_id": "cover_crop",
+        "total_emissions_kg_co2e_ha": 88.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "farmyard_manure": {
+        "cost_gbp_ha": 400.0,
+        "event_count": 5,
+        "events": [
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m009",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 9
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m021",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 21
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m033",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 33
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m045",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 45
+          },
+          {
+            "cost_gbp_ha": 80.0,
+            "event_id": "farmyard-manure-m057",
+            "event_type": "farmyard_manure",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 20.0,
+            "policy_id": "farmyard_manure",
+            "provenance": "A065 provisional split of the legacy 35 kg CO2e ha-1 event proxy; excludes storage, avoided emissions, substitution and field N2O.",
+            "simulation_month": 57
+          }
+        ],
+        "horizon_months": 60,
+        "lifecycle_emissions_kg_co2e_ha": 75.0,
+        "operational_emissions_kg_co2e_ha": 100.0,
+        "policy_id": "farmyard_manure",
+        "total_emissions_kg_co2e_ha": 175.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "phosphorus": {
+        "cost_gbp_ha": 150.0,
+        "event_count": 5,
+        "events": [
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m002",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m014",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 14
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m026",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 26
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m038",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 38
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m050",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 50
+          }
+        ],
+        "horizon_months": 60,
+        "lifecycle_emissions_kg_co2e_ha": 75.0,
+        "operational_emissions_kg_co2e_ha": 25.0,
+        "policy_id": "phosphorus",
+        "total_emissions_kg_co2e_ha": 100.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "reduced_tillage": {
+        "cost_gbp_ha": 225.0,
+        "event_count": 5,
+        "events": [
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m002",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m014",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 14
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m026",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 26
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m038",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 38
+          },
+          {
+            "cost_gbp_ha": 45.0,
+            "event_id": "reduced-tillage-m050",
+            "event_type": "tillage",
+            "lifecycle_emissions_kg_co2e_ha": 0.0,
+            "operational_emissions_kg_co2e_ha": 15.0,
+            "policy_id": "reduced_tillage",
+            "provenance": "A065; legacy Phase 6 event metadata, repeated annually; provisional.",
+            "simulation_month": 50
+          }
+        ],
+        "horizon_months": 60,
+        "lifecycle_emissions_kg_co2e_ha": 0.0,
+        "operational_emissions_kg_co2e_ha": 75.0,
+        "policy_id": "reduced_tillage",
+        "total_emissions_kg_co2e_ha": 75.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      }
+    }
+  },
+  "mass_balance_boundary": "All accounting totals are external to biological carbon and phosphorus ledgers.",
+  "schedule_hash": "830347a7f74fb05fdebb8b6e440c84d092a9f4356a4640ea6dd22cafa1db79db",
+  "version": "0.9.5"
+}

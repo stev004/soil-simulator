@@ -1,0 +1,110 @@
+name: phase_9_offline_synthetic_intervention_selection_benchmark
+version: 0.9.0
+random_seed: 309000
+foundation_group_count: 75
+population_size: 75
+final_population_size: 150
+foundation_seeds: [309101, 309102, 309103, 309104, 309105, 309106, 309107, 309108, 309109, 309110]
+population_seeds: [309201, 309202, 309203, 309204, 309205, 309206, 309207, 309208, 309209, 309210]
+weather_resampling_seeds: [309301, 309302, 309303, 309304, 309305]
+biological_parameter_seeds: [309401, 309402, 309403, 309404, 309405]
+final_foundation_seed: 309501
+final_population_seed: 309502
+final_weather_resampling_seed: 309503
+final_biological_parameter_seed: 309504
+simulation_horizons_months: [24, 60, 120]
+
+# Every weight and threshold below is a synthetic scenario choice, not an
+# agronomic recommendation. Carbon objective weights are split equally across
+# the frozen 5-year and 10-year predictors unless shown otherwise.
+utility_profiles:
+  - profile_id: yield_priority
+    description: Synthetic preference scenario that places most weight on the 24-month yield effect.
+    weights:
+      yield_effect: 0.55
+      total_soc_effect: 0.15
+      protected_soc_proxy_effect: 0.10
+      intervention_cost: 0.10
+      emissions_proxy: 0.10
+    constraints:
+      maximum_yield_loss_t_dm_ha: 0.25
+      maximum_cost_gbp_ha: 150.0
+      maximum_emissions_proxy_kg_co2e_ha: 35.0
+      minimum_total_soc_benefit_t_c_ha: 0.0
+      maximum_actual_violation_rate: 0.02
+    carbon_horizon_weights: [0.65, 0.35]
+    classification: scenario_assumption
+    provenance: Phase 9 synthetic preference scenario; not an agronomic recommendation.
+  - profile_id: carbon_priority
+    description: Synthetic preference scenario that places most weight on total and protected-SOC-proxy effects.
+    weights:
+      yield_effect: 0.15
+      total_soc_effect: 0.35
+      protected_soc_proxy_effect: 0.35
+      intervention_cost: 0.075
+      emissions_proxy: 0.075
+    constraints:
+      maximum_yield_loss_t_dm_ha: 0.50
+      maximum_cost_gbp_ha: 150.0
+      maximum_emissions_proxy_kg_co2e_ha: 35.0
+      minimum_total_soc_benefit_t_c_ha: 0.0
+      maximum_actual_violation_rate: 0.02
+    carbon_horizon_weights: [0.35, 0.65]
+    classification: scenario_assumption
+    provenance: Phase 9 synthetic preference scenario; protected SOC is a model proxy, not measured MAOC.
+  - profile_id: balanced
+    description: Synthetic preference scenario with visible weight on every objective.
+    weights:
+      yield_effect: 0.25
+      total_soc_effect: 0.25
+      protected_soc_proxy_effect: 0.20
+      intervention_cost: 0.15
+      emissions_proxy: 0.15
+    constraints:
+      maximum_yield_loss_t_dm_ha: 0.30
+      maximum_cost_gbp_ha: 100.0
+      maximum_emissions_proxy_kg_co2e_ha: 35.0
+      minimum_total_soc_benefit_t_c_ha: 0.0
+      maximum_actual_violation_rate: 0.02
+    carbon_horizon_weights: [0.50, 0.50]
+    classification: scenario_assumption
+    provenance: Phase 9 synthetic preference scenario; not an agronomic recommendation.
+  - profile_id: cost_emissions_constrained
+    description: Synthetic preference scenario with tighter cost and emissions limits.
+    weights:
+      yield_effect: 0.20
+      total_soc_effect: 0.15
+      protected_soc_proxy_effect: 0.10
+      intervention_cost: 0.275
+      emissions_proxy: 0.275
+    constraints:
+      maximum_yield_loss_t_dm_ha: 0.20
+      maximum_cost_gbp_ha: 60.0
+      maximum_emissions_proxy_kg_co2e_ha: 20.0
+      minimum_total_soc_benefit_t_c_ha: 0.0
+      maximum_actual_violation_rate: 0.02
+    carbon_horizon_weights: [0.60, 0.40]
+    classification: scenario_assumption
+    provenance: Phase 9 synthetic preference scenario; thresholds are benchmark choices only.
+
+frozen_artifacts:
+  phase86_version: 0.8.6
+  protocol_hash: ce05594c82f995f0815b806eb34eb78605e84ab2a733595e391d785db9faeb05
+  frozen_decision_hash: 61dc9fcac47109d2ea833ce9763869b0269d7210b394dd52ea2654cd31f3d96a
+  preprocessing_hash: a658a1058759547eb216488db0a96da2cc4806aee690ef25b24a2f712072f16e
+  model_hashes:
+    delta_crop_yield_t_dm_ha@24: 637e0365287b2796f816aea58cc73d1ea3c3110adfe78f1b27512fdedc65ed58
+    delta_final_total_soc_t_c_ha@60: 6b13300fcb7862db72535aeeb5f7eee7a8f09562e61a06860192a1c2cbd24e6d
+    delta_final_total_soc_t_c_ha@120: 52b298fc20f21335a5c24e9d53662b65383587fce86253698d8e16f12ceb965f
+    delta_final_protected_soc_proxy_t_c_ha@60: 48d070e2a23f32ac687808b1f245f94a2a678a9eef3062043416493805c9981a
+    delta_final_protected_soc_proxy_t_c_ha@120: 94d6a955ac0bba88d4c0ae63e37b4766970504c0bc2c45e202b8dc62cd2411df
+  maximum_absolute_standardised_feature: 8.0
+
+ranking_overlap_tolerance_utility: 0.02
+confidence_improvement_margin_utility: 0.0
+catastrophic_normalised_regret_threshold: 0.50
+stability_perturbation_fraction_of_training_scale: 0.02
+near_duplicate_distance: 0.015
+reasonable_seed_median_regret_iqr: 0.20
+classification: scenario_assumption
+provenance: Predeclared offline synthetic Phase 9 protocol using only frozen Phase 8.6 observable models; non-causal, not real-field validation, and not a recommendation.

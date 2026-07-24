@@ -1,0 +1,628 @@
+{
+  "entries": [
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 3433,
+      "path": "manuscript/AUDIT_TRAIL.md",
+      "scientifically_frozen": false,
+      "sha256": "ee3d606bc24d874836d121891ed7486ca6de1bd140047446463f1a3ca0d2f441",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 1842,
+      "path": "manuscript/CLAIM_BOUNDARIES.md",
+      "scientifically_frozen": false,
+      "sha256": "2bfa4f74e13186d113e856f010ff7f9b2d341d4a5569dab46ad290975e9f85f9",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 2266,
+      "path": "manuscript/DATA_AVAILABILITY.md",
+      "scientifically_frozen": false,
+      "sha256": "fdb76a606f8a3494ac275fba781d1a29eff05ceb2776e56e356bbb66e91bd0f0",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 5285,
+      "path": "manuscript/LIMITATIONS_EVIDENCE.md",
+      "scientifically_frozen": false,
+      "sha256": "275dfe01dad50ae480ae3d43a83a3077877daab31e439e0236e2432a8bcb775b",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 1714,
+      "path": "manuscript/MANUSCRIPT_SCOPE.md",
+      "scientifically_frozen": false,
+      "sha256": "2d7900ff126e4850e5af23284b626f35aadd1cbe7c98c2b68e4eec65641bc274",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 7731,
+      "path": "manuscript/METHODS_EVIDENCE.md",
+      "scientifically_frozen": false,
+      "sha256": "f9f4ec335cfe7079adcdca486c7bd96ad54cd597ed3195de90d30b264adf9e0d",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 5063,
+      "path": "manuscript/PRISM_HANDOFF.md",
+      "scientifically_frozen": false,
+      "sha256": "d5818ce140466bc04a676b828e279a1a114afced524694db92f563f5527a5e26",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 837,
+      "path": "manuscript/README.md",
+      "scientifically_frozen": false,
+      "sha256": "ddb23fe326300b1a506c1399d2dd3d894bf2e62f11f3b9ae54fcc4fac86bb9f8",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 9719,
+      "path": "manuscript/REFERENCES_SOURCE_LIST.md",
+      "scientifically_frozen": false,
+      "sha256": "88d86cfb43c0eaa192af42394b52ed5db41a48b2f303838d578e4c91a9ce858f",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 2518,
+      "path": "manuscript/REPRODUCIBILITY.md",
+      "scientifically_frozen": false,
+      "sha256": "e838370023a8b1db75834e8a5b94fbd137a44f7eeed0495740ab5c6f46984368",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 6758,
+      "path": "manuscript/RESULTS_EVIDENCE.md",
+      "scientifically_frozen": false,
+      "sha256": "ee86b5212f3fd7977c0f4e6885590f2eac3077fb6335862fdeab4a889afa481b",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manuscript",
+      "file_size": 1340,
+      "path": "manuscript/SOFTWARE_AVAILABILITY.md",
+      "scientifically_frozen": false,
+      "sha256": "7f50a2fbd6bea94af1c083900687b53baa9bc324bb1bc82a828392fc1382f08b",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "data_indexes",
+      "file_size": 17020,
+      "path": "manuscript/data/DATA_INDEX.csv",
+      "scientifically_frozen": false,
+      "sha256": "afbf8f2a7606d2cf03da7f7bfa4d67ce039529f87d694de25d5ebafff3e83f7f",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "data_indexes",
+      "file_size": 1572,
+      "path": "manuscript/data/software_verification_summary.json",
+      "scientifically_frozen": false,
+      "sha256": "c9a6aefeeda40b8790ea93e4bbfcc0616966ef4f960e47827742ad5164e92324",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 3855,
+      "path": "manuscript/figures/FIGURE_INDEX.md",
+      "scientifically_frozen": false,
+      "sha256": "d0958de0cb5a898b0190c0207b7c909e8986563c61d437cd4c4a88412e03b303",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 3524,
+      "path": "manuscript/figures/figure_01_model_architecture.svg",
+      "scientifically_frozen": false,
+      "sha256": "e5613e9409f43098b26a68b01f0a996bee6ee762bb3288a4feabaad59b7cd783",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 3893,
+      "path": "manuscript/figures/figure_02_carbon_phosphorus_flow.svg",
+      "scientifically_frozen": false,
+      "sha256": "107a489433178f4968647fb09f0df83ec43cdbf39590d6dc96d4c315439a9519",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 6554,
+      "path": "manuscript/figures/figure_03_empirical_location_coverage.svg",
+      "scientifically_frozen": false,
+      "sha256": "853850565e46e759d5bd5fca132307a79ed56c22483402250917d9960245d4a6",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "copied",
+      "category": "figures",
+      "file_size": 5037,
+      "path": "manuscript/figures/figure_04_empirical_generated_distributions.svg",
+      "scientifically_frozen": true,
+      "sha256": "d5e84dda61d65aba4c10c752fa1a0dde99edc9ab4a0925843e0bfb53fe44d580",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/figures/empirical_generated_distributions.svg"
+    },
+    {
+      "action": "copied",
+      "category": "figures",
+      "file_size": 3392,
+      "path": "manuscript/figures/figure_05_hoosfield_trajectories.svg",
+      "scientifically_frozen": true,
+      "sha256": "ac8f35cd8e00b5f01ab3dd794504a537acb7560f650f47c0f8ea4b4f8084b1c1",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/figures/hoosfield_trajectories.svg"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 4389,
+      "path": "manuscript/figures/figure_06_hoosfield_residuals.svg",
+      "scientifically_frozen": false,
+      "sha256": "d4cdd62a14872d1aadfa3985d47245dd043b87a9257b10ea1d07d642406966ce",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 2769,
+      "path": "manuscript/figures/figure_07_fym_calibration_profile.svg",
+      "scientifically_frozen": false,
+      "sha256": "23e4fd8b659befed2b0143dc33ace229e5b2e75b07170492d2bcffd2f6d57492",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 3299,
+      "path": "manuscript/figures/figure_08_sensitivity_convergence.svg",
+      "scientifically_frozen": false,
+      "sha256": "dc56967a7fef743ebe6bbf6e09852d86f128bf7891c9f45b164d5aa973ccf4df",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 2224,
+      "path": "manuscript/figures/figure_09_representative_total_order_sensitivity.svg",
+      "scientifically_frozen": false,
+      "sha256": "bcb4c46985231ae7436213ad8bee825bdec7b84688b8eba0af440fb658fb7768",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 2200,
+      "path": "manuscript/figures/figure_10_ml_gate_summary.svg",
+      "scientifically_frozen": false,
+      "sha256": "e9f02e6ca659fe24b32a46c7c75d1901a7d19fe2f679ea60c8fff1f3003cb682",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "figures",
+      "file_size": 2652,
+      "path": "manuscript/figures/figure_11_audit_remediation_timeline.svg",
+      "scientifically_frozen": false,
+      "sha256": "744e63e573348934be5aa1ca62a41d1a259486d5f9ac192e7ce6a6dc5970ce7b",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "manifests",
+      "file_size": 729,
+      "path": "manuscript/manifests/data_indexes_manifest.json",
+      "scientifically_frozen": false,
+      "sha256": "bd8d2e9ef0e9ec7f4e47142a9f9ccbe377ccc373100d11e6b76afd39920b0c8c",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manifests",
+      "file_size": 4434,
+      "path": "manuscript/manifests/figures_manifest.json",
+      "scientifically_frozen": false,
+      "sha256": "857c49382fc4e8bd06df70c71454360f958f22ce89d6acfce67c99950292d261",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manifests",
+      "file_size": 731,
+      "path": "manuscript/manifests/phase98_current_byte_corrections.json",
+      "scientifically_frozen": false,
+      "sha256": "2a0393f13a6b9abb121ded092ffde24b023e4fa2ebf12dee2881dd06f1bc703d",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manifests",
+      "file_size": 7677,
+      "path": "manuscript/manifests/supplementary_manifest.json",
+      "scientifically_frozen": false,
+      "sha256": "9c9164485ee7dcc334227ae1c51618cfcdcd035894ec8f7d64ac6941bdcc30a9",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "generated",
+      "category": "manifests",
+      "file_size": 6414,
+      "path": "manuscript/manifests/tables_manifest.json",
+      "scientifically_frozen": false,
+      "sha256": "94a8cf7f3b0b84e023b87b65954a4fbcafd643ec674ce2635989c09cf4b33755",
+      "source_or_generating_script": "Phase 9.8 archive build/documentation"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 21705,
+      "path": "manuscript/supplementary/ASSUMPTIONS_REGISTER.csv",
+      "scientifically_frozen": true,
+      "sha256": "c26e2e258ddb13d4e8d118dc0d3aa8f9ded3f0c25ccf273eef90e40dfe43cc17",
+      "source_or_generating_script": "docs/ASSUMPTIONS_REGISTER.csv"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 11439,
+      "path": "manuscript/supplementary/EFFECT_ONLY_MODEL_CARD.md",
+      "scientifically_frozen": true,
+      "sha256": "e2be1f5b5cc0e2d78a8c0467a49fd03aa6517691fc5919f2e6e3df3c69560add",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/EFFECT_ONLY_MODEL_CARD.md"
+    },
+    {
+      "action": "indexed",
+      "category": "supplementary",
+      "file_size": 2839,
+      "path": "manuscript/supplementary/INDEPENDENT_AUDIT_INDEX.json",
+      "scientifically_frozen": true,
+      "sha256": "7cad607d3105127f5425832ea397d5fd93831bea7888c074180d47c028cbc7d5",
+      "source_or_generating_script": "frozen sources listed inside the index"
+    },
+    {
+      "action": "indexed",
+      "category": "supplementary",
+      "file_size": 2101,
+      "path": "manuscript/supplementary/LARGE_FILE_INDEX.json",
+      "scientifically_frozen": true,
+      "sha256": "78d1a51fcea1780c6cc7c5ce85629a22dfacf8d03dc0ee4a8e859d4818e13b27",
+      "source_or_generating_script": "frozen sources listed inside the index"
+    },
+    {
+      "action": "generated",
+      "category": "supplementary",
+      "file_size": 448,
+      "path": "manuscript/supplementary/README.md",
+      "scientifically_frozen": false,
+      "sha256": "5f2d4081d986fb820e5809d9c43c2e46e05f7756b3ccb67b99eb7a6745cb1126",
+      "source_or_generating_script": "Phase 9.8 documentation"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 467,
+      "path": "manuscript/supplementary/calibration_profile.csv",
+      "scientifically_frozen": true,
+      "sha256": "8e0305d623f87e9441a37497046e91a99a4a000fffea771d2b8b19933387b41a",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/calibration_profile.csv"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 1412,
+      "path": "manuscript/supplementary/leakage_evidence.json",
+      "scientifically_frozen": true,
+      "sha256": "58c184a9a0ff235bf7f0519765b4b215830f10c5cccb6d9444aeab7708add538",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/leakage_check_evidence.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 1618,
+      "path": "manuscript/supplementary/phase96_internal_audit_closure_matrix.csv",
+      "scientifically_frozen": true,
+      "sha256": "bc49f75ace35540ad042b09138ef6b1af69baa9d4fdf7550e38bc19ae831ab94",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/audit_closure_matrix.csv"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 1128,
+      "path": "manuscript/supplementary/phase97_internal_audit_closure_matrix.csv",
+      "scientifically_frozen": true,
+      "sha256": "8eacfc4591769e4266c167ddc2dfa88cc91bc48d66b2350b845448fbffad0eab",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/audit_closure_matrix.csv"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 1189,
+      "path": "manuscript/supplementary/publication_readiness_gates.json",
+      "scientifically_frozen": true,
+      "sha256": "dae5c644228fbaf5c1b73e49b283efab6c3127b7d026a1712f603dc67bd2aecf",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/publication_readiness.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 1946,
+      "path": "manuscript/supplementary/sensitivity_convergence_manifest.json",
+      "scientifically_frozen": true,
+      "sha256": "f1ce182622e36f4f4ace5ab9fe95b1dc01d9402ef1c356947041eca2896c1385",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/sensitivity_convergence_manifest.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 2706,
+      "path": "manuscript/supplementary/source_manifests/phase95_artifact_hashes.json",
+      "scientifically_frozen": true,
+      "sha256": "0fce2e9df3d2bc480bafc068650817c1d6213e5ef879d9e3d024ea8048410044",
+      "source_or_generating_script": "outputs/phase95_v0.9.5/artifact_hashes.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 5716,
+      "path": "manuscript/supplementary/source_manifests/phase96_artifact_hashes.json",
+      "scientifically_frozen": true,
+      "sha256": "0c7aeea56d6c951972f926e609f04c6cc50fb1dc491d7ecd118f7d512de10e53",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/artifact_hashes.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 16946,
+      "path": "manuscript/supplementary/source_manifests/phase96_empirical_source_manifest.json",
+      "scientifically_frozen": true,
+      "sha256": "ba2db4b6fd1dd6b7d280f846e2d3bc846e3f6d44eb87c892e80cd78a9fe1b6e5",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/EMPIRICAL_SOURCE_MANIFEST.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 4217,
+      "path": "manuscript/supplementary/source_manifests/phase97_artifact_hashes.json",
+      "scientifically_frozen": true,
+      "sha256": "81388a4c772daf97bbdd18b712a14d73145659ce5776086e66c454a13427c12e",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/artifact_hashes.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 551,
+      "path": "manuscript/supplementary/source_manifests/phase97_pipeline_manifest.json",
+      "scientifically_frozen": true,
+      "sha256": "a3aaaf9b2419a76dc31e3a71e9b94b4055d7b2d3c49178078df40fdc43bee294",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/pipeline_manifest.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 2710,
+      "path": "manuscript/supplementary/source_manifests/phase97_sobol_sampling_manifest.json",
+      "scientifically_frozen": true,
+      "sha256": "4ea9fd50ebdabe26435085b64db035a0ae6f16726c4fe700255f21f46fd85457",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/sobol_sampling_manifest.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 19563,
+      "path": "manuscript/supplementary/source_manifests/phase97_source_manifest.json",
+      "scientifically_frozen": true,
+      "sha256": "71ef19e60ea52ddf73a0813955de5b0ef3668ddd301f801051699150c0e8fad9",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/source_manifest.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 14123,
+      "path": "manuscript/supplementary/uncertainty_evidence.json",
+      "scientifically_frozen": true,
+      "sha256": "e5fe03db2c56c3393b6ee2763fd9b57665b7dfc964904d7148a28744bd99c8e9",
+      "source_or_generating_script": "outputs/phase97_v0.9.7/uncertainty_coverage_report.json"
+    },
+    {
+      "action": "copied",
+      "category": "supplementary",
+      "file_size": 8471,
+      "path": "manuscript/supplementary/validation_residuals.csv",
+      "scientifically_frozen": true,
+      "sha256": "c3c3928c1c212bb8b26817e02d0338ca123343e3240614a712c778a52b6f5ddb",
+      "source_or_generating_script": "outputs/phase96_v0.9.6/validation_trajectories.csv"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 3394,
+      "path": "manuscript/tables/table_01_model_components.csv",
+      "scientifically_frozen": false,
+      "sha256": "6dca5cd4cb0b84f17cb9c1961bde74a5fe784a724374522cf105b1cd85c87922",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 3745,
+      "path": "manuscript/tables/table_01_model_components.md",
+      "scientifically_frozen": false,
+      "sha256": "cd2a181fef99c3564fdb4e6ec4fa81bc376bb3954d7bde6f7bce3ed47f42416f",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 1462,
+      "path": "manuscript/tables/table_02_data_sources.csv",
+      "scientifically_frozen": false,
+      "sha256": "3cc9374d046e2b7fd6d9026043cc607b5d6c22023ea62ad7473c59b879d9ac2d",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 1721,
+      "path": "manuscript/tables/table_02_data_sources.md",
+      "scientifically_frozen": false,
+      "sha256": "8784449a41058be6dd9509972801554de64b760efd39c1c1c9ac09fd6f9b1da9",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 704,
+      "path": "manuscript/tables/table_03_verification_tests.csv",
+      "scientifically_frozen": false,
+      "sha256": "d006afe9c02d5373979594f2ebcd3d7d6b658c8c926aaaea756ce1c53ab2029f",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 945,
+      "path": "manuscript/tables/table_03_verification_tests.md",
+      "scientifically_frozen": false,
+      "sha256": "ae56d667c0ce406d8b610bc08c0ddd0e11cde53085d5a7a1a9f6426fc8e8bed6",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 2974,
+      "path": "manuscript/tables/table_04_hoosfield_validation.csv",
+      "scientifically_frozen": false,
+      "sha256": "9d301097b1cc4c793038349ad09b8329f0a2663ad067d4b8b638bc8cc1e2b441",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 3441,
+      "path": "manuscript/tables/table_04_hoosfield_validation.md",
+      "scientifically_frozen": false,
+      "sha256": "4670d28ce3ad6b303b6cdf7b58eb0747fcdd07ea7da84f5e5e6308fbd99d32d1",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 1045,
+      "path": "manuscript/tables/table_05_sensitivity_convergence.csv",
+      "scientifically_frozen": false,
+      "sha256": "ef129038cc9dd056800e4be3a3e19e9d40a8fa94b6f4e65334b75840da2c0210",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 1359,
+      "path": "manuscript/tables/table_05_sensitivity_convergence.md",
+      "scientifically_frozen": false,
+      "sha256": "20dcd9cb1587e127151585cd46e14ce7428c32f2af62091614836c6d9d38f908",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 913,
+      "path": "manuscript/tables/table_06_ml_gate_results.csv",
+      "scientifically_frozen": false,
+      "sha256": "a63189c4883973dabd6edb138cb1e1ed7334648d377e16ccf8e22fa34349a7d7",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 1183,
+      "path": "manuscript/tables/table_06_ml_gate_results.md",
+      "scientifically_frozen": false,
+      "sha256": "b0c28242c42ee677857e35ad6be4263871ddcaaea6c19c69218d974a498162b9",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 7804,
+      "path": "manuscript/tables/table_07_audit_finding_closure.csv",
+      "scientifically_frozen": false,
+      "sha256": "49fe40272d79f6b29ca319a0cb67e12d152ee28c22e337591fa0eac81fa7de5a",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 8448,
+      "path": "manuscript/tables/table_07_audit_finding_closure.md",
+      "scientifically_frozen": false,
+      "sha256": "f4fa66e2a025de4f661c8b585b70c1a774d6e3ff2c8e90911bd9e04201e3130b",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 2890,
+      "path": "manuscript/tables/table_08_claim_boundaries.csv",
+      "scientifically_frozen": false,
+      "sha256": "8f39e5eae9b40f5c01fa507f382c3742c66d055733a58425f79150f0eb3f15ca",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 3299,
+      "path": "manuscript/tables/table_08_claim_boundaries.md",
+      "scientifically_frozen": false,
+      "sha256": "707a3e1ae218faed3cfe46fd9958dbf4bb920bdc656085be19af3e4ef7bb5011",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 6159,
+      "path": "manuscript/tables/table_09_assumptions_summary.csv",
+      "scientifically_frozen": false,
+      "sha256": "cf79d698fae5c3f96a47074c6975e09382347bdf12e7db6d56ed92912dc25bb9",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "tables",
+      "file_size": 7191,
+      "path": "manuscript/tables/table_09_assumptions_summary.md",
+      "scientifically_frozen": false,
+      "sha256": "0602c8c06928aa9edf5a51ff0ca594ba03563f6d508a678fe733a47c2f300db5",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    }
+  ],
+  "entry_count": 69,
+  "set_digest_algorithm": "sha256(path NUL sha256 LF, sorted by path)",
+  "set_sha256": "98aa6e6366ac4f3c4708883817cb987850c8d2858b20cdbfbe9dde11525099a5"
+}

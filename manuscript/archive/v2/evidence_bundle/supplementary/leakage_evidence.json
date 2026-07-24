@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "computable": true,
+      "evidence": {
+        "group_count": 56,
+        "overlaps": {}
+      },
+      "name": "no_empirical_location_crosses_groups",
+      "passed": true
+    },
+    {
+      "computable": true,
+      "evidence": {
+        "field_overlaps": {},
+        "seed_overlaps": {}
+      },
+      "name": "generated_descendants_isolated_by_empirical_seed",
+      "passed": true
+    },
+    {
+      "computable": true,
+      "evidence": {
+        "excluded_group_count": 25,
+        "fit_split": "train",
+        "overlaps": [],
+        "training_group_count": 31
+      },
+      "name": "preprocessing_fitted_on_training_groups_only",
+      "passed": true
+    },
+    {
+      "computable": true,
+      "evidence": {
+        "calibration_split": "validation",
+        "evaluation_splits": [
+          "archetype_ood",
+          "test",
+          "weather_ood"
+        ],
+        "overlaps": []
+      },
+      "name": "calibration_groups_excluded_from_final_evaluation",
+      "passed": true
+    },
+    {
+      "computable": true,
+      "evidence": {
+        "exact_cross_group_duplicates": [],
+        "near_duplicate_cross_group_pairs": [],
+        "near_duplicate_threshold_standardised_euclidean": 1e-06
+      },
+      "name": "no_exact_or_near_duplicate_fields_cross_groups",
+      "passed": true
+    }
+  ],
+  "fail_closed": true,
+  "failure_reasons": [],
+  "passed": true
+}

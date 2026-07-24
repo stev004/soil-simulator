@@ -1,0 +1,80 @@
+{
+  "created_date": "2026-07-22",
+  "files": [
+    {
+      "bytes": 56567,
+      "path": "manuscript/methods_expansion/COMPLETE_PARAMETER_REGISTER.csv",
+      "role": "methods evidence extraction",
+      "sha256": "844809427ee6e60b29c2c6112f5f22a888a2bdf09b26d43de4c0cb87d9dcb929"
+    },
+    {
+      "bytes": 19749,
+      "path": "manuscript/methods_expansion/DATA_SPLIT_REGISTER.csv",
+      "role": "methods evidence extraction",
+      "sha256": "67952bfb0eaa5f71d3d10cd7334ac2d77a7f5151722ac78fe04a20c82ef32fe7"
+    },
+    {
+      "bytes": 11285,
+      "path": "manuscript/methods_expansion/EMPIRICAL_PILOT_METHODS.md",
+      "role": "methods evidence extraction",
+      "sha256": "aae71e974c9445f116c1119c05a1150b2984a7c0baac03c6e62550338a76b176"
+    },
+    {
+      "bytes": 7941,
+      "path": "manuscript/methods_expansion/EQUATIONS_AND_PROCESSES.md",
+      "role": "methods evidence extraction",
+      "sha256": "01b807bdafcb016952c23162d88826ee2514daf2282cee762575f13974a0e7e9"
+    },
+    {
+      "bytes": 5032,
+      "path": "manuscript/methods_expansion/HOOSFIELD_METHODS.md",
+      "role": "methods evidence extraction",
+      "sha256": "bfdddc0c30b42845bc11c49bd9152d6daf6a15f101cad04b525e20982b8e2847"
+    },
+    {
+      "bytes": 10883,
+      "path": "manuscript/methods_expansion/METHODS_EXPANSION_REPORT.md",
+      "role": "methods evidence extraction",
+      "sha256": "9f2c6da30885f6277dd8ced46eab0c47866ca51a95d8e7f88e58cf516d7f8c91"
+    },
+    {
+      "bytes": 9970,
+      "path": "manuscript/methods_expansion/METHODS_LIMITATIONS_ADDENDUM.md",
+      "role": "methods limitations addendum",
+      "sha256": "18c379e5a51fdbd279b4b1b5d74d26d4f1c474c223b20127c01ed22472fde43a"
+    },
+    {
+      "bytes": 6022,
+      "path": "manuscript/methods_expansion/ML_AND_GATE_METHODS.md",
+      "role": "methods evidence extraction",
+      "sha256": "8961cb264799c61ee274226c179cf006abc2e8814245654694f4c42b9a8c3a83"
+    },
+    {
+      "bytes": 5051,
+      "path": "manuscript/methods_expansion/SENSITIVITY_METHODS.md",
+      "role": "methods evidence extraction",
+      "sha256": "f6bf8f65540442a5e45983424802a7913285cb06fe5d90f8ff9755cfe0f851ab"
+    },
+    {
+      "bytes": 7796,
+      "path": "manuscript/methods_expansion/methods_evidence_map.csv",
+      "role": "methods evidence extraction",
+      "sha256": "2261c10396cd26917dc856c2822695db59266bcfa932616ebd164ee7720ae6ee"
+    },
+    {
+      "bytes": 3099,
+      "path": "manuscript/methods_expansion/unresolved_after_expansion.md",
+      "role": "methods evidence extraction",
+      "sha256": "604624f1429ae8c408d5a6d2602f3f989c2aa9b5f4eeb39a71f01f1d8dc6733a"
+    }
+  ],
+  "historical_files_modified": false,
+  "manifest_version": "1.1.0",
+  "model_configuration_semantic_sha256": "d9864cf8f17956ee313abbec6937f508d3de98c24fb25931e74759a975c65efb",
+  "population_configuration_semantic_sha256": "c8e86664667ceb965990d6cf45d0a76aa40e5e336562f4976d3c6aeef7b8ff4e",
+  "scientific_analyses_rerun": false,
+  "scope": "documentation-only methods evidence expansion and limitations addendum",
+  "self_hash_note": "The byte SHA-256 of manifest.json is reported in the completion handoff; embedding its own byte hash would be circular.",
+  "source_repository": "soil_simulator full local archive",
+  "updated_date": "2026-07-22"
+}

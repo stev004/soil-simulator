@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="28" font-family="sans-serif" font-size="18">Population-aware Morris aggregate screening</text>
+<text x="20" y="66" font-family="monospace" font-size="12">empirical_location_index</text>
+<rect x="280" y="52" width="560.00" height="20" fill="#4c78a8"/>
+<text x="850.00" y="66" font-family="sans-serif" font-size="11">0.8368</text>
+<text x="20" y="105" font-family="monospace" font-size="12">weather_resample_index</text>
+<rect x="280" y="91" width="405.02" height="20" fill="#4c78a8"/>
+<text x="695.02" y="105" font-family="sans-serif" font-size="11">0.6052</text>
+<text x="20" y="144" font-family="monospace" font-size="12">schedule_interval_months</text>
+<rect x="280" y="130" width="312.27" height="20" fill="#4c78a8"/>
+<text x="602.27" y="144" font-family="sans-serif" font-size="11">0.4666</text>
+<text x="20" y="183" font-family="monospace" font-size="12">tillage_decomposition_multiplier</text>
+<rect x="280" y="169" width="30.38" height="20" fill="#4c78a8"/>
+<text x="320.38" y="183" font-family="sans-serif" font-size="11">0.04539</text>
+<text x="20" y="222" font-family="monospace" font-size="12">fym_phosphorus_content</text>
+<rect x="280" y="208" width="27.74" height="20" fill="#4c78a8"/>
+<text x="317.74" y="222" font-family="sans-serif" font-size="11">0.04144</text>
+<text x="20" y="261" font-family="monospace" font-size="12">amf_turnover</text>
+<rect x="280" y="247" width="23.32" height="20" fill="#4c78a8"/>
+<text x="313.32" y="261" font-family="sans-serif" font-size="11">0.03485</text>
+<text x="20" y="300" font-family="monospace" font-size="12">cover_crop_npp</text>
+<rect x="280" y="286" width="22.50" height="20" fill="#4c78a8"/>
+<text x="312.50" y="300" font-family="sans-serif" font-size="11">0.03361</text>
+<text x="20" y="339" font-family="monospace" font-size="12">phosphorus_uptake_vmax</text>
+<rect x="280" y="325" width="10.97" height="20" fill="#4c78a8"/>
+<text x="300.97" y="339" font-family="sans-serif" font-size="11">0.0164</text>
+<text x="20" y="378" font-family="monospace" font-size="12">spinup_pool_blend</text>
+<rect x="280" y="364" width="6.79" height="20" fill="#4c78a8"/>
+<text x="296.79" y="378" font-family="sans-serif" font-size="11">0.01015</text>
+<text x="20" y="417" font-family="monospace" font-size="12">amf_allocation</text>
+<rect x="280" y="403" width="1.62" height="20" fill="#4c78a8"/>
+<text x="291.62" y="417" font-family="sans-serif" font-size="11">0.002427</text>
+<text x="20" y="452" font-family="sans-serif" font-size="11">Scores aggregate paired biological effects across policies/horizons; no causal importance is claimed.</text>
+</svg>

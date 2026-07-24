@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="380">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="25" font-family="sans-serif" font-size="18">Hoosfield total SOC: observations and source-corrected trajectories</text>
+<text x="40.0" y="48" font-family="sans-serif" font-size="13">unfertilized</text>
+<rect x="40.0" y="60.0" width="290.0" height="260.0" fill="none" stroke="#999999"/>
+<path d="M40.00,105.61 L99.59,108.94 L161.16,139.30 L226.71,151.89 L264.45,132.30 L284.32,144.94 L298.22,138.97 L330.00,133.80" fill="none" stroke="#1769aa" stroke-width="2"/>
+<path d="M40.00,105.61 L99.59,142.61 L161.16,184.25 L226.71,207.56 L264.45,196.28 L284.32,209.69 L298.22,206.20 L330.00,205.05" fill="none" stroke="#d95f02" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="40.00" cy="105.61" r="3" fill="#222222"/>
+<circle cx="99.59" cy="201.40" r="3" fill="#222222"/>
+<circle cx="161.16" cy="194.56" r="3" fill="#222222"/>
+<circle cx="226.71" cy="228.77" r="3" fill="#222222"/>
+<circle cx="264.45" cy="253.86" r="3" fill="#222222"/>
+<circle cx="284.32" cy="201.40" r="3" fill="#222222"/>
+<circle cx="298.22" cy="274.39" r="3" fill="#222222"/>
+<circle cx="330.00" cy="180.88" r="3" fill="#222222"/>
+<text x="380.0" y="48" font-family="sans-serif" font-size="13">fym_annual</text>
+<rect x="380.0" y="60.0" width="290.0" height="260.0" fill="none" stroke="#999999"/>
+<path d="M380.00,312.16 L439.59,202.80 L501.16,165.50 L566.71,120.60 L604.45,93.85 L624.32,91.15 L638.22,83.15 L670.00,70.10" fill="none" stroke="#1769aa" stroke-width="2"/>
+<path d="M380.00,312.16 L439.59,204.83 L501.16,167.65 L566.71,122.19 L604.45,96.31 L624.32,93.42 L638.22,85.69 L670.00,72.97" fill="none" stroke="#d95f02" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="380.00" cy="312.16" r="3" fill="#222222"/>
+<circle cx="439.59" cy="197.65" r="3" fill="#222222"/>
+<circle cx="501.16" cy="136.47" r="3" fill="#222222"/>
+<circle cx="566.71" cy="133.33" r="3" fill="#222222"/>
+<circle cx="604.45" cy="90.59" r="3" fill="#222222"/>
+<circle cx="624.32" cy="92.16" r="3" fill="#222222"/>
+<circle cx="638.22" cy="97.65" r="3" fill="#222222"/>
+<circle cx="670.00" cy="67.84" r="3" fill="#222222"/>
+<text x="720.0" y="48" font-family="sans-serif" font-size="13">fym_1852_1871</text>
+<rect x="720.0" y="60.0" width="290.0" height="260.0" fill="none" stroke="#999999"/>
+<path d="M720.00,293.29 L779.59,155.32 L841.16,223.06 L906.71,252.38 L944.45,253.53 L964.32,264.20 L978.22,264.45 L1010.00,268.17" fill="none" stroke="#1769aa" stroke-width="2"/>
+<path d="M720.00,293.29 L779.59,168.27 L841.16,241.45 L906.71,276.11 L944.45,281.22 L964.32,292.35 L978.22,293.78 L1010.00,299.45" fill="none" stroke="#d95f02" stroke-width="2" stroke-dasharray="5 3"/>
+<circle cx="720.00" cy="293.29" r="3" fill="#222222"/>
+<circle cx="779.59" cy="80.55" r="3" fill="#222222"/>
+<circle cx="841.16" cy="164.83" r="3" fill="#222222"/>
+<circle cx="906.71" cy="210.05" r="3" fill="#222222"/>
+<circle cx="944.45" cy="244.99" r="3" fill="#222222"/>
+<circle cx="964.32" cy="183.33" r="3" fill="#222222"/>
+<circle cx="978.22" cy="244.99" r="3" fill="#222222"/>
+<circle cx="1010.00" cy="204.91" r="3" fill="#222222"/>
+<text x="20" y="355" font-family="sans-serif" font-size="12">black: observed; blue: uncalibrated source forcing; orange dashed: optional bounded calibration. protected_soc is not shown.</text>
+</svg>

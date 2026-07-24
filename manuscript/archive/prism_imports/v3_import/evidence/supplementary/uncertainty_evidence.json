@@ -1,0 +1,421 @@
+{
+  "computable": true,
+  "nominal_coverage": 0.9,
+  "passed": true,
+  "rule": "each supported target/regime must fall in the exact central 95% Binomial(n,0.90) count range without severe undercoverage, excessive overcoverage or >5x-RMSE width; regimes with <20 rows or <4 independent groups abstain",
+  "targets": {
+    "delta_protected_soc_proxy_t_c_ha|120": {
+      "passed": true,
+      "regimes": {
+        "ood": {
+          "binomial_95_percent_acceptance_count_range": [
+            18,
+            24
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.75,
+            1.0
+          ],
+          "empirical_location_count": 4,
+          "excessive_overcoverage": false,
+          "interval_full_width": 0.37502015334381644,
+          "interval_width_to_rmse": 2.6567428488205844,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.875,
+          "passed": true,
+          "sample_size": 24,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 21,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.6899611872949993,
+            0.9565566591987655
+          ]
+        },
+        "test": {
+          "binomial_95_percent_acceptance_count_range": [
+            87,
+            99
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.8365384615384616,
+            0.9519230769230769
+          ],
+          "empirical_location_count": 11,
+          "excessive_overcoverage": false,
+          "interval_full_width": 0.37502015334381644,
+          "interval_width_to_rmse": 3.0448711691106864,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.875,
+          "passed": true,
+          "sample_size": 104,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 91,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.7978100094584702,
+            0.9254739747621908
+          ]
+        }
+      }
+    },
+    "delta_protected_soc_proxy_t_c_ha|60": {
+      "passed": true,
+      "regimes": {
+        "ood": {
+          "binomial_95_percent_acceptance_count_range": [
+            18,
+            24
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.75,
+            1.0
+          ],
+          "empirical_location_count": 4,
+          "excessive_overcoverage": false,
+          "interval_full_width": 0.21537904719630285,
+          "interval_width_to_rmse": 3.0022476765641706,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.9166666666666666,
+          "passed": true,
+          "sample_size": 24,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 22,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.741511978067893,
+            0.9768411847029567
+          ]
+        },
+        "test": {
+          "binomial_95_percent_acceptance_count_range": [
+            87,
+            99
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.8365384615384616,
+            0.9519230769230769
+          ],
+          "empirical_location_count": 11,
+          "excessive_overcoverage": false,
+          "interval_full_width": 0.21537904719630285,
+          "interval_width_to_rmse": 3.526358029376252,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.9134615384615384,
+          "passed": true,
+          "sample_size": 104,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 95,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.8436629055250897,
+            0.9538040514361519
+          ]
+        }
+      }
+    },
+    "delta_respiration_t_c_ha|120": {
+      "passed": true,
+      "regimes": {
+        "ood": {
+          "binomial_95_percent_acceptance_count_range": [
+            18,
+            24
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.75,
+            1.0
+          ],
+          "empirical_location_count": 4,
+          "excessive_overcoverage": false,
+          "interval_full_width": 1.7510941331323977,
+          "interval_width_to_rmse": 3.2721791643112264,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.8333333333333334,
+          "passed": true,
+          "sample_size": 24,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 20,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.6414692935030095,
+            0.9332132367136705
+          ]
+        },
+        "test": {
+          "binomial_95_percent_acceptance_count_range": [
+            87,
+            99
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.8365384615384616,
+            0.9519230769230769
+          ],
+          "empirical_location_count": 11,
+          "excessive_overcoverage": false,
+          "interval_full_width": 1.7510941331323977,
+          "interval_width_to_rmse": 2.793854211033959,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.875,
+          "passed": true,
+          "sample_size": 104,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 91,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.7978100094584702,
+            0.9254739747621908
+          ]
+        }
+      }
+    },
+    "delta_respiration_t_c_ha|60": {
+      "passed": true,
+      "regimes": {
+        "ood": {
+          "binomial_95_percent_acceptance_count_range": [
+            18,
+            24
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.75,
+            1.0
+          ],
+          "empirical_location_count": 4,
+          "excessive_overcoverage": false,
+          "interval_full_width": 1.0368926336385638,
+          "interval_width_to_rmse": 3.2297445987018447,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.9166666666666666,
+          "passed": true,
+          "sample_size": 24,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 22,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.741511978067893,
+            0.9768411847029567
+          ]
+        },
+        "test": {
+          "binomial_95_percent_acceptance_count_range": [
+            87,
+            99
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.8365384615384616,
+            0.9519230769230769
+          ],
+          "empirical_location_count": 11,
+          "excessive_overcoverage": false,
+          "interval_full_width": 1.0368926336385638,
+          "interval_width_to_rmse": 3.3866104976000915,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.8846153846153846,
+          "passed": true,
+          "sample_size": 104,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 92,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.8090795037039419,
+            0.9327502237018642
+          ]
+        }
+      }
+    },
+    "delta_total_soc_t_c_ha|120": {
+      "passed": true,
+      "regimes": {
+        "ood": {
+          "binomial_95_percent_acceptance_count_range": [
+            18,
+            24
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.75,
+            1.0
+          ],
+          "empirical_location_count": 4,
+          "excessive_overcoverage": false,
+          "interval_full_width": 0.9413468228294728,
+          "interval_width_to_rmse": 2.867891431845524,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.8333333333333334,
+          "passed": true,
+          "sample_size": 24,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 20,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.6414692935030095,
+            0.9332132367136705
+          ]
+        },
+        "test": {
+          "binomial_95_percent_acceptance_count_range": [
+            87,
+            99
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.8365384615384616,
+            0.9519230769230769
+          ],
+          "empirical_location_count": 11,
+          "excessive_overcoverage": false,
+          "interval_full_width": 0.9413468228294728,
+          "interval_width_to_rmse": 2.6712522608821785,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.875,
+          "passed": true,
+          "sample_size": 104,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 91,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.7978100094584702,
+            0.9254739747621908
+          ]
+        }
+      }
+    },
+    "delta_total_soc_t_c_ha|60": {
+      "passed": true,
+      "regimes": {
+        "ood": {
+          "binomial_95_percent_acceptance_count_range": [
+            18,
+            24
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.75,
+            1.0
+          ],
+          "empirical_location_count": 4,
+          "excessive_overcoverage": false,
+          "interval_full_width": 0.8675297560572908,
+          "interval_width_to_rmse": 2.980340156886485,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.9166666666666666,
+          "passed": true,
+          "sample_size": 24,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 22,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.741511978067893,
+            0.9768411847029567
+          ]
+        },
+        "test": {
+          "binomial_95_percent_acceptance_count_range": [
+            87,
+            99
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.8365384615384616,
+            0.9519230769230769
+          ],
+          "empirical_location_count": 11,
+          "excessive_overcoverage": false,
+          "interval_full_width": 0.8675297560572908,
+          "interval_width_to_rmse": 3.5798748326523713,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.8846153846153846,
+          "passed": true,
+          "sample_size": 104,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 92,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.8090795037039419,
+            0.9327502237018642
+          ]
+        }
+      }
+    },
+    "delta_yield_t_dm_ha|24": {
+      "passed": true,
+      "regimes": {
+        "ood": {
+          "binomial_95_percent_acceptance_count_range": [
+            18,
+            24
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.75,
+            1.0
+          ],
+          "empirical_location_count": 4,
+          "excessive_overcoverage": false,
+          "interval_full_width": 0.19120226616717217,
+          "interval_width_to_rmse": 2.7449317479239115,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.875,
+          "passed": true,
+          "sample_size": 24,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 21,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.6899611872949993,
+            0.9565566591987655
+          ]
+        },
+        "test": {
+          "binomial_95_percent_acceptance_count_range": [
+            87,
+            99
+          ],
+          "binomial_95_percent_acceptance_coverage_range": [
+            0.8365384615384616,
+            0.9519230769230769
+          ],
+          "empirical_location_count": 11,
+          "excessive_overcoverage": false,
+          "interval_full_width": 0.19120226616717217,
+          "interval_width_to_rmse": 3.44232528931869,
+          "nominal_coverage": 0.9,
+          "observed_coverage": 0.8653846153846154,
+          "passed": true,
+          "sample_size": 104,
+          "severe_undercoverage": false,
+          "status": "supported_evaluated",
+          "successes": 90,
+          "width_inflation": false,
+          "width_inflation_rule": "full interval width must not exceed 5x RMSE",
+          "wilson_95_percent_confidence_interval": [
+            0.786649411801308,
+            0.9180888292342079
+          ]
+        }
+      }
+    }
+  }
+}

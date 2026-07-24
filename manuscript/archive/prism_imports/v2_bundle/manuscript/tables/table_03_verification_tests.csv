@@ -1,0 +1,5 @@
+verification_area,test_path,test_count,units,result,source_path,audit_status
+Complete baseline suite,tests/,234,tests,pass,manuscript/data/software_verification_summary.json,Phase 9.8 final restoration replay
+RothC parity,tests/parity/test_rothc_worked_example.py,1,test,pass,docs/AUDIT_soil_simulator_v0.9.0.md,independently recomputed at v0.9.0
+Carbon and phosphorus properties,tests/properties/,not separately counted,tests,pass within complete suite,manuscript/data/software_verification_summary.json,verified
+Scenario directions,tests/scenarios/,not separately counted,tests,pass within complete suite,manuscript/data/software_verification_summary.json,encoded-direction checks; not empirical proof

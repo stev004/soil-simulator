@@ -1,0 +1,22 @@
+{
+  "entries": [
+    {
+      "action": "generated",
+      "category": "data_indexes",
+      "file_size": 17020,
+      "path": "manuscript/data/DATA_INDEX.csv",
+      "scientifically_frozen": false,
+      "sha256": "afbf8f2a7606d2cf03da7f7bfa4d67ce039529f87d694de25d5ebafff3e83f7f",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    },
+    {
+      "action": "generated",
+      "category": "data_indexes",
+      "file_size": 1572,
+      "path": "manuscript/data/software_verification_summary.json",
+      "scientifically_frozen": false,
+      "sha256": "c9a6aefeeda40b8790ea93e4bbfcc0616966ef4f960e47827742ad5164e92324",
+      "source_or_generating_script": "scripts/build_phase98_archive.py"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "gates": {
+    "all_original_audit_findings_reconciled": false,
+    "calibration_held_out_only": true,
+    "calibration_not_on_parameter_boundary": false,
+    "documented_empirical_covariance": true,
+    "effect_only_ml_reporting": true,
+    "effect_prediction_gates_passed": false,
+    "held_out_cessation_failure_resolved": false,
+    "immutable_empirical_pilot": true,
+    "independent_empirical_effect_validation": false,
+    "independent_reaudit_passed": false,
+    "phosphorus_bounded_or_excluded": true,
+    "population_global_sensitivity": true,
+    "reproducible_hashes_seeds_commands": true,
+    "uncalibrated_long_term_validation_clear": true
+  },
+  "independent_reaudit_required": true,
+  "manuscript_drafting_recommendation": "do_not_start_Prism_manuscript_drafting",
+  "passed": false,
+  "remaining_blockers": [
+    "calibration_not_on_parameter_boundary",
+    "held_out_cessation_failure_resolved",
+    "effect_prediction_gates_passed",
+    "independent_empirical_effect_validation",
+    "all_original_audit_findings_reconciled",
+    "independent_reaudit_passed"
+  ],
+  "version": "0.9.6"
+}

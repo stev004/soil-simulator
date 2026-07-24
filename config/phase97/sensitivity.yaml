@@ -1,0 +1,18 @@
+version: 0.9.7
+seed: 970021
+source_parameter_specification: config/phase96/sensitivity.yaml
+selected_parameters:
+  - empirical_location_index
+  - weather_resample_index
+  - schedule_interval_months
+  - tillage_decomposition_multiplier
+  - fym_phosphorus_content
+base_sample_sizes: [128, 256, 512, 1024]
+bootstrap_replicates: 200
+confidence_level: 0.95
+evaluation_workers: 4
+convergence_rule:
+  maximum_absolute_index_change: 0.10
+  minimum_rank_correlation: 0.90
+  maximum_mean_confidence_interval_width: 0.20
+  maximum_unstable_fraction: 0.10

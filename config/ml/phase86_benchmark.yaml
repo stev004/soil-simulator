@@ -1,0 +1,33 @@
+name: phase_8_6_repeated_synthetic_effect_benchmark
+version: 0.8.6
+random_seed: 208600
+foundation_group_count: 75
+development_population_size: 75
+final_population_size: 150
+development_foundation_seeds: [208601, 208602, 208603, 208604, 208605, 208606, 208607, 208608, 208609, 208610]
+population_seeds: [218601, 218602, 218603, 218604, 218605, 218606, 218607, 218608, 218609, 218610]
+weather_resampling_seeds: [228601, 228602, 228603, 228604, 228605]
+biological_parameter_seeds: [238601, 238602, 238603, 238604, 238605]
+final_foundation_seed: 248601
+final_population_seed: 248602
+final_weather_resampling_seed: 248603
+final_biological_parameter_seed: 248604
+simulation_horizons_months: [24, 60, 120]
+ridge_alphas: [0.1, 1.0, 10.0]
+forest_tree_counts: [12]
+forest_max_depths: [3, 5]
+forest_min_leaf: 3
+forest_feature_fraction: 0.65
+model_selection_relative_tolerance: 0.05
+conformal_alpha: 0.10
+minimum_calibration_groups: 20
+coverage_tolerance: 0.12
+supported_regime_max_median_mae_sd: 0.75
+maximum_repeat_failure_frequency: 0.20
+maximum_repeat_iqr_mae_sd: 0.20
+maximum_final_mae_sd: 0.50
+minimum_supported_climate_regimes: 3
+near_duplicate_distance: 0.015
+classification: scenario_assumption
+provenance: Phase 8.6 predeclared repeated synthetic experiment protocol. Ten development populations and one later-instantiated frozen final population are synthetic, non-representative, non-causal and not field validation.
+

@@ -1,0 +1,60 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "soil-simulator"
+version = "0.9.7"
+description = "Scientific remediation of a soil-carbon simulator research benchmark"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Proprietary" }
+authors = [{ name = "Soil Simulator contributors" }]
+dependencies = [
+  "scipy>=1.16,<2",
+  "pydantic>=2.12,<3",
+  "pyyaml>=6.0.3,<7",
+  "numpy>=2.3,<2.4",
+]
+
+[project.optional-dependencies]
+dev = [
+  "hypothesis>=6.151,<7",
+  "mypy>=1.19,<2",
+  "pre-commit>=4.5,<5",
+  "pytest>=9.0,<10",
+  "ruff>=0.14,<1",
+  "types-pyyaml>=6.0.12.20250915",
+]
+
+[project.scripts]
+soil-simulator = "soil_simulator.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/soil_simulator"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["B", "E", "F", "I", "RUF", "UP"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+files = ["src", "tests"]
+plugins = ["pydantic.mypy"]
+
+[[tool.mypy.overrides]]
+module = ["numpy", "numpy.*", "scipy", "scipy.*"]
+follow_imports = "skip"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "--strict-config --strict-markers"
+testpaths = ["tests"]

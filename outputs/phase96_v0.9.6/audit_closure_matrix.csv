@@ -1,0 +1,10 @@
+finding_id,severity,finding,status,evidence,artifacts
+AUDIT-SOURCE-MISSING,critical,Original severity-labelled v0.9.0 audit body unavailable,unresolved,docs/AUDIT_soil_simulator_v0.9.0.md,audit_closure_matrix.csv
+P95-CIRCULARITY,critical,Stock circularity and deterministic accounting targets,addressed,src/soil_simulator/phase96/effect_ml.py,effect_only_dataset.csv; EFFECT_ONLY_MODEL_CARD.md
+P95-EMPIRICAL,critical,No 50-location paired empirical pilot,addressed,src/soil_simulator/phase96/empirical.py,EMPIRICAL_SOURCE_MANIFEST.json; empirical_covariance_report.json
+P95-SENSITIVITY,critical,Sensitivity excluded empirical covariance/location variation,addressed,src/soil_simulator/phase96/sensitivity.py,sensitivity_results.json; sensitivity_results.csv
+P95-HOOSFIELD,critical,Material FYM underprediction unexplained,partially addressed,src/soil_simulator/phase96/validation.py,long_term_diagnosis.json; validation_trajectories.csv
+P95-PHOSPHORUS,major,Unbounded phosphorus dominance,partially addressed,docs/PHASE95_PHOSPHORUS_ABLATION.md,phosphorus excluded from headline effect ML/sensitivity rankings
+P95-DUPLICATE,major,Biologically duplicate no-till policy,addressed,src/soil_simulator/phase95/policies.py,outputs/phase95_v0.9.5/duplicate_policy_report.json
+P95-SCHEDULE,major,Horizon-invariant intervention accounting,addressed,src/soil_simulator/phase95/accounting.py,outputs/phase95_v0.9.5/horizon_aware_accounting.json
+P95-REPRODUCIBILITY,minor,Incomplete machine-readable provenance/hashes,addressed,src/soil_simulator/phase96/pipeline.py,EMPIRICAL_SOURCE_MANIFEST.json; artifact_hashes.json

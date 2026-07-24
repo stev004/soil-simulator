@@ -1,0 +1,61 @@
+{
+  "beyond_bound_evaluation_performed": false,
+  "bound_widened": false,
+  "boundary": "upper",
+  "boundary_constrained": true,
+  "classification": "calibrated",
+  "computable": true,
+  "edge_objective_slope": -7.864653794329348,
+  "estimate": 1.1,
+  "general_calibration_reason": "the optimum is boundary-constrained, the profile is still improving at the upper bound, and held-out FYM-cessation error remains material",
+  "general_calibration_success": false,
+  "held_out_cessation_performance": {
+    "bias_t_c_ha": -7.214238690963898,
+    "mae_t_c_ha": 7.214238690963898,
+    "rmse_t_c_ha": 7.577073646005274
+  },
+  "identifiability": {
+    "fym_carbon_factor_range": [
+      1.1,
+      1.1
+    ],
+    "plant_residue_factor_range": [
+      0.8,
+      0.9
+    ],
+    "within_10_percent_of_minimum_count": 3
+  },
+  "objective_likely_improves_beyond_bound": true,
+  "parameter": "fym_carbon_factor",
+  "permitted_range": [
+    0.9,
+    1.1
+  ],
+  "profile": [
+    {
+      "fym_carbon_factor": 0.9,
+      "profile_objective_mean_treatment_rmse_t_c_ha": 4.862390490776205,
+      "profiled_over": "plant_residue_factor within its predeclared bounds"
+    },
+    {
+      "fym_carbon_factor": 0.9500000000000001,
+      "profile_objective_mean_treatment_rmse_t_c_ha": 4.399526521089138,
+      "profiled_over": "plant_residue_factor within its predeclared bounds"
+    },
+    {
+      "fym_carbon_factor": 1.0,
+      "profile_objective_mean_treatment_rmse_t_c_ha": 3.9494235944165865,
+      "profiled_over": "plant_residue_factor within its predeclared bounds"
+    },
+    {
+      "fym_carbon_factor": 1.05,
+      "profile_objective_mean_treatment_rmse_t_c_ha": 3.5219939976711765,
+      "profiled_over": "plant_residue_factor within its predeclared bounds"
+    },
+    {
+      "fym_carbon_factor": 1.1,
+      "profile_objective_mean_treatment_rmse_t_c_ha": 3.1287613079547087,
+      "profiled_over": "plant_residue_factor within its predeclared bounds"
+    }
+  ]
+}

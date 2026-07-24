@@ -1,0 +1,1094 @@
+{
+  "empirical_correlation": {
+    "annual_pet_mm": {
+      "annual_pet_mm": 1.0,
+      "annual_precipitation_mm": -0.5298607355076655,
+      "bulk_density_g_cm3": 0.78794935422337,
+      "cation_exchange_capacity_cmolc_kg": 0.025508006412834697,
+      "clay_percent": 0.6905497422161745,
+      "mean_temperature_c": 0.9829908692354934,
+      "ph_h2o": 0.6351938683778658,
+      "sand_percent": -0.7033410097505858,
+      "silt_percent": 0.5748749385328328,
+      "soc_stock_t_c_ha_0_23cm": -0.6117181981145454,
+      "total_nitrogen_percent": -0.5048233828983607
+    },
+    "annual_precipitation_mm": {
+      "annual_pet_mm": -0.5298607355076655,
+      "annual_precipitation_mm": 0.9999999999999999,
+      "bulk_density_g_cm3": -0.42424835939092337,
+      "cation_exchange_capacity_cmolc_kg": 0.08762508889046669,
+      "clay_percent": -0.461569799355144,
+      "mean_temperature_c": -0.39231889016410393,
+      "ph_h2o": -0.7495231667711572,
+      "sand_percent": 0.2296604694148352,
+      "silt_percent": -0.03952444975248935,
+      "soc_stock_t_c_ha_0_23cm": 0.4733480272513971,
+      "total_nitrogen_percent": 0.5295168940455359
+    },
+    "bulk_density_g_cm3": {
+      "annual_pet_mm": 0.78794935422337,
+      "annual_precipitation_mm": -0.42424835939092337,
+      "bulk_density_g_cm3": 0.9999999999999999,
+      "cation_exchange_capacity_cmolc_kg": -0.06324494678753799,
+      "clay_percent": 0.6479650034659119,
+      "mean_temperature_c": 0.7810897621827133,
+      "ph_h2o": 0.6688860746799937,
+      "sand_percent": -0.6298923448936495,
+      "silt_percent": 0.49630730378502547,
+      "soc_stock_t_c_ha_0_23cm": -0.5841027348097861,
+      "total_nitrogen_percent": -0.5754017711769688
+    },
+    "cation_exchange_capacity_cmolc_kg": {
+      "annual_pet_mm": 0.025508006412834697,
+      "annual_precipitation_mm": 0.08762508889046669,
+      "bulk_density_g_cm3": -0.06324494678753799,
+      "cation_exchange_capacity_cmolc_kg": 1.0000000000000002,
+      "clay_percent": 0.14715114031113163,
+      "mean_temperature_c": 0.031152328043241945,
+      "ph_h2o": -0.026035418465789106,
+      "sand_percent": -0.09840619028712955,
+      "silt_percent": 0.048712239078206127,
+      "soc_stock_t_c_ha_0_23cm": 0.30507951480825213,
+      "total_nitrogen_percent": 0.4457193953141121
+    },
+    "clay_percent": {
+      "annual_pet_mm": 0.6905497422161745,
+      "annual_precipitation_mm": -0.461569799355144,
+      "bulk_density_g_cm3": 0.6479650034659119,
+      "cation_exchange_capacity_cmolc_kg": 0.14715114031113163,
+      "clay_percent": 1.0000000000000002,
+      "mean_temperature_c": 0.673102741936386,
+      "ph_h2o": 0.6500485742833393,
+      "sand_percent": -0.8052647079150799,
+      "silt_percent": 0.5267568174921922,
+      "soc_stock_t_c_ha_0_23cm": -0.4349508017107146,
+      "total_nitrogen_percent": -0.3577113563880614
+    },
+    "mean_temperature_c": {
+      "annual_pet_mm": 0.9829908692354934,
+      "annual_precipitation_mm": -0.39231889016410393,
+      "bulk_density_g_cm3": 0.7810897621827133,
+      "cation_exchange_capacity_cmolc_kg": 0.031152328043241945,
+      "clay_percent": 0.673102741936386,
+      "mean_temperature_c": 1.0,
+      "ph_h2o": 0.5375415116978195,
+      "sand_percent": -0.740055810209566,
+      "silt_percent": 0.6384613101490155,
+      "soc_stock_t_c_ha_0_23cm": -0.5814993874920863,
+      "total_nitrogen_percent": -0.4531099043346519
+    },
+    "ph_h2o": {
+      "annual_pet_mm": 0.6351938683778658,
+      "annual_precipitation_mm": -0.7495231667711572,
+      "bulk_density_g_cm3": 0.6688860746799937,
+      "cation_exchange_capacity_cmolc_kg": -0.026035418465789106,
+      "clay_percent": 0.6500485742833393,
+      "mean_temperature_c": 0.5375415116978195,
+      "ph_h2o": 1.0,
+      "sand_percent": -0.41717550591783736,
+      "silt_percent": 0.190044156204932,
+      "soc_stock_t_c_ha_0_23cm": -0.728248671418831,
+      "total_nitrogen_percent": -0.7245763650034717
+    },
+    "sand_percent": {
+      "annual_pet_mm": -0.7033410097505858,
+      "annual_precipitation_mm": 0.2296604694148352,
+      "bulk_density_g_cm3": -0.6298923448936495,
+      "cation_exchange_capacity_cmolc_kg": -0.09840619028712955,
+      "clay_percent": -0.8052647079150799,
+      "mean_temperature_c": -0.740055810209566,
+      "ph_h2o": -0.41717550591783736,
+      "sand_percent": 1.0000000000000002,
+      "silt_percent": -0.9281663269603797,
+      "soc_stock_t_c_ha_0_23cm": 0.3714596932074007,
+      "total_nitrogen_percent": 0.28814400237234195
+    },
+    "silt_percent": {
+      "annual_pet_mm": 0.5748749385328328,
+      "annual_precipitation_mm": -0.03952444975248935,
+      "bulk_density_g_cm3": 0.49630730378502547,
+      "cation_exchange_capacity_cmolc_kg": 0.048712239078206127,
+      "clay_percent": 0.5267568174921922,
+      "mean_temperature_c": 0.6384613101490155,
+      "ph_h2o": 0.190044156204932,
+      "sand_percent": -0.9281663269603797,
+      "silt_percent": 1.0,
+      "soc_stock_t_c_ha_0_23cm": -0.25951920029277264,
+      "total_nitrogen_percent": -0.18855831778648932
+    },
+    "soc_stock_t_c_ha_0_23cm": {
+      "annual_pet_mm": -0.6117181981145454,
+      "annual_precipitation_mm": 0.4733480272513971,
+      "bulk_density_g_cm3": -0.5841027348097861,
+      "cation_exchange_capacity_cmolc_kg": 0.30507951480825213,
+      "clay_percent": -0.4349508017107146,
+      "mean_temperature_c": -0.5814993874920863,
+      "ph_h2o": -0.728248671418831,
+      "sand_percent": 0.3714596932074007,
+      "silt_percent": -0.25951920029277264,
+      "soc_stock_t_c_ha_0_23cm": 0.9999999999999998,
+      "total_nitrogen_percent": 0.9383629858462139
+    },
+    "total_nitrogen_percent": {
+      "annual_pet_mm": -0.5048233828983607,
+      "annual_precipitation_mm": 0.5295168940455359,
+      "bulk_density_g_cm3": -0.5754017711769688,
+      "cation_exchange_capacity_cmolc_kg": 0.4457193953141121,
+      "clay_percent": -0.3577113563880614,
+      "mean_temperature_c": -0.4531099043346519,
+      "ph_h2o": -0.7245763650034717,
+      "sand_percent": 0.28814400237234195,
+      "silt_percent": -0.18855831778648932,
+      "soc_stock_t_c_ha_0_23cm": 0.9383629858462139,
+      "total_nitrogen_percent": 1.0000000000000002
+    }
+  },
+  "empirical_covariance": {
+    "annual_pet_mm": {
+      "annual_pet_mm": 531.0613803107882,
+      "annual_precipitation_mm": -2190.6653043334795,
+      "bulk_density_g_cm3": 2.2096796271877293,
+      "cation_exchange_capacity_cmolc_kg": 1.5742141686799327,
+      "clay_percent": 110.69170997030734,
+      "mean_temperature_c": 25.330495865876486,
+      "ph_h2o": 11.064471875585623,
+      "sand_percent": -257.4998040177303,
+      "silt_percent": 146.80809404742297,
+      "soc_stock_t_c_ha_0_23cm": -466.79238237465296,
+      "total_nitrogen_percent": -1.2474374825616001
+    },
+    "annual_precipitation_mm": {
+      "annual_pet_mm": -2190.6653043334795,
+      "annual_precipitation_mm": 32187.249316934336,
+      "bulk_density_g_cm3": -9.262340688664596,
+      "cation_exchange_capacity_cmolc_kg": 42.10031477837386,
+      "clay_percent": -576.0061045306338,
+      "mean_temperature_c": -78.70512259174785,
+      "ph_h2o": -101.64336280561827,
+      "sand_percent": 654.5861053201252,
+      "silt_percent": -78.58000078949176,
+      "soc_stock_t_c_ha_0_23cm": 2812.0465333338966,
+      "total_nitrogen_percent": 10.186587484980237
+    },
+    "bulk_density_g_cm3": {
+      "annual_pet_mm": 2.2096796271877293,
+      "annual_precipitation_mm": -9.262340688664596,
+      "bulk_density_g_cm3": 0.014808712284879576,
+      "cation_exchange_capacity_cmolc_kg": -0.02061101686593184,
+      "clay_percent": 0.54847642738207,
+      "mean_temperature_c": 0.10628731618200639,
+      "ph_h2o": 0.06152658839270369,
+      "sand_percent": -1.2177652596552502,
+      "silt_percent": 0.6692888322731801,
+      "soc_stock_t_c_ha_0_23cm": -2.3536825466967812,
+      "total_nitrogen_percent": -0.007508216875751847
+    },
+    "cation_exchange_capacity_cmolc_kg": {
+      "annual_pet_mm": 1.5742141686799327,
+      "annual_precipitation_mm": 42.10031477837386,
+      "bulk_density_g_cm3": -0.02061101686593184,
+      "cation_exchange_capacity_cmolc_kg": 7.17182822281688,
+      "clay_percent": 2.7411092200073637,
+      "mean_temperature_c": 0.09328832486354198,
+      "ph_h2o": -0.05270253848231195,
+      "sand_percent": -4.186739699764023,
+      "silt_percent": 1.445630479756664,
+      "soc_stock_t_c_ha_0_23cm": 27.053781995482783,
+      "total_nitrogen_percent": 0.12799218078707683
+    },
+    "clay_percent": {
+      "annual_pet_mm": 110.69170997030734,
+      "annual_precipitation_mm": -576.0061045306338,
+      "bulk_density_g_cm3": 0.54847642738207,
+      "cation_exchange_capacity_cmolc_kg": 2.7411092200073637,
+      "clay_percent": 48.38330577763906,
+      "mean_temperature_c": 5.23541335544009,
+      "ph_h2o": 3.4177918613672986,
+      "sand_percent": -88.98668679366718,
+      "silt_percent": 40.60338101602813,
+      "soc_stock_t_c_ha_0_23cm": -100.18158634171392,
+      "total_nitrogen_percent": -0.26680100662617734
+    },
+    "mean_temperature_c": {
+      "annual_pet_mm": 25.330495865876486,
+      "annual_precipitation_mm": -78.70512259174785,
+      "bulk_density_g_cm3": 0.10628731618200639,
+      "cation_exchange_capacity_cmolc_kg": 0.09328832486354198,
+      "clay_percent": 5.23541335544009,
+      "mean_temperature_c": 1.2503848286255415,
+      "ph_h2o": 0.4543451413984565,
+      "sand_percent": -13.146947320119327,
+      "silt_percent": 7.911533964679239,
+      "soc_stock_t_c_ha_0_23cm": -21.531342482132036,
+      "total_nitrogen_percent": -0.05432908237812913
+    },
+    "ph_h2o": {
+      "annual_pet_mm": 11.064471875585623,
+      "annual_precipitation_mm": -101.64336280561827,
+      "bulk_density_g_cm3": 0.06152658839270369,
+      "cation_exchange_capacity_cmolc_kg": -0.05270253848231195,
+      "clay_percent": 3.4177918613672986,
+      "mean_temperature_c": 0.4543451413984565,
+      "ph_h2o": 0.5713524108216923,
+      "sand_percent": -5.009673656537045,
+      "silt_percent": 1.5918817951697488,
+      "soc_stock_t_c_ha_0_23cm": -18.227694146809714,
+      "total_nitrogen_percent": -0.058727722976456426
+    },
+    "sand_percent": {
+      "annual_pet_mm": -257.4998040177303,
+      "annual_precipitation_mm": 654.5861053201252,
+      "bulk_density_g_cm3": -1.2177652596552502,
+      "cation_exchange_capacity_cmolc_kg": -4.186739699764023,
+      "clay_percent": -88.98668679366718,
+      "mean_temperature_c": -13.146947320119327,
+      "ph_h2o": -5.009673656537045,
+      "sand_percent": 252.392941173688,
+      "silt_percent": -163.4062543800208,
+      "soc_stock_t_c_ha_0_23cm": 195.41158060120574,
+      "total_nitrogen_percent": 0.4908571859677065
+    },
+    "silt_percent": {
+      "annual_pet_mm": 146.80809404742297,
+      "annual_precipitation_mm": -78.58000078949176,
+      "bulk_density_g_cm3": 0.6692888322731801,
+      "cation_exchange_capacity_cmolc_kg": 1.445630479756664,
+      "clay_percent": 40.60338101602813,
+      "mean_temperature_c": 7.911533964679239,
+      "ph_h2o": 1.5918817951697488,
+      "sand_percent": -163.4062543800208,
+      "silt_percent": 122.80287336399272,
+      "soc_stock_t_c_ha_0_23cm": -95.22999425949186,
+      "total_nitrogen_percent": -0.22405617934152927
+    },
+    "soc_stock_t_c_ha_0_23cm": {
+      "annual_pet_mm": -466.79238237465296,
+      "annual_precipitation_mm": 2812.0465333338966,
+      "bulk_density_g_cm3": -2.3536825466967812,
+      "cation_exchange_capacity_cmolc_kg": 27.053781995482783,
+      "clay_percent": -100.18158634171392,
+      "mean_temperature_c": -21.531342482132036,
+      "ph_h2o": -18.227694146809714,
+      "sand_percent": 195.41158060120574,
+      "silt_percent": -95.22999425949186,
+      "soc_stock_t_c_ha_0_23cm": 1096.4781940288833,
+      "total_nitrogen_percent": 3.331791644901186
+    },
+    "total_nitrogen_percent": {
+      "annual_pet_mm": -1.2474374825616001,
+      "annual_precipitation_mm": 10.186587484980237,
+      "bulk_density_g_cm3": -0.007508216875751847,
+      "cation_exchange_capacity_cmolc_kg": 0.12799218078707683,
+      "clay_percent": -0.26680100662617734,
+      "mean_temperature_c": -0.05432908237812913,
+      "ph_h2o": -0.058727722976456426,
+      "sand_percent": 0.4908571859677065,
+      "silt_percent": -0.22405617934152927,
+      "soc_stock_t_c_ha_0_23cm": 3.331791644901186,
+      "total_nitrogen_percent": 0.011497778381165148
+    }
+  },
+  "empirical_distributions": {
+    "annual_pet_mm": {
+      "maximum": 661.1163843736983,
+      "mean": 621.5071245753542,
+      "median": 623.1146493921008,
+      "minimum": 570.2591314027245,
+      "q05": 584.9923207119148,
+      "q95": 653.2876412650193
+    },
+    "annual_precipitation_mm": {
+      "maximum": 1314.835,
+      "mean": 895.9474196428572,
+      "median": 851.92925,
+      "minimum": 681.598,
+      "q05": 699.9055000000001,
+      "q95": 1263.1688749999998
+    },
+    "bulk_density_g_cm3": {
+      "maximum": 1.3699999999999999,
+      "mean": 1.1305201863354037,
+      "median": 1.1543478260869566,
+      "minimum": 0.7999999999999999,
+      "q05": 0.9292391304347827,
+      "q95": 1.3010869565217391
+    },
+    "cation_exchange_capacity_cmolc_kg": {
+      "maximum": 25.599999999999998,
+      "mean": 17.518788819875777,
+      "median": 16.63695652173913,
+      "minimum": 12.743478260869566,
+      "q05": 14.433695652173911,
+      "q95": 23.47282608695652
+    },
+    "clay_percent": {
+      "maximum": 36.51036525172755,
+      "mean": 20.41701764064792,
+      "median": 20.653767628852563,
+      "minimum": 3.215476984656437,
+      "q05": 8.417152392743562,
+      "q95": 30.358248604689578
+    },
+    "mean_temperature_c": {
+      "maximum": 11.794958333333334,
+      "mean": 9.277943452380953,
+      "median": 9.2985625,
+      "minimum": 6.885708333333333,
+      "q05": 7.545552083333333,
+      "q95": 10.8541875
+    },
+    "ph_h2o": {
+      "maximum": 7.534782608695653,
+      "mean": 6.297593167701863,
+      "median": 6.317391304347826,
+      "minimum": 4.478260869565218,
+      "q05": 5.103260869565217,
+      "q95": 7.365217391304347
+    },
+    "sand_percent": {
+      "maximum": 76.61730319563522,
+      "mean": 42.144021202249085,
+      "median": 39.52709859891516,
+      "minimum": 16.915203388334948,
+      "q05": 18.207862030511443,
+      "q95": 66.93037280757957
+    },
+    "silt_percent": {
+      "maximum": 60.73855113385689,
+      "mean": 37.438961157102995,
+      "median": 37.226154284640785,
+      "minimum": 18.385218467745634,
+      "q05": 22.85640225926081,
+      "q95": 55.77166448564481
+    },
+    "soc_stock_t_c_ha_0_23cm": {
+      "maximum": 232.848,
+      "mean": 89.9696142857143,
+      "median": 83.045,
+      "minimum": 54.57600000000001,
+      "q05": 63.5925,
+      "q95": 145.64999999999998
+    },
+    "total_nitrogen_percent": {
+      "maximum": 0.7365217391304348,
+      "mean": 0.3152173913043478,
+      "median": 0.2803260869565217,
+      "minimum": 0.20869565217391303,
+      "q05": 0.2123913043478261,
+      "q95": 0.5082608695652173
+    }
+  },
+  "empirical_location_count": 56,
+  "generated_correlation": {
+    "annual_pet_mm": {
+      "annual_pet_mm": 1.0,
+      "annual_precipitation_mm": -0.4549949816742306,
+      "bulk_density_g_cm3": 0.7569238244936192,
+      "cation_exchange_capacity_cmolc_kg": 0.08110015878857682,
+      "clay_percent": 0.6086513316067264,
+      "mean_temperature_c": 0.9825324712797924,
+      "ph_h2o": 0.544594031540662,
+      "sand_percent": -0.7115700020759188,
+      "silt_percent": 0.6227699773493997,
+      "soc_stock_t_c_ha_0_23cm": -0.5563680253100112,
+      "total_nitrogen_percent": -0.39779441157224776
+    },
+    "annual_precipitation_mm": {
+      "annual_pet_mm": -0.4549949816742306,
+      "annual_precipitation_mm": 1.0,
+      "bulk_density_g_cm3": -0.31986108223586296,
+      "cation_exchange_capacity_cmolc_kg": 0.04458403964331957,
+      "clay_percent": -0.46234850937134603,
+      "mean_temperature_c": -0.3284664269695796,
+      "ph_h2o": -0.7464615576624526,
+      "sand_percent": 0.22771312369863062,
+      "silt_percent": -0.046724849748561476,
+      "soc_stock_t_c_ha_0_23cm": 0.4953225712103752,
+      "total_nitrogen_percent": 0.5383690253562593
+    },
+    "bulk_density_g_cm3": {
+      "annual_pet_mm": 0.7569238244936192,
+      "annual_precipitation_mm": -0.31986108223586296,
+      "bulk_density_g_cm3": 1.0,
+      "cation_exchange_capacity_cmolc_kg": 0.006780610785891427,
+      "clay_percent": 0.5431356051724161,
+      "mean_temperature_c": 0.7586488069641953,
+      "ph_h2o": 0.5129070366542189,
+      "sand_percent": -0.5870472320353463,
+      "silt_percent": 0.49041041888633247,
+      "soc_stock_t_c_ha_0_23cm": -0.48652665052371064,
+      "total_nitrogen_percent": -0.44381907733446896
+    },
+    "cation_exchange_capacity_cmolc_kg": {
+      "annual_pet_mm": 0.08110015878857682,
+      "annual_precipitation_mm": 0.04458403964331957,
+      "bulk_density_g_cm3": 0.006780610785891427,
+      "cation_exchange_capacity_cmolc_kg": 1.0000000000000002,
+      "clay_percent": 0.13850405798813034,
+      "mean_temperature_c": 0.08711122108064856,
+      "ph_h2o": 0.01556252166338208,
+      "sand_percent": -0.07230182915541832,
+      "silt_percent": 0.01956703774675524,
+      "soc_stock_t_c_ha_0_23cm": 0.24527996278255662,
+      "total_nitrogen_percent": 0.44752805404494655
+    },
+    "clay_percent": {
+      "annual_pet_mm": 0.6086513316067264,
+      "annual_precipitation_mm": -0.46234850937134603,
+      "bulk_density_g_cm3": 0.5431356051724161,
+      "cation_exchange_capacity_cmolc_kg": 0.13850405798813034,
+      "clay_percent": 1.0000000000000002,
+      "mean_temperature_c": 0.5863896138237974,
+      "ph_h2o": 0.6378615005010706,
+      "sand_percent": -0.7609404360035384,
+      "silt_percent": 0.466909008704734,
+      "soc_stock_t_c_ha_0_23cm": -0.4285650153150676,
+      "total_nitrogen_percent": -0.34641708316835995
+    },
+    "mean_temperature_c": {
+      "annual_pet_mm": 0.9825324712797924,
+      "annual_precipitation_mm": -0.3284664269695796,
+      "bulk_density_g_cm3": 0.7586488069641953,
+      "cation_exchange_capacity_cmolc_kg": 0.08711122108064856,
+      "clay_percent": 0.5863896138237974,
+      "mean_temperature_c": 1.0,
+      "ph_h2o": 0.4466113045367432,
+      "sand_percent": -0.7411264148387522,
+      "silt_percent": 0.675747403784879,
+      "soc_stock_t_c_ha_0_23cm": -0.5275213429187418,
+      "total_nitrogen_percent": -0.340430525381912
+    },
+    "ph_h2o": {
+      "annual_pet_mm": 0.544594031540662,
+      "annual_precipitation_mm": -0.7464615576624526,
+      "bulk_density_g_cm3": 0.5129070366542189,
+      "cation_exchange_capacity_cmolc_kg": 0.01556252166338208,
+      "clay_percent": 0.6378615005010706,
+      "mean_temperature_c": 0.4466113045367432,
+      "ph_h2o": 1.0,
+      "sand_percent": -0.41268365365001863,
+      "silt_percent": 0.19874984209065302,
+      "soc_stock_t_c_ha_0_23cm": -0.684385195424941,
+      "total_nitrogen_percent": -0.6684352289358692
+    },
+    "sand_percent": {
+      "annual_pet_mm": -0.7115700020759188,
+      "annual_precipitation_mm": 0.22771312369863062,
+      "bulk_density_g_cm3": -0.5870472320353463,
+      "cation_exchange_capacity_cmolc_kg": -0.07230182915541832,
+      "clay_percent": -0.7609404360035384,
+      "mean_temperature_c": -0.7411264148387522,
+      "ph_h2o": -0.41268365365001863,
+      "sand_percent": 1.0,
+      "silt_percent": -0.9290464916531052,
+      "soc_stock_t_c_ha_0_23cm": 0.3909417535860036,
+      "total_nitrogen_percent": 0.27312315068264564
+    },
+    "silt_percent": {
+      "annual_pet_mm": 0.6227699773493997,
+      "annual_precipitation_mm": -0.046724849748561476,
+      "bulk_density_g_cm3": 0.49041041888633247,
+      "cation_exchange_capacity_cmolc_kg": 0.01956703774675524,
+      "clay_percent": 0.466909008704734,
+      "mean_temperature_c": 0.675747403784879,
+      "ph_h2o": 0.19874984209065302,
+      "sand_percent": -0.9290464916531052,
+      "silt_percent": 1.0,
+      "soc_stock_t_c_ha_0_23cm": -0.2884593439510859,
+      "total_nitrogen_percent": -0.17472097339083648
+    },
+    "soc_stock_t_c_ha_0_23cm": {
+      "annual_pet_mm": -0.5563680253100112,
+      "annual_precipitation_mm": 0.4953225712103752,
+      "bulk_density_g_cm3": -0.48652665052371064,
+      "cation_exchange_capacity_cmolc_kg": 0.24527996278255662,
+      "clay_percent": -0.4285650153150676,
+      "mean_temperature_c": -0.5275213429187418,
+      "ph_h2o": -0.684385195424941,
+      "sand_percent": 0.3909417535860036,
+      "silt_percent": -0.2884593439510859,
+      "soc_stock_t_c_ha_0_23cm": 1.0,
+      "total_nitrogen_percent": 0.8873052357028027
+    },
+    "total_nitrogen_percent": {
+      "annual_pet_mm": -0.39779441157224776,
+      "annual_precipitation_mm": 0.5383690253562593,
+      "bulk_density_g_cm3": -0.44381907733446896,
+      "cation_exchange_capacity_cmolc_kg": 0.44752805404494655,
+      "clay_percent": -0.34641708316835995,
+      "mean_temperature_c": -0.340430525381912,
+      "ph_h2o": -0.6684352289358692,
+      "sand_percent": 0.27312315068264564,
+      "silt_percent": -0.17472097339083648,
+      "soc_stock_t_c_ha_0_23cm": 0.8873052357028027,
+      "total_nitrogen_percent": 0.9999999999999999
+    }
+  },
+  "generated_distributions": {
+    "annual_pet_mm": {
+      "maximum": 664.1855282192429,
+      "mean": 623.9429277554315,
+      "median": 626.971719733761,
+      "minimum": 564.8813032255299,
+      "q05": 587.7373293742714,
+      "q95": 658.6895833872813
+    },
+    "annual_precipitation_mm": {
+      "maximum": 1378.712,
+      "mean": 882.0070625,
+      "median": 841.9665,
+      "minimum": 613.62,
+      "q05": 697.6057000000001,
+      "q95": 1218.9663999999998
+    },
+    "bulk_density_g_cm3": {
+      "maximum": 1.3591989821951023,
+      "mean": 1.15033377731888,
+      "median": 1.1796722150185621,
+      "minimum": 0.7573415781750735,
+      "q05": 0.933711309906163,
+      "q95": 1.312360021258435
+    },
+    "cation_exchange_capacity_cmolc_kg": {
+      "maximum": 26.285528106358246,
+      "mean": 17.395260491289353,
+      "median": 16.492086939716845,
+      "minimum": 12.515214743957708,
+      "q05": 14.42128566977418,
+      "q95": 23.189872375901608
+    },
+    "clay_percent": {
+      "maximum": 34.92905573134826,
+      "mean": 20.94543442049343,
+      "median": 21.405818559261903,
+      "minimum": 3.0080506563207585,
+      "q05": 8.798207431243345,
+      "q95": 30.416094446688255
+    },
+    "mean_temperature_c": {
+      "maximum": 11.995666666666667,
+      "mean": 9.391630208333334,
+      "median": 9.473833333333333,
+      "minimum": 6.723666666666667,
+      "q05": 7.632562500000001,
+      "q95": 11.050079166666666
+    },
+    "ph_h2o": {
+      "maximum": 7.520047509730083,
+      "mean": 6.3654626613642415,
+      "median": 6.413480499817522,
+      "minimum": 4.302441805471652,
+      "q05": 5.421253637806198,
+      "q95": 7.377021766085179
+    },
+    "sand_percent": {
+      "maximum": 75.42674361473787,
+      "mean": 40.58523775114622,
+      "median": 38.77586785381068,
+      "minimum": 15.799466257584065,
+      "q05": 17.3601824410322,
+      "q95": 66.46380996067515
+    },
+    "silt_percent": {
+      "maximum": 62.35544409141415,
+      "mean": 38.46932782836035,
+      "median": 37.71212301532516,
+      "minimum": 19.573321453122304,
+      "q05": 21.955859606819743,
+      "q95": 57.27483440416174
+    },
+    "soc_stock_t_c_ha_0_23cm": {
+      "maximum": 203.05547917337014,
+      "mean": 85.76213663799233,
+      "median": 80.45532046578538,
+      "minimum": 54.5880392738065,
+      "q05": 60.73344059720118,
+      "q95": 136.2018128825374
+    },
+    "total_nitrogen_percent": {
+      "maximum": 0.6961674524824785,
+      "mean": 0.3002616798028067,
+      "median": 0.27842974649829944,
+      "minimum": 0.2039366297491072,
+      "q05": 0.209739824112338,
+      "q95": 0.4426550027015679
+    }
+  },
+  "generated_field_count": 112,
+  "observable_variables": [
+    "clay_percent",
+    "silt_percent",
+    "sand_percent",
+    "bulk_density_g_cm3",
+    "ph_h2o",
+    "cation_exchange_capacity_cmolc_kg",
+    "total_nitrogen_percent",
+    "soc_stock_t_c_ha_0_23cm",
+    "mean_temperature_c",
+    "annual_precipitation_mm",
+    "annual_pet_mm"
+  ],
+  "previous_population_comparison": {
+    "classification": "authored synthetic demonstration fixture",
+    "location_count": 10,
+    "soil_distributions": {
+      "bulk_density_g_cm3": {
+        "maximum": 1.54,
+        "mean": 1.361,
+        "median": 1.365,
+        "minimum": 1.16,
+        "q05": 1.187,
+        "q95": 1.513
+      },
+      "cation_exchange_capacity_cmolc_kg": {
+        "maximum": 27.0,
+        "mean": 15.05,
+        "median": 14.5,
+        "minimum": 7.0,
+        "q05": 7.675000000000001,
+        "q95": 25.65
+      },
+      "clay_percent": {
+        "maximum": 46.0,
+        "mean": 25.7,
+        "median": 26.0,
+        "minimum": 8.0,
+        "q05": 9.350000000000001,
+        "q95": 43.3
+      },
+      "ph_h2o": {
+        "maximum": 7.05,
+        "mean": 6.49,
+        "median": 6.574999999999999,
+        "minimum": 5.65,
+        "q05": 5.83,
+        "q95": 6.9375
+      },
+      "sand_percent": {
+        "maximum": 75.0,
+        "mean": 41.3,
+        "median": 31.0,
+        "minimum": 19.0,
+        "q05": 19.900000000000002,
+        "q95": 72.3
+      },
+      "silt_percent": {
+        "maximum": 45.0,
+        "mean": 33.0,
+        "median": 36.5,
+        "minimum": 17.0,
+        "q05": 18.35,
+        "q95": 43.64999999999999
+      },
+      "soc_stock_t_c_ha_0_23cm": {
+        "maximum": 98.0,
+        "mean": 55.7,
+        "median": 51.0,
+        "minimum": 29.0,
+        "q05": 31.25,
+        "q95": 93.49999999999999
+      },
+      "total_nitrogen_percent": {
+        "maximum": 0.24,
+        "mean": 0.143,
+        "median": 0.135,
+        "minimum": 0.08,
+        "q05": 0.0845,
+        "q95": 0.23099999999999998
+      }
+    },
+    "source_hash": "e4be837e544d2fe30c31ad7a4ec527baf13ce8cb120dccbfdf69424bbd744210"
+  },
+  "principal_component_coverage": {
+    "components": [
+      {
+        "component": 1,
+        "empirical_score_range": [
+          -5.681222709973378,
+          3.2853528776366896
+        ],
+        "explained_variance_fraction": 0.5565997345612753,
+        "generated_fraction_inside_empirical_range": 0.9732142857142857,
+        "generated_score_range": [
+          -5.560587731400152,
+          3.4523195310536603
+        ],
+        "loadings": {
+          "annual_pet_mm": 0.3685495032683697,
+          "annual_precipitation_mm": -0.24636312730216037,
+          "bulk_density_g_cm3": 0.34666484992715907,
+          "cation_exchange_capacity_cmolc_kg": -0.03191259434265799,
+          "clay_percent": 0.325182699759996,
+          "mean_temperature_c": 0.35697344658261393,
+          "ph_h2o": 0.3259566622457558,
+          "sand_percent": -0.3170148801782499,
+          "silt_percent": 0.2503660452876812,
+          "soc_stock_t_c_ha_0_23cm": -0.3110911337033898,
+          "total_nitrogen_percent": -0.28792478442622943
+        }
+      },
+      {
+        "component": 2,
+        "empirical_score_range": [
+          -2.4714390131541606,
+          4.56060099560161
+        ],
+        "explained_variance_fraction": 0.18241182169264497,
+        "generated_fraction_inside_empirical_range": 0.9910714285714286,
+        "generated_score_range": [
+          -2.579677469435831,
+          4.411759227751954
+        ],
+        "loadings": {
+          "annual_pet_mm": 0.10145335313915049,
+          "annual_precipitation_mm": 0.28425830002564884,
+          "bulk_density_g_cm3": 0.024209734886836885,
+          "cation_exchange_capacity_cmolc_kg": 0.4137455565713138,
+          "clay_percent": 0.19030749537659514,
+          "mean_temperature_c": 0.16913606153036054,
+          "ph_h2o": -0.2464043360697551,
+          "sand_percent": -0.37475083611724097,
+          "silt_percent": 0.41779700578712897,
+          "soc_stock_t_c_ha_0_23cm": 0.3355741876725554,
+          "total_nitrogen_percent": 0.4289421051490585
+        }
+      },
+      {
+        "component": 3,
+        "empirical_score_range": [
+          -2.6466148945068233,
+          2.0194193891639536
+        ],
+        "explained_variance_fraction": 0.10134019033636804,
+        "generated_fraction_inside_empirical_range": 0.9821428571428571,
+        "generated_score_range": [
+          -2.959558616882807,
+          1.881800150503539
+        ],
+        "loadings": {
+          "annual_pet_mm": -0.039433314411017044,
+          "annual_precipitation_mm": 0.44310254790290143,
+          "bulk_density_g_cm3": 0.023193062066266392,
+          "cation_exchange_capacity_cmolc_kg": -0.6496356202491302,
+          "clay_percent": -0.1998128436334269,
+          "mean_temperature_c": 0.0600809183500428,
+          "ph_h2o": -0.3335169218850184,
+          "sand_percent": -0.1727175964279581,
+          "silt_percent": 0.3730315955872514,
+          "soc_stock_t_c_ha_0_23cm": -0.14769440483061386,
+          "total_nitrogen_percent": -0.1843225039902272
+        }
+      },
+      {
+        "component": 4,
+        "empirical_score_range": [
+          -1.3726922338829053,
+          1.8816103044923052
+        ],
+        "explained_variance_fraction": 0.049166496723819474,
+        "generated_fraction_inside_empirical_range": 0.9553571428571429,
+        "generated_score_range": [
+          -1.932697248095493,
+          2.2600158351466946
+        ],
+        "loadings": {
+          "annual_pet_mm": 0.29851140621299826,
+          "annual_precipitation_mm": 0.42205403931564195,
+          "bulk_density_g_cm3": 0.2594755845087542,
+          "cation_exchange_capacity_cmolc_kg": 0.37075639294804824,
+          "clay_percent": -0.3922859413227404,
+          "mean_temperature_c": 0.3747031972597528,
+          "ph_h2o": -0.12012323737546861,
+          "sand_percent": 0.31918758679200104,
+          "silt_percent": -0.21136101466673687,
+          "soc_stock_t_c_ha_0_23cm": -0.2578502534306532,
+          "total_nitrogen_percent": -0.07881726434647778
+        }
+      },
+      {
+        "component": 5,
+        "empirical_score_range": [
+          -1.8018372034343553,
+          1.651143228986777
+        ],
+        "explained_variance_fraction": 0.044765284500585596,
+        "generated_fraction_inside_empirical_range": 0.9821428571428571,
+        "generated_score_range": [
+          -1.5062969604674281,
+          1.7483186345097583
+        ],
+        "loadings": {
+          "annual_pet_mm": -0.38296829711046665,
+          "annual_precipitation_mm": 0.39119001005482423,
+          "bulk_density_g_cm3": -0.15612911099411203,
+          "cation_exchange_capacity_cmolc_kg": 0.41255948805777465,
+          "clay_percent": 0.14673414583402106,
+          "mean_temperature_c": -0.34152721471688186,
+          "ph_h2o": 0.21103995185766136,
+          "sand_percent": -0.16453689637406685,
+          "silt_percent": 0.14378034680408677,
+          "soc_stock_t_c_ha_0_23cm": -0.4040381754334967,
+          "total_nitrogen_percent": -0.3346974665667088
+        }
+      },
+      {
+        "component": 6,
+        "empirical_score_range": [
+          -1.5203600350149575,
+          1.0747340826481786
+        ],
+        "explained_variance_fraction": 0.031015104561256227,
+        "generated_fraction_inside_empirical_range": 0.9553571428571429,
+        "generated_score_range": [
+          -1.7335998427613535,
+          1.3850130674560754
+        ],
+        "loadings": {
+          "annual_pet_mm": -0.1707597177943671,
+          "annual_precipitation_mm": 0.3972063587444692,
+          "bulk_density_g_cm3": 0.611063562325373,
+          "cation_exchange_capacity_cmolc_kg": -0.20097242368907897,
+          "clay_percent": 0.43348904646886083,
+          "mean_temperature_c": -0.12230067885070982,
+          "ph_h2o": 0.1326432882392887,
+          "sand_percent": 0.05543019253339609,
+          "silt_percent": -0.35156155644797554,
+          "soc_stock_t_c_ha_0_23cm": 0.2061753578016298,
+          "total_nitrogen_percent": 0.0981777536650261
+        }
+      },
+      {
+        "component": 7,
+        "empirical_score_range": [
+          -1.829617835432564,
+          0.8387612661857415
+        ],
+        "explained_variance_fraction": 0.022761549977900915,
+        "generated_fraction_inside_empirical_range": 0.9642857142857143,
+        "generated_score_range": [
+          -1.5697214823689032,
+          0.9523868931502704
+        ],
+        "loadings": {
+          "annual_pet_mm": -0.21003433407771696,
+          "annual_precipitation_mm": -0.2112130700287545,
+          "bulk_density_g_cm3": 0.5625347128936639,
+          "cation_exchange_capacity_cmolc_kg": 0.13077193248318592,
+          "clay_percent": -0.5381798967779875,
+          "mean_temperature_c": -0.26280170347225146,
+          "ph_h2o": 0.16495512480251548,
+          "sand_percent": -0.018695793087686385,
+          "silt_percent": 0.3646114937661544,
+          "soc_stock_t_c_ha_0_23cm": 0.22798458451062376,
+          "total_nitrogen_percent": -0.08091626127838886
+        }
+      },
+      {
+        "component": 8,
+        "empirical_score_range": [
+          -0.8709142317668016,
+          0.6718872255168112
+        ],
+        "explained_variance_fraction": 0.009073633923841161,
+        "generated_fraction_inside_empirical_range": 0.9464285714285714,
+        "generated_score_range": [
+          -0.959655123944253,
+          0.8157052362641842
+        ],
+        "loadings": {
+          "annual_pet_mm": -0.13764944054768277,
+          "annual_precipitation_mm": -0.3177792124219967,
+          "bulk_density_g_cm3": 0.25586309024992987,
+          "cation_exchange_capacity_cmolc_kg": 0.1855547187396329,
+          "clay_percent": 0.22133435566828377,
+          "mean_temperature_c": -0.09074159659537799,
+          "ph_h2o": -0.7821399841427167,
+          "sand_percent": -0.026646313441185922,
+          "silt_percent": -0.10072810316473205,
+          "soc_stock_t_c_ha_0_23cm": -0.12028591870628905,
+          "total_nitrogen_percent": -0.29305590063646275
+        }
+      },
+      {
+        "component": 9,
+        "empirical_score_range": [
+          -0.4674767344388895,
+          0.40774428477354824
+        ],
+        "explained_variance_fraction": 0.0025505640526652922,
+        "generated_fraction_inside_empirical_range": 0.9642857142857143,
+        "generated_score_range": [
+          -0.5536723826744755,
+          0.49315164405227896
+        ],
+        "loadings": {
+          "annual_pet_mm": -0.18823320654953035,
+          "annual_precipitation_mm": -0.1460805619926767,
+          "bulk_density_g_cm3": 0.174653320079136,
+          "cation_exchange_capacity_cmolc_kg": -0.07835602374973513,
+          "clay_percent": -0.04160334577057939,
+          "mean_temperature_c": -0.057201973880247885,
+          "ph_h2o": -0.03719628113686265,
+          "sand_percent": -0.009018556799432188,
+          "silt_percent": 0.03904309352367534,
+          "soc_stock_t_c_ha_0_23cm": -0.650401170664186,
+          "total_nitrogen_percent": 0.6896168739538996
+        }
+      },
+      {
+        "component": 10,
+        "empirical_score_range": [
+          -0.13484420400899108,
+          0.09829572806133395
+        ],
+        "explained_variance_fraction": 0.0003156196696429305,
+        "generated_fraction_inside_empirical_range": 0.8571428571428571,
+        "generated_score_range": [
+          -0.18608412045051345,
+          0.22395047889700653
+        ],
+        "loadings": {
+          "annual_pet_mm": 0.6992119185321287,
+          "annual_precipitation_mm": 0.07934931333911886,
+          "bulk_density_g_cm3": 0.03437863578834216,
+          "cation_exchange_capacity_cmolc_kg": -0.006534067013643425,
+          "clay_percent": 0.014137981708156073,
+          "mean_temperature_c": -0.6984136420363324,
+          "ph_h2o": -0.07003723041067904,
+          "sand_percent": -0.014410407342715275,
+          "silt_percent": 0.011784826923903039,
+          "soc_stock_t_c_ha_0_23cm": -0.08419857183718937,
+          "total_nitrogen_percent": 0.05708889372863663
+        }
+      },
+      {
+        "component": 11,
+        "empirical_score_range": [
+          -2.3220882339876413e-13,
+          4.413729132123385e-13
+        ],
+        "explained_variance_fraction": 3.4651431725472396e-17,
+        "generated_fraction_inside_empirical_range": 0.9910714285714286,
+        "generated_score_range": [
+          -2.4099293453444946e-13,
+          4.3640664940934764e-13
+        ],
+        "loadings": {
+          "annual_pet_mm": 3.741518578297672e-14,
+          "annual_precipitation_mm": 2.8481314725111653e-14,
+          "bulk_density_g_cm3": 5.7587204920032276e-15,
+          "cation_exchange_capacity_cmolc_kg": 4.0581731923691156e-14,
+          "clay_percent": 0.3379718251225597,
+          "mean_temperature_c": -1.265006399785242e-14,
+          "ph_h2o": -3.2016007282371503e-14,
+          "sand_percent": 0.7719182880840665,
+          "silt_percent": 0.5384395991610298,
+          "soc_stock_t_c_ha_0_23cm": 2.7538534252140015e-14,
+          "total_nitrogen_percent": 4.2418024636786736e-14
+        }
+      }
+    ],
+    "fit_population": "empirical_locations",
+    "variables": [
+      "clay_percent",
+      "silt_percent",
+      "sand_percent",
+      "bulk_density_g_cm3",
+      "ph_h2o",
+      "cation_exchange_capacity_cmolc_kg",
+      "total_nitrogen_percent",
+      "soc_stock_t_c_ha_0_23cm",
+      "mean_temperature_c",
+      "annual_precipitation_mm",
+      "annual_pet_mm"
+    ]
+  },
+  "range_coverage": {
+    "annual_pet_mm": {
+      "generated_covers_empirical_maximum": true,
+      "generated_covers_empirical_minimum": true,
+      "generated_fraction_within_empirical_range": 0.9553571428571429
+    },
+    "annual_precipitation_mm": {
+      "generated_covers_empirical_maximum": true,
+      "generated_covers_empirical_minimum": true,
+      "generated_fraction_within_empirical_range": 0.9464285714285714
+    },
+    "bulk_density_g_cm3": {
+      "generated_covers_empirical_maximum": false,
+      "generated_covers_empirical_minimum": true,
+      "generated_fraction_within_empirical_range": 0.9910714285714286
+    },
+    "cation_exchange_capacity_cmolc_kg": {
+      "generated_covers_empirical_maximum": true,
+      "generated_covers_empirical_minimum": true,
+      "generated_fraction_within_empirical_range": 0.9732142857142857
+    },
+    "clay_percent": {
+      "generated_covers_empirical_maximum": false,
+      "generated_covers_empirical_minimum": true,
+      "generated_fraction_within_empirical_range": 0.9910714285714286
+    },
+    "mean_temperature_c": {
+      "generated_covers_empirical_maximum": true,
+      "generated_covers_empirical_minimum": true,
+      "generated_fraction_within_empirical_range": 0.9642857142857143
+    },
+    "ph_h2o": {
+      "generated_covers_empirical_maximum": false,
+      "generated_covers_empirical_minimum": true,
+      "generated_fraction_within_empirical_range": 0.9910714285714286
+    },
+    "sand_percent": {
+      "generated_covers_empirical_maximum": false,
+      "generated_covers_empirical_minimum": true,
+      "generated_fraction_within_empirical_range": 0.9732142857142857
+    },
+    "silt_percent": {
+      "generated_covers_empirical_maximum": true,
+      "generated_covers_empirical_minimum": false,
+      "generated_fraction_within_empirical_range": 0.9821428571428571
+    },
+    "soc_stock_t_c_ha_0_23cm": {
+      "generated_covers_empirical_maximum": false,
+      "generated_covers_empirical_minimum": false,
+      "generated_fraction_within_empirical_range": 1.0
+    },
+    "total_nitrogen_percent": {
+      "generated_covers_empirical_maximum": false,
+      "generated_covers_empirical_minimum": true,
+      "generated_fraction_within_empirical_range": 0.9732142857142857
+    }
+  },
+  "separation": {
+    "empirically_estimated": [
+      "clay_percent",
+      "silt_percent",
+      "sand_percent",
+      "bulk_density_g_cm3",
+      "ph_h2o",
+      "cation_exchange_capacity_cmolc_kg",
+      "total_nitrogen_percent",
+      "soc_stock_t_c_ha_0_23cm",
+      "mean_temperature_c",
+      "annual_precipitation_mm",
+      "annual_pet_mm"
+    ],
+    "imposed_mechanistic_relationships": [
+      "RothC turnover/partition",
+      "AMF carbon-for-P response",
+      "management equations"
+    ],
+    "latent_biological_priors": [
+      "AMF allocation",
+      "AMF CUE",
+      "AMF turnover",
+      "necromass stabilisation",
+      "P acquisition",
+      "tillage mortality",
+      "cover establishment"
+    ]
+  },
+  "version": "0.9.6"
+}

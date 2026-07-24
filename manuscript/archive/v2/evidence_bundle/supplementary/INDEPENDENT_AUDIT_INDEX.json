@@ -1,0 +1,72 @@
+[
+  {
+    "file_size": 22783,
+    "role": "independent audit evidence; canonical copy in docs/audits",
+    "scientifically_frozen": true,
+    "sha256": "04a7b311f4a69fdacd1a591eb87723b6a63773b63d5fb76c65fca407182ab96c",
+    "source_path": "docs/audits/AUDIT_PHASE96_CLEAN_SLATE.md"
+  },
+  {
+    "file_size": 4339,
+    "role": "independent audit evidence; canonical copy in docs/audits",
+    "scientifically_frozen": true,
+    "sha256": "6ab94857a5049a4c67941b21ed4307ae6fb3aea5d5f056cafa442f0a4011b163",
+    "source_path": "docs/audits/phase96_finding_closure.csv"
+  },
+  {
+    "file_size": 10557,
+    "role": "independent audit evidence; canonical copy in docs/audits",
+    "scientifically_frozen": true,
+    "sha256": "dae34a7b19053a714cee8b092f8b27466955f2f5cbbf25a55236a69bbaf6bf8a",
+    "source_path": "docs/audits/phase96_recomputed_metrics.json"
+  },
+  {
+    "file_size": 7390,
+    "role": "independent audit evidence; canonical copy in docs/audits",
+    "scientifically_frozen": true,
+    "sha256": "0b46638bfe4da1dc24fcf2763075a6d9a06424d5ae619d490066ed6af50ecfd3",
+    "source_path": "docs/audits/phase96_discrepancies.md"
+  },
+  {
+    "file_size": 15483,
+    "role": "independent audit evidence; canonical copy in docs/audits",
+    "scientifically_frozen": true,
+    "sha256": "716ddaf3ed157412951c73d4086d96daedcf4066092fb4ff4a8f5b0bc6550c32",
+    "source_path": "docs/audits/AUDIT_PHASE97_FOCUSED.md"
+  },
+  {
+    "file_size": 5802,
+    "role": "independent audit evidence; canonical copy in docs/audits",
+    "scientifically_frozen": true,
+    "sha256": "ff6c80994cb35176ce4d866976db8a7893deffb351ea5d911ef62dbb99e17b0f",
+    "source_path": "docs/audits/phase97_finding_closure.csv"
+  },
+  {
+    "file_size": 17470,
+    "role": "independent audit evidence; canonical copy in docs/audits",
+    "scientifically_frozen": true,
+    "sha256": "02597753045ea74c8185466687abb14c6b15daefe55db3e975ffdccc269a31e5",
+    "source_path": "docs/audits/phase97_recomputed_metrics.json"
+  },
+  {
+    "file_size": 4625,
+    "role": "independent audit evidence; canonical copy in docs/audits",
+    "scientifically_frozen": true,
+    "sha256": "a5f5974ceda26484145491d9a59a3f0f82a0ac268b7a2beec021e5f031a1b7e4",
+    "source_path": "docs/audits/phase97_discrepancies.md"
+  },
+  {
+    "file_size": 4374,
+    "role": "independent audit evidence; canonical copy in docs/audits",
+    "scientifically_frozen": true,
+    "sha256": "b85a6ff0011680362ac2278f3757c73c609146299a8d5556f85c7f1a1f993de3",
+    "source_path": "docs/audits/phase97_sobol_findings.md"
+  },
+  {
+    "file_size": 4881,
+    "role": "independent audit evidence; canonical copy in docs/audits",
+    "scientifically_frozen": true,
+    "sha256": "6ea52305d41cc8fceaa4991fd7d3da2fe684db7c1691f71a4ef9c34b09ece902",
+    "source_path": "docs/audits/phase97_convergence_findings.md"
+  }
+]

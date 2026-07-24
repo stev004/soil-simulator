@@ -1,0 +1,50 @@
+{
+  "baseline_before_phase98": {
+    "manifest_entries_checked": 35,
+    "manifest_mismatches": 0,
+    "mypy_strict": "pass",
+    "pytest": {
+      "passed": 227,
+      "status": "pass"
+    },
+    "ruff_format_check": "pass",
+    "ruff_lint": "pass"
+  },
+  "fresh_distribution_build": {
+    "installed_wheel_cli_smoke": "pass",
+    "installed_wheel_import_version": "0.9.7",
+    "sdist": {
+      "file_size": 11492890,
+      "sha256": "38c79e775203aabd7b78fae3357f31e9f604fb3c5f536fdec29cc0029dbb9f44"
+    },
+    "status": "pass",
+    "wheel": {
+      "file_size": 240664,
+      "sha256": "b86bd12cd8c7ebf919280d92b96a4059d82041a003c3a8562866deb72bc072b4"
+    }
+  },
+  "final_phase98_quality_suite": {
+    "mypy_strict": "pass (116 source files)",
+    "pytest": {
+      "passed": 234,
+      "status": "pass"
+    },
+    "ruff_format_check": "pass (118 files)",
+    "ruff_lint": "pass"
+  },
+  "phase98_archive_checks": {
+    "audit_export_manifest_validation": "pass (10/10 byte sizes and SHA-256 values)",
+    "audit_file_replay": "pass",
+    "figure_source_validation": "pass",
+    "internal_link_validation": "pass",
+    "manifest_replay": "pass",
+    "manuscript_bundle_hash_verification": "pass",
+    "manuscript_table_validation": "pass"
+  },
+  "package_version": "0.9.7",
+  "phase97_artifact_set_sha256": "cf0915f2f4c0f38f493840b47be0fcfc367c234bdeab90fffd4ea6db18e8b910",
+  "python_version": "3.14.6",
+  "repository_version": null,
+  "repository_version_note": "The supplied checkout has no .git metadata; commit and tag are unavailable.",
+  "uv_available": false
+}

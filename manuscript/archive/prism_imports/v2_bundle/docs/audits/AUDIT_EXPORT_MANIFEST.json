@@ -1,0 +1,108 @@
+{
+  "archive_purpose": "Package the independent soil_simulator Phase 9.6 clean-slate and Phase 9.7 focused audit deliverables (exact original artifact bytes) for transfer back into the repository.",
+  "export_timestamp": "2026-07-22T04:42:18.073223+00:00",
+  "total_file_count": 10,
+  "evidence_integrity_statement": "The evidence files in this archive are the exact bytes of the previously produced Claude Science audit artifacts. They were not regenerated, reconstructed from summaries, reformatted, or substantively modified during export. Only this manifest (AUDIT_EXPORT_MANIFEST.json) was newly created for packaging.",
+  "files": [
+    {
+      "filename": "AUDIT_PHASE96_CLEAN_SLATE.md",
+      "audit_phase": "Phase 9.6",
+      "artifact_identifier": "artifact_id=5d3d174b-8a72-4448-8ca5-864e6312dc0d; version_id=3dde7063-44a8-46ad-a098-572bbd2fac72",
+      "sha256": "04a7b311f4a69fdacd1a591eb87723b6a63773b63d5fb76c65fca407182ab96c",
+      "byte_size": 22783,
+      "retrieved_unchanged": true,
+      "validation": "readable UTF-8 text",
+      "artifact_purpose": "Phase 9.6 clean-slate re-audit report with final verdict"
+    },
+    {
+      "filename": "audit_closure_matrix_independent.csv",
+      "audit_phase": "Phase 9.6",
+      "artifact_identifier": "artifact_id=8a9cde60-4674-426a-9dae-65d98daf87bf; version_id=b5d786ab-12d5-414d-951b-eefe5c7709c1",
+      "sha256": "6ab94857a5049a4c67941b21ed4307ae6fb3aea5d5f056cafa442f0a4011b163",
+      "byte_size": 4339,
+      "retrieved_unchanged": true,
+      "validation": "readable CSV (8 rows)",
+      "artifact_purpose": "Phase 9.6 finding-by-finding closure matrix (C1,C2,M1-M5)"
+    },
+    {
+      "filename": "recomputed_metrics.json",
+      "audit_phase": "Phase 9.6",
+      "artifact_identifier": "artifact_id=c51e6333-58ac-437a-a625-71d98018ff28; version_id=1da1a231-9a75-47c2-9848-665647591c8c",
+      "sha256": "dae34a7b19053a714cee8b092f8b27466955f2f5cbbf25a55236a69bbaf6bf8a",
+      "byte_size": 10557,
+      "retrieved_unchanged": true,
+      "validation": "valid JSON",
+      "artifact_purpose": "Phase 9.6 independently recomputed key metrics"
+    },
+    {
+      "filename": "discrepancies.md",
+      "audit_phase": "Phase 9.6",
+      "artifact_identifier": "artifact_id=005f1392-a7f2-4a91-867e-2738189c2d61; version_id=e740e48f-26e0-496a-a34d-fabf8f83571a",
+      "sha256": "0b46638bfe4da1dc24fcf2763075a6d9a06424d5ae619d490066ed6af50ecfd3",
+      "byte_size": 7390,
+      "retrieved_unchanged": true,
+      "validation": "readable UTF-8 text",
+      "artifact_purpose": "Phase 9.6 discrepancies vs repository reports"
+    },
+    {
+      "filename": "AUDIT_PHASE97_FOCUSED.md",
+      "audit_phase": "Phase 9.7",
+      "artifact_identifier": "artifact_id=62a35b43-6273-4a19-961e-3df2e4c83a23; version_id=29bb1e74-f896-4f5f-9f62-9ea33c372451",
+      "sha256": "716ddaf3ed157412951c73d4086d96daedcf4066092fb4ff4a8f5b0bc6550c32",
+      "byte_size": 15483,
+      "retrieved_unchanged": true,
+      "validation": "readable UTF-8 text",
+      "artifact_purpose": "Phase 9.7 focused re-audit report with publication verdict"
+    },
+    {
+      "filename": "phase97_finding_closure.csv",
+      "audit_phase": "Phase 9.7",
+      "artifact_identifier": "artifact_id=50ea4122-c713-4f86-8c61-03259b8a7cbd; version_id=4dce3b1e-df6a-420e-9cb0-b03b48945820",
+      "sha256": "ff6c80994cb35176ce4d866976db8a7893deffb351ea5d911ef62dbb99e17b0f",
+      "byte_size": 5802,
+      "retrieved_unchanged": true,
+      "validation": "readable CSV (10 rows)",
+      "artifact_purpose": "Phase 9.7 closure classification of the 9 Phase 9.6 defects"
+    },
+    {
+      "filename": "phase97_recomputed_metrics.json",
+      "audit_phase": "Phase 9.7",
+      "artifact_identifier": "artifact_id=ed07283d-8869-4ca5-bab9-dbbe9b6c4e55; version_id=68e5a2c5-43ef-4176-8321-242c980dc11a",
+      "sha256": "02597753045ea74c8185466687abb14c6b15daefe55db3e975ffdccc269a31e5",
+      "byte_size": 17470,
+      "retrieved_unchanged": true,
+      "validation": "valid JSON",
+      "artifact_purpose": "Phase 9.7 independently recomputed metrics"
+    },
+    {
+      "filename": "phase97_discrepancies.md",
+      "audit_phase": "Phase 9.7",
+      "artifact_identifier": "artifact_id=af197e0c-f9f7-4c88-b0a7-ec99a793ed42; version_id=a576b765-5403-4e84-b570-a9ddf1ad68ab",
+      "sha256": "a5f5974ceda26484145491d9a59a3f0f82a0ac268b7a2beec021e5f031a1b7e4",
+      "byte_size": 4625,
+      "retrieved_unchanged": true,
+      "validation": "readable UTF-8 text",
+      "artifact_purpose": "Phase 9.7 discrepancies + exact-match ledger"
+    },
+    {
+      "filename": "sobol_findings.md",
+      "audit_phase": "Phase 9.7",
+      "artifact_identifier": "artifact_id=b493d9e9-3272-4e71-b411-682f35e3def3; version_id=3de18182-b273-4050-8214-189567ceeef0",
+      "sha256": "b85a6ff0011680362ac2278f3757c73c609146299a8d5556f85c7f1a1f993de3",
+      "byte_size": 4374,
+      "retrieved_unchanged": true,
+      "validation": "readable UTF-8 text",
+      "artifact_purpose": "Phase 9.7 Sobol implementation independent-audit findings (sub-agent)"
+    },
+    {
+      "filename": "convergence_findings.md",
+      "audit_phase": "Phase 9.7",
+      "artifact_identifier": "artifact_id=88021f36-7cb5-4228-86fa-8ffa075fb787; version_id=35cd2142-058f-4576-a419-6837cdc6cac0",
+      "sha256": "6ea52305d41cc8fceaa4991fd7d3da2fe684db7c1691f71a4ef9c34b09ece902",
+      "byte_size": 4881,
+      "retrieved_unchanged": true,
+      "validation": "readable UTF-8 text",
+      "artifact_purpose": "Phase 9.7 convergence analysis independent-audit findings (sub-agent)"
+    }
+  ]
+}

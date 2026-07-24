@@ -1,0 +1,19 @@
+version: 0.9.5
+seed: 950021
+morris_trajectories: 8
+morris_levels: 6
+sobol_base_sample_size: 64
+sobol_parameter_count: 4
+parameters:
+  - {name: amf_allocation, path: amf.photosynthate_allocation_fraction, minimum: 0.02, maximum: 0.20, distribution: beta_scaled_2_8, classification: literature_informed_prior, source: A003-A004}
+  - {name: amf_cue, path: amf.carbon_use_efficiency, minimum: 0.30, maximum: 0.65, distribution: triangular_0.45, classification: scenario_assumption, source: A006}
+  - {name: amf_turnover, path: amf.turnover_per_month, minimum: 0.10, maximum: 6.0, distribution: log_uniform, classification: literature_informed_prior, source: A005}
+  - {name: necromass_stabilisation, path: amf.necromass_stabilisation_fraction, minimum: 0.02, maximum: 0.50, distribution: beta_scaled_2_5, classification: scenario_assumption, source: A007-A021}
+  - {name: phosphorus_uptake_vmax, path: amf.p_uptake_vmax, minimum: 0.20, maximum: 3.0, distribution: triangular_1.0, classification: scenario_assumption, source: A023}
+  - {name: phosphorus_half_saturation, path: amf.p_uptake_km, minimum: 2.0, maximum: 40.0, distribution: log_uniform, classification: scenario_assumption, source: A023}
+  - {name: tillage_amf_mortality, path: management.tillage.conventional.amf_pulse_mortality, minimum: 0.0, maximum: 0.60, distribution: triangular_0.25, classification: scenario_assumption, source: A009-A027}
+  - {name: tillage_decomposition_multiplier, path: management.tillage.conventional.decomposition_multiplier, minimum: 1.0, maximum: 2.0, distribution: uniform, classification: scenario_assumption, source: A009-A027}
+  - {name: cover_crop_npp, path: management.cover_crop.monthly_potential_npp_t_c_ha, minimum: 0.0, maximum: 0.50, distribution: uniform, classification: scenario_assumption, source: A010-A028}
+  - {name: cover_crop_root_fraction, path: management.cover_crop.root_allocation_fraction, minimum: 0.30, maximum: 0.80, distribution: uniform, classification: scenario_assumption, source: A010-A028}
+  - {name: fym_phosphorus_content, path: management.farmyard_manure.phosphorus_content_kg_p_per_t_c, minimum: 0.0, maximum: 30.0, distribution: uniform, classification: scenario_assumption, source: A026}
+  - {name: schedule_interval_months, path: phase95.schedule.interval_months, minimum: 12.0, maximum: 36.0, distribution: uniform_discrete, classification: scenario_assumption, source: A065}

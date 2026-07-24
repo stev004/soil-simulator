@@ -1,0 +1,44 @@
+[
+  {
+    "dimension": "Sobol sampler",
+    "phase96": "ordinary pseudorandom A/B matrices",
+    "phase97": "scipy.stats.qmc.Sobol",
+    "phase97_status": "corrected"
+  },
+  {
+    "dimension": "Sobol base samples",
+    "phase96": "32",
+    "phase97": "128,256,512,1024",
+    "phase97_status": "not_converged_results_not_final"
+  },
+  {
+    "dimension": "Leakage gate",
+    "phase96": "literal true",
+    "phase97": "True",
+    "phase97_status": "computed from artifacts"
+  },
+  {
+    "dimension": "Uncertainty coverage",
+    "phase96": "aggregate 0.80-1.00 acceptance",
+    "phase97": "True",
+    "phase97_status": "target/regime-specific binomial rule"
+  },
+  {
+    "dimension": "Independent empirical effect validation",
+    "phase96": "literal false",
+    "phase97": "False",
+    "phase97_status": "no independent empirical intervention-effect dataset was supplied"
+  },
+  {
+    "dimension": "Downstream execution",
+    "phase96": "blocked",
+    "phase97": "False",
+    "phase97_status": "blocked; selection/oracle/regret must not run"
+  },
+  {
+    "dimension": "FYM calibration",
+    "phase96": "boundary_solution=True",
+    "phase97": "estimate=1.1; range=[0.9, 1.1]",
+    "phase97_status": "boundary explicitly profiled; not general calibration success"
+  }
+]

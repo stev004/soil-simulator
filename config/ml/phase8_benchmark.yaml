@@ -1,0 +1,20 @@
+name: phase_8_5_intervention_outcome_diagnostic
+version: 0.8.5
+random_seed: 20260721
+foundation_group_count: 50
+foundation_seed: 20260721
+simulation_horizons_months: [24, 60, 120]
+ridge_alphas: [0.01, 0.1, 1.0, 10.0]
+forest_tree_counts: [8, 16]
+forest_max_depths: [3, 5]
+forest_min_leaf: 12
+forest_feature_fraction: 0.60
+conformal_alpha: 0.10
+minimum_calibration_groups: 8
+minimum_subgroup_interval_rows: 20
+coverage_tolerance: 0.10
+acceptable_ood_mae_sd_ratio: 1.00
+near_duplicate_distance: 0.002
+boundary_fraction: 0.10
+classification: scenario_assumption
+provenance: Phase 8.5 deterministic diagnostic settings; non-biological, with tuning and group-aware calibration restricted to synthetic training/validation groups.

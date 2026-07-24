@@ -1,0 +1,18 @@
+{
+  "allowed_changed_paths": [
+    "README.md"
+  ],
+  "changes_since_phase97_freeze": [
+    {
+      "current_sha256": "01ca871b1288760e5e7d4935197cb14027eccc7bf8d6355e956fe891141c134b",
+      "historical_sha256": "bf03a9e23a064fe8cb2dbc63b47018e403684ad591750177afc51d00f531b897",
+      "path": "README.md",
+      "reason": "Phase 9.8 required top-level research-archive links/status",
+      "scientific_content_changed": false
+    }
+  ],
+  "historical_manifest_modified": false,
+  "historical_manifest_path": "outputs/phase97_v0.9.7/artifact_hashes.json",
+  "historical_set_sha256": "cf0915f2f4c0f38f493840b47be0fcfc367c234bdeab90fffd4ea6db18e8b910",
+  "role": "transparent Phase 9.8 documentation-only current-byte correction"
+}

@@ -1,0 +1,28 @@
+{
+  "biological_digests": {
+    "baseline": "3dd8ddfaff695c817a1886cf36aa14b959aa55de085c2555cf8fa34e6b5b5b71",
+    "conventional_tillage": "716d016c6f2e5e8052488fc6ed302ec5cf68d1031402325e492d346594476d97",
+    "cover_crop": "b55eef08a9ed10797cb0973c84f8f80c8d3498f44653e22e4541c34e64f3c9c5",
+    "farmyard_manure": "60935d94a74bcbc5e273a499af0aed0a88273f2c82e7cfb20bb5800072a7bf28",
+    "no_till": "3dd8ddfaff695c817a1886cf36aa14b959aa55de085c2555cf8fa34e6b5b5b71",
+    "phosphorus": "0940e1b8b1369cdf9952ec802a229b2fdaf06db663aad4507f421a83023c7ed4",
+    "reduced_tillage": "320652e1ff82f8770784a474b3b2a6390d1b263def57f13432e2762c2d85a696"
+  },
+  "duplicate_groups": [
+    [
+      "baseline",
+      "no_till"
+    ]
+  ],
+  "passed": true,
+  "phase95_policy_ids": [
+    "baseline",
+    "conventional_tillage",
+    "reduced_tillage",
+    "cover_crop",
+    "phosphorus",
+    "farmyard_manure"
+  ],
+  "resolution": "remove no_till from Phase 9.5 benchmark policy set",
+  "version": "0.9.5"
+}

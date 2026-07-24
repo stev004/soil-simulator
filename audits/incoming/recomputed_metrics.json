@@ -1,0 +1,267 @@
+{
+  "integrity": {
+    "empirical_manifest_raw_hashes": "68/68 match",
+    "empirical_manifest_processed_hashes": "2/2 match",
+    "rothc_zip_hash": "match (728ef132...)",
+    "artifact_hashes_files": "47/48 match",
+    "artifact_hashes_mismatch": "docs/AUDIT_soil_simulator_v0.9.0.md: recorded c5494d1f... vs on-disk f2654c04... (doc edited 20:14 after freeze 19:47)",
+    "artifact_set_digest_internally_consistent": true,
+    "artifact_set_digest_matches_current_disk": false,
+    "frozen_v090_baseline_hashes": "18/18 match",
+    "v090_audit_md_contains_hash_literals": false
+  },
+  "determinism": {
+    "run1_vs_run2": "byte-identical across all 19 outputs",
+    "population_hash": "9bb2f8fec93b17296051265745766503d5284bc774b1ff50aa022d76712c4124",
+    "population_hash_reproduces": true,
+    "run_vs_committed_only_diff": "artifact_hashes.json (solely the drifted AUDIT md entry)"
+  },
+  "quality_gates": {
+    "ruff_format_check": {
+      "result": "pass",
+      "detail": "107 files already formatted"
+    },
+    "ruff_check": {
+      "result": "pass",
+      "detail": "All checks passed"
+    },
+    "mypy_strict": {
+      "result": "pass",
+      "detail": "no issues in 106 source files"
+    },
+    "pytest_full": {
+      "result": "FAIL",
+      "detail": "1 failed, 213 passed in 64.92s"
+    },
+    "rothc_parity": {
+      "result": "pass",
+      "detail": "tests/parity/test_rothc_worked_example.py 1 passed"
+    },
+    "carbon_phosphorus_balance": {
+      "result": "pass",
+      "detail": "ledger+property balance tests pass; ~15 *_balances integration/property tests collected, all green within full suite"
+    },
+    "package_build": {
+      "result": "pass",
+      "detail": "soil_simulator-0.9.6 wheel + sdist built via hatchling"
+    },
+    "installed_wheel_smoke": {
+      "result": "pass",
+      "detail": "0.9.6 wheel installs into clean venv; import OK; phase96.pipeline imports; CLI exposes 11 subcommands. (Earlier 0.8.5 reading was an auditor wheel-selection error, corrected.)"
+    }
+  },
+  "hoosfield": {
+    "phase95_aggregate_rmse": {
+      "reported": 10.154028534586063,
+      "recomputed": 10.154028534586063,
+      "match": true,
+      "note": "code + CSV-independent both exact"
+    },
+    "phase95_aggregate_bias": {
+      "reported": -8.35962210122443,
+      "recomputed": -8.35962210122443,
+      "match": true,
+      "note": "exact"
+    },
+    "phase95_aggregate_mae": {
+      "reported": 8.517545288889295,
+      "recomputed": 8.517545288889295,
+      "match": true,
+      "note": "exact"
+    },
+    "source_corrected_aggregate_rmse": {
+      "reported": 4.340498836380508,
+      "recomputed": 4.340498836380508,
+      "match": true,
+      "note": "forcing swap to RothC v2.1.1 bundled normal; exact"
+    },
+    "source_corrected_aggregate_bias": {
+      "reported": -0.5276209342750058,
+      "recomputed": -0.5276209342750058,
+      "match": true,
+      "note": "exact"
+    },
+    "source_corrected_aggregate_mae": {
+      "reported": 3.6566603755738436,
+      "recomputed": 3.6566603755738436,
+      "match": true,
+      "note": "exact"
+    },
+    "calibration_best_plant_residue_factor": {
+      "reported": 0.85,
+      "recomputed": 0.85,
+      "match": true,
+      "note": "interior of [0.80,1.20]"
+    },
+    "calibration_best_fym_carbon_factor": {
+      "reported": 1.1,
+      "recomputed": 1.1,
+      "match": true,
+      "note": "ON upper bound [0.90,1.10] - boundary solution"
+    },
+    "boundary_solution": {
+      "reported": "True",
+      "recomputed": "True",
+      "match": true,
+      "note": "fym_carbon_factor pinned at ceiling; top-3 candidates all fym=1.10"
+    },
+    "held_out_temporal_mae": {
+      "reported": 1.5157887892167796,
+      "recomputed": 1.5157887892167796,
+      "match": true,
+      "note": "exact (code + CSV)"
+    },
+    "held_out_temporal_rmse": {
+      "reported": 1.8847735853984364,
+      "recomputed": 1.8847735853984364,
+      "match": true,
+      "note": "exact"
+    },
+    "held_out_temporal_bias": {
+      "reported": 0.4975387778078299,
+      "recomputed": 0.4975387778078299,
+      "match": true,
+      "note": "exact"
+    },
+    "held_out_treatment_cessation_mae": {
+      "reported": 7.214238690963898,
+      "recomputed": 7.214238690963898,
+      "match": true,
+      "note": "exact; genuine held-out failure"
+    },
+    "held_out_treatment_cessation_rmse": {
+      "reported": 7.577073646005274,
+      "recomputed": 7.577073646005274,
+      "match": true,
+      "note": "exact"
+    },
+    "held_out_treatment_cessation_bias": {
+      "reported": -7.214238690963898,
+      "recomputed": -7.214238690963898,
+      "match": true,
+      "note": "exact; one-sided under-prediction"
+    },
+    "empirical_harmonisation_max_abs_error_all_56x9": {
+      "reported": "n/a (CSV values)",
+      "recomputed": 0,
+      "match": true,
+      "note": "all 9 harmonised cols x 56 locations reproduce byte-exact from raw SoilGrids"
+    },
+    "accepted_locations": {
+      "reported": 56,
+      "recomputed": 56,
+      "match": true,
+      "note": "all paired: 56 soil + 56x240 climate rows; location sets identical"
+    },
+    "rejected_locations": {
+      "reported": 8,
+      "recomputed": 8,
+      "match": true,
+      "note": "gb009,014,017,022,035,046,047,057 - all null Q0.5 at every depth/property"
+    },
+    "generated_field_count": {
+      "reported": 112,
+      "recomputed": 112,
+      "match": true,
+      "note": "= 56 locations x ~2 synthetic clones (per-loc {1,2,3}); NOT 112 independent obs"
+    },
+    "split_counts_fields": {
+      "reported": "train 59/val 21/test 26/ood 6",
+      "recomputed": "train 59/val 21/test 26/ood 6",
+      "match": true,
+      "note": "by location: 31/10/11/4; 0 locations span >1 split (no leakage)"
+    },
+    "rothc_zip_sha256": {
+      "reported": "728ef1320f8a660b14e12648fbf3d4d20917021016a24c46f5cde5c7609b9966",
+      "recomputed": "728ef1320f8a660b14e12648fbf3d4d20917021016a24c46f5cde5c7609b9966",
+      "match": true,
+      "note": "independently re-hashed; match"
+    },
+    "texture_closure_correction_mean_pp": {
+      "reported": "corrections retained (A077)",
+      "recomputed": 9.27,
+      "match": true,
+      "note": "mean 9.27pp, max 28.48pp; 21/56 need >10pp renormalisation"
+    }
+  },
+  "sensitivity_population_ml": {
+    "morris_mean_rank_agreement": {
+      "reported": "0.840",
+      "recomputed": "0.8400000000000001",
+      "match": true,
+      "note": "Mean of 55 per-output values in convergence.morris_by_output; exact. NOTE this is nested-subsample self-consistency (half=first 3 of 6 trajectories, same seed), not independent-replication convergence."
+    },
+    "sobol_mean_rank_agreement": {
+      "reported": "0.760",
+      "recomputed": "0.7599999999999999",
+      "match": true,
+      "note": "Mean total-order rank agreement full N=32 vs nested N=16 (same seed, first 16 rows). Exact. Weak even as self-consistency: ~1 of 5 params swaps rank under subsampling."
+    },
+    "sobol_selected_parameters": {
+      "reported": "(empirical_location_index, weather_resample_index, schedule_interval_months, tillage_decomposition_multiplier, fym_phosphorus_content)",
+      "recomputed": "identical",
+      "match": true,
+      "note": "Top-5 by aggregate Morris mu_star."
+    },
+    "sobol_first_order_negative_fraction": {
+      "reported": "not reported",
+      "recomputed": "68/275 = 25%",
+      "match": false,
+      "note": "25% of first-order Sobol estimates are NEGATIVE (min -0.425); first-order max 1.40, total-order max 2.10 (both >1). Signature of an underpowered estimator at N=32; the large 'interaction' fractions are artefacts not real interactions."
+    },
+    "sobol_evaluation_count": {
+      "reported": "224",
+      "recomputed": "224",
+      "match": true,
+      "note": "N*(k+2)=32*7=224. Correct."
+    },
+    "policy_winner_farmyard_manure": {
+      "reported": "phosphorus excluded; FYM implied winner",
+      "recomputed": "FYM wins 0.938-1.000 across all 5 headline target/horizons",
+      "match": true,
+      "note": "Intervention ranking IS stable: FYM wins 94-100% of 64 draws. Strongest genuine sensitivity result."
+    },
+    "effect_leakage_locations_in_multiple_splits": {
+      "reported": "empirical_location_leakage_check=True",
+      "recomputed": "0 of 56 locations in >1 split",
+      "match": true,
+      "note": "Data is clean, BUT the gate value is a hardcoded literal True (effect_ml.py L314), never computed - fail-open."
+    },
+    "effect_all_beat_policy_mean": {
+      "reported": "False",
+      "recomputed": "False",
+      "match": true,
+      "note": "Reproduced from CSV. yield|24 ridge 0.0555 vs policy 0.0550 (loses by 0.9%); SOC/respiration beat by 4-10%."
+    },
+    "effect_acceptable_ood": {
+      "reported": "False",
+      "recomputed": "False",
+      "match": true,
+      "note": "yield|24 ood_ridge 0.0697 > 1.10*0.0619=0.0681 (12.6% worse than policy). Genuine failure, but only 24 rows/4 locations."
+    },
+    "effect_calibrated_uncertainty": {
+      "reported": "True",
+      "recomputed": "True (technically)",
+      "match": true,
+      "note": "Reproduced test coverages 0.865-0.913: 6 of 7 targets are BELOW the 0.90 nominal (only protected_soc_proxy|60 at 0.913 meets it; yield 0.865, respiration|60 0.885, total_soc|60 0.885, protected_soc|120/total_soc|120/respiration|120 all 0.875). All pass the permissive 0.80-1.00 band anyway. OOD coverage (0.833-0.917) computed but NOT gated. Weak check; not evidence of nominal 90% calibration."
+    },
+    "effect_test_rmse_all_targets": {
+      "reported": "per prediction_gate_report.json",
+      "recomputed": "reproduced to 4 decimals for all 7 targets",
+      "match": true,
+      "note": "Full ridge normal-equations + alpha selection + policy-mean baseline + conformal half-width re-implemented from effect_only_dataset.csv; every value matches."
+    },
+    "empirical_vs_generated_correlation": {
+      "reported": "observable covariance estimated from empirical records",
+      "recomputed": "mean off-diag |\u0394|=0.044, max 0.156",
+      "match": false,
+      "note": "Correlations match on average (anchored to 56 real locations) but stronger couplings are systematically attenuated (BD\u00d7pH 0.67->0.51) - signature of anchor+independent-noise, not sampling from an estimated covariance."
+    },
+    "population_effective_locations": {
+      "reported": "112 fields",
+      "recomputed": "56 locations x ~2 replicates (40x2,8x3,8x1)",
+      "match": false,
+      "note": "112 count double-counts correlated replicates; effective location-level n=56."
+    }
+  }
+}

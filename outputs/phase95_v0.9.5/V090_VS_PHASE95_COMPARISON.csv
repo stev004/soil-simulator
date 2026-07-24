@@ -1,0 +1,13 @@
+dimension,audited_v0.9.0,phase95_v0.9.5,status
+population,expanded non-representative synthetic fixtures,no revised population because empirical pilot blocked,not_comparable
+headline_ml_targets,stock effects and deterministic identity targets appeared in broad summaries,paired biological effects only,remediated
+policy_count,7 including duplicate no_till,6 with no_till removed,remediated
+phosphorus_final_selection_frequency,74.7-85.3 percent across profiles,not rerun and excluded from headline carbon conclusions,not_comparable
+ml_effect_performance,frozen Phase 8.6 models,not rerun,blocked
+applicability_and_abstention,12.67 percent frozen-final point-selector abstention,not rerun,blocked
+exact_oracle_match,84.0 percent frozen-final point ML,not rerun,blocked
+median_utility_regret,0 frozen-final point ML,not rerun,blocked
+worst_decile_regret,0.1792 frozen-final point ML,not rerun,blocked
+catastrophic_failure_frequency,5.5 percent frozen-final point ML,not rerun,blocked
+long_term_validation,none beyond one-step parity,Hoosfield aggregate RMSE 10.154 t C ha-1 with negative FYM bias,new_negative_evidence
+publication_readiness,failed,failed,failed

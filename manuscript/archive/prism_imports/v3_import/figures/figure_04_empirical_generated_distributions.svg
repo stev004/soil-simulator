@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="652">
+<rect width="100%" height="100%" fill="white"/>
+<text x="20" y="28" font-family="sans-serif" font-size="18">Phase 9.6 empirical vs generated 5--95% ranges (variable-normalised)</text>
+<text x="650" y="28" font-family="sans-serif" font-size="12" fill="#1769aa">empirical</text>
+<text x="730" y="28" font-family="sans-serif" font-size="12" fill="#d95f02">generated</text>
+<text x="20" y="67" font-family="monospace" font-size="12">clay_percent</text>
+<line x1="300" y1="62" x2="920" y2="62" stroke="#dddddd"/>
+<line x1="400.10" y1="55" x2="806.15" y2="55" stroke="#1769aa" stroke-width="5"/>
+<circle cx="626.55" cy="55" r="4" fill="#1769aa"/>
+<line x1="407.15" y1="70" x2="807.22" y2="70" stroke="#d95f02" stroke-width="5"/>
+<circle cx="640.47" cy="70" r="4" fill="#d95f02"/>
+<text x="20" y="119" font-family="monospace" font-size="12">silt_percent</text>
+<line x1="300" y1="114" x2="920" y2="114" stroke="#dddddd"/>
+<line x1="363.05" y1="107" x2="827.17" y2="107" stroke="#1769aa" stroke-width="5"/>
+<circle cx="565.67" cy="107" r="4" fill="#1769aa"/>
+<line x1="350.35" y1="122" x2="848.36" y2="122" stroke="#d95f02" stroke-width="5"/>
+<circle cx="572.52" cy="122" r="4" fill="#d95f02"/>
+<text x="20" y="171" font-family="monospace" font-size="12">sand_percent</text>
+<line x1="300" y1="166" x2="920" y2="166" stroke="#dddddd"/>
+<line x1="324.55" y1="159" x2="821.25" y2="159" stroke="#1769aa" stroke-width="5"/>
+<circle cx="541.89" cy="159" r="4" fill="#1769aa"/>
+<line x1="315.91" y1="174" x2="816.49" y2="174" stroke="#d95f02" stroke-width="5"/>
+<circle cx="534.23" cy="174" r="4" fill="#d95f02"/>
+<text x="20" y="223" font-family="monospace" font-size="12">bulk_density_g_cm3</text>
+<line x1="300" y1="218" x2="920" y2="218" stroke="#dddddd"/>
+<line x1="473.96" y1="211" x2="850.26" y2="211" stroke="#1769aa" stroke-width="5"/>
+<circle cx="701.76" cy="211" r="4" fill="#1769aa"/>
+<line x1="478.48" y1="226" x2="861.67" y2="226" stroke="#d95f02" stroke-width="5"/>
+<circle cx="727.39" cy="226" r="4" fill="#d95f02"/>
+<text x="20" y="275" font-family="monospace" font-size="12">ph_h2o</text>
+<line x1="300" y1="270" x2="920" y2="270" stroke="#dddddd"/>
+<line x1="453.61" y1="263" x2="887.48" y2="263" stroke="#1769aa" stroke-width="5"/>
+<circle cx="686.49" cy="263" r="4" fill="#1769aa"/>
+<line x1="514.60" y1="278" x2="889.74" y2="278" stroke="#d95f02" stroke-width="5"/>
+<circle cx="704.92" cy="278" r="4" fill="#d95f02"/>
+<text x="20" y="327" font-family="monospace" font-size="12">cation_exchange_capacity_cmolc_kg</text>
+<line x1="300" y1="322" x2="920" y2="322" stroke="#dddddd"/>
+<line x1="386.38" y1="315" x2="793.36" y2="315" stroke="#1769aa" stroke-width="5"/>
+<circle cx="485.58" cy="315" r="4" fill="#1769aa"/>
+<line x1="385.82" y1="330" x2="780.62" y2="330" stroke="#d95f02" stroke-width="5"/>
+<circle cx="479.06" cy="330" r="4" fill="#d95f02"/>
+<text x="20" y="379" font-family="monospace" font-size="12">total_nitrogen_percent</text>
+<line x1="300" y1="374" x2="920" y2="374" stroke="#dddddd"/>
+<line x1="309.84" y1="367" x2="654.27" y2="367" stroke="#1769aa" stroke-width="5"/>
+<circle cx="388.93" cy="367" r="4" fill="#1769aa"/>
+<line x1="306.76" y1="382" x2="577.90" y2="382" stroke="#d95f02" stroke-width="5"/>
+<circle cx="386.72" cy="382" r="4" fill="#d95f02"/>
+<text x="20" y="431" font-family="monospace" font-size="12">soc_stock_t_c_ha_0_23cm</text>
+<line x1="300" y1="426" x2="920" y2="426" stroke="#dddddd"/>
+<line x1="331.36" y1="419" x2="616.74" y2="419" stroke="#1769aa" stroke-width="5"/>
+<circle cx="399.01" cy="419" r="4" fill="#1769aa"/>
+<line x1="321.41" y1="434" x2="583.88" y2="434" stroke="#d95f02" stroke-width="5"/>
+<circle cx="390.00" cy="434" r="4" fill="#d95f02"/>
+<text x="20" y="483" font-family="monospace" font-size="12">mean_temperature_c</text>
+<line x1="300" y1="478" x2="920" y2="478" stroke="#dddddd"/>
+<line x1="396.66" y1="471" x2="785.76" y2="471" stroke="#1769aa" stroke-width="5"/>
+<circle cx="602.81" cy="471" r="4" fill="#1769aa"/>
+<line x1="406.89" y1="486" x2="808.80" y2="486" stroke="#d95f02" stroke-width="5"/>
+<circle cx="623.43" cy="486" r="4" fill="#d95f02"/>
+<text x="20" y="535" font-family="monospace" font-size="12">annual_precipitation_mm</text>
+<line x1="300" y1="530" x2="920" y2="530" stroke="#dddddd"/>
+<line x1="369.92" y1="523" x2="826.37" y2="523" stroke="#1769aa" stroke-width="5"/>
+<circle cx="493.12" cy="523" r="4" fill="#1769aa"/>
+<line x1="368.06" y1="538" x2="790.55" y2="538" stroke="#d95f02" stroke-width="5"/>
+<circle cx="485.04" cy="538" r="4" fill="#d95f02"/>
+<text x="20" y="587" font-family="monospace" font-size="12">annual_pet_mm</text>
+<line x1="300" y1="582" x2="920" y2="582" stroke="#dddddd"/>
+<line x1="425.56" y1="575" x2="851.96" y2="575" stroke="#1769aa" stroke-width="5"/>
+<circle cx="663.58" cy="575" r="4" fill="#1769aa"/>
+<line x1="442.70" y1="590" x2="885.69" y2="590" stroke="#d95f02" stroke-width="5"/>
+<circle cx="687.66" cy="590" r="4" fill="#d95f02"/>
+</svg>

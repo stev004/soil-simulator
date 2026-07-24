@@ -1,0 +1,241 @@
+name: phase_6_predefined_management_comparison
+version: 0.6.0
+seed: 20260720
+start_date: 2026-01-01
+classification: scenario_assumption
+provenance: Deterministic Phase 6 demonstration only; forcing, schedules, costs and emissions proxies are provisional and not field-validated.
+
+initial_state:
+  month_index: 0
+  plant_c: 0.0
+  root_c: 0.0
+  amf_live_c: 0.1
+  amf_necromass_c: 0.05
+  dpm_c: 2.0
+  rpm_c: 10.0
+  microbial_c: 1.0
+  protected_soc_c: 35.0
+  iom_c: 7.0
+  available_p_kg_ha: 12.0
+  topsoil_moisture_deficit_mm: 0.0
+  crop_development: 0.0
+  cumulative_yield_t_dm_ha: 0.0
+
+monthly_steps:
+  - &m01
+    calendar_month: 1
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic comparison forcing; not observed climate.
+    forcing: &forcing
+      mean_air_temperature_c: 4.0
+      precipitation_mm: 74.0
+      open_pan_evaporation_mm: 8.0
+      is_covered: false
+      clay_percent: 23.4
+      soil_depth_cm: 23.0
+      provenance: Demonstration climate patterned on the RothC example; not observed field data.
+  - &m02
+    calendar_month: 2
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic comparison forcing; not observed climate.
+    forcing: {<<: *forcing, mean_air_temperature_c: 5.0, precipitation_mm: 59.0, open_pan_evaporation_mm: 10.0}
+  - &m03
+    calendar_month: 3
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic comparison forcing; not observed climate.
+    forcing: {<<: *forcing, mean_air_temperature_c: 8.0, precipitation_mm: 62.0, open_pan_evaporation_mm: 27.0, is_covered: true}
+  - &m04
+    calendar_month: 4
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic comparison forcing; not observed climate.
+    forcing: {<<: *forcing, mean_air_temperature_c: 11.0, precipitation_mm: 51.0, open_pan_evaporation_mm: 49.0, is_covered: true}
+  - &m05
+    calendar_month: 5
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic comparison forcing; not observed climate.
+    forcing: {<<: *forcing, mean_air_temperature_c: 14.0, precipitation_mm: 52.0, open_pan_evaporation_mm: 83.0, is_covered: true}
+  - &m06
+    calendar_month: 6
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic comparison forcing; not observed climate.
+    forcing: {<<: *forcing, mean_air_temperature_c: 17.0, precipitation_mm: 57.0, open_pan_evaporation_mm: 99.0, is_covered: true}
+  - &m07
+    calendar_month: 7
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic comparison forcing; not observed climate.
+    forcing: {<<: *forcing, mean_air_temperature_c: 19.0, precipitation_mm: 34.0, open_pan_evaporation_mm: 103.0, is_covered: true}
+  - &m08
+    calendar_month: 8
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic comparison forcing; not observed climate.
+    forcing: {<<: *forcing, mean_air_temperature_c: 18.0, precipitation_mm: 55.0, open_pan_evaporation_mm: 91.0, is_covered: true}
+  - &m09
+    calendar_month: 9
+    external_available_p_kg_ha: 0.0
+    harvest: true
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic annual harvest.
+    forcing: {<<: *forcing, mean_air_temperature_c: 15.0, precipitation_mm: 58.0, open_pan_evaporation_mm: 69.0, is_covered: true}
+  - &m10
+    calendar_month: 10
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic comparison forcing; not observed climate.
+    forcing: {<<: *forcing, mean_air_temperature_c: 11.0, precipitation_mm: 56.0, open_pan_evaporation_mm: 34.0}
+  - &m11
+    calendar_month: 11
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic comparison forcing; not observed climate.
+    forcing: {<<: *forcing, mean_air_temperature_c: 7.0, precipitation_mm: 75.0, open_pan_evaporation_mm: 16.0}
+  - &m12
+    calendar_month: 12
+    external_available_p_kg_ha: 0.0
+    harvest: false
+    classification: scenario_assumption
+    provenance: Phase 6 deterministic comparison forcing; not observed climate.
+    forcing: {<<: *forcing, mean_air_temperature_c: 5.0, precipitation_mm: 75.0, open_pan_evaporation_mm: 8.0}
+  - *m01
+  - *m02
+  - *m03
+  - *m04
+  - *m05
+  - *m06
+  - *m07
+  - *m08
+  - *m09
+  - *m10
+  - *m11
+  - *m12
+
+policies:
+  - policy_id: baseline
+    name: No scheduled Phase 6 intervention
+    events: []
+    classification: scenario_assumption
+    provenance: Comparator retaining the Phase 5 process configuration.
+  - policy_id: conventional_tillage
+    name: Conventional tillage
+    classification: scenario_assumption
+    provenance: Provisional tillage direction scenario; not calibrated.
+    events:
+      - &conventional
+        event_id: conventional-2026
+        event_type: tillage
+        event_date: 2026-03-15
+        amount: 1.0
+        units: operation_ha^-1
+        parameters: [{name: tillage_level, value: conventional}]
+        cost_gbp_ha: 70.0
+        emissions_proxy_kg_co2e_ha: 25.0
+        parameter_provenance: A009 provisional effect parameters in model_defaults.yaml; cost/emissions are uncalibrated scenario accounting.
+        source_classification: scenario_assumption
+        provenance: Demonstration schedule, not an agronomic recommendation.
+      - {<<: *conventional, event_id: conventional-2027, event_date: null, simulation_month: 14}
+  - policy_id: reduced_tillage
+    name: Reduced tillage
+    classification: scenario_assumption
+    provenance: Provisional tillage direction scenario; not calibrated.
+    events:
+      - &reduced
+        event_id: reduced-2026
+        event_type: tillage
+        simulation_month: 2
+        amount: 1.0
+        units: operation_ha^-1
+        parameters: [{name: tillage_level, value: reduced}]
+        cost_gbp_ha: 45.0
+        emissions_proxy_kg_co2e_ha: 15.0
+        parameter_provenance: A009 provisional effect parameters in model_defaults.yaml; cost/emissions are uncalibrated scenario accounting.
+        source_classification: scenario_assumption
+        provenance: Demonstration schedule, not an agronomic recommendation.
+      - {<<: *reduced, event_id: reduced-2027, simulation_month: 14}
+  - policy_id: no_till
+    name: No-till operation marker
+    classification: scenario_assumption
+    provenance: Explicit configured null-disturbance endpoint.
+    events:
+      - event_id: no-till-2026
+        event_type: tillage
+        simulation_month: 2
+        amount: 1.0
+        units: operation_ha^-1
+        parameters: [{name: tillage_level, value: no_till}]
+        cost_gbp_ha: 25.0
+        emissions_proxy_kg_co2e_ha: 8.0
+        parameter_provenance: A009 explicit no-effect defaults; cost/emissions are uncalibrated scenario accounting.
+        source_classification: scenario_assumption
+        provenance: Demonstration schedule, not an agronomic recommendation.
+  - policy_id: cover_crop
+    name: AMF-compatible seasonal cover crop
+    classification: scenario_assumption
+    provenance: Generic deterministic AM-compatible cover; no establishment benefit is guaranteed.
+    events:
+      - event_id: cover-establish-2026
+        event_type: cover_crop_establishment
+        simulation_month: 8
+        amount: 1.0
+        units: event
+        cost_gbp_ha: 60.0
+        emissions_proxy_kg_co2e_ha: 12.0
+        parameter_provenance: A010 provisional generic cover-crop parameters in model_defaults.yaml.
+        source_classification: scenario_assumption
+        provenance: Demonstration seasonal schedule.
+      - event_id: cover-terminate-2027
+        event_type: cover_crop_termination
+        simulation_month: 13
+        amount: 1.0
+        units: event
+        cost_gbp_ha: 35.0
+        emissions_proxy_kg_co2e_ha: 10.0
+        parameter_provenance: A010 provisional generic residue/P return parameters in model_defaults.yaml.
+        source_classification: scenario_assumption
+        provenance: Demonstration seasonal schedule.
+  - policy_id: phosphorus
+    name: Available-phosphorus application
+    classification: scenario_assumption
+    provenance: Explicit available-P addition; no fertiliser chemistry is represented.
+    events:
+      - event_id: phosphorus-2026
+        event_type: phosphorus_application
+        simulation_month: 2
+        amount: 20.0
+        units: kg_P_ha^-1
+        cost_gbp_ha: 30.0
+        emissions_proxy_kg_co2e_ha: 20.0
+        parameter_provenance: Phase 6 exact stock addition; cost/emissions are uncalibrated scenario accounting.
+        source_classification: scenario_assumption
+        provenance: Demonstration amount and timing, not a recommendation.
+  - policy_id: farmyard_manure
+    name: Farmyard manure carbon and phosphorus input
+    classification: scenario_assumption
+    provenance: RothC 49/49/2 carbon routing with provisional explicit P content.
+    events:
+      - event_id: manure-2026
+        event_type: farmyard_manure
+        simulation_month: 9
+        amount: 1.0
+        units: t_C_ha^-1
+        cost_gbp_ha: 80.0
+        emissions_proxy_kg_co2e_ha: 35.0
+        parameter_provenance: A011 established RothC carbon routing plus A026 provisional P content; cost/emissions are uncalibrated scenario accounting.
+        source_classification: scenario_assumption
+        provenance: Demonstration amount and timing, not a recommendation.

@@ -1,0 +1,15 @@
+{
+  "measurement_context": "Phase 9.7 preliminary full mechanistic run on 2026-07-21; one evaluator worker; wall-clock seconds; excluded from convergence decisions",
+  "cumulative_evaluation_runtime_seconds": {
+    "128": 211.176,
+    "256": 424.182,
+    "512": 854.173,
+    "1024": 1447.559
+  },
+  "index_runtime_seconds": {
+    "128": 0.251,
+    "256": 0.268,
+    "512": 0.311,
+    "1024": 0.387
+  }
+}

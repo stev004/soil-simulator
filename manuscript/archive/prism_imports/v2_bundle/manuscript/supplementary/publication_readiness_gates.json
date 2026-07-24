@@ -1,0 +1,32 @@
+{
+  "downstream_selection_blocked": true,
+  "gates": {
+    "artifact_integrity": true,
+    "calibration_not_boundary_constrained": false,
+    "focused_independent_reaudit_passed": false,
+    "genuine_sobol_design": true,
+    "held_out_cessation_performance_adequate": false,
+    "independent_empirical_effect_validation": false,
+    "leakage_checks_passed": true,
+    "prediction_gates_passed": false,
+    "sensitivity_converged": false,
+    "target_specific_uncertainty": true
+  },
+  "passed": false,
+  "prism_manuscript_drafting": "do_not_start_before_focused_independent_reaudit",
+  "publication_readiness": {
+    "agricultural_prediction_paper": "not_ready",
+    "methodological_paper": "potentially_supportable_after_focused_reaudit",
+    "portfolio_case_study": "supported_with_current_claim_boundaries",
+    "software_simulator_paper": "potentially_supportable_after_focused_reaudit"
+  },
+  "remaining_blockers": [
+    "sensitivity_converged",
+    "prediction_gates_passed",
+    "independent_empirical_effect_validation",
+    "calibration_not_boundary_constrained",
+    "held_out_cessation_performance_adequate",
+    "focused_independent_reaudit_passed"
+  ],
+  "version": "0.9.7"
+}

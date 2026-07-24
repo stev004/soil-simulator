@@ -1,0 +1,49 @@
+{
+  "baseline_only_zero_effect_performance": {
+    "delta_crop_yield_t_dm_ha": {
+      "mae": 0.1352406227742959,
+      "r_squared": -0.13389650742382386,
+      "rmse": 0.3888256681832196
+    },
+    "delta_cumulative_respiration_t_c_ha": {
+      "mae": 0.4476707090833714,
+      "r_squared": -0.4228496247731357,
+      "rmse": 0.79340294771174
+    },
+    "delta_final_protected_soc_proxy_t_c_ha": {
+      "mae": 0.08389499581644941,
+      "r_squared": -0.34713055191651154,
+      "rmse": 0.12473850910143561
+    },
+    "delta_final_total_soc_t_c_ha": {
+      "mae": 0.26710643252864524,
+      "r_squared": -0.37335347961232257,
+      "rmse": 0.414336778218318
+    }
+  },
+  "baseline_row_count": 300,
+  "final_stock_correlation_with_initial_stock": 0.9932619594914699,
+  "incremental_r_squared_from_clay_beyond_initial_soc": 0.0018808899765930809,
+  "initial_soc_only_final_stock_performance": {
+    "mae": 2.0896216592268706,
+    "r_squared": 0.9868444977130482,
+    "rmse": 2.6156585068742957
+  },
+  "initial_soc_only_protected_proxy_performance": {
+    "mae": 1.0909763591550017,
+    "r_squared": 0.9938683807464402,
+    "rmse": 1.4480899476771156
+  },
+  "initial_soc_plus_clay_protected_proxy_performance": {
+    "mae": 0.9030677386892453,
+    "r_squared": 0.9957492707230333,
+    "rmse": 1.2057011420068617
+  },
+  "interpretation": "High stock performance is persistence-dominated. Incremental intervention skill must be assessed only on paired effects beyond the initial state.",
+  "protected_proxy_correlation_with_clay": -0.1429429729047136,
+  "protected_proxy_correlation_with_initial_soc": 0.9969371191948999,
+  "protected_proxy_residual_correlation_with_clay_beyond_initial_soc": 0.5441534070539457,
+  "row_count": 2100,
+  "source": "/Users/stevenmatson/Documents/soil_simulator/outputs/phase86_v0.8.6/frozen_final_dataset_v0.8.6.csv",
+  "version": "0.9.5"
+}

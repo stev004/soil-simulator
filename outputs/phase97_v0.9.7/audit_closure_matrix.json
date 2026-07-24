@@ -1,0 +1,58 @@
+[
+  {
+    "evidence": "corrected_phase96_artifact_hashes.json",
+    "finding": "Phase 9.6 audit-document hash mismatch",
+    "finding_id": "P97-INTEGRITY",
+    "severity": "critical",
+    "status": "addressed"
+  },
+  {
+    "evidence": "sobol_sampling_manifest.json; sensitivity_first_total.json",
+    "finding": "pseudorandom matrices mislabeled as Sobol",
+    "finding_id": "P97-SOBOL",
+    "severity": "critical",
+    "status": "addressed"
+  },
+  {
+    "evidence": "sensitivity_convergence_manifest.json",
+    "finding": "insufficient nested self-consistency convergence",
+    "finding_id": "P97-CONVERGENCE",
+    "severity": "critical",
+    "status": "addressed_not_converged_results_not_final"
+  },
+  {
+    "evidence": "leakage_check_evidence.json",
+    "finding": "hardcoded empirical-location leakage gate",
+    "finding_id": "P97-LEAKAGE-GATE",
+    "severity": "critical",
+    "status": "addressed"
+  },
+  {
+    "evidence": "gate_evidence.json",
+    "finding": "hardcoded independent empirical effect-validation gate",
+    "finding_id": "P97-INDEPENDENT-VALIDATION",
+    "severity": "critical",
+    "status": "addressed_computed_gate_failed"
+  },
+  {
+    "evidence": "uncertainty_coverage_report.json",
+    "finding": "over-broad aggregate uncertainty coverage gate",
+    "finding_id": "P97-COVERAGE",
+    "severity": "major",
+    "status": "addressed"
+  },
+  {
+    "evidence": "calibration_profile.json; docs/PHASE97_CALIBRATION_BOUNDARY.md",
+    "finding": "FYM upper-bound solution insufficiently disclosed",
+    "finding_id": "P97-CALIBRATION-BOUNDARY",
+    "severity": "major",
+    "status": "addressed_boundary_retained"
+  },
+  {
+    "evidence": "docs/PHASE97_PUBLICATION_READINESS.md; README.md",
+    "finding": "overstated empirical, convergence, validation and readiness claims",
+    "finding_id": "P97-DOCUMENTATION",
+    "severity": "major",
+    "status": "addressed"
+  }
+]

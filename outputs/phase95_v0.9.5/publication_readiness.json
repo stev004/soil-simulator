@@ -1,0 +1,26 @@
+{
+  "blocker_detail": {
+    "audit_document": "docs/AUDIT_soil_simulator_v0.9.0.md was requested but is absent from this checkout.",
+    "empirical_pilot": "A reliable versioned 50-location paired soil-climate extraction remains required before population covariance and downstream ML/regret reruns.",
+    "global_sensitivity_complete": "Mechanistic and schedule uncertainty was analysed, but observable population covariance could not be propagated without the blocked empirical pilot."
+  },
+  "claim_boundary": "Prism manuscript drafting is not recommended until an independent re-audit confirms that every publication-readiness gate is satisfied.",
+  "exact_next_task": "remaining scientific remediation",
+  "gates": {
+    "deterministic_accounting_removed_from_ml": true,
+    "duplicate_no_till_resolved": true,
+    "global_sensitivity_complete": false,
+    "multi_decade_soc_validation_reported": true,
+    "negative_findings_visible": true,
+    "phosphorus_dominance_bounded_calibrated_or_excluded": true,
+    "population_empirically_grounded_or_explicitly_synthetic": true,
+    "results_and_limitations_reproducible": true,
+    "stock_target_circularity_removed_from_headlines": true
+  },
+  "manuscript_drafting_recommendation": false,
+  "passed": false,
+  "remaining_blockers": [
+    "global_sensitivity_complete"
+  ],
+  "version": "0.9.5"
+}

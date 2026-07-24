@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450" y="25" text-anchor="middle" font-family="sans-serif" font-size="18">Hoosfield SOC: observed (solid) and uncalibrated simulated (dashed)</text>
+<line x1="80" y1="450" x2="870" y2="450" stroke="black"/>
+<line x1="80" y1="45" x2="80" y2="450" stroke="black"/>
+<polyline points="80.0,387.0 242.3,281.8 410.1,323.5 588.6,345.8 691.4,363.1 745.5,332.6 783.4,363.1 870.0,343.3" fill="none" stroke="#4267a8" stroke-width="3"/>
+<polyline points="80.0,377.4 242.3,343.0 410.1,378.9 588.6,398.2 691.4,401.4 745.5,406.7 783.4,407.5 870.0,410.2" fill="none" stroke="#4267a8" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="95" y="496" font-family="sans-serif" font-size="13" fill="#4267a8">fym_1852_1871</text>
+<polyline points="80.0,387.0 242.3,238.6 410.1,159.3 588.6,155.3 691.4,99.9 745.5,101.9 783.4,109.0 870.0,70.4" fill="none" stroke="#9c4a1a" stroke-width="3"/>
+<polyline points="80.0,377.4 242.3,277.9 410.1,243.2 588.6,199.3 691.4,175.1 745.5,174.0 783.4,167.2 870.0,156.7" fill="none" stroke="#9c4a1a" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="340" y="496" font-family="sans-serif" font-size="13" fill="#9c4a1a">fym_annual</text>
+<polyline points="80.0,387.0 242.3,408.3 410.1,406.8 588.6,414.4 691.4,420.0 745.5,408.3 783.4,424.6 870.0,403.8" fill="none" stroke="#2f6b3c" stroke-width="3"/>
+<polyline points="80.0,388.7 242.3,402.2 410.1,414.9 588.6,421.7 691.4,419.9 745.5,423.0 783.4,422.4 870.0,422.5" fill="none" stroke="#2f6b3c" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="585" y="496" font-family="sans-serif" font-size="13" fill="#2f6b3c">unfertilized</text>
+<text x="123.3" y="474" text-anchor="middle" font-family="sans-serif" font-size="12">1860</text>
+<text x="339.7" y="474" text-anchor="middle" font-family="sans-serif" font-size="12">1900</text>
+<text x="556.2" y="474" text-anchor="middle" font-family="sans-serif" font-size="12">1940</text>
+<text x="772.6" y="474" text-anchor="middle" font-family="sans-serif" font-size="12">1980</text>
+<text x="18" y="247.5" transform="rotate(-90 18 247.5)" text-anchor="middle" font-family="sans-serif" font-size="13">SOC (t C ha-1, 0-23 cm)</text>
+</svg>

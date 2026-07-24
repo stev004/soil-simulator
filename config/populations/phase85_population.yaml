@@ -1,0 +1,35 @@
+name: phase_8_5_expanded_synthetic_population
+version: 0.8.5
+default_population_size: 250
+generation_seed: 20260721
+weather_years_per_field: 10
+max_generation_attempt_multiplier: 10
+split_train_fraction: 0.625
+split_validation_fraction: 0.25
+split_test_fraction: 0.125
+archetype_ood_archetypes: [acidic-low-productivity-phase85-ood]
+weather_ood_regions: [phase85-extreme-dry-ood]
+classification: scenario_assumption
+provenance: Phase 8.5 expanded synthetic diagnostic population; 50 seed groups and dedicated OOD groups are non-representative and not field validation.
+
+texture_logratio_sd: {name: texture_logratio_sd, default: 0.16, min: 0.0, max: 0.35, unit: log_ratio, classification: scenario_assumption, distribution: normal, source_citation: A032 compositional perturbation contract, notes: Residual compositional variation around each expanded synthetic seed., version_introduced: 0.8.5}
+soil_shared_factor_sd: {name: soil_shared_factor_sd, default: 0.035, min: 0.0, max: 0.30, unit: standard_deviation, classification: scenario_assumption, distribution: normal, source_citation: A044 revised covariance contract, notes: Weakened shared soil factor; independent residuals now dominate SOC and bulk density perturbation., version_introduced: 0.8.5}
+soc_independent_log_sd: {name: soc_independent_log_sd, default: 0.11, min: 0.0, max: 0.35, unit: log_ratio, classification: scenario_assumption, distribution: normal, source_citation: A044 revised covariance contract, notes: Independent residual SOC variation after seed-group expansion., version_introduced: 0.8.5}
+bulk_density_independent_sd: {name: bulk_density_independent_sd, default: 0.075, min: 0.0, max: 0.20, unit: g_cm^-3, classification: scenario_assumption, distribution: normal, source_citation: A044 revised covariance contract, notes: Independent bulk-density residual weakens deterministic SOC coupling., version_introduced: 0.8.5}
+bulk_density_shared_factor_coefficient: {name: bulk_density_shared_factor_coefficient, default: 0.10, min: 0.0, max: 0.55, unit: g_cm^-3_per_shared_factor, classification: scenario_assumption, distribution: fixed, source_citation: A044 revised covariance contract, notes: Reduced from the legacy implicit coefficient of 0.55., version_introduced: 0.8.5}
+ph_absolute_sd: {name: ph_absolute_sd, default: 0.25, min: 0.0, max: 0.50, unit: pH, classification: scenario_assumption, distribution: truncated_normal, source_citation: A044 residual variation contract, notes: Independent pH variation around expanded seeds., version_introduced: 0.8.5}
+phosphorus_log_sd: {name: phosphorus_log_sd, default: 0.25, min: 0.0, max: 0.50, unit: log_ratio, classification: scenario_assumption, distribution: lognormal_bounded, source_citation: A044 residual variation contract, notes: Diversified available-P stock while remaining a simulator stock rather than a calibrated soil-test conversion., version_introduced: 0.8.5}
+amf_log_sd: {name: amf_log_sd, default: 0.32, min: 0.0, max: 0.60, unit: log_ratio, classification: scenario_assumption, distribution: lognormal_bounded, source_citation: A044 revised P-AMF covariance contract, notes: Larger independent AMF residual and weaker available-P coupling., version_introduced: 0.8.5}
+soc_relative_limit: {name: soc_relative_limit, default: 0.35, min: 0.0, max: 0.50, unit: fraction, classification: scenario_assumption, distribution: bounded, source_citation: A044 residual variation contract, notes: Allows independent SOC variation without leaving the mineral-soil domain., version_introduced: 0.8.5}
+weather_pet_to_open_pan_divisor: {name: weather_pet_to_open_pan_divisor, default: 0.75, min: 0.75, max: 0.75, unit: fraction, classification: established_model, source_citation: Coleman Milne and Prout 2024 RothC_Py v1.0.0 DOI 10.5281/zenodo.10732265, notes: Converts cached PET-equivalent forcing to RothC open-pan input., version_introduced: 0.7.0}
+spinup_max_years: {name: spinup_max_years, default: 2000, min: 50, max: 2000, unit: year, classification: scenario_assumption, source_citation: A035 periodic RothC spin-up contract, notes: Longer ceiling accommodates the ten-year coherent weather cycle without changing equations., version_introduced: 0.8.5}
+spinup_relative_tolerance: {name: spinup_relative_tolerance, default: 1.0e-4, min: 1.0e-8, max: 1.0e-3, unit: fraction, classification: scenario_assumption, source_citation: A035 periodic RothC spin-up contract, notes: Explicit ten-year-cycle convergence tolerance; deterministic and stricter than the 1e-3 configured ceiling., version_introduced: 0.8.5}
+spinup_reference_annual_input_t_c_ha: {name: spinup_reference_annual_input_t_c_ha, default: 3.0, min: 0.5, max: 12.0, unit: t_C_ha^-1_year^-1, classification: scenario_assumption, source_citation: A035 spin-up scale parameter, notes: Reference input scaled after periodic equilibration., version_introduced: 0.7.0}
+minimum_soc_t_c_ha: {name: minimum_soc_t_c_ha, default: 15.0, min: 1.0, max: 40.0, unit: t_C_ha^-1, classification: scenario_assumption, source_citation: A036 mineral-topsoil QC domain, notes: Numerical domain not a national distribution limit., version_introduced: 0.7.0}
+maximum_soc_t_c_ha: {name: maximum_soc_t_c_ha, default: 180.0, min: 100.0, max: 300.0, unit: t_C_ha^-1, classification: scenario_assumption, source_citation: A036 mineral-topsoil QC domain, notes: Excludes peat-like states., version_introduced: 0.7.0}
+minimum_bulk_density_g_cm3: {name: minimum_bulk_density_g_cm3, default: 0.80, min: 0.50, max: 1.00, unit: g_cm^-3, classification: scenario_assumption, source_citation: A036 mineral-topsoil QC domain, notes: Conservative numerical bound., version_introduced: 0.7.0}
+maximum_bulk_density_g_cm3: {name: maximum_bulk_density_g_cm3, default: 1.80, min: 1.50, max: 2.00, unit: g_cm^-3, classification: scenario_assumption, source_citation: A036 mineral-topsoil QC domain, notes: Conservative numerical bound., version_introduced: 0.7.0}
+minimum_ph: {name: minimum_ph, default: 4.0, min: 3.0, max: 5.0, unit: pH, classification: scenario_assumption, source_citation: A036 arable mineral-soil QC domain, notes: Lower numerical domain bound., version_introduced: 0.7.0}
+maximum_ph: {name: maximum_ph, default: 8.5, min: 7.5, max: 10.0, unit: pH, classification: scenario_assumption, source_citation: A036 arable mineral-soil QC domain, notes: Upper numerical domain bound., version_introduced: 0.7.0}
+minimum_available_p_kg_ha: {name: minimum_available_p_kg_ha, default: 1.0, min: 0.0, max: 5.0, unit: kg_P_ha^-1, classification: scenario_assumption, source_citation: A036 available-P QC domain, notes: Simulator stock floor; not a soil-test conversion., version_introduced: 0.7.0}
+maximum_available_p_kg_ha: {name: maximum_available_p_kg_ha, default: 100.0, min: 50.0, max: 200.0, unit: kg_P_ha^-1, classification: scenario_assumption, source_citation: A036 available-P QC domain, notes: Simulator stock ceiling; not a soil-test conversion., version_introduced: 0.7.0}

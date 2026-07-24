@@ -1,0 +1,31 @@
+{
+  "artifact_set_sha256": "5d39f91853cc532f5f1c10c06324928109603cb04185af2d4b9801ebddda8927",
+  "directory": "/Users/stevenmatson/Documents/soil_simulator/outputs/phase95_v0.9.5",
+  "files": {
+    "EFFECT_ONLY_ML_MODEL_CARD.md": "ef713d0b925dd5d98abfeecdd7e89eac7f1e6ed4a0771590260b339b898af983",
+    "EMPIRICAL_PILOT_DATA_MANIFEST.json": "61f45a716b53425483b4885502dcea00a3cdb896a3d391b847af0a9ac7de1f7d",
+    "EMPIRICAL_PILOT_DATA_MANIFEST.md": "c21738bc4b6ece61fb6ca466bac05f8588590cfc184e51cceae9a7d58291c741",
+    "PUBLICATION_READINESS.md": "b5e22f21ed5d2ced9adf8ef967a68a16ddf7e72fc5a7a2a6696ea56ef614f488",
+    "REMEDIATED_SELECTION_REGRET_REPORT.md": "a84016e6e8f9e9b3360554930136d594c264c18e0c6bfa6ca8243d4fbe71838a",
+    "REVISED_POPULATION_MANIFEST.json": "fc39e8a375ffced4c3deda11a9b0a83680d87e67e194f0ffd035e859ef3da27d",
+    "REVISED_POPULATION_MANIFEST.md": "b3ded17ebff83e263647912ec64f49708a9a177196759a4a7ccd24c8f2616fce",
+    "V090_VS_PHASE95_COMPARISON.csv": "e00436a35b5448a7952ee4fae0f7110c71eb9c279b65d33a9c3133d83c653d39",
+    "V090_VS_PHASE95_COMPARISON.md": "97cc3a9bc4107a04d8605e5782ba9eb74d8cb07e445ac03c6751f68ff68ed665",
+    "baseline_preservation.json": "08e0760bac49eb0d969ba47e25d75af8ff6c27ab59a258e94be26066a30e1d6c",
+    "circularity_diagnostics.json": "ac5af4a0461a54612835bf0f50321c4033eb3eb1495344e85e58c9e2bd1fa7f1",
+    "duplicate_policy_report.json": "b574b3f1b650c61353f719495cf0b3ff0fa76c6ef0372d15df7f3761a475f202",
+    "headline_target_manifest.json": "354f3baf9ac81820228c6ee1008925519287398f28d6fda6d74556c12eec9dda",
+    "hoosfield_soc_trajectories.svg": "8d0c26c2842fb712692305447959661f75a823ad0f7944c28eae622955a1b92a",
+    "horizon_aware_accounting.csv": "b9cc970bff1a76d70b828dc4ac4fbc55b594bad156dab9f5fbadf8355f28592a",
+    "horizon_aware_accounting.json": "2b91794130821825abef1eac89b0361c38decf3f24d4ba58f3cdeb8f1a43f9bf",
+    "long_term_validation.csv": "5a7f2f41efa5fafe6cd074454a05742cba18ec494f520e82c34a934f306bf0c7",
+    "long_term_validation.json": "d34ea5e9fc7542f46c112ed86daa1b0ad268af8210097cd568962a87f8345cca",
+    "phosphorus_ablation.csv": "67db99d9e1ba24f5829ca3ee9b23a0854c479aaa19db3d932d7fe66535e72731",
+    "phosphorus_ablation.json": "cd1c9e5a88fe005f2c29308c80911b6fbca43345a9d3472a2098daf53efc891b",
+    "publication_readiness.json": "e0d36dfa8134b7a55ff80debfc05003e1db7001a9cc76d4a94b5cab039ce736f",
+    "seed_manifest.json": "cf2abe965a041c6d5cf47feb641bde8f5ed60cef475b440cd63c7d048ea7550e",
+    "sensitivity_results.csv": "02de7b99f2bd1d09f0ebe886dc1bf952237e6fda3e76ec19ab001bd35435d8c9",
+    "sensitivity_results.json": "4645256b8475972e3cbd83a93ced05b0943bfc92cc991ef50f10d04093b8b7b4"
+  },
+  "version": "0.9.5"
+}

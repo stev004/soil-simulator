@@ -1,0 +1,57 @@
+{
+  "completed_empirical_locations": 0,
+  "coordinates_stored": false,
+  "existing_fixture": {
+    "classification": "hand_authored_synthetic_demonstration_seed_fixture",
+    "path": "data/processed/phase7_empirical_seed_fixture_v1.yaml",
+    "sha256": "e4be837e544d2fe30c31ad7a4ec527baf13ce8cb120dccbfdf69424bbd744210"
+  },
+  "immutable_fixture_created": false,
+  "minimum_required_locations": 50,
+  "prohibition": "The existing ten-seed fixture and Phase 8.6 expansion remain synthetic and are not relabelled as empirical.",
+  "required_extraction_contract": {
+    "climate_variables": [
+      "monthly_mean_temperature_c",
+      "monthly_precipitation_mm",
+      "monthly_potential_evapotranspiration_mm"
+    ],
+    "coordinate_resolution": "coarsened non-sensitive grid-cell centroids",
+    "grouping": "empirical location or region",
+    "soil_depth": "0-23 cm target with documented source-depth harmonisation",
+    "soil_variables": [
+      "clay_percent",
+      "silt_percent",
+      "sand_percent",
+      "soc_t_c_ha",
+      "bulk_density_g_cm3",
+      "ph"
+    ],
+    "units_required_in_fixture": true
+  },
+  "source_assessment_date": "2026-07-21",
+  "sources_evaluated": [
+    {
+      "name": "SoilGrids",
+      "reason": "official point REST API is paused; no immutable 50-point extraction was available",
+      "status": "not_reliably_extractable",
+      "url": "https://docs.isric.org/globaldata/soilgrids/",
+      "version": "SoilGrids 2.0 documentation available on assessment date"
+    },
+    {
+      "name": "LUCAS 2018 topsoil",
+      "reason": "no authenticated, version-pinned extraction was available",
+      "status": "access_requires_registration",
+      "url": "https://esdac.jrc.ec.europa.eu/content/lucas-2018-topsoil-data",
+      "version": "JRC LUCAS 2018 topsoil data portal on assessment date"
+    },
+    {
+      "name": "ERA5-Land monthly averaged data",
+      "reason": "climate data alone cannot satisfy the paired soil-climate pilot",
+      "status": "documented_but_not_paired",
+      "url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land-monthly-means",
+      "version": "Copernicus CDS ERA5-Land monthly averaged data"
+    }
+  ],
+  "status": "blocked",
+  "version": "0.9.5"
+}

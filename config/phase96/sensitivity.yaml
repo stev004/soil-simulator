@@ -1,0 +1,22 @@
+version: 0.9.6
+seed: 960021
+morris_trajectories: 6
+morris_levels: 6
+sobol_base_sample_size: 32
+sobol_parameter_count: 5
+parameters:
+  - {name: empirical_location_index, minimum: 0, maximum: 55, distribution: uniform_discrete, classification: established_model, source: Phase 9.6 accepted paired locations}
+  - {name: weather_resample_index, minimum: 0, maximum: 9, distribution: uniform_discrete, classification: established_model, source: NASA POWER complete-year resampling}
+  - {name: spinup_pool_blend, minimum: 0.0, maximum: 1.0, distribution: uniform, classification: scenario_assumption, source: A081}
+  - {name: amf_allocation, minimum: 0.02, maximum: 0.20, distribution: beta_scaled_2_8, classification: literature_informed_prior, source: A003-A004}
+  - {name: amf_cue, minimum: 0.30, maximum: 0.65, distribution: triangular_0.45, classification: scenario_assumption, source: A006}
+  - {name: amf_turnover, minimum: 0.10, maximum: 6.0, distribution: log_uniform, classification: literature_informed_prior, source: A005}
+  - {name: necromass_stabilisation, minimum: 0.02, maximum: 0.50, distribution: beta_scaled_2_5, classification: scenario_assumption, source: A007-A021}
+  - {name: phosphorus_uptake_vmax, minimum: 0.20, maximum: 3.0, distribution: triangular_1.0, classification: scenario_assumption, source: A023}
+  - {name: phosphorus_half_saturation, minimum: 2.0, maximum: 40.0, distribution: log_uniform, classification: scenario_assumption, source: A023}
+  - {name: tillage_amf_mortality, minimum: 0.0, maximum: 0.60, distribution: triangular_0.25, classification: scenario_assumption, source: A009-A027}
+  - {name: tillage_decomposition_multiplier, minimum: 1.0, maximum: 2.0, distribution: uniform, classification: scenario_assumption, source: A009-A027}
+  - {name: cover_crop_npp, minimum: 0.0, maximum: 0.50, distribution: uniform, classification: scenario_assumption, source: A010-A028}
+  - {name: cover_crop_root_fraction, minimum: 0.30, maximum: 0.80, distribution: uniform, classification: scenario_assumption, source: A010-A028}
+  - {name: fym_phosphorus_content, minimum: 0.0, maximum: 30.0, distribution: uniform, classification: scenario_assumption, source: A026}
+  - {name: schedule_interval_months, minimum: 12.0, maximum: 36.0, distribution: uniform_discrete, classification: scenario_assumption, source: A065}

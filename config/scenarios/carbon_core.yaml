@@ -1,0 +1,107 @@
+name: predefined_carbon_core
+version: 0.3.0
+seed: 20260720
+classification: scenario_assumption
+provenance: Deterministic Phase 3 demonstration scenario; not calibrated field data.
+
+initial_state:
+  month_index: 0
+  plant_c: 0.0
+  root_c: 0.0
+  amf_live_c: 0.0
+  amf_necromass_c: 0.0
+  dpm_c: 2.0
+  rpm_c: 10.0
+  microbial_c: 1.0
+  protected_soc_c: 35.0
+  iom_c: 7.0
+  available_p_kg_ha: 0.0
+  topsoil_moisture_deficit_mm: 0.0
+  crop_development: 0.0
+  cumulative_yield_t_dm_ha: 0.0
+
+monthly_steps:
+  - external_input:
+      dpm_c: 0.20
+      rpm_c: 0.10
+      protected_soc_c: 0.0
+      classification: scenario_assumption
+      provenance: Predefined demonstration residue input; not observed field data.
+    forcing:
+      mean_air_temperature_c: 4.0
+      precipitation_mm: 74.0
+      open_pan_evaporation_mm: 8.0
+      is_covered: false
+      clay_percent: 23.4
+      soil_depth_cm: 23.0
+      provenance: Predefined deterministic forcing; not observed field data.
+  - external_input:
+      dpm_c: 0.0
+      rpm_c: 0.0
+      protected_soc_c: 0.0
+      classification: scenario_assumption
+      provenance: Predefined demonstration zero-input month.
+    forcing:
+      mean_air_temperature_c: 5.0
+      precipitation_mm: 59.0
+      open_pan_evaporation_mm: 10.0
+      is_covered: false
+      clay_percent: 23.4
+      soil_depth_cm: 23.0
+      provenance: Predefined deterministic forcing; not observed field data.
+  - external_input:
+      dpm_c: 0.15
+      rpm_c: 0.05
+      protected_soc_c: 0.0
+      classification: scenario_assumption
+      provenance: Predefined demonstration residue input; not observed field data.
+    forcing:
+      mean_air_temperature_c: 8.0
+      precipitation_mm: 62.0
+      open_pan_evaporation_mm: 27.0
+      is_covered: false
+      clay_percent: 23.4
+      soil_depth_cm: 23.0
+      provenance: Predefined deterministic forcing; not observed field data.
+  - external_input:
+      dpm_c: 0.0
+      rpm_c: 0.0
+      protected_soc_c: 0.0
+      classification: scenario_assumption
+      provenance: Predefined demonstration zero-input month.
+    forcing:
+      mean_air_temperature_c: 11.0
+      precipitation_mm: 51.0
+      open_pan_evaporation_mm: 49.0
+      is_covered: true
+      clay_percent: 23.4
+      soil_depth_cm: 23.0
+      provenance: Predefined deterministic forcing; not observed field data.
+  - external_input:
+      dpm_c: 0.0
+      rpm_c: 0.0
+      protected_soc_c: 0.0
+      classification: scenario_assumption
+      provenance: Predefined demonstration zero-input month.
+    forcing:
+      mean_air_temperature_c: 14.0
+      precipitation_mm: 52.0
+      open_pan_evaporation_mm: 83.0
+      is_covered: true
+      clay_percent: 23.4
+      soil_depth_cm: 23.0
+      provenance: Predefined deterministic forcing; not observed field data.
+  - external_input:
+      dpm_c: 0.10
+      rpm_c: 0.10
+      protected_soc_c: 0.0
+      classification: scenario_assumption
+      provenance: Predefined demonstration residue input; not observed field data.
+    forcing:
+      mean_air_temperature_c: 17.0
+      precipitation_mm: 57.0
+      open_pan_evaporation_mm: 99.0
+      is_covered: true
+      clay_percent: 23.4
+      soil_depth_cm: 23.0
+      provenance: Predefined deterministic forcing; not observed field data.

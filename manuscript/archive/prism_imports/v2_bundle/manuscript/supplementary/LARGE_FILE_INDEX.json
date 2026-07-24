@@ -1,0 +1,50 @@
+[
+  {
+    "file_size": 146125,
+    "name": "full_phase95_sensitivity",
+    "reason_indexed": "preserve frozen artifact and avoid unnecessary duplication",
+    "scientifically_frozen": true,
+    "sha256": "4645256b8475972e3cbd83a93ced05b0943bfc92cc991ef50f10d04093b8b7b4",
+    "source_path": "outputs/phase95_v0.9.5/sensitivity_results.json"
+  },
+  {
+    "file_size": 208120,
+    "name": "superseded_phase96_sensitivity",
+    "reason_indexed": "preserve frozen artifact and avoid unnecessary duplication",
+    "scientifically_frozen": true,
+    "sha256": "310cf98342b311e9b994e02f8931f405cf64ed27285cba82d3744f9345afcc5d",
+    "source_path": "outputs/phase96_v0.9.6/sensitivity_results.json"
+  },
+  {
+    "file_size": 344753,
+    "name": "corrected_phase97_sensitivity",
+    "reason_indexed": "preserve frozen artifact and avoid unnecessary duplication",
+    "scientifically_frozen": true,
+    "sha256": "bd7a1850453ef9c8a835a9f72ebf22010e7f2e60a9bbd0d38ddfe4c9e67c206d",
+    "source_path": "outputs/phase97_v0.9.7/sensitivity_first_total.json"
+  },
+  {
+    "file_size": 107082,
+    "name": "corrected_phase97_sensitivity_long_table",
+    "reason_indexed": "preserve frozen artifact and avoid unnecessary duplication",
+    "scientifically_frozen": true,
+    "sha256": "a32405344e1caade697495ca1f9b7fdd44ca7c11aee1527134a1d58c28f3be66",
+    "source_path": "outputs/phase97_v0.9.7/sensitivity_first_total.csv"
+  },
+  {
+    "file_size": 1669118,
+    "name": "effect_only_dataset",
+    "reason_indexed": "preserve frozen artifact and avoid unnecessary duplication",
+    "scientifically_frozen": true,
+    "sha256": "ffa96a3e0ca3e81b4e0ca5560aeb8467fbfb4089d40f5895886cd0bc2e23e7fc",
+    "source_path": "outputs/phase96_v0.9.6/effect_only_dataset.csv"
+  },
+  {
+    "file_size": 7563612,
+    "name": "generated_population",
+    "reason_indexed": "preserve frozen artifact and avoid unnecessary duplication",
+    "scientifically_frozen": true,
+    "sha256": "f37528f39c1d683fec9cb1cca3f49e49ab6a38c6dba0f09829f1f338748ca82e",
+    "source_path": "outputs/phase96_v0.9.6/generated_population_v0.9.6.json"
+  }
+]

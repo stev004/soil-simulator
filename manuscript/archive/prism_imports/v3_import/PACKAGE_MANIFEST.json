@@ -1,0 +1,985 @@
+{
+  "package": "soil_simulator Prism manuscript v3 clean-import bundle",
+  "created_date": "2026-07-22",
+  "manifest_version": "1.0.0",
+  "entry_count_excluding_manifest": 138,
+  "payload_bytes_excluding_manifest": 1004843,
+  "entries": [
+    {
+      "relative_path": "AUTHORITATIVE_SOURCE_ORDER.md",
+      "sha256": "4b5826ca2d800f382e3bca7647f538cffb0e8f9e8b35619dc4a4ccfad559b56b",
+      "byte_size": 1871,
+      "category": "handoff_instruction",
+      "role": "source precedence and supersession rules"
+    },
+    {
+      "relative_path": "PRISM_V3_TASK.md",
+      "sha256": "e7ce34e1eb8ab7e261d72022f43ae45c62cf720a67d6ce4d1b1dbbf6577388da",
+      "byte_size": 2974,
+      "category": "handoff_instruction",
+      "role": "manuscript v3 drafting and output specification"
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "f3611ea4f4a1baabe459aa721155c6e8a4b049760bb41dbde4c281bb78792f23",
+      "byte_size": 6270,
+      "category": "handoff_instruction",
+      "role": "package purpose, organization, exclusions, and validation"
+    },
+    {
+      "relative_path": "START_HERE_V3.md",
+      "sha256": "e7a6646f191964870c551ceb2eca8f75ecca2627c7952d7dad12c1eead2ca37e",
+      "byte_size": 2675,
+      "category": "handoff_instruction",
+      "role": "clean-project entry point and mandatory reading order"
+    },
+    {
+      "relative_path": "audits/AUDIT_TRAIL.md",
+      "sha256": "ee3d606bc24d874836d121891ed7486ca6de1bd140047446463f1a3ca0d2f441",
+      "byte_size": 3433,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/AUDIT_soil_simulator_v0.9.0.md",
+      "sha256": "f2654c04f49782d1e8599f43940c0ffb142a19f8562bcb1092f97b190cf3900f",
+      "byte_size": 16381,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/AUDIT_EXPORT_MANIFEST.json",
+      "sha256": "69a057c01496debe7ae5df5be617ee44e3a7cfa080faa96b6db536c5033df62e",
+      "byte_size": 5578,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/AUDIT_PHASE96_CLEAN_SLATE.md",
+      "sha256": "04a7b311f4a69fdacd1a591eb87723b6a63773b63d5fb76c65fca407182ab96c",
+      "byte_size": 22783,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/AUDIT_PHASE97_FOCUSED.md",
+      "sha256": "716ddaf3ed157412951c73d4086d96daedcf4066092fb4ff4a8f5b0bc6550c32",
+      "byte_size": 15483,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/AUDIT_v0.9.0_INDEPENDENT.md",
+      "sha256": "f2654c04f49782d1e8599f43940c0ffb142a19f8562bcb1092f97b190cf3900f",
+      "byte_size": 16381,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/README.md",
+      "sha256": "544565a6860ae9d4b4fbceb221c4c80dacee603593fe98103c90a6b361b6cdda",
+      "byte_size": 3154,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/audit_manifest.json",
+      "sha256": "e86f7276d5c5c46d4d00d74c4a3867207191c3445bc8990091f4e78d4540b185",
+      "byte_size": 4991,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/phase96_discrepancies.md",
+      "sha256": "0b46638bfe4da1dc24fcf2763075a6d9a06424d5ae619d490066ed6af50ecfd3",
+      "byte_size": 7390,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/phase96_finding_closure.csv",
+      "sha256": "6ab94857a5049a4c67941b21ed4307ae6fb3aea5d5f056cafa442f0a4011b163",
+      "byte_size": 4339,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/phase96_recomputed_metrics.json",
+      "sha256": "dae34a7b19053a714cee8b092f8b27466955f2f5cbbf25a55236a69bbaf6bf8a",
+      "byte_size": 10557,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/phase97_convergence_findings.md",
+      "sha256": "6ea52305d41cc8fceaa4991fd7d3da2fe684db7c1691f71a4ef9c34b09ece902",
+      "byte_size": 4881,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/phase97_discrepancies.md",
+      "sha256": "a5f5974ceda26484145491d9a59a3f0f82a0ac268b7a2beec021e5f031a1b7e4",
+      "byte_size": 4625,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/phase97_finding_closure.csv",
+      "sha256": "ff6c80994cb35176ce4d866976db8a7893deffb351ea5d911ef62dbb99e17b0f",
+      "byte_size": 5802,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/phase97_recomputed_metrics.json",
+      "sha256": "02597753045ea74c8185466687abb14c6b15daefe55db3e975ffdccc269a31e5",
+      "byte_size": 17470,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "audits/docs_audits/phase97_sobol_findings.md",
+      "sha256": "b85a6ff0011680362ac2278f3757c73c609146299a8d5556f85c7f1a1f993de3",
+      "byte_size": 4374,
+      "category": "computational_audit",
+      "role": "unchanged computational-audit report, recomputation, discrepancy, closure, or index"
+    },
+    {
+      "relative_path": "evidence/canonical_outputs/phase96/long_term_diagnosis.json",
+      "sha256": "928d8478656136c95761bc18d40d1135b5ff2b04f97f605a7b239133007b1175",
+      "byte_size": 38774,
+      "category": "scientific_evidence",
+      "role": "unchanged targeted frozen computational evidence"
+    },
+    {
+      "relative_path": "evidence/canonical_outputs/phase96/prediction_gate_report.json",
+      "sha256": "f031bd77e708ee5016e943e8a3b68bc075ab94e9c09118f8c6ce67629bbd416d",
+      "byte_size": 11212,
+      "category": "scientific_evidence",
+      "role": "unchanged targeted frozen computational evidence"
+    },
+    {
+      "relative_path": "evidence/canonical_outputs/phase96/publication_readiness.json",
+      "sha256": "ab6516ba45c5dac957dd3937891dcc52fe3c45ee24b1fa57b57be118e317e558",
+      "byte_size": 1110,
+      "category": "scientific_evidence",
+      "role": "unchanged targeted frozen computational evidence"
+    },
+    {
+      "relative_path": "evidence/canonical_outputs/phase96/validation_trajectories.csv",
+      "sha256": "c3c3928c1c212bb8b26817e02d0338ca123343e3240614a712c778a52b6f5ddb",
+      "byte_size": 8471,
+      "category": "scientific_evidence",
+      "role": "unchanged targeted frozen computational evidence"
+    },
+    {
+      "relative_path": "evidence/canonical_outputs/phase97/calibration_profile.json",
+      "sha256": "c20d2e1769c6c3f97a80a191b508e86c40c7de2b27659c7b7f4680c0d7da3fe3",
+      "byte_size": 1956,
+      "category": "scientific_evidence",
+      "role": "unchanged targeted frozen computational evidence"
+    },
+    {
+      "relative_path": "evidence/canonical_outputs/phase97/gate_evidence.json",
+      "sha256": "7bc81a35d5e6abc6c96db990afa16922c859f7a4d7acc636e1e35b4b3a4fa9c0",
+      "byte_size": 29395,
+      "category": "scientific_evidence",
+      "role": "unchanged targeted frozen computational evidence"
+    },
+    {
+      "relative_path": "evidence/canonical_outputs/phase97/leakage_check_evidence.json",
+      "sha256": "58c184a9a0ff235bf7f0519765b4b215830f10c5cccb6d9444aeab7708add538",
+      "byte_size": 1412,
+      "category": "scientific_evidence",
+      "role": "unchanged targeted frozen computational evidence"
+    },
+    {
+      "relative_path": "evidence/canonical_outputs/phase97/publication_readiness.json",
+      "sha256": "dae5c644228fbaf5c1b73e49b283efab6c3127b7d026a1712f603dc67bd2aecf",
+      "byte_size": 1189,
+      "category": "scientific_evidence",
+      "role": "unchanged targeted frozen computational evidence"
+    },
+    {
+      "relative_path": "evidence/canonical_outputs/phase97/sensitivity_convergence_manifest.json",
+      "sha256": "f1ce182622e36f4f4ace5ab9fe95b1dc01d9402ef1c356947041eca2896c1385",
+      "byte_size": 1946,
+      "category": "scientific_evidence",
+      "role": "unchanged targeted frozen computational evidence"
+    },
+    {
+      "relative_path": "evidence/canonical_outputs/phase97/uncertainty_coverage_report.json",
+      "sha256": "e5fe03db2c56c3393b6ee2763fd9b57665b7dfc964904d7148a28744bd99c8e9",
+      "byte_size": 14123,
+      "category": "scientific_evidence",
+      "role": "unchanged targeted frozen computational evidence"
+    },
+    {
+      "relative_path": "evidence/data/DATA_INDEX.csv",
+      "sha256": "afbf8f2a7606d2cf03da7f7bfa4d67ce039529f87d694de25d5ebafff3e83f7f",
+      "byte_size": 17020,
+      "category": "scientific_evidence",
+      "role": "unchanged data/software index evidence"
+    },
+    {
+      "relative_path": "evidence/data/software_verification_summary.json",
+      "sha256": "c9a6aefeeda40b8790ea93e4bbfcc0616966ef4f960e47827742ad5164e92324",
+      "byte_size": 1572,
+      "category": "scientific_evidence",
+      "role": "unchanged data/software index evidence"
+    },
+    {
+      "relative_path": "evidence/manuscript/CLAIM_BOUNDARIES.md",
+      "sha256": "2bfa4f74e13186d113e856f010ff7f9b2d341d4a5569dab46ad290975e9f85f9",
+      "byte_size": 1842,
+      "category": "scientific_evidence",
+      "role": "unchanged manuscript claim-boundary, methods, results, reproducibility, or availability evidence"
+    },
+    {
+      "relative_path": "evidence/manuscript/DATA_AVAILABILITY.md",
+      "sha256": "fdb76a606f8a3494ac275fba781d1a29eff05ceb2776e56e356bbb66e91bd0f0",
+      "byte_size": 2266,
+      "category": "scientific_evidence",
+      "role": "unchanged manuscript claim-boundary, methods, results, reproducibility, or availability evidence"
+    },
+    {
+      "relative_path": "evidence/manuscript/LIMITATIONS_EVIDENCE.md",
+      "sha256": "275dfe01dad50ae480ae3d43a83a3077877daab31e439e0236e2432a8bcb775b",
+      "byte_size": 5285,
+      "category": "scientific_evidence",
+      "role": "unchanged manuscript claim-boundary, methods, results, reproducibility, or availability evidence"
+    },
+    {
+      "relative_path": "evidence/manuscript/MANUSCRIPT_SCOPE.md",
+      "sha256": "2d7900ff126e4850e5af23284b626f35aadd1cbe7c98c2b68e4eec65641bc274",
+      "byte_size": 1714,
+      "category": "scientific_evidence",
+      "role": "unchanged manuscript claim-boundary, methods, results, reproducibility, or availability evidence"
+    },
+    {
+      "relative_path": "evidence/manuscript/METHODS_EVIDENCE.md",
+      "sha256": "f9f4ec335cfe7079adcdca486c7bd96ad54cd597ed3195de90d30b264adf9e0d",
+      "byte_size": 7731,
+      "category": "scientific_evidence",
+      "role": "unchanged manuscript claim-boundary, methods, results, reproducibility, or availability evidence"
+    },
+    {
+      "relative_path": "evidence/manuscript/PRISM_HANDOFF.md",
+      "sha256": "d5818ce140466bc04a676b828e279a1a114afced524694db92f563f5527a5e26",
+      "byte_size": 5063,
+      "category": "scientific_evidence",
+      "role": "unchanged manuscript claim-boundary, methods, results, reproducibility, or availability evidence"
+    },
+    {
+      "relative_path": "evidence/manuscript/REPRODUCIBILITY.md",
+      "sha256": "e838370023a8b1db75834e8a5b94fbd137a44f7eeed0495740ab5c6f46984368",
+      "byte_size": 2518,
+      "category": "scientific_evidence",
+      "role": "unchanged manuscript claim-boundary, methods, results, reproducibility, or availability evidence"
+    },
+    {
+      "relative_path": "evidence/manuscript/RESULTS_EVIDENCE.md",
+      "sha256": "ee86b5212f3fd7977c0f4e6885590f2eac3077fb6335862fdeab4a889afa481b",
+      "byte_size": 6758,
+      "category": "scientific_evidence",
+      "role": "unchanged manuscript claim-boundary, methods, results, reproducibility, or availability evidence"
+    },
+    {
+      "relative_path": "evidence/manuscript/SOFTWARE_AVAILABILITY.md",
+      "sha256": "7f50a2fbd6bea94af1c083900687b53baa9bc324bb1bc82a828392fc1382f08b",
+      "byte_size": 1340,
+      "category": "scientific_evidence",
+      "role": "unchanged manuscript claim-boundary, methods, results, reproducibility, or availability evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/ASSUMPTIONS_REGISTER.csv",
+      "sha256": "c26e2e258ddb13d4e8d118dc0d3aa8f9ded3f0c25ccf273eef90e40dfe43cc17",
+      "byte_size": 21705,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/EFFECT_ONLY_MODEL_CARD.md",
+      "sha256": "e2be1f5b5cc0e2d78a8c0467a49fd03aa6517691fc5919f2e6e3df3c69560add",
+      "byte_size": 11439,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/INDEPENDENT_AUDIT_INDEX.json",
+      "sha256": "7cad607d3105127f5425832ea397d5fd93831bea7888c074180d47c028cbc7d5",
+      "byte_size": 2839,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/LARGE_FILE_INDEX.json",
+      "sha256": "78d1a51fcea1780c6cc7c5ce85629a22dfacf8d03dc0ee4a8e859d4818e13b27",
+      "byte_size": 2101,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/README.md",
+      "sha256": "5f2d4081d986fb820e5809d9c43c2e46e05f7756b3ccb67b99eb7a6745cb1126",
+      "byte_size": 448,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/calibration_profile.csv",
+      "sha256": "8e0305d623f87e9441a37497046e91a99a4a000fffea771d2b8b19933387b41a",
+      "byte_size": 467,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/leakage_evidence.json",
+      "sha256": "58c184a9a0ff235bf7f0519765b4b215830f10c5cccb6d9444aeab7708add538",
+      "byte_size": 1412,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/phase96_internal_audit_closure_matrix.csv",
+      "sha256": "bc49f75ace35540ad042b09138ef6b1af69baa9d4fdf7550e38bc19ae831ab94",
+      "byte_size": 1618,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/phase97_internal_audit_closure_matrix.csv",
+      "sha256": "8eacfc4591769e4266c167ddc2dfa88cc91bc48d66b2350b845448fbffad0eab",
+      "byte_size": 1128,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/publication_readiness_gates.json",
+      "sha256": "dae5c644228fbaf5c1b73e49b283efab6c3127b7d026a1712f603dc67bd2aecf",
+      "byte_size": 1189,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/sensitivity_convergence_manifest.json",
+      "sha256": "f1ce182622e36f4f4ace5ab9fe95b1dc01d9402ef1c356947041eca2896c1385",
+      "byte_size": 1946,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/uncertainty_evidence.json",
+      "sha256": "e5fe03db2c56c3393b6ee2763fd9b57665b7dfc964904d7148a28744bd99c8e9",
+      "byte_size": 14123,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/supplementary/validation_residuals.csv",
+      "sha256": "c3c3928c1c212bb8b26817e02d0338ca123343e3240614a712c778a52b6f5ddb",
+      "byte_size": 8471,
+      "category": "scientific_evidence",
+      "role": "unchanged supplementary model, gate, uncertainty, validation, assumptions, or artifact-index evidence"
+    },
+    {
+      "relative_path": "evidence/tables/table_01_model_components.csv",
+      "sha256": "6dca5cd4cb0b84f17cb9c1961bde74a5fe784a724374522cf105b1cd85c87922",
+      "byte_size": 3394,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_01_model_components.md",
+      "sha256": "cd2a181fef99c3564fdb4e6ec4fa81bc376bb3954d7bde6f7bce3ed47f42416f",
+      "byte_size": 3745,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_02_data_sources.csv",
+      "sha256": "3cc9374d046e2b7fd6d9026043cc607b5d6c22023ea62ad7473c59b879d9ac2d",
+      "byte_size": 1462,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_02_data_sources.md",
+      "sha256": "8784449a41058be6dd9509972801554de64b760efd39c1c1c9ac09fd6f9b1da9",
+      "byte_size": 1721,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_03_verification_tests.csv",
+      "sha256": "d006afe9c02d5373979594f2ebcd3d7d6b658c8c926aaaea756ce1c53ab2029f",
+      "byte_size": 704,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_03_verification_tests.md",
+      "sha256": "ae56d667c0ce406d8b610bc08c0ddd0e11cde53085d5a7a1a9f6426fc8e8bed6",
+      "byte_size": 945,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_04_hoosfield_validation.csv",
+      "sha256": "9d301097b1cc4c793038349ad09b8329f0a2663ad067d4b8b638bc8cc1e2b441",
+      "byte_size": 2974,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_04_hoosfield_validation.md",
+      "sha256": "4670d28ce3ad6b303b6cdf7b58eb0747fcdd07ea7da84f5e5e6308fbd99d32d1",
+      "byte_size": 3441,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_05_sensitivity_convergence.csv",
+      "sha256": "ef129038cc9dd056800e4be3a3e19e9d40a8fa94b6f4e65334b75840da2c0210",
+      "byte_size": 1045,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_05_sensitivity_convergence.md",
+      "sha256": "20dcd9cb1587e127151585cd46e14ce7428c32f2af62091614836c6d9d38f908",
+      "byte_size": 1359,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_06_ml_gate_results.csv",
+      "sha256": "a63189c4883973dabd6edb138cb1e1ed7334648d377e16ccf8e22fa34349a7d7",
+      "byte_size": 913,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_06_ml_gate_results.md",
+      "sha256": "b0c28242c42ee677857e35ad6be4263871ddcaaea6c19c69218d974a498162b9",
+      "byte_size": 1183,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_07_audit_finding_closure.csv",
+      "sha256": "49fe40272d79f6b29ca319a0cb67e12d152ee28c22e337591fa0eac81fa7de5a",
+      "byte_size": 7804,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_07_audit_finding_closure.md",
+      "sha256": "f4fa66e2a025de4f661c8b585b70c1a774d6e3ff2c8e90911bd9e04201e3130b",
+      "byte_size": 8448,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_08_claim_boundaries.csv",
+      "sha256": "8f39e5eae9b40f5c01fa507f382c3742c66d055733a58425f79150f0eb3f15ca",
+      "byte_size": 2890,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_08_claim_boundaries.md",
+      "sha256": "707a3e1ae218faed3cfe46fd9958dbf4bb920bdc656085be19af3e4ef7bb5011",
+      "byte_size": 3299,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_09_assumptions_summary.csv",
+      "sha256": "cf79d698fae5c3f96a47074c6975e09382347bdf12e7db6d56ed92912dc25bb9",
+      "byte_size": 6159,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "evidence/tables/table_09_assumptions_summary.md",
+      "sha256": "0602c8c06928aa9edf5a51ff0ca594ba03563f6d508a678fe733a47c2f300db5",
+      "byte_size": 7191,
+      "category": "scientific_evidence",
+      "role": "unchanged curated manuscript evidence table"
+    },
+    {
+      "relative_path": "figures/ASSET_INDEX.md",
+      "sha256": "53bee3c719c5835d653749ee710c28adb3c406c40c7001ecb4b3590f89e96817",
+      "byte_size": 1753,
+      "category": "figure_asset",
+      "role": "LaTeX-to-SVG asset mapping and missing-historical-asset disclosure"
+    },
+    {
+      "relative_path": "figures/FIGURE_INDEX.md",
+      "sha256": "d0958de0cb5a898b0190c0207b7c909e8986563c61d437cd4c4a88412e03b303",
+      "byte_size": 3855,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "figures/figure_01_model_architecture.svg",
+      "sha256": "e5613e9409f43098b26a68b01f0a996bee6ee762bb3288a4feabaad59b7cd783",
+      "byte_size": 3524,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "figures/figure_02_carbon_phosphorus_flow.svg",
+      "sha256": "107a489433178f4968647fb09f0df83ec43cdbf39590d6dc96d4c315439a9519",
+      "byte_size": 3893,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "figures/figure_03_empirical_location_coverage.svg",
+      "sha256": "853850565e46e759d5bd5fca132307a79ed56c22483402250917d9960245d4a6",
+      "byte_size": 6554,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "figures/figure_04_empirical_generated_distributions.svg",
+      "sha256": "d5e84dda61d65aba4c10c752fa1a0dde99edc9ab4a0925843e0bfb53fe44d580",
+      "byte_size": 5037,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "figures/figure_05_hoosfield_trajectories.svg",
+      "sha256": "ac8f35cd8e00b5f01ab3dd794504a537acb7560f650f47c0f8ea4b4f8084b1c1",
+      "byte_size": 3392,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "figures/figure_06_hoosfield_residuals.svg",
+      "sha256": "d4cdd62a14872d1aadfa3985d47245dd043b87a9257b10ea1d07d642406966ce",
+      "byte_size": 4389,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "figures/figure_07_fym_calibration_profile.svg",
+      "sha256": "23e4fd8b659befed2b0143dc33ace229e5b2e75b07170492d2bcffd2f6d57492",
+      "byte_size": 2769,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "figures/figure_08_sensitivity_convergence.svg",
+      "sha256": "dc56967a7fef743ebe6bbf6e09852d86f128bf7891c9f45b164d5aa973ccf4df",
+      "byte_size": 3299,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "figures/figure_09_representative_total_order_sensitivity.svg",
+      "sha256": "bcb4c46985231ae7436213ad8bee825bdec7b84688b8eba0af440fb658fb7768",
+      "byte_size": 2224,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "figures/figure_10_ml_gate_summary.svg",
+      "sha256": "e9f02e6ca659fe24b32a46c7c75d1901a7d19fe2f679ea60c8fff1f3003cb682",
+      "byte_size": 2200,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "figures/figure_11_audit_remediation_timeline.svg",
+      "sha256": "744e63e573348934be5aa1ca62a41d1a259486d5f9ac192e7ce6a6dc5970ce7b",
+      "byte_size": 2652,
+      "category": "figure_asset",
+      "role": "unchanged manuscript figure source or figure provenance index"
+    },
+    {
+      "relative_path": "manifests/README.md",
+      "sha256": "49fc9db9071502f5bb28f686f1ec7f42e64c99070288e54200e84ac4d9a5e82b",
+      "byte_size": 967,
+      "category": "source_manifest",
+      "role": "warning for obsolete citation metadata preserved in immutable source manifests"
+    },
+    {
+      "relative_path": "manifests/manuscript_archive/MANUSCRIPT_BUNDLE_SHA256.txt",
+      "sha256": "f53f382d8703db65f194e9bf9c902e09186c4f57624306431045d7463b737160",
+      "byte_size": 65,
+      "category": "source_manifest",
+      "role": "unchanged manuscript archive manifest"
+    },
+    {
+      "relative_path": "manifests/manuscript_archive/data_indexes_manifest.json",
+      "sha256": "bd8d2e9ef0e9ec7f4e47142a9f9ccbe377ccc373100d11e6b76afd39920b0c8c",
+      "byte_size": 729,
+      "category": "source_manifest",
+      "role": "unchanged manuscript archive manifest"
+    },
+    {
+      "relative_path": "manifests/manuscript_archive/figures_manifest.json",
+      "sha256": "857c49382fc4e8bd06df70c71454360f958f22ce89d6acfce67c99950292d261",
+      "byte_size": 4434,
+      "category": "source_manifest",
+      "role": "unchanged manuscript archive manifest"
+    },
+    {
+      "relative_path": "manifests/manuscript_archive/manuscript_bundle_manifest.json",
+      "sha256": "8b32920a9fd0053bb28da9dc26a4b10e2099b0d88ec6eaf6756c3b79e29b7382",
+      "byte_size": 25322,
+      "category": "source_manifest",
+      "role": "unchanged manuscript archive manifest"
+    },
+    {
+      "relative_path": "manifests/manuscript_archive/phase98_current_byte_corrections.json",
+      "sha256": "2a0393f13a6b9abb121ded092ffde24b023e4fa2ebf12dee2881dd06f1bc703d",
+      "byte_size": 731,
+      "category": "source_manifest",
+      "role": "unchanged manuscript archive manifest"
+    },
+    {
+      "relative_path": "manifests/manuscript_archive/supplementary_manifest.json",
+      "sha256": "9c9164485ee7dcc334227ae1c51618cfcdcd035894ec8f7d64ac6941bdcc30a9",
+      "byte_size": 7677,
+      "category": "source_manifest",
+      "role": "unchanged manuscript archive manifest"
+    },
+    {
+      "relative_path": "manifests/manuscript_archive/tables_manifest.json",
+      "sha256": "94a8cf7f3b0b84e023b87b65954a4fbcafd643ec674ce2635989c09cf4b33755",
+      "byte_size": 6414,
+      "category": "source_manifest",
+      "role": "unchanged manuscript archive manifest"
+    },
+    {
+      "relative_path": "manifests/source_manifests/phase95_artifact_hashes.json",
+      "sha256": "0fce2e9df3d2bc480bafc068650817c1d6213e5ef879d9e3d024ea8048410044",
+      "byte_size": 2706,
+      "category": "source_manifest",
+      "role": "unchanged frozen source or artifact manifest"
+    },
+    {
+      "relative_path": "manifests/source_manifests/phase96_artifact_hashes.json",
+      "sha256": "0c7aeea56d6c951972f926e609f04c6cc50fb1dc491d7ecd118f7d512de10e53",
+      "byte_size": 5716,
+      "category": "source_manifest",
+      "role": "unchanged frozen source or artifact manifest"
+    },
+    {
+      "relative_path": "manifests/source_manifests/phase96_empirical_source_manifest.json",
+      "sha256": "ba2db4b6fd1dd6b7d280f846e2d3bc846e3f6d44eb87c892e80cd78a9fe1b6e5",
+      "byte_size": 16946,
+      "category": "source_manifest",
+      "role": "unchanged frozen source or artifact manifest"
+    },
+    {
+      "relative_path": "manifests/source_manifests/phase97_artifact_hashes.json",
+      "sha256": "81388a4c772daf97bbdd18b712a14d73145659ce5776086e66c454a13427c12e",
+      "byte_size": 4217,
+      "category": "source_manifest",
+      "role": "unchanged frozen source or artifact manifest"
+    },
+    {
+      "relative_path": "manifests/source_manifests/phase97_pipeline_manifest.json",
+      "sha256": "a3aaaf9b2419a76dc31e3a71e9b94b4055d7b2d3c49178078df40fdc43bee294",
+      "byte_size": 551,
+      "category": "source_manifest",
+      "role": "unchanged frozen source or artifact manifest"
+    },
+    {
+      "relative_path": "manifests/source_manifests/phase97_sobol_sampling_manifest.json",
+      "sha256": "4ea9fd50ebdabe26435085b64db035a0ae6f16726c4fe700255f21f46fd85457",
+      "byte_size": 2710,
+      "category": "source_manifest",
+      "role": "unchanged frozen source or artifact manifest"
+    },
+    {
+      "relative_path": "manifests/source_manifests/phase97_source_manifest.json",
+      "sha256": "71ef19e60ea52ddf73a0813955de5b0ef3668ddd301f801051699150c0e8fad9",
+      "byte_size": 19563,
+      "category": "source_manifest",
+      "role": "unchanged frozen source or artifact manifest"
+    },
+    {
+      "relative_path": "manuscript_v2/MANUSCRIPT_BUNDLE_SHA256.txt",
+      "sha256": "f53f382d8703db65f194e9bf9c902e09186c4f57624306431045d7463b737160",
+      "byte_size": 65,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/README.md",
+      "sha256": "a5703bae944de81a951e40359403e707120d882f86dd734a31e6ddc514af2a90",
+      "byte_size": 1521,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/data_indexes_manifest.json",
+      "sha256": "bd8d2e9ef0e9ec7f4e47142a9f9ccbe377ccc373100d11e6b76afd39920b0c8c",
+      "byte_size": 729,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/drafting_evidence_map_v2.csv",
+      "sha256": "b52d02a0fc17a7842d3d3294ba147331c16b343cf3c6548c1a9b17b64bbaab6e",
+      "byte_size": 14448,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/figures_manifest.json",
+      "sha256": "857c49382fc4e8bd06df70c71454360f958f22ce89d6acfce67c99950292d261",
+      "byte_size": 4434,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/manuscript_bundle_manifest.json",
+      "sha256": "8b32920a9fd0053bb28da9dc26a4b10e2099b0d88ec6eaf6756c3b79e29b7382",
+      "byte_size": 25322,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/manuscript_v2.md",
+      "sha256": "8b5ac1ef8f4670002b417808a4e9c77e6df5dffe35e9954175e230263c0b46d1",
+      "byte_size": 44886,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/manuscript_v2.tex",
+      "sha256": "80d3d347586a386b6a535514407b7bab06db73470ac25f6a828918b6cb3464e6",
+      "byte_size": 43917,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/phase98_current_byte_corrections.json",
+      "sha256": "2a0393f13a6b9abb121ded092ffde24b023e4fa2ebf12dee2881dd06f1bc703d",
+      "byte_size": 731,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/references_pending_v2.bib",
+      "sha256": "755dc6a29e030ed2a4b80ce82c586658cb265f775dd35afcba490ce2fe7f513f",
+      "byte_size": 796,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/revision_log_v1_to_v2.md",
+      "sha256": "6680c26622b8c48316347c63c3869e145c7f02cbe4767c4409b12677c8a6da8c",
+      "byte_size": 2692,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/supplementary_manifest.json",
+      "sha256": "9c9164485ee7dcc334227ae1c51618cfcdcd035894ec8f7d64ac6941bdcc30a9",
+      "byte_size": 7677,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/tables_manifest.json",
+      "sha256": "94a8cf7f3b0b84e023b87b65954a4fbcafd643ec674ce2635989c09cf4b33755",
+      "byte_size": 6414,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/unresolved_author_inputs_v2.md",
+      "sha256": "83d3cd7fc0c3b1d0f2490dc0490d8f4cf0787d839949a4ee598fbd0e4d6af657",
+      "byte_size": 1079,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/unresolved_citations_v2.md",
+      "sha256": "9ae4cd59017ff1483935704b89aea3fc0c2a4a466b5059fa6960af6d40c39101",
+      "byte_size": 1830,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/unresolved_methods_v2.md",
+      "sha256": "4d994792bd616d0b58cc888023481661a8b964b9e00a123c62d097cb2ddef885",
+      "byte_size": 3821,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "manuscript_v2/visual_qa_report_v2.md",
+      "sha256": "f72586125ec9f0ea41a482e9f6dbebae8141ad5b25caaa25525d9d61c465d38f",
+      "byte_size": 3724,
+      "category": "manuscript_v2",
+      "role": "unchanged authoritative manuscript v2 package file or historical v2 context"
+    },
+    {
+      "relative_path": "methods_expansion/COMPLETE_PARAMETER_REGISTER.csv",
+      "sha256": "844809427ee6e60b29c2c6112f5f22a888a2bdf09b26d43de4c0cb87d9dcb929",
+      "byte_size": 56567,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "methods_expansion/DATA_SPLIT_REGISTER.csv",
+      "sha256": "67952bfb0eaa5f71d3d10cd7334ac2d77a7f5151722ac78fe04a20c82ef32fe7",
+      "byte_size": 19749,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "methods_expansion/EMPIRICAL_PILOT_METHODS.md",
+      "sha256": "aae71e974c9445f116c1119c05a1150b2984a7c0baac03c6e62550338a76b176",
+      "byte_size": 11285,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "methods_expansion/EQUATIONS_AND_PROCESSES.md",
+      "sha256": "01b807bdafcb016952c23162d88826ee2514daf2282cee762575f13974a0e7e9",
+      "byte_size": 7941,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "methods_expansion/HOOSFIELD_METHODS.md",
+      "sha256": "bfdddc0c30b42845bc11c49bd9152d6daf6a15f101cad04b525e20982b8e2847",
+      "byte_size": 5032,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "methods_expansion/METHODS_EXPANSION_REPORT.md",
+      "sha256": "9f2c6da30885f6277dd8ced46eab0c47866ca51a95d8e7f88e58cf516d7f8c91",
+      "byte_size": 10883,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "methods_expansion/METHODS_LIMITATIONS_ADDENDUM.md",
+      "sha256": "18c379e5a51fdbd279b4b1b5d74d26d4f1c474c223b20127c01ed22472fde43a",
+      "byte_size": 9970,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "methods_expansion/ML_AND_GATE_METHODS.md",
+      "sha256": "8961cb264799c61ee274226c179cf006abc2e8814245654694f4c42b9a8c3a83",
+      "byte_size": 6022,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "methods_expansion/SENSITIVITY_METHODS.md",
+      "sha256": "f6bf8f65540442a5e45983424802a7913285cb06fe5d90f8ff9755cfe0f851ab",
+      "byte_size": 5051,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "methods_expansion/manifest.json",
+      "sha256": "aab29c90279555ed83d951ac13b3d8339a7222fe8fc5cc5e19e19243cffa8b46",
+      "byte_size": 3287,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "methods_expansion/methods_evidence_map.csv",
+      "sha256": "2261c10396cd26917dc856c2822695db59266bcfa932616ebd164ee7720ae6ee",
+      "byte_size": 7796,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "methods_expansion/unresolved_after_expansion.md",
+      "sha256": "604624f1429ae8c408d5a6d2602f3f989c2aa9b5f4eeb39a71f01f1d8dc6733a",
+      "byte_size": 3099,
+      "category": "methods_expansion",
+      "role": "unchanged final methods-expansion file"
+    },
+    {
+      "relative_path": "reference_update/AI_DISCLOSURE_SOURCES.md",
+      "sha256": "76cff94964dd1d1887dd433b8f1941f099ee722a45624fd268b76a69abab3635",
+      "byte_size": 7447,
+      "category": "reference_update",
+      "role": "unchanged verified reference-update file"
+    },
+    {
+      "relative_path": "reference_update/CLAIM_TO_CITATION_MAP.csv",
+      "sha256": "4b09cbf1c1850378a4647cfd349ed10536bf9cbc79295aea361820b07cfd8a2f",
+      "byte_size": 10511,
+      "category": "reference_update",
+      "role": "unchanged verified reference-update file"
+    },
+    {
+      "relative_path": "reference_update/DATASET_CITATION_AND_LICENCE.md",
+      "sha256": "69b469b5ee63b3083bb76df77c3f1c1c08df3e43d4e1ae66b1f0df6153569f65",
+      "byte_size": 8856,
+      "category": "reference_update",
+      "role": "unchanged verified reference-update file"
+    },
+    {
+      "relative_path": "reference_update/LITERATURE_REVIEW_NOTES.md",
+      "sha256": "7dec6ba4fd7199dc6d95effdd96933ce39762a8c70e0546d311f7975fcfe02b0",
+      "byte_size": 13003,
+      "category": "reference_update",
+      "role": "unchanged verified reference-update file"
+    },
+    {
+      "relative_path": "reference_update/README.md",
+      "sha256": "5bd5e9f54e7ff091ced429128ebab7a21daa444f050e039abbf79ac0a8181cdc",
+      "byte_size": 3427,
+      "category": "reference_update",
+      "role": "unchanged verified reference-update file"
+    },
+    {
+      "relative_path": "reference_update/REFERENCE_VERIFICATION_MANIFEST.json",
+      "sha256": "1ad034d760fe4a62ba312d62aa1e1387ddf092f7085217f363ed2d5b5dd5caaa",
+      "byte_size": 9624,
+      "category": "reference_update",
+      "role": "unchanged verified reference-update file"
+    },
+    {
+      "relative_path": "reference_update/UNRESOLVED_REFERENCES.md",
+      "sha256": "5e3293eabec6472ca7df0dff85837370914d6bdd77c2c7a117f52bb2c5e27938",
+      "byte_size": 5394,
+      "category": "reference_update",
+      "role": "unchanged verified reference-update file"
+    },
+    {
+      "relative_path": "reference_update/VERIFIED_REFERENCES.bib",
+      "sha256": "b06a8fbe620d4bd3f5f4774e17de72e994ad96d7524cc36f2a9815d606dbe439",
+      "byte_size": 20942,
+      "category": "reference_update",
+      "role": "unchanged verified reference-update file"
+    },
+    {
+      "relative_path": "reference_update/VERIFIED_REFERENCES.md",
+      "sha256": "6b90937f075789f3f003be9b74a33e9cd15e1541629005e40bd95e53cc16749b",
+      "byte_size": 18910,
+      "category": "reference_update",
+      "role": "unchanged verified reference-update file"
+    }
+  ],
+  "self_hash_note": "PACKAGE_MANIFEST.json is excluded from its own entries because an exact byte SHA-256 cannot be embedded in the same final byte sequence without circular self-reference. Its actual byte hash is checked after generation and again after ZIP extraction.",
+  "known_missing_repository_sources": [
+    "manuscript_v2.pdf",
+    "figure_01_model_architecture.pdf",
+    "figure_02_carbon_phosphorus_flow.pdf",
+    "figure_05_hoosfield_trajectories.pdf",
+    "figure_08_sensitivity_convergence.pdf",
+    "figure_10_ml_gate_summary.pdf",
+    "figure_11_audit_remediation_timeline.pdf"
+  ]
+}

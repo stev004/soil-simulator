@@ -1,0 +1,483 @@
+{
+  "independent_effect_dataset": "absent; gate fails closed",
+  "offline_replay": true,
+  "phase96_empirical_source_manifest_sha256": "ba2db4b6fd1dd6b7d280f846e2d3bc846e3f6d44eb87c892e80cd78a9fe1b6e5",
+  "phase96_raw_and_processed_sources": {
+    "accepted_locations": 56,
+    "access_date": "2026-07-21",
+    "climate": {
+      "dataset": "NASA POWER v10, MERRA-2 monthly 2001-2020",
+      "derived_variable": "monthly potential evapotranspiration from Thornthwaite monthly-mean temperature, latitude and daylength; assumption A080",
+      "license": "CC0 under NASA Earthdata policy unless specifically restricted",
+      "url": "https://power.larc.nasa.gov/api/temporal/monthly/regional",
+      "variables": [
+        "T2M",
+        "T2M_MIN",
+        "T2M_MAX",
+        "PRECTOTCORR"
+      ]
+    },
+    "coordinate_policy": "coordinates rounded to 0.1 degrees; no farm or field coordinates",
+    "long_term_validation": {
+      "bytes": 672781,
+      "dataset": "Official RothC model and Hoosfield example v2.1.1",
+      "license": "Apache-2.0",
+      "path": "data/raw/phase96_validation/RothC_Code-v2.1.1.zip",
+      "sha256": "728ef1320f8a660b14e12648fbf3d4d20917021016a24c46f5cde5c7609b9966",
+      "url": "https://doi.org/10.5281/zenodo.10724802"
+    },
+    "manual_fallback": "Run scripts/download_phase96_empirical.py once with network access, then archive the raw JSON responses; all processing/tests use only those local bytes.",
+    "offline_replay": true,
+    "processed_files": [
+      {
+        "bytes": 11656,
+        "path": "data/processed/phase96_empirical_soil_locations_v1.csv",
+        "sha256": "f44f0130c58e1366ec4e064ea88f229043536d64aef2d38d6117a31a83995942"
+      },
+      {
+        "bytes": 937013,
+        "path": "data/processed/phase96_empirical_monthly_climate_v1.csv",
+        "sha256": "5608dc77ee79e30bbda3fae40c800f4961b6ddb224d3b8080228f2f884855df1"
+      }
+    ],
+    "raw_files": [
+      {
+        "bytes": 1196886,
+        "path": "data/raw/phase96_empirical/nasa_power/PRECTOTCORR.json",
+        "sha256": "b65758c9571b354569fc6ac93e1fc0a6e942a858f05c8df21050a904fdade8d1",
+        "source": "NASA POWER v10"
+      },
+      {
+        "bytes": 1235377,
+        "path": "data/raw/phase96_empirical/nasa_power/T2M.json",
+        "sha256": "db3cd2d9e694d3b2bff12cb11d8c0114d6b3459488c6385d30651297ae91b5dd",
+        "source": "NASA POWER v10"
+      },
+      {
+        "bytes": 1270126,
+        "path": "data/raw/phase96_empirical/nasa_power/T2M_MAX.json",
+        "sha256": "bcd368b3a310e55dbe077fe93f8d0495816c6771dd67412f7f9cd5b5554a5388",
+        "source": "NASA POWER v10"
+      },
+      {
+        "bytes": 1224410,
+        "path": "data/raw/phase96_empirical/nasa_power/T2M_MIN.json",
+        "sha256": "d2615b9bfbe24a04dc16a39bffa1bab956187edd537bf743be3e9bd809fac8f0",
+        "source": "NASA POWER v10"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb001.json",
+        "sha256": "2ede4c88d64bc8d93a70bb0f21797f8a1a833e1eb0017035b4846a580e4293a8",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3557,
+        "path": "data/raw/phase96_empirical/soilgrids/gb002.json",
+        "sha256": "1b98c24ce52af33518d3d43cd48151784e0345ac20cfa32c29d0d90cc9b6bccd",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb003.json",
+        "sha256": "ab5654b241fe04495f1b0d42e47559450860a5ed1dfecf9fed2ae3760c41e6d5",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb004.json",
+        "sha256": "edeb9de0055bfe9bbfe7bf6b3b666f88f726a32f97c185e1fb7d484b36e8b320",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb005.json",
+        "sha256": "3cf02bf76b3f47867ee1d09bba016dce028393e963c22f488c1a82ed1c0d141a",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb006.json",
+        "sha256": "6b613dc69f281678e6acb151c8874ae5d1d9a48a3e89551f9d6bd8a594a8e46d",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb007.json",
+        "sha256": "ffc6f466ec930b2bbf9dea014aa4c696fbac0abad0cfc47a3648fb1bd55c5344",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3557,
+        "path": "data/raw/phase96_empirical/soilgrids/gb008.json",
+        "sha256": "483c653e863293c179f0747fc81bcb683c592dfe9414f3953deb2836645b7a49",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3585,
+        "path": "data/raw/phase96_empirical/soilgrids/gb009.json",
+        "sha256": "5f8e06eda5e9f6202c2690746d109f97c1c84748d5378b21002aaf7784ad1fde",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb010.json",
+        "sha256": "58609ba1a7903a3df82f1589597365a821403ca14a92963c2c68ebbd2a637070",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb011.json",
+        "sha256": "7eb6754cbf7b37ce3087632907f5b0ff0db3ad33daf67f2f423ef1171c8c66bf",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb012.json",
+        "sha256": "fe8b5cd174706990b2ac18fc08b95a9f010095126d4262f48393c164cc718478",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb013.json",
+        "sha256": "2c0c193373aa379557394fbd6acf2ec3459ac7ddb63c7685d3abe1fe6f4a4bea",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3586,
+        "path": "data/raw/phase96_empirical/soilgrids/gb014.json",
+        "sha256": "def0b8a23e9dd2aa903ad7113fbf60a34d4f282ac37594e4474e4b4736879193",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb015.json",
+        "sha256": "7af2b2fd737ee18650ac9392cc31c90a866d4a2642030028b00a3b3368cd5db8",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb016.json",
+        "sha256": "67d7a0ca16b8e09973169f60cf1db3c8913f0b1ecb9f8c66ca0fa7d33dd5f9b4",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3586,
+        "path": "data/raw/phase96_empirical/soilgrids/gb017.json",
+        "sha256": "0eeea584fc8264ead1b25e06f1715a0b069abfc1991c8c5e6ba025fae4b4bec6",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3555,
+        "path": "data/raw/phase96_empirical/soilgrids/gb018.json",
+        "sha256": "b75564ce21afa3dd0358f42fded5f3b5ccfadfa7b1564c8c5a288d997050c413",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb019.json",
+        "sha256": "7d4476b50a0ea7399752a7e7650795441d54d6a59efddc7eb7607aa36c4465fd",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb020.json",
+        "sha256": "350af12d7245f72f57fdb860f4ff863f1402a1b6fdfccfe23a733231e7dc5ed8",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb021.json",
+        "sha256": "7dea7963a1d266b90c63699557d92597ab3251ffb9c9d2a8ca0565f2e0a8721e",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3586,
+        "path": "data/raw/phase96_empirical/soilgrids/gb022.json",
+        "sha256": "84252b357b321645c68d6351231d14777e47c1791b3be1dae61e8e2c864c7af6",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb023.json",
+        "sha256": "7628b02836900ecac26138dffad8c8eb217550766899c4b0023ea6542ef01bf6",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb024.json",
+        "sha256": "446973a7314cf7e95f1cc8570634cbd2b9774dcc4886132cc515042b1a7bd9ab",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb025.json",
+        "sha256": "c60846c93e751d340ed2dc4011d9063f47901f31ef9019d6ff8ecb2088d418e3",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb026.json",
+        "sha256": "51c62d843b6c253ffd6e5e42c64de50b9581860142d622001707d08846f4b0c4",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb027.json",
+        "sha256": "ca06f148bda584d407e65f360bb7dad216b38f3dfd4ee13ab3d077237811aa91",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb028.json",
+        "sha256": "d12dcd975be2a0d67e2d168343e9d1ace06f386e0a9ed8cc4b28cf225c07d03a",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb029.json",
+        "sha256": "28ac81c22e7aa9b335f2b1dbdb30118f6e2e49881d4dd6ea7ca473820b6df55d",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb030.json",
+        "sha256": "4ecd934012de7cb22865e2c1d3475cade9595bcf3d761ce9106ff3cd772e93c5",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb031.json",
+        "sha256": "cdaffc7ec15660c6aa3b6d71257019d32de84ee1ef134f56193eabb381a0a6df",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb032.json",
+        "sha256": "966ce9d0cbe91e40fb8b965be2dc7ea3f4c673b5f03a377903fd73253a68acc3",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb033.json",
+        "sha256": "1a13d3fb358f2b17dbb982e5ec05192bdd8654515d8c24e96f1f2114e306962f",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3560,
+        "path": "data/raw/phase96_empirical/soilgrids/gb034.json",
+        "sha256": "c818bf257c2ac762b0ba46280a66ee6f8a606983561676083b94637e6b90d306",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3584,
+        "path": "data/raw/phase96_empirical/soilgrids/gb035.json",
+        "sha256": "88cf6daa16161530362fa1b7046737bcb2eb050fb45997ed71c27ff563441c4b",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb036.json",
+        "sha256": "ab580be5151d0f6ac65536a9fed9515baab364acf5ba4988ba70494295eebeab",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb037.json",
+        "sha256": "c7a09dc92b43b67168232c9cb6a8c0348acf3c4ba8a242abd69fec03ef84584b",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb038.json",
+        "sha256": "7288fac5c0b189b36570486e4ece0f4546477d99b96d3a1b8a79cc06f7e6908b",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb039.json",
+        "sha256": "a2ec8b959cc9e0d6e41041b01062d23f7b7b7dbffaed9973c22b561d3a4008e4",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb040.json",
+        "sha256": "9317d859a6dc5ac09313ca58bebdeb0e3f37f14f756c460ed24a501f062322b6",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb041.json",
+        "sha256": "828203cdf903b4ce01585dd3e5931edbb74272e17b088ddbc656cf17e13aa49e",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb042.json",
+        "sha256": "5e2c81cefbe06d7b8ff90b841aed52940df9a2f35f10c347901b07263e2ce4d9",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3557,
+        "path": "data/raw/phase96_empirical/soilgrids/gb043.json",
+        "sha256": "bd8259cbe1b878f70d035a2d6b2f0e2af9c7338d5409d2ca7f83ba2b9f24240b",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3554,
+        "path": "data/raw/phase96_empirical/soilgrids/gb044.json",
+        "sha256": "e4526b83e2cb00baf75b87c354eafeed619bb0001dfb09b0fa2cd2dbc72695c4",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3559,
+        "path": "data/raw/phase96_empirical/soilgrids/gb045.json",
+        "sha256": "df1269f7de4723b335daeffeed6b1e04988bcc98c24d4afe94d287a5df727466",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3584,
+        "path": "data/raw/phase96_empirical/soilgrids/gb046.json",
+        "sha256": "88ea3895b82ae414e21c2a7464c315e48eca13e6f946c2ad3862c57081c8cbe9",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3586,
+        "path": "data/raw/phase96_empirical/soilgrids/gb047.json",
+        "sha256": "a0fd99b943947cfaada05a18c4f119937cff92250f215a015c99dd42d3a08133",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb048.json",
+        "sha256": "5ce26e365f5896be26a3768ded5288b6da055a7f0b418ad1fd2845d29a3d5d75",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3554,
+        "path": "data/raw/phase96_empirical/soilgrids/gb049.json",
+        "sha256": "5b855474772331cfd8cb1d0bc4c158cf21886dfd0e8f7519db2fa0bbf0c84b41",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3554,
+        "path": "data/raw/phase96_empirical/soilgrids/gb050.json",
+        "sha256": "ae84fd532db6b1d49a90f14b9982e8e01d2a66f430881c5a1609f4b92079f469",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3555,
+        "path": "data/raw/phase96_empirical/soilgrids/gb051.json",
+        "sha256": "9c991e217e5aa3a3e107488c01aa4acbefc13daf066178a5959e7f062b255039",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3554,
+        "path": "data/raw/phase96_empirical/soilgrids/gb052.json",
+        "sha256": "f250c9b8ca740a2330052ac984556bde1377de7aeaf0ee7046f94c5ab54c8a0a",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3554,
+        "path": "data/raw/phase96_empirical/soilgrids/gb053.json",
+        "sha256": "9569c4e172d389e5485935b1db9c6dcf5d53b8696410307f182f89799799ad79",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3556,
+        "path": "data/raw/phase96_empirical/soilgrids/gb054.json",
+        "sha256": "9f5ec3daeaf95c7b14ca0a012168dcb06c1fed61ead7e7736da2fd0ab19a97c1",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3556,
+        "path": "data/raw/phase96_empirical/soilgrids/gb055.json",
+        "sha256": "41d58d8b97e124bf8609b69dee5083101800de1eea689ba7646429d29e0d7b16",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3554,
+        "path": "data/raw/phase96_empirical/soilgrids/gb056.json",
+        "sha256": "43402af8ad8d3d3409f8af62d277fe0d4ebcde960e545ecdca6782441705fa30",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3584,
+        "path": "data/raw/phase96_empirical/soilgrids/gb057.json",
+        "sha256": "5fd65ce37ad0b8a6a1583da720f34d0aa819183ce3d7a5af420ed6e677097c79",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb058.json",
+        "sha256": "2f02ca2cd07ec34e136ad69286148e24cd38c896a1aaaed2a0416546e3956f49",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3557,
+        "path": "data/raw/phase96_empirical/soilgrids/gb059.json",
+        "sha256": "c833620b8a38c548672ab11f6111c90d0778743ef9b0824a8d87d952e6a95d90",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb060.json",
+        "sha256": "3c596d7ce51bedebb63247ed05098323aa92e92cc3f0450d855ff685558bbced",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb061.json",
+        "sha256": "736fb57100deb2c0f4e67f39a26d0f488a9af69bb0a565281efb63ab11959b2c",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3560,
+        "path": "data/raw/phase96_empirical/soilgrids/gb062.json",
+        "sha256": "9ea92db5dc4114d61e9493093fe5dc1c9155c7df9669aad021e0ba0c6d78989a",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3557,
+        "path": "data/raw/phase96_empirical/soilgrids/gb063.json",
+        "sha256": "deb2bbd896360b73261ff03f56a709f7059b0c5e986aaaac86b0d54a79a91033",
+        "source": "SoilGrids 2.0 REST"
+      },
+      {
+        "bytes": 3558,
+        "path": "data/raw/phase96_empirical/soilgrids/gb064.json",
+        "sha256": "de4888e18daeabb0a180c4234592bf99ea164da8a915884e0baa97cb5a00b12d",
+        "source": "SoilGrids 2.0 REST"
+      }
+    ],
+    "rejected_locations": 8,
+    "sampling_frame_locations": 64,
+    "soil": {
+      "dataset": "SoilGrids 2.0 median predictions",
+      "depths": [
+        "0-5 cm",
+        "5-15 cm",
+        "15-30 cm (top 8 cm used)"
+      ],
+      "license": "CC BY 4.0",
+      "target_depth": "0-23 cm",
+      "url": "https://rest.isric.org/soilgrids/v2.0/properties/query"
+    },
+    "version": "1.0.0"
+  },
+  "phase97_pipeline_sources": {
+    "config/phase96/sensitivity.yaml": "34ebe472309718232078c0a4b69720187ef57b16e0474d288818b4eb56afa496",
+    "config/phase97/runtime_reference.json": "457807a42deb97cfd62d8078fb84241df40935267bcdac44385a44d8283d868d",
+    "config/phase97/sensitivity.yaml": "47cafbaa1836132848cc7a0a55f2fbb76f48e972802c80a64c87386339760621",
+    "outputs/phase96_v0.9.6/effect_only_dataset.csv": "ffa96a3e0ca3e81b4e0ca5560aeb8467fbfb4089d40f5895886cd0bc2e23e7fc",
+    "outputs/phase96_v0.9.6/generated_population_v0.9.6.json": "f37528f39c1d683fec9cb1cca3f49e49ab6a38c6dba0f09829f1f338748ca82e",
+    "outputs/phase96_v0.9.6/long_term_diagnosis.json": "928d8478656136c95761bc18d40d1135b5ff2b04f97f605a7b239133007b1175",
+    "src/soil_simulator/phase97/__init__.py": "0d942b5d4aec377c9982a14cab66fdc6b3db13925fdd5c451c9edd1493bd1d36",
+    "src/soil_simulator/phase97/calibration.py": "76a61af2040d1744a5bb544850330341bcbf9458d21bf86312957df52d3cbbaa",
+    "src/soil_simulator/phase97/gates.py": "bbb9690b51ed21584b8979c2593f2b4ef63a6690c3029b9fbe3cf41f85a597fa",
+    "src/soil_simulator/phase97/manifests.py": "91776209140e9ff5c9bd5336076d74e71bc71c51849417949ab76c57db65579f",
+    "src/soil_simulator/phase97/pipeline.py": "509fee3cf53854b2968d2ad6f7024154826266f85f55b0c8e81b0571f9975ec9",
+    "src/soil_simulator/phase97/sensitivity.py": "e42bc7642a2b411b3bab49b10c78805056f21d380990e7cb7454b108ddac76fa"
+  },
+  "version": "0.9.7"
+}

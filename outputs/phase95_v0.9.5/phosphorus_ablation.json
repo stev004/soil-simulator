@@ -1,0 +1,405 @@
+{
+  "claim_boundary": "Ablations quantify current simulator structure only. They are not causal or field estimates and no response was tuned to obtain a preferred ranking.",
+  "field_count": 5,
+  "magnitude_status": "unresolved_no_defensible_calibration_dataset",
+  "phosphorus_excluded_from_headline_carbon_conclusion": true,
+  "policy_ranking_excluding_phosphorus": [
+    {
+      "mean_carbon_priority_proxy": 7.402604912461754,
+      "policy_id": "farmyard_manure"
+    },
+    {
+      "mean_carbon_priority_proxy": 1.525405170729833,
+      "policy_id": "cover_crop"
+    },
+    {
+      "mean_carbon_priority_proxy": 0.0,
+      "policy_id": "baseline"
+    },
+    {
+      "mean_carbon_priority_proxy": -0.048301669995490924,
+      "policy_id": "reduced_tillage"
+    },
+    {
+      "mean_carbon_priority_proxy": -0.6931007235722149,
+      "policy_id": "conventional_tillage"
+    }
+  ],
+  "policy_ranking_with_phosphorus": [
+    {
+      "mean_carbon_priority_proxy": 7.402604912461754,
+      "policy_id": "farmyard_manure"
+    },
+    {
+      "mean_carbon_priority_proxy": 4.719850437928587,
+      "policy_id": "phosphorus"
+    },
+    {
+      "mean_carbon_priority_proxy": 1.525405170729833,
+      "policy_id": "cover_crop"
+    },
+    {
+      "mean_carbon_priority_proxy": 0.0,
+      "policy_id": "baseline"
+    },
+    {
+      "mean_carbon_priority_proxy": -0.048301669995490924,
+      "policy_id": "reduced_tillage"
+    },
+    {
+      "mean_carbon_priority_proxy": -0.6931007235722149,
+      "policy_id": "conventional_tillage"
+    }
+  ],
+  "population_hash": "e37a4a542b793bdc7f19d5224ec6d8fccbc61075567159454fb288194935ccee",
+  "variants_by_horizon": {
+    "120": {
+      "alternative_parameters": {
+        "allocation_p_half_saturation_kg_p_ha": 40.0,
+        "amf_p_uptake_km_kg_p_ha": 40.0,
+        "direct_p_uptake_half_saturation_kg_p_ha": 40.0
+      },
+      "capped_response_definition": "5 kg P ha-1 per scheduled event versus the current 20 kg P ha-1; this bounds the response without changing or recalibrating the plant-growth equation",
+      "horizon_aware_accounting": {
+        "cost_gbp_ha": 300.0,
+        "event_count": 10,
+        "events": [
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m002",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m014",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 14
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m026",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 26
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m038",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 38
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m050",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 50
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m062",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 62
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m074",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 74
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m086",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 86
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m098",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 98
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m110",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 110
+          }
+        ],
+        "horizon_months": 120,
+        "lifecycle_emissions_kg_co2e_ha": 150.0,
+        "operational_emissions_kg_co2e_ha": 50.0,
+        "policy_id": "phosphorus",
+        "total_emissions_kg_co2e_ha": 200.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "no_phosphorus_intervention": {
+        "max_carbon_residual_t_c_ha": 1.1368683772161604e-14,
+        "max_phosphorus_residual_kg_p_ha": 2.6645352591003757e-15,
+        "npp_t_c_ha": 4.452872669006851,
+        "protected_soc_proxy_t_c_ha": 31.91262342590456,
+        "residue_carbon_t_c_ha": 2.9630822259550706,
+        "respiration_t_c_ha": 10.643968664962014,
+        "total_soc_t_c_ha": 37.890804931035326,
+        "yield_t_dm_ha": 3.027967238202262
+      },
+      "phosphorus_alternative_plausible_parameters_effect": {
+        "npp_t_c_ha": 11.20189965780962,
+        "protected_soc_proxy_t_c_ha": 0.6778183405290896,
+        "residue_carbon_t_c_ha": 7.602250336969076,
+        "respiration_t_c_ha": 4.835670842104128,
+        "total_soc_t_c_ha": 2.8622663874393544,
+        "yield_t_dm_ha": 7.768722972085188
+      },
+      "phosphorus_capped_response_effect": {
+        "npp_t_c_ha": 8.073362276519525,
+        "protected_soc_proxy_t_c_ha": 0.4903071533805793,
+        "residue_carbon_t_c_ha": 5.412484916290228,
+        "respiration_t_c_ha": 3.5043072655747096,
+        "total_soc_t_c_ha": 2.0648372506197505,
+        "yield_t_dm_ha": 5.531006483800234
+      },
+      "phosphorus_current_plant_growth_response_effect": {
+        "npp_t_c_ha": 14.918941312299467,
+        "protected_soc_proxy_t_c_ha": 0.9021836478306973,
+        "residue_carbon_t_c_ha": 10.210881068997585,
+        "respiration_t_c_ha": 6.401226347343519,
+        "total_soc_t_c_ha": 3.81766679009789,
+        "yield_t_dm_ha": 10.434477004815054
+      }
+    },
+    "24": {
+      "alternative_parameters": {
+        "allocation_p_half_saturation_kg_p_ha": 40.0,
+        "amf_p_uptake_km_kg_p_ha": 40.0,
+        "direct_p_uptake_half_saturation_kg_p_ha": 40.0
+      },
+      "capped_response_definition": "5 kg P ha-1 per scheduled event versus the current 20 kg P ha-1; this bounds the response without changing or recalibrating the plant-growth equation",
+      "horizon_aware_accounting": {
+        "cost_gbp_ha": 60.0,
+        "event_count": 2,
+        "events": [
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m002",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m014",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 14
+          }
+        ],
+        "horizon_months": 24,
+        "lifecycle_emissions_kg_co2e_ha": 30.0,
+        "operational_emissions_kg_co2e_ha": 10.0,
+        "policy_id": "phosphorus",
+        "total_emissions_kg_co2e_ha": 40.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "no_phosphorus_intervention": {
+        "max_carbon_residual_t_c_ha": 7.815970093361103e-15,
+        "max_phosphorus_residual_kg_p_ha": 2.3092638912203257e-15,
+        "npp_t_c_ha": 2.355132988888907,
+        "protected_soc_proxy_t_c_ha": 33.54340789724338,
+        "residue_carbon_t_c_ha": 1.5719145003327717,
+        "respiration_t_c_ha": 3.32119499392894,
+        "total_soc_t_c_ha": 43.67898521749621,
+        "yield_t_dm_ha": 1.6063359857415183
+      },
+      "phosphorus_alternative_plausible_parameters_effect": {
+        "npp_t_c_ha": 0.9039455508821593,
+        "protected_soc_proxy_t_c_ha": 0.03963971507960977,
+        "residue_carbon_t_c_ha": 0.6118938563634793,
+        "respiration_t_c_ha": 0.2889085924505202,
+        "total_soc_t_c_ha": 0.3311601907930587,
+        "yield_t_dm_ha": 0.6252929919042854
+      },
+      "phosphorus_capped_response_effect": {
+        "npp_t_c_ha": 0.41633227412995844,
+        "protected_soc_proxy_t_c_ha": 0.01746158496115413,
+        "residue_carbon_t_c_ha": 0.28717674591800674,
+        "respiration_t_c_ha": 0.12702588541258164,
+        "total_soc_t_c_ha": 0.15772298028891923,
+        "yield_t_dm_ha": 0.293465287799423
+      },
+      "phosphorus_current_plant_growth_response_effect": {
+        "npp_t_c_ha": 0.9627459603029141,
+        "protected_soc_proxy_t_c_ha": 0.04147747441578389,
+        "residue_carbon_t_c_ha": 0.6724273880823797,
+        "respiration_t_c_ha": 0.29427660472753203,
+        "total_soc_t_c_ha": 0.3635117432629443,
+        "yield_t_dm_ha": 0.6871520754126508
+      }
+    },
+    "60": {
+      "alternative_parameters": {
+        "allocation_p_half_saturation_kg_p_ha": 40.0,
+        "amf_p_uptake_km_kg_p_ha": 40.0,
+        "direct_p_uptake_half_saturation_kg_p_ha": 40.0
+      },
+      "capped_response_definition": "5 kg P ha-1 per scheduled event versus the current 20 kg P ha-1; this bounds the response without changing or recalibrating the plant-growth equation",
+      "horizon_aware_accounting": {
+        "cost_gbp_ha": 150.0,
+        "event_count": 5,
+        "events": [
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m002",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 2
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m014",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 14
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m026",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 26
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m038",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 38
+          },
+          {
+            "cost_gbp_ha": 30.0,
+            "event_id": "phosphorus-application-m050",
+            "event_type": "phosphorus_application",
+            "lifecycle_emissions_kg_co2e_ha": 15.0,
+            "operational_emissions_kg_co2e_ha": 5.0,
+            "policy_id": "phosphorus",
+            "provenance": "A065 provisional split of the legacy 20 kg CO2e ha-1 event proxy; not a fertiliser-product or regional lifecycle assessment.",
+            "simulation_month": 50
+          }
+        ],
+        "horizon_months": 60,
+        "lifecycle_emissions_kg_co2e_ha": 75.0,
+        "operational_emissions_kg_co2e_ha": 25.0,
+        "policy_id": "phosphorus",
+        "total_emissions_kg_co2e_ha": 100.0,
+        "uncertainty_status": "provisional_not_regional_budget_or_complete_lca",
+        "units": {
+          "cost": "GBP ha-1",
+          "lifecycle_emissions": "kg CO2e ha-1",
+          "operational_emissions": "kg CO2e ha-1"
+        }
+      },
+      "no_phosphorus_intervention": {
+        "max_carbon_residual_t_c_ha": 9.237055564881303e-15,
+        "max_phosphorus_residual_kg_p_ha": 2.6645352591003757e-15,
+        "npp_t_c_ha": 4.130100199084123,
+        "protected_soc_proxy_t_c_ha": 33.05917598574653,
+        "residue_carbon_t_c_ha": 2.750023147643184,
+        "respiration_t_c_ha": 6.952054197399581,
+        "total_soc_t_c_ha": 41.34098190869601,
+        "yield_t_dm_ha": 2.8102426326280714
+      },
+      "phosphorus_alternative_plausible_parameters_effect": {
+        "npp_t_c_ha": 3.739766522472862,
+        "protected_soc_proxy_t_c_ha": 0.19241020930177513,
+        "residue_carbon_t_c_ha": 2.538798312641047,
+        "respiration_t_c_ha": 1.3655935513958068,
+        "total_soc_t_c_ha": 1.2021079811517097,
+        "yield_t_dm_ha": 2.5943924362755224
+      },
+      "phosphorus_capped_response_effect": {
+        "npp_t_c_ha": 2.638594868517284,
+        "protected_soc_proxy_t_c_ha": 0.12874471085595401,
+        "residue_carbon_t_c_ha": 1.7876831755183624,
+        "respiration_t_c_ha": 0.9253741988495578,
+        "total_soc_t_c_ha": 0.8836518024121268,
+        "yield_t_dm_ha": 1.8268295224275235
+      },
+      "phosphorus_current_plant_growth_response_effect": {
+        "npp_t_c_ha": 4.81970103330219,
+        "protected_soc_proxy_t_c_ha": 0.24085472062460553,
+        "residue_carbon_t_c_ha": 3.3227410012661642,
+        "respiration_t_c_ha": 1.7043456814301166,
+        "total_soc_t_c_ha": 1.5884604490371323,
+        "yield_t_dm_ha": 3.395501753118708
+      }
+    }
+  },
+  "version": "0.9.5"
+}

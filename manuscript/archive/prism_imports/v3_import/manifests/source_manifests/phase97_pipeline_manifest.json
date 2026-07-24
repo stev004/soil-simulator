@@ -1,0 +1,11 @@
+{
+  "command": ".venv/bin/python -m soil_simulator.phase97.pipeline",
+  "gate_evidence_sha256": "7bc81a35d5e6abc6c96db990afa16922c859f7a4d7acc636e1e35b4b3a4fa9c0",
+  "historical_v0_9_0_outputs_modified": false,
+  "output_directory": "outputs/phase97_v0.9.7",
+  "phase96_outputs_modified": false,
+  "sampling_manifest_sha256": "4ea9fd50ebdabe26435085b64db035a0ae6f16726c4fe700255f21f46fd85457",
+  "selection_regret_executed": false,
+  "source_manifest_sha256": "71ef19e60ea52ddf73a0813955de5b0ef3668ddd301f801051699150c0e8fad9",
+  "version": "0.9.7"
+}

@@ -1,0 +1,126 @@
+{
+  "entries": [
+    {
+      "action": "copied",
+      "category": "audit_export_manifest",
+      "file_size": 5578,
+      "path": "docs/audits/AUDIT_EXPORT_MANIFEST.json",
+      "scientifically_frozen": true,
+      "sha256": "69a057c01496debe7ae5df5be617ee44e3a7cfa080faa96b6db536c5033df62e",
+      "source_or_generating_script": "audits/incoming/AUDIT_EXPORT_MANIFEST.json"
+    },
+    {
+      "action": "copied",
+      "category": "independent_audit",
+      "file_size": 22783,
+      "path": "docs/audits/AUDIT_PHASE96_CLEAN_SLATE.md",
+      "scientifically_frozen": true,
+      "sha256": "04a7b311f4a69fdacd1a591eb87723b6a63773b63d5fb76c65fca407182ab96c",
+      "source_or_generating_script": "audits/incoming/AUDIT_PHASE96_CLEAN_SLATE.md"
+    },
+    {
+      "action": "copied",
+      "category": "independent_audit",
+      "file_size": 15483,
+      "path": "docs/audits/AUDIT_PHASE97_FOCUSED.md",
+      "scientifically_frozen": true,
+      "sha256": "716ddaf3ed157412951c73d4086d96daedcf4066092fb4ff4a8f5b0bc6550c32",
+      "source_or_generating_script": "audits/incoming/AUDIT_PHASE97_FOCUSED.md"
+    },
+    {
+      "action": "copied",
+      "category": "audit",
+      "file_size": 16381,
+      "path": "docs/audits/AUDIT_v0.9.0_INDEPENDENT.md",
+      "scientifically_frozen": true,
+      "sha256": "f2654c04f49782d1e8599f43940c0ffb142a19f8562bcb1092f97b190cf3900f",
+      "source_or_generating_script": "docs/AUDIT_soil_simulator_v0.9.0.md"
+    },
+    {
+      "action": "generated",
+      "category": "audit",
+      "file_size": 3154,
+      "path": "docs/audits/README.md",
+      "scientifically_frozen": false,
+      "sha256": "544565a6860ae9d4b4fbceb221c4c80dacee603593fe98103c90a6b361b6cdda",
+      "source_or_generating_script": "Phase 9.8 documentation"
+    },
+    {
+      "action": "copied",
+      "category": "independent_audit",
+      "file_size": 7390,
+      "path": "docs/audits/phase96_discrepancies.md",
+      "scientifically_frozen": true,
+      "sha256": "0b46638bfe4da1dc24fcf2763075a6d9a06424d5ae619d490066ed6af50ecfd3",
+      "source_or_generating_script": "audits/incoming/discrepancies.md"
+    },
+    {
+      "action": "copied",
+      "category": "independent_audit",
+      "file_size": 4339,
+      "path": "docs/audits/phase96_finding_closure.csv",
+      "scientifically_frozen": true,
+      "sha256": "6ab94857a5049a4c67941b21ed4307ae6fb3aea5d5f056cafa442f0a4011b163",
+      "source_or_generating_script": "audits/incoming/audit_closure_matrix_independent.csv"
+    },
+    {
+      "action": "copied",
+      "category": "independent_audit",
+      "file_size": 10557,
+      "path": "docs/audits/phase96_recomputed_metrics.json",
+      "scientifically_frozen": true,
+      "sha256": "dae34a7b19053a714cee8b092f8b27466955f2f5cbbf25a55236a69bbaf6bf8a",
+      "source_or_generating_script": "audits/incoming/recomputed_metrics.json"
+    },
+    {
+      "action": "copied",
+      "category": "independent_audit",
+      "file_size": 4881,
+      "path": "docs/audits/phase97_convergence_findings.md",
+      "scientifically_frozen": true,
+      "sha256": "6ea52305d41cc8fceaa4991fd7d3da2fe684db7c1691f71a4ef9c34b09ece902",
+      "source_or_generating_script": "audits/incoming/convergence_findings.md"
+    },
+    {
+      "action": "copied",
+      "category": "independent_audit",
+      "file_size": 4625,
+      "path": "docs/audits/phase97_discrepancies.md",
+      "scientifically_frozen": true,
+      "sha256": "a5f5974ceda26484145491d9a59a3f0f82a0ac268b7a2beec021e5f031a1b7e4",
+      "source_or_generating_script": "audits/incoming/phase97_discrepancies.md"
+    },
+    {
+      "action": "copied",
+      "category": "independent_audit",
+      "file_size": 5802,
+      "path": "docs/audits/phase97_finding_closure.csv",
+      "scientifically_frozen": true,
+      "sha256": "ff6c80994cb35176ce4d866976db8a7893deffb351ea5d911ef62dbb99e17b0f",
+      "source_or_generating_script": "audits/incoming/phase97_finding_closure.csv"
+    },
+    {
+      "action": "copied",
+      "category": "independent_audit",
+      "file_size": 17470,
+      "path": "docs/audits/phase97_recomputed_metrics.json",
+      "scientifically_frozen": true,
+      "sha256": "02597753045ea74c8185466687abb14c6b15daefe55db3e975ffdccc269a31e5",
+      "source_or_generating_script": "audits/incoming/phase97_recomputed_metrics.json"
+    },
+    {
+      "action": "copied",
+      "category": "independent_audit",
+      "file_size": 4374,
+      "path": "docs/audits/phase97_sobol_findings.md",
+      "scientifically_frozen": true,
+      "sha256": "b85a6ff0011680362ac2278f3757c73c609146299a8d5556f85c7f1a1f993de3",
+      "source_or_generating_script": "audits/incoming/sobol_findings.md"
+    }
+  ],
+  "export_manifest_sha256": "69a057c01496debe7ae5df5be617ee44e3a7cfa080faa96b6db536c5033df62e",
+  "export_manifest_total_file_count": 10,
+  "missing_required_independent_deliverables": [],
+  "schema_version": "1.0.0",
+  "source_validation": "10/10 byte sizes and SHA-256 values match the supplied export manifest"
+}
