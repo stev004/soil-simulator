@@ -21,10 +21,14 @@ builds remain distinct.
 | `docs/provenance/` | Research-provenance and archive navigation. |
 | `docs/prompts/` | Immutable historical prompts. |
 | `docs/maintenance/` | Repository inventory, cleanup manifest, and structure rules. |
-| `docs/audits/` | Existing canonical Phase 9.8 audit archive and audit manifest. |
+| `docs/audits/` | Living audit navigation and canonical Phase 9.8 historical payloads. The prominent scope notice identifies these as AI-executed clean-context computational implementation reviews, not human peer review or independent biological validation. |
 | `audits/incoming/` | Immutable incoming independent-audit deliverables and their supplied export manifest. |
 | `artifacts/builds/` | Preserved package-build artifacts, separated from scientific outputs. |
 | `.github/` | Continuous-integration configuration. |
+
+### IMPORTANT SCOPE NOTICE
+
+These audits were AI-executed computational implementation reviews conducted in separate clean-context sessions. They were not human peer review, institutional review, or independent biological validation. They assessed implementation, reproducibility, artifact integrity, and claim alignment only.
 
 The canonical manuscript PDF is
 `manuscript/current/manuscript_v3.pdf`, SHA-256

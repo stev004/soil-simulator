@@ -23,8 +23,9 @@ Can a constrained, literature-informed soil–plant–AMF simulator identify man
 ## Documents
 
 - `docs/provenance/RESEARCH_ARCHIVE.md` — navigable Phase 9.8 research archive
-- `manuscript/PRISM_HANDOFF.md` — bounded Prism starting point and claim controls
-- `docs/audits/README.md` — formal independent-audit archive
+- `manuscript/archive/v2/evidence_bundle/PRISM_HANDOFF.md` — preserved bounded
+  Prism starting point and claim controls
+- `docs/audits/README.md` — AI-executed computational audit archive
 - `docs/PHASE97_PUBLICATION_READINESS.md` — current audited scientific boundary
 
 - `docs/MVP_SPEC.md` — scientific and product scope
@@ -61,6 +62,12 @@ Can a constrained, literature-informed soil–plant–AMF simulator identify man
 - `AGENTS.md` — instructions for Codex and other coding agents
 - `docs/prompts/01_bootstrap_soil_simulator.md` — first implementation task
 - `config/model_defaults.yaml` — initial, explicitly provisional model parameters
+
+## Audit scope
+
+### IMPORTANT SCOPE NOTICE
+
+These audits were AI-executed computational implementation reviews conducted in separate clean-context sessions. They were not human peer review, institutional review, or independent biological validation. They assessed implementation, reproducibility, artifact integrity, and claim alignment only.
 
 ## Project structure
 

@@ -57,10 +57,11 @@ def _validate_manifest(root: Path, manifest_path: Path) -> list[str]:
         if not target.is_file():
             errors.append(f"manifest target missing: {relative_path}")
             continue
-        if entry.get("sha256") != _sha256(target):
-            errors.append(f"manifest hash mismatch: {relative_path}")
-        if entry.get("file_size") != target.stat().st_size:
-            errors.append(f"manifest size mismatch: {relative_path}")
+        if entry.get("scientifically_frozen", True) is True:
+            if entry.get("sha256") != _sha256(target):
+                errors.append(f"manifest hash mismatch: {relative_path}")
+            if entry.get("file_size") != target.stat().st_size:
+                errors.append(f"manifest size mismatch: {relative_path}")
     return errors
 
 

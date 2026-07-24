@@ -29,9 +29,9 @@ def test_audit_archive_replays() -> None:
 
 
 def test_prism_handoff_is_ready_only_for_bounded_drafting() -> None:
-    handoff = (
-        ROOT / "manuscript/archive/v2/evidence_bundle/PRISM_HANDOFF.md"
-    ).read_text(encoding="utf-8")
+    handoff = (ROOT / "manuscript/archive/v2/evidence_bundle/PRISM_HANDOFF.md").read_text(
+        encoding="utf-8"
+    )
     assert "READY FOR BOUNDED PRISM DRAFTING" in handoff
     assert "NOT READY FOR PRISM" not in handoff
     assert "validated agricultural-prediction paper: not supported" in handoff.lower()
