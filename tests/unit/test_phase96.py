@@ -19,6 +19,7 @@ from soil_simulator.phase96.values import as_float
 
 ROOT = Path(__file__).parents[2]
 ARTIFACTS = ROOT / "outputs/phase96_v0.9.6"
+ARCHIVED_PRISM_BUNDLE = ROOT / "manuscript/archive/prism_imports/v2_bundle"
 
 
 def _json(name: str) -> dict[str, object]:
@@ -176,7 +177,7 @@ def test_source_and_artifact_hash_manifests_replay_offline() -> None:
     phase98_corrections = cast(
         dict[str, object],
         json.loads(
-            (ROOT / "manuscript/manifests/phase98_current_byte_corrections.json").read_text(
+            (ROOT / "manuscript/archive/v2/phase98_current_byte_corrections.json").read_text(
                 encoding="utf-8"
             )
         ),
@@ -187,8 +188,9 @@ def test_source_and_artifact_hash_manifests_replay_offline() -> None:
     corrections = {str(item["path"]): str(item["current_sha256"]) for item in correction_rows}
     assert set(corrections) == {"README.md"}
     for relative, expected in files.items():
-        current = hashlib.sha256((ROOT / relative).read_bytes()).hexdigest()
         if relative in corrections:
+            current = hashlib.sha256((ARCHIVED_PRISM_BUNDLE / relative).read_bytes()).hexdigest()
             assert current == corrections[relative]
         else:
+            current = hashlib.sha256((ROOT / relative).read_bytes()).hexdigest()
             assert current == expected

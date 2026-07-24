@@ -34,6 +34,7 @@ from soil_simulator.phase97.sensitivity import (
 
 ROOT = Path(__file__).parents[2]
 ARTIFACTS = ROOT / "outputs/phase97_v0.9.7"
+ARCHIVED_PRISM_BUNDLE = ROOT / "manuscript/archive/prism_imports/v2_bundle"
 
 
 def _parameter(name: str) -> SensitivityParameter:
@@ -347,7 +348,7 @@ def test_checked_in_phase97_artifact_hashes_replay_with_phase98_documentation_re
     correction = cast(
         dict[str, object],
         json.loads(
-            (ROOT / "manuscript/manifests/phase98_current_byte_corrections.json").read_text(
+            (ROOT / "manuscript/archive/v2/phase98_current_byte_corrections.json").read_text(
                 encoding="utf-8"
             )
         ),
@@ -357,7 +358,7 @@ def test_checked_in_phase97_artifact_hashes_replay_with_phase98_documentation_re
     assert changes[0]["scientific_content_changed"] is False
     assert (
         changes[0]["current_sha256"]
-        == hashlib.sha256((ROOT / "README.md").read_bytes()).hexdigest()
+        == hashlib.sha256((ARCHIVED_PRISM_BUNDLE / "README.md").read_bytes()).hexdigest()
     )
     corrected = cast(
         dict[str, object],

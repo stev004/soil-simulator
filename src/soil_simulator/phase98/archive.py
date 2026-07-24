@@ -67,7 +67,8 @@ def _validate_manifest(root: Path, manifest_path: Path) -> list[str]:
 def validate_tables(root: Path) -> list[str]:
     """Validate required table files, stable provenance columns and previews."""
     errors: list[str] = []
-    table_directory = root / "manuscript/tables"
+    archive_directory = root / "manuscript/archive/v2/evidence_bundle"
+    table_directory = archive_directory / "tables"
     for stem in REQUIRED_TABLES:
         csv_path = next(iter(sorted(table_directory.glob(f"{stem}_*.csv"))), None)
         if csv_path is None:
@@ -89,15 +90,19 @@ def validate_tables(root: Path) -> list[str]:
                 if not row.get(required, "").strip():
                     errors.append(f"{csv_path.name}:{row_number} empty {required}")
             source_path = row.get("source_path", "")
-            if source_path and not (root / source_path).exists():
-                errors.append(f"{csv_path.name}:{row_number} missing source {source_path}")
+            if source_path:
+                target = root / source_path
+                if source_path.startswith("manuscript/"):
+                    target = archive_directory / Path(source_path).relative_to("manuscript")
+                if not target.exists():
+                    errors.append(f"{csv_path.name}:{row_number} missing source {source_path}")
     return errors
 
 
 def validate_figures(root: Path) -> list[str]:
     """Validate required SVG files and their explicitly indexed source files."""
     errors: list[str] = []
-    figure_directory = root / "manuscript/figures"
+    figure_directory = root / "manuscript/archive/v2/figures"
     for stem in REQUIRED_FIGURES:
         matches = sorted(figure_directory.glob(f"{stem}_*.svg"))
         if len(matches) != 1:
@@ -118,7 +123,7 @@ def validate_figures(root: Path) -> list[str]:
         "outputs/phase97_v0.9.7/sensitivity_convergence_manifest.json",
         "outputs/phase97_v0.9.7/sensitivity_first_total.csv",
         "outputs/phase97_v0.9.7/gate_evidence.json",
-        "manuscript/AUDIT_TRAIL.md",
+        "manuscript/archive/v2/evidence_bundle/AUDIT_TRAIL.md",
     )
     for source in sources:
         if not (root / source).is_file():
@@ -198,7 +203,8 @@ def validate_audits(root: Path) -> list[str]:
 def validate_bundle(root: Path) -> list[str]:
     """Replay category/complete manifests and the complete set digest."""
     errors: list[str] = []
-    manifest_directory = root / "manuscript/manifests"
+    bundle_root = root / "manuscript/archive/prism_imports/v2_bundle"
+    manifest_directory = bundle_root / "manuscript/manifests"
     correction = _load_object(manifest_directory / "phase98_current_byte_corrections.json")
     changes = correction.get("changes_since_phase97_freeze")
     if not isinstance(changes, list):
@@ -214,10 +220,10 @@ def validate_bundle(root: Path) -> list[str]:
             relative_path = change.get("path")
             if not isinstance(relative_path, str):
                 continue
-            if change.get("current_sha256") != _sha256(root / relative_path):
+            if change.get("current_sha256") != _sha256(bundle_root / relative_path):
                 errors.append(f"Phase 9.8 correction hash mismatch: {relative_path}")
     for manifest_path in sorted(manifest_directory.glob("*_manifest.json")):
-        errors.extend(_validate_manifest(root, manifest_path))
+        errors.extend(_validate_manifest(bundle_root, manifest_path))
     complete = _load_object(manifest_directory / "manuscript_bundle_manifest.json")
     entries = complete.get("entries")
     if not isinstance(entries, list):
