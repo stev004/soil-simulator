@@ -10,6 +10,8 @@ from collections.abc import Mapping
 from pathlib import Path
 from typing import cast
 
+import pytest
+
 from soil_simulator.io.configuration import (
     load_management_scenarios,
     load_model_parameters,
@@ -43,6 +45,10 @@ def _json(name: str) -> dict[str, object]:
     return cast(dict[str, object], json.loads((ARTIFACTS / name).read_text(encoding="utf-8")))
 
 
+@pytest.mark.skipif(
+    not (ROOT / "outputs" / "phase9_v0.9.0").is_dir(),
+    reason="frozen outputs/phase9_v0.9.0/ are not committed (gitignored)",
+)
 def test_audited_v090_artifacts_remain_byte_identical() -> None:
     report = verify_frozen_baseline(ROOT, ROOT / "config/phase95/frozen_v090_sha256.json")
     assert report["passed"] is True
@@ -141,6 +147,10 @@ def test_phase95_artifact_hash_manifest_matches_every_declared_file() -> None:
         assert hashlib.sha256((ARTIFACTS / relative).read_bytes()).hexdigest() == expected
 
 
+@pytest.mark.skipif(
+    not (ROOT / "outputs" / "phase86_v0.8.6").is_dir(),
+    reason="frozen outputs/phase86_v0.8.6/ are not committed (gitignored)",
+)
 def test_location_groups_do_not_cross_partitions() -> None:
     population = load_saved_population(
         ROOT / "outputs/phase86_v0.8.6/frozen_final_population_and_batch.json"

@@ -1,0 +1,3 @@
+# Archive
+
+This folder holds historical working material from the development of the simulator: the original coding-agent instructions (`AGENTS.md`), the first implementation prompt (`prompts/`), repository clean-up inventories (`maintenance/`), Phase 7 to 9 demonstration and evidence write-ups and the Phase 9.8 archive notes (`docs_phase/`), and packaged Prism manuscript bundles (`package_zips/`). It is kept for provenance only. Nothing here is needed to install, run or test the package, and some files contain stale internal links or refer to earlier layouts. Documents that hash manifests or tests read at runtime (the Phase 9.5 to 9.7 write-ups in `docs/`, and `manuscript/archive/`) were left in place.

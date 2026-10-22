@@ -8,8 +8,8 @@ version = "0.9.7"
 description = "Scientific remediation of a soil-carbon simulator research benchmark"
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "Proprietary" }
-authors = [{ name = "Soil Simulator contributors" }]
+license = { text = "MIT" }
+authors = [{ name = "Steven Matson" }]
 dependencies = [
   "scipy>=1.16,<2",
   "pydantic>=2.12,<3",

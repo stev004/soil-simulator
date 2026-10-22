@@ -88,7 +88,7 @@ Only the requested packaging directory, ZIP and this report were added.
 
 ## Prism import instructions
 
-1. Import `/Users/stevenmatson/Documents/soil_simulator/prism_manuscript_bundle.zip`
+1. Import `<local-path>/soil_simulator/prism_manuscript_bundle.zip`
    into Prism as a single project/archive.
 2. Open `prism_manuscript_bundle/START_HERE.md`.
 3. Continue with `prism_manuscript_bundle/manuscript/PRISM_HANDOFF.md` and its

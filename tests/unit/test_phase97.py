@@ -337,6 +337,11 @@ def test_audit_document_hash_correction_preserves_historical_manifest(tmp_path: 
     assert verify_manifest(tmp_path, corrected) == []
 
 
+# pyproject.toml changed after the freeze (MIT licence and author metadata, public-readiness
+# branch); README.md changed in Phase 9.8 and again for public readiness. No scientific content.
+POST_FREEZE_METADATA_CHANGES = ["README.md", "pyproject.toml"]
+
+
 def test_checked_in_phase97_artifact_hashes_replay_with_phase98_documentation_record() -> None:
     if not (ARTIFACTS / "artifact_hashes.json").exists():
         return
@@ -344,7 +349,7 @@ def test_checked_in_phase97_artifact_hashes_replay_with_phase98_documentation_re
         dict[str, object],
         json.loads((ARTIFACTS / "artifact_hashes.json").read_text(encoding="utf-8")),
     )
-    assert verify_manifest(ROOT, manifest) == ["README.md"]
+    assert sorted(verify_manifest(ROOT, manifest)) == POST_FREEZE_METADATA_CHANGES
     correction = cast(
         dict[str, object],
         json.loads(
@@ -366,4 +371,4 @@ def test_checked_in_phase97_artifact_hashes_replay_with_phase98_documentation_re
             (ARTIFACTS / "corrected_phase96_artifact_hashes.json").read_text(encoding="utf-8")
         ),
     )
-    assert verify_manifest(ROOT, corrected) == ["README.md"]
+    assert sorted(verify_manifest(ROOT, corrected)) == POST_FREEZE_METADATA_CHANGES

@@ -44,6 +44,15 @@ from soil_simulator.selection.selectors import (
 ROOT = Path(__file__).parents[2]
 CONFIG = load_phase9_benchmark_config(ROOT / "config" / "selection" / "phase9_benchmark.yaml")
 ARTIFACTS = ROOT / "outputs" / "phase86_v0.8.6"
+PHASE9_OUTPUT = ROOT / "outputs" / "phase9_v0.9.0"
+requires_phase86 = pytest.mark.skipif(
+    not ARTIFACTS.is_dir(),
+    reason="frozen outputs/phase86_v0.8.6/ are not committed (gitignored)",
+)
+requires_phase9 = pytest.mark.skipif(
+    not PHASE9_OUTPUT.is_dir(),
+    reason="frozen outputs/phase9_v0.9.0/ are not committed (gitignored)",
+)
 PHASE86_CONFIG = ROOT / "config" / "ml" / "phase86_benchmark.yaml"
 
 
@@ -93,6 +102,7 @@ def _outcome(
     )
 
 
+@requires_phase86
 def test_frozen_models_preprocessing_uncertainty_and_domain_hashes_are_enforced(
     tmp_path: Path,
 ) -> None:
@@ -114,6 +124,7 @@ def test_frozen_models_preprocessing_uncertainty_and_domain_hashes_are_enforced(
         )
 
 
+@requires_phase86
 def test_frozen_artifact_version_mismatch_is_rejected(tmp_path: Path) -> None:
     copied = tmp_path / "phase86"
     shutil.copytree(ARTIFACTS, copied)
@@ -129,6 +140,7 @@ def test_frozen_artifact_version_mismatch_is_rejected(tmp_path: Path) -> None:
         )
 
 
+@requires_phase86
 def test_observable_selector_cannot_access_latent_features() -> None:
     bundle = _bundle()
     assert bundle.preprocessor.feature_set_name == "observable_features"
@@ -141,6 +153,7 @@ def test_observable_selector_cannot_access_latent_features() -> None:
     assert "oracle" not in inspect.signature(select_observable_ml).parameters
 
 
+@requires_phase86
 def test_applicability_missing_out_of_domain_and_unsupported_weather_abstain() -> None:
     bundle = _bundle()
     rows = load_ml_dataset_csv(ARTIFACTS / "frozen_final_dataset_v0.8.6.csv")
@@ -374,8 +387,10 @@ def test_final_outcomes_cannot_tune_selectors_and_replay_is_deterministic() -> N
     )
 
 
+@requires_phase9
+@requires_phase86
 def test_frozen_final_artifact_replay_and_hashing() -> None:
-    output = ROOT / "outputs" / "phase9_v0.9.0"
+    output = PHASE9_OUTPUT
     report = json.loads(
         (output / "frozen_final_evaluation_report.json").read_text(encoding="utf-8")
     )

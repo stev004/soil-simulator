@@ -1,7 +1,7 @@
 {
   "manifest_version": "1.0.0",
   "cleanup_date": "2026-07-24",
-  "repository_root": "/Users/stevenmatson/Documents/soil_simulator",
+  "repository_root": "<local-path>/soil_simulator",
   "scope": "Conservative repository cleanup and final manuscript PDF integration; no scientific analysis rerun.",
   "git_metadata_available": false,
   "summary": {

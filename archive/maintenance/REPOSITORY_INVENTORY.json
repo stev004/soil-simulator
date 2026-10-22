@@ -1,7 +1,7 @@
 {
   "inventory_version": "1.0.0",
   "inventory_date": "2026-07-24",
-  "repository_root": "/Users/stevenmatson/Documents/soil_simulator",
+  "repository_root": "<local-path>/soil_simulator",
   "scope": "Complete pre-move inventory of every repository-root file and directory.",
   "git_metadata_available": false,
   "git_metadata_note": "No .git directory was present and git rev-parse reported that the workspace is not a Git repository. Ordinary filesystem moves are therefore required.",

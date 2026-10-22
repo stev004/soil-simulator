@@ -191,6 +191,8 @@ def test_source_and_artifact_hash_manifests_replay_offline() -> None:
         if relative in corrections:
             current = hashlib.sha256((ARCHIVED_PRISM_BUNDLE / relative).read_bytes()).hexdigest()
             assert current == corrections[relative]
+        elif relative == "pyproject.toml":
+            continue  # licence and author metadata changed after the freeze (public readiness)
         else:
             current = hashlib.sha256((ROOT / relative).read_bytes()).hexdigest()
             assert current == expected
